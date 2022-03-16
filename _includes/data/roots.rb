@@ -53,6 +53,21 @@
     {%- endfor %}
     {%- comment -%}
     *
+    *  150←149[48←43]←148[42←37]←147[36←30]
+    *  151←146[29←28]
+    *  152←145[27←25]
+    *  153←144[24←20]
+    *  154←143[19←14]
+    *  155←142[13←8]
+    *  156←141[7←4]
+    *  157←140[3←1]←158[50←68]←159[69←78]←160[79←96]←161[97←114]←162[115←133]
+    *  163←134
+    *  164←135
+    *  165←136
+    *  166←137
+    *  167←138
+    *  168←139
+    *
     *  Get the roots array if the position is one of the 29 frame
     *  The sequence is located on the range of 168 minus 29 as below:
     *  - seq 1 to 10 will turn to be leading at pos 150 up to 159
