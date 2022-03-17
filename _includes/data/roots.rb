@@ -61,7 +61,7 @@
 *  =====+====+====+====+====+====+====+====+====+====+====+====+====+====+====+=====+=====+====+====+
 *    1  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 |  16 |  17 | 18 | 19 |
 *               Δ    Δ                                                      Δ                     Δ
-*              113  150                                                    557              19th collumn
+*              113  150                                                    557                  1000
 * Note:
 * - The marked number with * are outside of group 18 vs 19 
 * - Number 114 located on 6th row vs 19th collumn whereas 114th prime = 619
