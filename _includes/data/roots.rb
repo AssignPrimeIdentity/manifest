@@ -10,7 +10,6 @@
 *  Reference based on prime hexagon:
 *  https://www.hexspin.com/defining-the-prime-hexagon/
 *
-
 *  Tabulate Prime Hexagon in 18 vs 19.
 *  Reference: https://www.hexspin.com/defining-the-prime-hexagon/
 *
