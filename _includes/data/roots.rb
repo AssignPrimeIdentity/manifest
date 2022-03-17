@@ -67,13 +67,13 @@
 * - Number 114 located on 6th row vs 19th collumn whereas 114th prime = 619
 *
 * Cyclic in M+F is happen as followings:
-* - The reinjection is exactly goes from 102 to 114-1 or 113
-* - The 113 is 30th prime where 30, 36 and 102 are in the 18th row
-* - The total of three (3) numbers of 30+36+102 is exactly 168 or π(1000)
+* - The reinjection is exactly goes from 102 by Δ=12 to 114-1 or 113
+* - The 113 is 30th prime where 30, 36 and 102 are laid in the end of 18 rows
+* - The total of the end three (3) numbers of 30+36+102 is exactly 168 or π(1000)
 * - The 36th prime is reinjected by 151-1 or 150 that carries a delta with 168 of Δ=18
 * - The Δ=18 brings the 30th and 36th cycled back to 102th thus consequently to 114th prime
 * - The 114th prime is reinjected by 619-1 or 618 to 150+18=168th prime that brings 1000 numbers
-* - This scenario will end the 1000 origin numbers become 1000 primes of π(89²) then return to 114 scheme.
+* - This scenario will end those numbers as 1000 primes of π(89²) or π(Δ12) then return to 114 scheme.
 *
 *  Reference based on prime hexagon:
 *
