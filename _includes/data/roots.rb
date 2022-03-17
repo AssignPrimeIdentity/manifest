@@ -3,7 +3,7 @@
 *  This script is the implementation of Prime Mapping as being described on:
 *  https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb
 *
-*  Get the position of 29 primes:
+*  Get the 29 primes:
 *
 *  01 140←(809, 2, -1,  1)
 *  02 141←(811, 1, -1,  1)
