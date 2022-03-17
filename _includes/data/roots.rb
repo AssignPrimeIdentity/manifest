@@ -7,6 +7,20 @@
 *  https://github.com/chetabahana/r12a.github.io
 *  https://github.com/chetabahana/hexagon/pull/2
 *
+*  150←149[49][48←43]←148[50][42←37]←147[51][36←30]
+*  151←146[52][29←28]←145[53][27←25]←144[54][24←20]
+*  152←143[55][19←14]←142[56][13←8]←141[57][7←4]←140[58][3←1]
+*  153←[59-63]
+*  154←[64-67]
+*  155←[68-72]
+*  156←157[73][79-83]←158[74][84-88]←159[75][89-96]←160[76][97-99]←161[100-104][]←162[78][105-109]
+*  163←[110←114]
+*  164←[115←117]
+*  165←[118←124]
+*  166←[125←129]
+*  167←[130←132]
+*  168←[133←139]
+*
 *  Reference based on prime hexagon:
 *  https://www.hexspin.com/defining-the-prime-hexagon/
 *
@@ -25,7 +39,7 @@
 *  -----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
 *    5  | 23 | 29 |  - | 41 |  - |  - |  - |  - |  - | 77 |  - |  - |  - |101 |  -  |  -  |  - |  - | 
 *       +----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
-*    6  | 24 |  - |  - | 42 |  - | 54 |  - |  - | 72 | 78 |  - | 90 | 96 |  - |  -  |  -  |  - |{114}<- 6th row
+*    6  | 24 |  - |  - | 42 |  - | 54 |  - |  - | 72 | 78 |  - | 90 | 96 |  - |  -  |  -  |  - | 114|<- 6th row
 *  =====+====+====+====+====+====+====+====+====+====+====+====+====+====+====+=====+=====+====+====+
 *    7  | 25 |  - |  - | 43 |  - | 55 |  - |  - | 73 | 79 |  - | 91 | 97 |  - |  -  |  -  |  - |  - |
 *       +----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
@@ -49,7 +63,7 @@
 *  -----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
 *   17  |  - |  - | 35 |  - |  - | 65 |  - |  - |  - |  - |  - |  - |  - | -  | 107 |  -  |  - |  - | 
 *       +----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
-*   18  |  - | 30 | 36 |  - |  - |  - |  - |  - |  - |  - |  - |  - | -  | 102|   - |  -  |  - |  - | <- ∑={168}
+*   18  |  - | 30 | 36 |  - |  - |  - |  - |  - |  - |  - |  - |  - | -  | 102|   - |  -  |  - |  - | <- ∑=168
 *  =====+====+====+====+====+====+====+====+====+====+====+====+====+====+====+=====+=====+====+====+
 *    1  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 |  16 |  17 | 18 | 19 |
 *               Δ    Δ                                                     Δ                      Δ
@@ -99,6 +113,14 @@
 *
 *  Get the content
 *
+*  Get the roots array if the position is one of the 29 frame
+*  The sequence is located on the range of 168 minus 29 as below:
+*  - seq 1 to 10 will turn to be leading at pos 150 up to 159
+*  - seq 11 to 19 will turn to be lagging at pos 168 down to 160
+*  - seq 21 to 29 will turn to be lagging at pos 149 down to 140
+*  - each of this seq 21 to 29 are attached to the seq of 11 to 19 
+*  - thus seq 1 to 10 live as single strand while 11 to 29 as double
+*
 {%- endcomment %}
 {%- if my_debug %}
     {%- assign my_pos = my_debug %}
@@ -108,46 +130,10 @@
         {%- assign my_val = value | times: 1 %}
         {%- assign my_value = my_value | push: my_val %}
     {%- endfor %}
-    {%- comment -%}
-    *
-    *  150←149[49][48←43]←148[50][42←37]←147[51][36←30]
-    *  151←146[52][29←28]←145[53][27←25]←144[54][24←20]
-    *  152←143[55][19←14]←142[56][13←8]←141[57][7←4]←140[58][3←1]
-    *  153←[59-63]
-    *  154←[64-67]
-    *  155←[68-72]
-    *  156←157[73][79-83]←158[74][84-88]←159[75][89-96]←160[76][97-99]←161[100-104][]←162[78][105-109]
-    *  163←[110←114]
-    *  164←[115←117]
-    *  165←[118←124]
-    *  166←[125←129]
-    *  167←[130←132]
-    *  168←[133←139]
-    *
-    *  Get the roots array if the position is one of the 29 frame
-    *  The sequence is located on the range of 168 minus 29 as below:
-    *  - seq 1 to 10 will turn to be leading at pos 150 up to 159
-    *  - seq 11 to 19 will turn to be lagging at pos 168 down to 160
-    *  - seq 21 to 29 will turn to be lagging at pos 149 down to 140
-    *  - each of this seq 21 to 29 are attached to the seq of 11 to 19 
-    *  - thus seq 1 to 10 live as single strand while 11 to 29 as double
-    *
-    {%- endcomment %}
     {%- if my_pos >= 140 and my_pos <= 149 %}{% assign my_fpos = 169 | minus: my_pos %}
     {%- elsif my_pos >= 150 and my_pos <= 159 %}{% assign my_fpos = my_pos | minus: 149 %}
     {%- elsif my_pos >= 160 and my_pos <= 168 %}{% assign my_fpos = 179 | minus: my_pos -%}
     {%- endif %}
-    {%- comment -%}
-    *
-    *  You may see the running code here:
-    *  https://chetabahana.github.io/feed.json
-    *
-    *  Reference:
-    *  https://user-images.githubusercontent.com/36441664/112737922-eda4df80-8f90-11eb-9898-922e5798092a.gif
-    *  https://user-images.githubusercontent.com/36441664/112738298-390cbd00-8f94-11eb-98aa-f40177769654.png
-    *  https://user-images.githubusercontent.com/36441664/112737889-9acb2800-8f90-11eb-8b17-4b15a317a717.png
-    *
-    {%- endcomment -%}
 {%- else %}
     {%- capture my_debug %}
         {{- content | strip -}}
@@ -156,6 +142,11 @@
 {%- comment %}
 *
 *  Get the roots array
+*
+*  Reference:
+*  https://user-images.githubusercontent.com/36441664/112737922-eda4df80-8f90-11eb-9898-922e5798092a.gif
+*  https://user-images.githubusercontent.com/36441664/112738298-390cbd00-8f94-11eb-98aa-f40177769654.png
+*  https://user-images.githubusercontent.com/36441664/112737889-9acb2800-8f90-11eb-8b17-4b15a317a717.png
 *
 {%- endcomment %}
 {%- assign n = 0 %}
