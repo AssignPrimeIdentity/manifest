@@ -4,8 +4,6 @@
 *  https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb
 *
 *  Get the position of each Id:
-*  https://github.com/chetabahana/r12a.github.io
-*  https://github.com/chetabahana/hexagon/pull/2
 *
 *  150←149[49][48←43]←148[50][42←37]←147[51][36←30]
 *  151←146[52][29←28]←145[53][27←25]←144[54][24←20]
@@ -21,11 +19,7 @@
 *  167←[130←132]
 *  168←[133←139]
 *
-*  Reference based on prime hexagon:
-*  https://www.hexspin.com/defining-the-prime-hexagon/
-*
 *  Tabulate Prime Hexagon in 18 vs 19.
-*  Reference: https://www.hexspin.com/defining-the-prime-hexagon/
 *
 *       |         1st (Form)          |         2nd (Route)         |         3rd (Channel)         |
 *  -----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
@@ -68,7 +62,7 @@
 *    1  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 |  16 |  17 | 18 | 19 |
 *               Δ    Δ                                                     Δ                      Δ
 *                                                                                          19th collumn
-*  Note:
+* Note:
 * - The marked number with * are outside of group 18 vs 19 
 * - Number 114 located on 6th row vs 19th collumn whereas 114th prime = 619
 *
@@ -80,6 +74,11 @@
 * - The Δ=18 brings the 30th and 36th cycled back to 102th thus consequently to 114th prime
 * - The 114th prime is reinjected by 619-1 or 618 to 150+18=168th prime that brings 1000 numbers
 * - This scenario will end the 1000 origin numbers become 1000 primes of π(89²) then return to 114 scheme.
+*
+*  Reference based on prime hexagon:
+*
+*  https://github.com/chetabahana/hexagon/pull/2
+*  https://www.hexspin.com/defining-the-prime-hexagon/
 *
 {%- endcomment %}
 {%- assign my_debug = nil %}
@@ -210,6 +209,7 @@
 *  https://chetabahana.github.io/feed.json
 *
 *  Ref:
+*  https://github.com/chetabahana/r12a.github.io
 *  https://gist.github.com/magicznyleszek/9803727
 *  https://shopify.github.io/liquid/tags/iteration/
 *  https://github.com/chetabahana/chetabahana.github.io/releases
