@@ -199,7 +199,22 @@
 *  28 167←(991, 3, -1, -3)
 *  29 168←(997, 3,  1, -3)
 *
-*  Tabulate Prime Hexagon in 18 vs 19
+*  Get the roots array if the position is one of the 29 frame
+*
+*  150←149[49][48←43]←148[50][42←37]←147[51][36←30]
+*  151←146[52][29←28]←145[53][27←25]←144[54][24←20]
+*  152←143[55][19←14]←142[56][13←8]←141[57][7←4]←140[58][3←1]
+*  153←[59←63]
+*  154←[64←67]
+*  155←[68←72]←156←157[73][79←83]←158[74][84←88]←159[75][89←96]←160[76][97←99]←161[100←104][]←162[78][105←109]
+*  163←[110←114]
+*  164←[115←117]
+*  165←[118←124]
+*  166←[125←129]
+*  167←[130←132]
+*  168←[133←139]
+*
+*  Tabulate 114 Prime Hexagon in 18 vs 19
 *  https://github.com/chetabahana/hexagon/pull/2
 *  https://www.hexspin.com/defining-the-prime-hexagon/
 *
@@ -261,34 +276,15 @@
 * - The 114th prime is reinjected by 619-1 or 618 to 150+18=168th prime that carries 1000 numbers
 * - This scenario will end those numbers as 1000 primes of π(89²) or π(Δ12)² then return to 114 scheme.
 *
-{%- endcomment %}
-{%- comment %}
+*  This script is the implementation of Prime Mapping as being described on:
+*  https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb
 *
-*  Get the content
-*
-*  Get the roots array if the position is one of the 29 frame
 *  The sequence is located on the range of 168 minus 29 as below:
 *  * seq 1 to 10 will turn to be leading at pos 150 up to 159
 *  * seq 11 to 19 will turn to be lagging at pos 168 down to 160
 *  * seq 21 to 29 will turn to be lagging at pos 149 down to 140
 *  * each of this seq 21 to 29 are attached to the seq of 11 to 19 
 *  * thus seq 1 to 10 live as single strand while 11 to 29 as double
-*
-*  150←149[49][48←43]←148[50][42←37]←147[51][36←30]
-*  151←146[52][29←28]←145[53][27←25]←144[54][24←20]
-*  152←143[55][19←14]←142[56][13←8]←141[57][7←4]←140[58][3←1]
-*  153←[59←63]
-*  154←[64←67]
-*  155←[68←72]←156←157[73][79←83]←158[74][84←88]←159[75][89←96]←160[76][97←99]←161[100←104][]←162[78][105←109]
-*  163←[110←114]
-*  164←[115←117]
-*  165←[118←124]
-*  166←[125←129]
-*  167←[130←132]
-*  168←[133←139]
-*
-*  This script is the implementation of Prime Mapping as being described on:
-*  https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb
 *
 {%- endcomment %}
 {%- assign my_debug = nil %}
