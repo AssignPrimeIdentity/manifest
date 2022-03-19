@@ -168,8 +168,6 @@
 *  (997, 3,  1, -3)
 *
 *  Tabulate Prime by Power of 10
-*  https://youtube.com/playlist?list=PL_S8nmGoQ7q6wKXUG8HBqPzoAhRmVCmSJ
-*
 *  loop(10) = π(10)-π(1) = 4-0 = 4
 *  loop(100) = π(100)-π(10)-1th = 25-4-2 = 19
 *  loop(1000) = π(1000) - π(100) - 10th = 168-25-29 = 114
@@ -224,17 +222,17 @@
 *              113  150                                                    557                  1000
 *
 * Note:
-* - The marked number with * are outside of group Δ18 vs 19 collumns
+* - The marked number with * are outside of group Δ18 vs loop(100) = 19 
 * - Number 114 located on 6th row vs 19th collumn whereas 114th prime = 619
 *
 * Cyclic in M+F is happen as followings:
-* - The reinjection goes by a delta of Δ12 from 102-1 to 114-1 or 113
+* - The reinjection goes by a delta of Φ12 from 102-1 to 114-1 or 113
 * - The 113 is 30th prime where 30, 36 and 102 are laid in the end of Δ18 rows
 * - The total of the three (3) numbers of 30+36+102 is exactly 168 which is π(1000)
 * - The 36th prime is reinjected by 151-1 or 150 that is carrying a delta with 168 of Δ18
 * - The Δ18 brings the 30th and 36th cycled back to 102th thus consequently to the 114th prime
-* - The 114th prime is reinjected by 619-1 or 618 to 150+18=168th prime that carries 1000 numbers
-* - This scenario will end those numbers as 1000 primes of π(89²) or π(Φ12)² then return to 114 scheme.
+* - The 114th prime which is carrying the loop(1000) is reinjected by 619-1 or 618 on the same spot
+* - This scenario will end tho loops as 1000 primes of π(89²) or π(Φ12)² return 168 of adjacent scheme.
 *
 * $True Prime Pairs:
 * (5,7), (11,13), (17,19)
