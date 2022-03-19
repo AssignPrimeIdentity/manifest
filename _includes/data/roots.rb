@@ -167,6 +167,16 @@
 *  (991, 3, -1, -3)
 *  (997, 3,  1, -3)
 *
+*  Tabulate Prime by Power of 10
+*  https://youtube.com/playlist?list=PL_S8nmGoQ7q6wKXUG8HBqPzoAhRmVCmSJ
+*
+*  π(10)=4
+*  π(100)=25
+*  π(1000)-10th=139
+*  π(10000)-(10th)th-10th=1091
+*  π(100000)-((10th)th)th-(10th)th=8884
+*  4+25+139+1091+8884=10143
+*
 *  Tabulate Prime Hexagon by π(1000)=168
 *  https://github.com/chetabahana/hexagon/pull/2
 *  https://www.hexspin.com/defining-the-prime-hexagon/
