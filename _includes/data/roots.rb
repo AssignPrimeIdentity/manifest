@@ -219,20 +219,20 @@
 *    1  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 |  16 |  17 | 18 | 19 |
 *  -----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
 *       |       Δ    Δ                |                     Φ12     |       Δ                     Δ |
-*              113  150                                                    557                  1000
+*              113  150                                   114-25           557                  1000
 *
 * Note:
 * - The marked number with * are outside of group Δ18 vs loop(100) = 19 
-* - Number 114 located on 6th row vs 19th collumn whereas 114th prime = 619
+* - Number 114 located on 6th row vs 19th column whereas 114th prime = 619
 *
 * Cyclic in M+F is happen as followings:
-* - The reinjection goes by a delta of Φ12 from 102-1 to 114-1 or 113
+* - The reinjection goes by crossing Δ11 of Φ12 from 102-1 to 114-1 or 113
 * - The 113 is 30th prime where 30, 36 and 102 are laid in the end of Δ18 rows
 * - The total of the three (3) numbers of 30+36+102 is exactly 168 which is π(1000)
 * - The 36th prime is reinjected by 151-1 or 150 that is carrying a delta with 168 of Δ18
 * - The Δ18 brings the 30th and 36th cycled back to 102th thus consequently to the 114th prime
 * - The 114th prime which is carrying the loop(1000) is reinjected by 619-1 or 618 on the same spot
-* - This scenario will end tho loops as 1000 primes of π(89²) or π(Φ12)² return 168 of adjacent scheme.
+* - This scenario will end the loops as 1000 primes of π(89²) that is returning 168 of the adjacent scheme.
 *
 * $True Prime Pairs:
 * (5,7), (11,13), (17,19)
