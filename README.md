@@ -275,9 +275,9 @@ True Prime Vektors ζ(s):
 
 The bilateral sum 9 will then double this 43 to 86 and act as the lexer while the prime 71 and 109 will act as the parser. This will compensate the other primes by the other of circles of the metatron which consist of 6 internal and 6 external.
 
-## Ratio of Lexer vs Parser
+## The 1st Grammar of Each Scheme
 
-By the configuration above then on the upper scheme the central of metatron will turn to seven (7) circles. So combine it with the other 12 circles they will forms as the 19 out of _True Prime Pairs_ which has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we will get the detail of 168 and 618 that act as the 1st grammar.
+By the configuration above then on the upper scheme the central of metatron will turn to seven (7) circles. So combine it with the other 12 circles they will forms as the 19 out of _True Prime Pairs_.
 
 ```
  $True Prime Pairs:
@@ -343,6 +343,10 @@ Root Generation:
  loop(10000) => π(10000) - (10th)th - 10th = 1229 - 109 - 29 = 1091
  loop(100000) => π(100000) - ((10th)th)th - (10th)th = 9592 - 599 - 109 = 8884
 ```
+
+This 19 has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we come to the detail of 168 and 618 that act as the 1st grammar when we come to the upper scheme. So it will form back to the begining stage with different form of input but its process will be the same algorithm.
+
+## Ratio of Total Lexer vs Parser
 
 By the next loop (1000x1000) the above 10143 will lead to 618=1000/Φ = 1000x1000/1618. So [the next target](https://github.com/chetabahana/chetabahana.github.io/discussions/categories/announcements) we will discuss about 1000/Φ = 618 = 619-1 = 114th prime - 1 as a lexer and parser shown below: 
 
