@@ -1,17 +1,17 @@
 # Introduction
 
-Still far from production but at least it has a minimum error. This is the partial from [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of our project that performs the algorithm of DNA Replication as [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to become [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):
+Still far from production but at least it has a minimum error. This is the partial from [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of our project that performs the algorithm of **DNA Replication** as [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to become [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):
 
 [![M+F](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb)
 
 The _M+F_ symbols will stand as: [Project Maps (168)](https://chetabahana.github.io/feed.json) + [Project Feed (618)](https://chetabahana.github.io/feeds.xml) while <br>
-_C1+C2_ will stand as the kmplementation, see sample: [Project Root (C1)](https://chetabahana.github.io/) + [Project Brand (C2)](https://chetabahana.com/)
+_C1+C2_ stand as the implementation, see sample: [Project Root (C1)](https://chetabahana.github.io/) + [Project Brand (C2)](https://chetabahana.com/)
 
-These mapping and feeding are developed by the concept of 168 and 618 as a [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers). This concept is using prime algorithm to generate a basic grammar for the implementation. Such of method will be explained further below.
+These mapping and feeding are developed by the concept of **168 and 618** as a [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers). This concept is using prime algorithm to generate a basic grammar for the implementation. Such of method will be explained further below.
 
 # Tabulate Prime by The Power of 168
 
-Primes is formed by the Δ1 flowing within a set of prime number called _**[The True Prime Pairs](https://github.com/chetabahana/chetabahana.github.io/wiki#operasi)**_. See that primes is distributed in three (3) forms of 12's multiplication: 5+7=12, 11+13=24 and 17+19=36 where 12+24=36
+Primes is formed by the Δ1 flowing within three (3) sets of twin prime pairs called _[The True Prime Pairs](https://github.com/chetabahana/chetabahana.github.io/wiki#operasi)_. These primes are naturally distributed in three (3) forms of 12's multiplication: 5+7=12, 11+13=24 and 17+19=36 where 12+24=36
 
 ```
  $True Prime Pairs:
