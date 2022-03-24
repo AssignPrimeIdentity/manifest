@@ -4,10 +4,12 @@ Still far from production but at least it has a minimum error. This is the parti
 
 **DNA Recombination: [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):**
 
-[![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://www.eq19.com/)
+[![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://eq19.com/)
 
 The _M+F_ symbols will stand as: [Project Maps (168)](https://chetabahana.github.io/feed.json) + [Project Feed (618)](https://chetabahana.github.io/feeds.xml) while <br>
 _C1+C2_ are their implementation, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
+
+[![eQ19 - The Quantum Project](https://eq19.github.io/quantum/images/eq19-banner.jpg)](https://www.eq19.com/)
 
 This sample was developed by converting [eQuantum](https://www.eq19.com) to [eCommerce](https://chetabahana.com/). This concept is using the prime algorithm of **168 and 618** that act a [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers) to generate a basic grammar for the implementation. Such of method will be explained below.
 
