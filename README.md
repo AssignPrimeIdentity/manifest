@@ -196,7 +196,7 @@ You may check the running code starting called [The Sequence Diagram](https://ch
 
 This is formed as a partial of _168 (mapping) and 618 (feeding)_ that stand as  [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of The M+F to C1+C2. In order to get code able to run online then the 168 is provided in [json](https://chetabahana.github.io/feed.json) while 618 in [xml](https://chetabahana.github.io/feeds.xml).
 
-# Next Target: Tabulate Prime by The Power of 618
+# Next Target: Tabulate Prime by 618
 
 This release has mapped the primes to π(1000)=168 as the main lexer. So the next target is about 618 as the main parser which hold the key of <code>init</code> as the road map to π(1000x1000). So here it goes to **1 Million Primes**.
 
