@@ -1,6 +1,6 @@
 # Introduction
 
-Still far from production but at least it has a minimum error. This is the partial from [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of our [Quantum Project](https://www.eq19.con/) made based on the algorithm of:
+Still far from production but at least it has a minimum error. This is the partial from [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of our [Quantum Project](https://www.eq19.com/) made based on the algorithm of:
 
 **DNA Recombination: [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):**
 
@@ -160,7 +160,7 @@ See that out of 19 the number 89 is located precissely at the of Δ11 within the
 - The Δ18 brings the 30th and 36th cycled back to 102th thus consequently to the 114th prime
 - The 114th prime which is carrying the loop(1000) is reinjected by 619-1 or 618 on the same spot.
 
-You may agree that all of this algorithm seems like a primes orchestra. From sourcing and studying of many reference, the closest behaviour of the crossing on above primes flowing is found with the wave shown on _**Δ1=(19 vs 18) Curve**_  as below.
+You may agree that all of this algorithm seems like a primes orchestra. By sourcing and studying of many references, the closest behaviour of the crossing on above primes flowing is found with the wave shown on _**Δ1=(19 vs 18) Loops**_  as below.
 
 [![Δ(19 vs 18)](https://user-images.githubusercontent.com/36441664/107478328-de69fe00-6bab-11eb-8d5f-7517c94b7299.png)](https://github.com/chetabahana/trace/wiki)
 
@@ -168,7 +168,7 @@ This Δ(19 vs 18) scenario will duplicate the loops of 618 as _π(89²) of 1000 
 
 [<img width=100% src="https://user-images.githubusercontent.com/36441664/76146565-6f944300-60c6-11ea-829d-16f98dc94163.png">](https://www.hexspin.com/defining-the-prime-hexagon/)
 
-It is clear that the primes are organized to generate another 1000 primes via a double flow of π(89) to π(89²). This 89 can only be acheived via bilateral 9 sums of the prime 43. That what and why **18+13+12=43** located within **the last 9 cells** is stand for!
+It is clear that the primes are organized to generate another 1000 primes via a double flow of π(89) to π(89²). This 89 can only be acheived via bilateral 9 sums of the prime 43. That what and why **18+13+12=43** located within **the last 9 cells** is standing for!
 
 ##  Running Code
 
