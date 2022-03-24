@@ -35,11 +35,11 @@ Primes is formed by the Δ1 flowing within three (3) sets of twin prime pairs ca
  -----+-----+---------
  ```
 
-Let's put this prime pairs (5, 7, 11, 13, 17,19) in reverse (19, 17, 13, 11, 7, 5) then assign them as a default condition. Consider the (12/2)th = 6th prime = 13 is formed as an hexagon cube called the [Metatron's Cube](https://www.google.com/search?q=metatron%27s+cubes&tbm=isch). Now let's put Δ1 so it becomes 12.
+Let's put this prime pairs (5, 7, 11, 13, 17,19) in reverse (19, 17, 13, 11, 7, 5) then assign them as a default condition. Consider the (12/2)th = 6th prime = 13 is formed as an hexagon cube called the [Metatron's Cube](https://www.google.com/search?q=metatron%27s+cubes&tbm=isch). 
 
 [<img src=https://user-images.githubusercontent.com/36441664/74094157-4e642500-4b0f-11ea-89b4-eb8cd7d90411.png>](https://www.google.com/search?q=metatron&tbm=isch)
 
-Then take a set of 10 numbers that consist of 4 primes (2,3,5,7). Convert them to 10 primes up to 10th prime=29 then to 29 primes up to of (10th)th=29th prime=109. See how this Δ1 distributes in to a bunch of Δ's as shown below:
+Then assign 19 as a set of 10 numbers that consist of 4 primes (2,3,5,7). Convert them to 10 primes up to 10th prime=29 then to 29 primes up to of (10th)th=29th prime=109. Now let's put Δ1 to the Metraton. See how this Δ1 distributes in to a bunch of Δ's as shown below:
 
 ```
   Tabulate Prime by Power of 10
@@ -80,7 +80,7 @@ This flowchart is designed base on the behaviour of the primes number which flow
 
 <img src=https://user-images.githubusercontent.com/36441664/105412087-d0892300-5c66-11eb-9c3e-19d8652b478c.png>
 
-By checking all of the loops there is nothing similar to this phenomena. It is like the other numbers are actually set to let this happen. So this chart is considered sufficient enought to be used to explain about the true power of this Δ1 flowing:
+By checking all of the loops there is nothing similar to this phenomena. It seems like the other numbers are actually set to let this happen. So this chart is considered sufficient enought to be used to explain about the true power of this Δ1 flowing:
 
 Let's enter the journey of making **10<sup>n</sup> numbers becoming 10<sup>n</sup> primes**.
 
