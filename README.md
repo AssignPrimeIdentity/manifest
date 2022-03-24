@@ -1,13 +1,13 @@
 # Introduction
 
-Still far from production but at least it has a minimum error. This is the partial from [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of our project that performs the algorithm of **DNA Replication** as [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to become [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):
+Still far from production but at least it has a minimum error. This is the partial from [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of our Quantum Project based on the algorithm of **DNA Replication**: [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):
 
-[![M+F](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb)
+[![Quantum](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb)
 
 The _M+F_ symbols will stand as: [Project Maps (168)](https://chetabahana.github.io/feed.json) + [Project Feed (618)](https://chetabahana.github.io/feeds.xml) while <br>
-_C1+C2_ are their implementation, see sample: [Project Root (C1)](https://chetabahana.github.io/) + [Project Base (C2)](https://chetabahana.com/)
+_C1+C2_ are their implementation, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/)
 
-These mapping and feeding are developed by the concept of **168 and 618** as a [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers). This concept is using prime algorithm to generate a basic grammar for the implementation. Such of method will be explained further below.
+This sample are developed by converting eQuantum to eCommerce. This concept is using prime algorithm of **168 and 618** as a [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers) to generate a basic grammar for the implementation. Such of method will be explained further below.
 
 # Tabulate Prime by The Power of 168
 
@@ -269,7 +269,7 @@ This 10143 will comprise of lexer and parser similar with 168 and 618. Since the
 
 This Pre-release of 168 is being developed with _[Passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope this 10143 to become 1st Release.
 
-By that point we will able to rectify _[C1+C2](https://github.com/MarketLeader)_ along with _[P=NP](https://github.com/chetabahana/track/wiki)_.
+By that point we will able to rectify _[C1+C2](https://github.com/MarketLeader)_ along with _[P=NP](https://github.com/chetabahana/track/wiki)_.<br>
 So Be Patient and Stay Tuned!
 
 :copyright: [Chetabahana Project](https://github.com/MarketLeader)  
