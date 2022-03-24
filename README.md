@@ -202,29 +202,14 @@ This release has mapped the primes to π(1000)=168 as the main lexer. So the nex
 
 <img src=https://user-images.githubusercontent.com/36441664/84902333-e6ce6f80-b0d6-11ea-8289-aac5e1961cd6.gif>
 
-# Gap and Turbulences
-
 Within this development we will discuss about the interconnection between 168 and 618. There is a strong signal that this step will have the correlation with Φ=1,618 of _[(Golden Ratio)](https://www.google.com/search?q=Golden+Ratio)_ that leads to a kind of **gap and turbulences** in [the primes geometri](https://github.com/chetabahana).
 
+# Gap and Turbulences
+
+Let's look again to the Δ1 tabulation above. Take a note that the last rows has a sum of 43 while last prime is 109. The bilateral sum 9 will then doble this 43 as the lexer while prime 109 act as the parser. This will happen on the Central of Metatron which having the prime 13.
+
+
 ```
-True Prime Pairs:
-(5,7), (11,13), (17,19)
-
-layer|  i  |   f
------+-----+---------
-     |  1  |   5
-  1  +-----+
-     |  2  |  {7}
------+-----+---    } 36
-     |  3  |  11
- {2} +-----+
-     |  4  | {13}
------+-----+---------
-     |  5  |  17
-  3  +-----+       } 36
-     |  6  | {19}
------+-----+---------
-
 Scheme 13:9
 ===========
 (1){1}-7:   7’
@@ -286,7 +271,7 @@ True Prime Vektors ζ(s):
          --|---› 28:17| 100 | {100} (50) ------------------------»           19¨
 168        |          +-----+                                                 |
 |         102 -› 29:18| 50  | 50(68) ---------> Δ                             |
-----------------------+-----+
+----------------------+-----+                                                ---
 ```
 
 # Ratio of Lexer vs Parser
