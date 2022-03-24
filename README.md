@@ -178,7 +178,11 @@ From the above explanation about 43 and 89 then the prime flow in the developed 
 
 [<img width=100% src=https://user-images.githubusercontent.com/36441664/103147412-5492dc80-4787-11eb-8277-4fa39ce28c90.png>](https://github.com/chetabahana/tensorflow/wiki/Programming)
 
-Therefore the 30th primes will bear the responsibility to generate the prime 43 while the 36th prime for the 89. This will take place on the 150 that should have a delta of Δ18 to the last number which is 168 where this 168 is exactly π(1000).
+Therefore the 30th primes will bear the responsibility to generate the prime 43 while the 36th prime for the 89. 
+
+[<img width=100% src=https://user-images.githubusercontent.com/36441664/107818705-98c75400-6daa-11eb-8138-d6da7ceef4fd.png>](https://github.com/chetabahana/tensorflow/wiki/Programming)
+
+This will take place on the 150 that should have a delta of Δ18 to the last number which is 168 where this 168 is exactly π(1000).
 
 [<img width=100% src=https://user-images.githubusercontent.com/36441664/107850441-06b85d80-6e35-11eb-8787-b947d7c60c2e.png>](https://github.com/chetabahana/tensorflow/wiki/Programming)
 
@@ -198,7 +202,94 @@ This release has mapped the primes to π(1000)=168 as the main lexer. So the nex
 
 <img src=https://user-images.githubusercontent.com/36441664/84902333-e6ce6f80-b0d6-11ea-8289-aac5e1961cd6.gif>
 
+# Gap and Turbulences
+
 Within this development we will discuss about the interconnection between 168 and 618. There is a strong signal that this step will have the correlation with Φ=1,618 of _[(Golden Ratio)](https://www.google.com/search?q=Golden+Ratio)_ that leads to a kind of **gap and turbulences** in [the primes geometri](https://github.com/chetabahana).
+
+```
+True Prime Pairs:
+(5,7), (11,13), (17,19)
+
+layer|  i  |   f
+-----+-----+---------
+     |  1  |   5
+  1  +-----+
+     |  2  |  {7}
+-----+-----+---    } 36
+     |  3  |  11
+ {2} +-----+
+     |  4  | {13}
+-----+-----+---------
+     |  5  |  17
+  3  +-----+       } 36
+     |  6  | {19}
+-----+-----+---------
+
+Scheme 13:9
+===========
+(1){1}-7:   7’
+(1){8}-13:  6‘
+(1)14-{19}: 6‘
+------------- 6+6 -------
+(2)20-24:   5’           |
+(2)25-{29}: 5’           |
+------------  5+5 -------
+(3)30-36:   7:{70,30,10²}|
+------------             |
+(4)37-48:   12• ---      |
+(5)49-59:   11°    |     |
+            --}30° 30•   |
+(6)60-78:   19°    |     |
+(7)79-96:   18• ---      |
+--------------           |
+(8)97-109:  13           |
+(9)110-139:{30}=5x6 <--x-- (129/17-139/27)
+            --
+           {43}
+
+True Prime Vektors ζ(s):
+(2,3), (29,89), (36,68), (72,42), (100,50), (2,3), (29,89), ...infinity
+
+----------------------+-----+-----+-----+                                    ---
+     7 --------- 1,2:1|   1 |  30 |  40 | 71 (2,3) ‹-------------@----        |
+     |                +-----+-----+-----+-----+                        |      |
+     |  8 ‹------  3:2|   1 |  30 |  40 |  90 | 161 (7) ‹---           |      5¨
+     |  |             +-----+-----+-----+-----+             |          |      |
+     |  |  6 ‹-- 4,6:3|   1 |  30 | 200 | 231 (10,11,12) ‹--|---       |      |
+     |  |  |          +-----+-----+-----+-----+             |   |      |     ---
+      --|--|-----» 7:4|   1 |  30 |  40 | 200 | 271 (13) --›    | {5®} |      |
+        |  |          +-----+-----+-----+-----+                 |      |      |
+         --|---› 8,9:5|   1 |  30 | 200 | 231 (14,15) ---------›       |      7¨
+289        |          +-----+-----+-----+-----+-----+                  |      |
+ |          ----› 10:6|  20 |   5 |  10 |  70 |  90 | 195 (19) --› Φ   | {6®} |
+  --------------------+-----+-----+-----+-----+-----+                  |     ---
+     67 --------› 11:7|   5 |   9 |  14 (20) --------› ¤               |      |
+     |                +-----+-----+-----+                              |      |
+     |  78 ‹----- 12:8|   9 |  60 |  40 | 109 (26) «------------       |     11¨
+     |  |             +-----+-----+-----+                       |      |      |
+     |  |  86‹--- 13:9|   9 |  60 |  69 (27) «--- Δ (Rep Fork)  | {2®} |      |
+     |  |  |          +-----+-----+-----+                       |      |     ---
+     |  |   ---› 14:10|   9 |  60 |  40 | 109 (28) -------------       |      |
+     |  |             +-----+-----+-----+                              |      |
+     |   ---› 15,18:11|   1 |  30 |  40 | 71 (29,30,31,32) ----------        13¨
+329  |                +-----+-----+-----+                                     |
+  |   ‹--------- 19:12|  10 |  60 | {70} (36) ‹--------------------- Φ        |
+   -------------------+-----+-----+                                          ---
+    786 ‹------- 20:13|  90 |  90 (38) ‹-------------- ¤                      |
+     |                +-----+-----+                                           |
+     | 618 ‹- 21,22:14|   8 |  40 |  48 (40,41) ‹----------------------      17¨
+     |  |             +-----+-----+-----+-----+-----+                  |      |
+     |  | 594 ‹- 23:15|   8 |  40 |  70 |  60 | 100 | 278 (42) «--     |{6'®} |
+     |  |  |          +-----+-----+-----+-----+-----+             |    |     ---
+      --|--|-»24,27:16|   8 |  40 |  48 (43,44,45,46) ------------|----       |
+        |  |          +-----+-----+                               |           |
+         --|---› 28:17| 100 | {100} (50) ------------------------»           19¨
+168        |          +-----+                                                 |
+|         102 -› 29:18| 50  | 50(68) ---------> Δ                             |
+----------------------+-----+
+```
+
+# Ratio of Lexer vs Parser
 
 ```
  $True Prime Pairs:
