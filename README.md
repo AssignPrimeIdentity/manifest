@@ -41,7 +41,7 @@ Let's put this prime pairs (5, 7, 11, 13, 17,19) in reverse (19, 17, 13, 11, 7, 
 
 Then assign 19 as a set of 10 numbers that consist of 4 primes (2,3,5,7). Convert them to 10 primes up to 10th prime=29 then to 29 primes up to of (10th)th=29th prime=109. Now let's put Δ1 to 13 as the central of Metraton. 
 
-See how this Δ1 is distributed in to a bunch of Δ's from the number 7 as shown below:
+See how those primes reacted to compensate the Δ1 by spreading the gap in to a bunch of Δ's starting from the number 7 as shown below:
 
 ```
   Tabulate Prime by Power of 10
