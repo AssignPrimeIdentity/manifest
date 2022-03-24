@@ -39,7 +39,9 @@ Let's put this prime pairs (5, 7, 11, 13, 17,19) in reverse (19, 17, 13, 11, 7, 
 
 [<img src=https://user-images.githubusercontent.com/36441664/74094157-4e642500-4b0f-11ea-89b4-eb8cd7d90411.png>](https://www.google.com/search?q=metatron&tbm=isch)
 
-Then assign 19 as a set of 10 numbers that consist of 4 primes (2,3,5,7). Convert them to 10 primes up to 10th prime=29 then to 29 primes up to of (10th)th=29th prime=109. Now let's put Δ1 to the Metraton. See how this Δ1 distributes in to a bunch of Δ's as shown below:
+Then assign 19 as a set of 10 numbers that consist of 4 primes (2,3,5,7). Convert them to 10 primes up to 10th prime=29 then to 29 primes up to of (10th)th=29th prime=109. Now let's put Δ1 to 13 as the central of Metraton. 
+
+See how this Δ1 is distributed in to a bunch of Δ's from the number 7 as shown below:
 
 ```
   Tabulate Prime by Power of 10
@@ -76,7 +78,7 @@ See that this flows starting from π(10) and finalize by pairing of Δ12. Let's 
 
 [![Flowchart](https://user-images.githubusercontent.com/36441664/103138547-5799b880-4706-11eb-8820-f51cbd57d367.png)](https://www.hexspin.com/defining-the-prime-hexagon/)
 
-This flowchart is designed base on the behaviour of the primes number which flows uniformly within an hexagon chart called _[The Prime Hexagon](https://www.hexspin.com/defining-the-prime-hexagon/)_. Here you might see that the number of 10 is having same direction with 19 while 10+19=29=10th prime.
+This flowchart is designed base on the behaviour of the primes number which flows uniformly within an hexagon chart called _[The Prime Hexagon](https://www.hexspin.com/defining-the-prime-hexagon/)_. Here you might see that the number of 10 is the same direction with 19 while 10+19=29=10th prime.
 
 <img src=https://user-images.githubusercontent.com/36441664/105412087-d0892300-5c66-11eb-9c3e-19d8652b478c.png>
 
