@@ -275,9 +275,13 @@ True Prime Vektors ζ(s):
 
 The bilateral sum 9 will then double this 43 to 86 and act as the lexer while the prime 71 and 109 will act as the parser. This will compensate the other primes by the other of circles of the metatron which consist of 6 internal and 6 external.
 
-## The 1st Grammar of Each Scheme
+<img width=100% src=https://user-images.githubusercontent.com/8466209/90985852-ca542500-e5a8-11ea-9027-9bfdcbe37966.jpg>
 
 By the configuration above then on the upper scheme the central of metatron will turn to seven (7) circles. So combine it with the other 12 circles they will forms as the 19 out of _True Prime Pairs_.
+
+## The 1st Grammar of Each Scheme
+
+This 19 has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we come to the detail of 168 and 618 that act as the 1st grammar when we come to the upper scheme. 
 
 ```
  $True Prime Pairs:
@@ -344,7 +348,7 @@ Root Generation:
  loop(100000) => π(100000) - ((10th)th)th - (10th)th = 9592 - 599 - 109 = 8884
 ```
 
-This 19 has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we come to the detail of 168 and 618 that act as the 1st grammar when we come to the upper scheme. So it will form back to the begining stage with different form of input but its process will be the same algorithm.
+So it will form back to the begining stage with different form of input but its process will be the same algorithm. Now let's discuss on how many grammar's will involve on each cycles.
 
 ## Ratio of Total Lexer vs Parser
 
