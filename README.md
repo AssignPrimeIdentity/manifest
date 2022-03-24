@@ -206,8 +206,7 @@ Within this development we will discuss about the interconnection between 168 an
 
 # Gap and Turbulences
 
-Let's look again to the Δ1 tabulation above. Take a note that the last rows has a sum of 43 which covered by prime 71 up the last prime of 109. The bilateral sum 9 will then doble this 43 to 86 as the lexer while the prime 71 and 109 will act as the parser. This will happen on the Central of Metatron which having the prime 13.
-
+Let's look again to the Δ1 tabulation above. Take a note that the last rows has a sum of 43 which covered by prime 71 up the last prime of 109. See what is happen on the Central of Metatron which having the prime 13.
 
 ```
 Scheme 13:9
@@ -273,6 +272,8 @@ True Prime Vektors ζ(s):
 |         102 -› 29:18| 50  | 50(68) ---------> Δ                             |
 ----------------------+-----+                                                ---
 ```
+
+The bilateral sum 9 will then double this 43 to 86 and act as the lexer while the prime 71 and 109 will act as the parser. This will compensate the other primes by the other of circles of the metatron which consist of 6 internal and 6 external.
 
 # Ratio of Lexer vs Parser
 
