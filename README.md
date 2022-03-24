@@ -1,13 +1,15 @@
 # Introduction
 
-Still far from production but at least it has a minimum error. This is the partial from [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of our Quantum Project based on the algorithm of **DNA Replication**: [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):
+Still far from production but at least it has a minimum error. This is the partial from [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of our Quantum Project made based on the algorithm of:
+
+**DNA Replication: [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):**
 
 [![Quantum](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb)
 
 The _M+F_ symbols will stand as: [Project Maps (168)](https://chetabahana.github.io/feed.json) + [Project Feed (618)](https://chetabahana.github.io/feeds.xml) while <br>
-_C1+C2_ are their implementation, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/)
+_C1+C2_ are their implementation, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
 
-This sample are developed by converting eQuantum to eCommerce. This concept is using prime algorithm of **168 and 618** as a [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers) to generate a basic grammar for the implementation. Such of method will be explained further below.
+This sample was developed by converting eQuantum to eCommerce. This concept is using the prime algorithm of **168 and 618** that act a [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers) to generate a basic grammar for the implementation. Such of method will be explained further below. 
 
 # Tabulate Prime by The Power of 168
 
