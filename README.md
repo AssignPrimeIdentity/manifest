@@ -9,7 +9,7 @@ Still far from production but at least it has a minimum error. This is the parti
 The _M+F_ symbols will stand as: [Project Maps (168)](https://chetabahana.github.io/feed.json) + [Project Feed (618)](https://chetabahana.github.io/feeds.xml) while <br>
 _C1+C2_ are their implementation, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
 
-This sample was developed by converting eQuantum to eCommerce. This concept is using the prime algorithm of **168 and 618** that act a [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers) to generate a basic grammar for the implementation. Such of method will be explained further below. 
+This sample was developed by converting eQuantum to eCommerce. This concept is using the prime algorithm of **168 and 618** that act a [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers) to generate a basic grammar for the implementation. Such of method will be explained below.
 
 # Tabulate Prime by The Power of 168
 
