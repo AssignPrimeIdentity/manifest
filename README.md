@@ -5,7 +5,7 @@ Still far from production but at least it has a minimum error. This is the parti
 [![M+F](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb)
 
 The _M+F_ symbols will stand as: [Project Maps (168)](https://chetabahana.github.io/feed.json) + [Project Feed (618)](https://chetabahana.github.io/feeds.xml) while <br>
-_C1+C2_ stand as the implementation, see sample: [Project Root (C1)](https://chetabahana.github.io/) + [Project Brand (C2)](https://chetabahana.com/)
+_C1+C2_ are their implementation, see sample: [Project Root (C1)](https://chetabahana.github.io/) + [Project Brand (C2)](https://chetabahana.com/)
 
 These mapping and feeding are developed by the concept of **168 and 618** as a [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers). This concept is using prime algorithm to generate a basic grammar for the implementation. Such of method will be explained further below.
 
