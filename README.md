@@ -206,7 +206,7 @@ Within this development we will discuss about the interconnection between 168 an
 
 # Gap and Turbulences
 
-Let's look again to the Δ1 tabulation above. Take a note that the last rows has a sum of 43 while last prime is 109. The bilateral sum 9 will then doble this 43 as the lexer while prime 109 act as the parser. This will happen on the Central of Metatron which having the prime 13.
+Let's look again to the Δ1 tabulation above. Take a note that the last rows has a sum of 43 which covered by prime 71 up the last prime of 109. The bilateral sum 9 will then doble this 43 to 86 as the lexer while the prime 71 and 109 will act as the parser. This will happen on the Central of Metatron which having the prime 13.
 
 
 ```
