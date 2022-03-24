@@ -31,7 +31,7 @@ Primes is formed by the Δ1 flowing within a set of prime number called _**[The 
  -----+-----+---------
  ```
 
-Let's put this prime pairs (5, 7, 11, 13, 17,19) in reverse (19, 17, 13, 11, 7, 5) then assign them as a default condition. Consider the (12/2)th = 6th prime = 13 is formed as an hexagon cube called the [Metatron's Cube](https://www.google.com/search?q=metatron&tbm=isch). Now let's put Δ1 so it becomes 12.
+Let's put this prime pairs (5, 7, 11, 13, 17,19) in reverse (19, 17, 13, 11, 7, 5) then assign them as a default condition. Consider the (12/2)th = 6th prime = 13 is formed as an hexagon cube called the [Metatron's Cube](https://www.google.com/search?q=metatron%27s+cubes&tbm=isch). Now let's put Δ1 so it becomes 12.
 
 [<img src=https://user-images.githubusercontent.com/36441664/74094157-4e642500-4b0f-11ea-89b4-eb8cd7d90411.png>](https://www.google.com/search?q=metatron&tbm=isch)
 
