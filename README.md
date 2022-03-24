@@ -4,7 +4,7 @@ Still far from production but at least it has a minimum error. This is the parti
 
 **DNA Recombination: [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):**
 
-[![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://eq19.com/)
+[![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://www.eq19.com/)
 
 The _M+F_ symbols will stand as: [Project Maps (168)](https://chetabahana.github.io/feed.json) + [Project Feed (618)](https://chetabahana.github.io/feeds.xml) while <br>
 _C1+C2_ are their implementation, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
