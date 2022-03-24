@@ -267,13 +267,13 @@ By the next loop (1000x1000) the above 10143 will lead to 618=1000/Φ = 1000x100
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/110807586-c58d5f00-82b5-11eb-81e2-dbde7d628b37.png>
 
-This 10143 will comprise of lexer and parser similar with 168 and 618. Since the 168 algorithm is set 102 by 66 then the ratio is about 60 by 40% i.e. 102/168=60% by 66/168=40% or approx 10143x60%=6200 of lexers by 10143x40%=3900 of parsers.
+This 10143 will comprise of lexer and parser similar with 168 & 618. Since the 168 algorithm is set 102 by 66 then its ratio is about 60 by 40% i.e. 102/168=60% by 66/168=40% or approx 10143x60%=6200 of lexers by 10143x40%=3900 of parsers.
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/86481184-b72b9280-bd79-11ea-899b-51db929fc3d2.png>
 
 The Pre-release 168 is being developed with _[Passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope this 10143 to become 1st Release.
 
-The development of this 10143 will take several unsolved cases of modern science including _DNA Replication Fork_, _[Alzheimer's Disease](https://youtube.com/channel/UCOsNkZ66SBJcuTBR2dcWeSA)_, _The Millenium Prize Problems_, etc in to the topic such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ along with _[P=NP](https://github.com/chetabahana/track/wiki)_.
+The development of this 10143 will take several unsolved cases of modern science including _DNA Replication Fork_, _[Alzheimer's Disease](https://youtube.com/channel/UCOsNkZ66SBJcuTBR2dcWeSA)_, _The Millenium Prize Problems_, etc in to the main topics of grammar such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ along with _[P=NP](https://github.com/chetabahana/track/wiki)_.
 
 So Be Patient and Stay Tuned!
 
