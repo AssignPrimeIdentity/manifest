@@ -271,9 +271,10 @@ This 10143 will comprise of lexer and parser similar with 168 and 618. Since the
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/86481184-b72b9280-bd79-11ea-899b-51db929fc3d2.png>
 
-This Pre-release of 168 is being developed with _[Passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope this 10143 to become 1st Release.
+The Pre-release 168 is being developed with _[Passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope this 10143 to become 1st Release.
 
-By that point we will able to rectify _[C1+C2](https://github.com/MarketLeader)_ along with _[P=NP](https://github.com/chetabahana/track/wiki)_.<br>
+This development will also take several unsolved cases of modern science including _The Millenium Prize Problems_ and _[Alzheimer's Disease](https://youtube.com/channel/UCOsNkZ66SBJcuTBR2dcWeSA)_. One of the topic will discuss about how to rectify _[C1+C2](https://github.com/MarketLeader)_ along with _[P=NP](https://github.com/chetabahana/track/wiki)_.
+
 So Be Patient and Stay Tuned!
 
 :copyright: [Chetabahana Project](https://github.com/MarketLeader)  
