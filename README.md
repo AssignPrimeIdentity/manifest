@@ -277,7 +277,7 @@ The bilateral sum 9 will then double this 43 to 86 and act as the lexer while th
 
 ## Ratio of Lexer vs Parser
 
-By the configuration above then on the upper scheme the central of metatron will turn to seven (7) circles. So combine it with the other 12 circles they will forms as the 19 out of _True Prime Pairs_ which has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7.
+By the configuration above then on the upper scheme the central of metatron will turn to seven (7) circles. So combine it with the other 12 circles they will forms as the 19 out of _True Prime Pairs_ which has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we will get the detail of 168 and 618 that act as the 1st grammar.
 
 ```
  $True Prime Pairs:
