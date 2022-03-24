@@ -2,7 +2,7 @@
 
 Still far from production but at least it has a minimum error. This is the partial from [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of our Quantum Project made based on the algorithm of:
 
-**DNA Replication: [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):**
+**DNA Recombination: [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):**
 
 [![Quantum](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb)
 
@@ -271,9 +271,9 @@ This 10143 will comprise of lexer and parser similar with 168 & 618. Since the 1
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/86481184-b72b9280-bd79-11ea-899b-51db929fc3d2.png>
 
-The Pre-release 168 is being developed with _[Passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope this 10143 to become 1st Release.
+The development of this 10143 will take several unsolved cases of modern science including _DNA Replication Fork_, _[Alzheimer's Disease](https://youtube.com/channel/UCOsNkZ66SBJcuTBR2dcWeSA)_, _The Millenium Prize Problems_, etc in to the main topics of grammar such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ using _[P=NP](https://github.com/chetabahana/track/wiki)_.
 
-The development of this 10143 will take several unsolved cases of modern science including _DNA Replication Fork_, _[Alzheimer's Disease](https://youtube.com/channel/UCOsNkZ66SBJcuTBR2dcWeSA)_, _The Millenium Prize Problems_, etc in to the main topics of grammar such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ along with _[P=NP](https://github.com/chetabahana/track/wiki)_.
+The Pre-release 168 is being developed with _[Passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope this 10143 to become 1st Release.
 
 So Be Patient and Stay Tuned!
 
