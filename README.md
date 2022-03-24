@@ -271,7 +271,9 @@ This 10143 will comprise of lexer and parser similar with 168 & 618. Since the 1
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/86481184-b72b9280-bd79-11ea-899b-51db929fc3d2.png>
 
-The development of this 10143 will take several unsolved cases of modern science including _DNA Replication Fork_, _[Alzheimer's Disease](https://youtube.com/channel/UCOsNkZ66SBJcuTBR2dcWeSA)_, _The Millenium Prize Problems_, etc in to the main topics of grammar such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ using _[P=NP](https://github.com/chetabahana/track/wiki)_.
+The development of this 10143 will take several unsolved cases of modern science including _[DNA Replication Fork](https://en.wikipedia.org/wiki/DNA_replication#Replication_fork)_, _[Alzheimer's Disease](https://youtube.com/channel/UCOsNkZ66SBJcuTBR2dcWeSA)_, _[The Millenium Prize Problems](https://github.com/chetabahana/tensorflow/wiki/Untouched-Intelligences#scheme)_, etc in to the main topics of basic grammar such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ using _[P=NP](https://github.com/chetabahana/track/wiki)_.
+
+[<img width=100% src=https://user-images.githubusercontent.com/8466209/90597914-32f37880-e21c-11ea-81b3-ffdcd47037b8.png>](https://github.com/chetabahana/chetabahana.github.io/wiki#kelas)
 
 The Pre-release 168 is being developed with _[Passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope this 10143 to become 1st Release.
 
