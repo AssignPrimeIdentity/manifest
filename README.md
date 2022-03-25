@@ -17,7 +17,7 @@ This sample was developed by converting [eQuantum](https://github.com/eq19) to [
 
 Each process will have a total of seven (7) steps primes algorithm of base 10 that consist of three (3) leading steps by lexer: (10, 30), (30, 36), (36, 114) and four (4) lagging steps by parser: (114, 89), (89, 29), (29, 19), (19, 10).
 
-Such of method is used to generate a basic grammar for the implementation as explained further below.
+Such of method is used to generate a basic grammar that can be used for any kind of implementations or applications as explained further below.
 
 # Tabulate Prime by The Power of 168
 
