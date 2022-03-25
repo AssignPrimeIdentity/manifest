@@ -340,7 +340,15 @@ This 19 has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we come 
  Permutations:
  168 = 102 + 66 = 2x3x((8+9)+(2+9)) = π(Φ(289+329)) = π(Φ((8+9)²+(1+2)&29))
  168 + 618 = 168 + 329 + 289 = (7x24) + (7x47) + (8+9)² = (7x71) + (17x17)
+```
 
+So it will form back to the begining stage with different form of input but its process will be the same algorithm. Now let's discuss on how many grammar's will involve on each cycles.
+
+## Ratio of Total Lexer vs Parser
+
+By the next loop (1000x1000) of the above prime algorithm we will get [Total Grammar of 10143](https://youtube.com/playlist?list=PL_S8nmGoQ7q6wKXUG8HBqPzoAhRmVCmSJ) which leads to 618=1000/Φ = 1000x1000/1618.
+
+```
 Root Generation:
  root[1000] = 168 + 1091 + 8884 = 10143
  root[1000] = π(1000) + loop(10 x 1000)  +  loop(100 x 1000) 
@@ -348,11 +356,7 @@ Root Generation:
  loop(100000) => π(100000) - ((10th)th)th - (10th)th = 9592 - 599 - 109 = 8884
 ```
 
-So it will form back to the begining stage with different form of input but its process will be the same algorithm. Now let's discuss on how many grammar's will involve on each cycles.
-
-## Ratio of Total Lexer vs Parser
-
-By the next loop (1000x1000) the above 10143 will lead to 618=1000/Φ = 1000x1000/1618. So [the next target](https://github.com/chetabahana/chetabahana.github.io/discussions/categories/announcements) we will discuss about 1000/Φ = 618 = 619-1 = 114th prime - 1 as a lexer and parser shown below: 
+So [the next target](https://github.com/chetabahana/chetabahana.github.io/discussions/categories/announcements) we will discuss about 1000/Φ = 618 = 619-1 = 114th prime - 1 as a lexer and parser shown below: 
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/110807586-c58d5f00-82b5-11eb-81e2-dbde7d628b37.png>
 
