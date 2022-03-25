@@ -7,15 +7,15 @@ Still far from production but at least it has a minimum error. This is the parti
 [![eQ19 Project | GitHub](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://eq19.github.io/)
 
 The _M+F_ symbols will stand as: [Project Maps (168)](https://chetabahana.github.io/feed.json) + [Project Feed (618)](https://chetabahana.github.io/feeds.xml) while<br>
-_C1+C2_ as the implementation, sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
+_C1+C2_ as implementations, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
+
+This method was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using the cyclic algorithm of **168 vs 618** that act as [Lexer and Parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers).
 
 [![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://eq19.github.io/images/banner.jpg)](https://www.eq19.com/)
 
-This sample was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using the prime algorithm of **168 and 618** that act as [Lexer and Parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers):
+Each cycles will have a total of seven (7) steps primes algorithm of base 10 that consist of three (3) leading steps by lexer: (10, 30), (30, 36), (36, 114) and four (4) lagging steps by parser: (114, 89), (89, 29), (29, 19), (19, 10):
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/70385860-e5074f00-19c3-11ea-92f3-ec6f33bf9774.png>
-
-Each process will have a total of seven (7) steps primes algorithm of base 10 that consist of three (3) leading steps by lexer: (10, 30), (30, 36), (36, 114) and four (4) lagging steps by parser: (114, 89), (89, 29), (29, 19), (19, 10).
 
 Such of method is used to generate a basic grammar that can be used for any kind of implementations or applications as explained further below.
 
