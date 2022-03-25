@@ -15,7 +15,7 @@ This sample was developed by converting [eQuantum](https://github.com/eq19) to [
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/70385860-e5074f00-19c3-11ea-92f3-ec6f33bf9774.png>
 
-Each process will have a total of seven (7) steps primes algorithm of base 10 consist of three (3) leading steps by lexer: (10, 30), (30, 36), (36, 114) and four (4) lagging steps by parser: (114, 89), (89, 29), (29, 19), (19, 10).
+Each process will have a total of seven (7) steps primes algorithm of base 10 that consist of three (3) leading steps by lexer: (10, 30), (30, 36), (36, 114) and four (4) lagging steps by parser: (114, 89), (89, 29), (29, 19), (19, 10).
 
 Such of method is used to generate a basic grammar for the implementation as explained further below.
 
