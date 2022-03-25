@@ -11,9 +11,13 @@ _C1+C2_ as the implementation, sample: [Project Base (C1)](https://chetabahana.g
 
 [![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://eq19.github.io/images/banner.jpg)](https://www.eq19.com/)
 
-This sample was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using the prime algorithm of **168 and 618** that act as [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers) to generate a basic grammar for implementation.
+This sample was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using the prime algorithm of **168 and 618** that act as [Lexer and Parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers):
 
-Such of method will be explained below.
+<img width=100% src=https://user-images.githubusercontent.com/36441664/70385860-e5074f00-19c3-11ea-92f3-ec6f33bf9774.png>
+
+Each process will have a total of seven (7) steps primes algorithm of base 10 consist of three (3) leading steps by lexer: (10, 30), (30, 36), (36, 114) and four (4) lagging steps by parser: (114, 89), (89, 29), (29, 19), (19, 10).
+
+Such of method is used to generate a basic grammar for the implementation as explained further below.
 
 # Tabulate Prime by The Power of 168
 
