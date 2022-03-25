@@ -9,7 +9,7 @@ Still far from production but at least it has a minimum error. This is the parti
 The _M+F_ symbols will stand as: [Project Maps (168)](https://chetabahana.github.io/feed.json) + [Project Feed (618)](https://chetabahana.github.io/feeds.xml) while<br>
 _C1+C2_ as implementations, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
 
-This method was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using the cyclic algorithm of **168 vs 618** that act as [Lexer and Parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers).
+This sample was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using the cyclic algorithm of **168 vs 618** that act as [Lexer and Parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers).
 
 [![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://eq19.github.io/images/banner.jpg)](https://www.eq19.com/)
 
