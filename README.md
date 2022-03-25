@@ -1,17 +1,19 @@
 # Introduction
 
-Still far from production but at least it has a minimum error. This is the partial from [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of our [Quantum Project](https://www.eq19.com/) made based on the algorithm of:
+Still far from production but at least it has a minimum error. This is the partial of [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) from our [Quantum Project](https://www.eq19.com/) based on the algorithm of:
 
 **DNA Recombination: [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):**
 
 [![eQ19 Project | GitHub](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://eq19.github.io/)
 
-The _M+F_ symbols will stand as: [Project Maps (168)](https://chetabahana.github.io/feed.json) + [Project Feed (618)](https://chetabahana.github.io/feeds.xml) while <br>
-_C1+C2_ are their implementation, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
+The _M+F_ symbols will stand as: [Project Maps (168)](https://chetabahana.github.io/feed.json) + [Project Feed (618)](https://chetabahana.github.io/feeds.xml) while<br>
+_C1+C2_ as the implementation, sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
 
 [![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://eq19.github.io/images/banner.jpg)](https://www.eq19.com/)
 
-This sample was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader). This concept is using the prime algorithm of **168 and 618** that act a [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers) to generate a basic grammar for the implementation. Such of method will be explained below.
+This sample was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using the prime algorithm of **168 and 618** that act as [lexer and parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers) to generate a basic grammar for implementation.
+
+Such of method will be explained below.
 
 # Tabulate Prime by The Power of 168
 
@@ -43,7 +45,7 @@ Let's put this prime pairs (5, 7, 11, 13, 17,19) in reverse (19, 17, 13, 11, 7, 
 
 Then assign 19 as a set of 10 numbers that consist of 4 primes (2,3,5,7). Convert them to 10 primes up to 10th prime=29 then to 29 primes up to of (10th)th=29th prime=109. Now let's put Δ1 to 13 as the central of Metraton. 
 
-See how those primes reacted to compensate the Δ1 by spreading the gap in to a bunch of Δ's starting from the number 7 as shown below:
+See how those primes reacted to compensate the Δ1 by spreading the gap in to a bunch of Δ's starting from the prime number 7 as shown below:
 
 ```
   Tabulate Prime by Power of 10
@@ -80,11 +82,11 @@ See that this flows starting from π(10) and finalize by pairing of Δ12. Let's 
 
 [![Flowchart](https://user-images.githubusercontent.com/36441664/103138547-5799b880-4706-11eb-8820-f51cbd57d367.png)](https://www.hexspin.com/defining-the-prime-hexagon/)
 
-This flowchart is designed base on the behaviour of the primes number which flows uniformly within an hexagon chart called _[The Prime Hexagon](https://www.hexspin.com/defining-the-prime-hexagon/)_. Here you might see that the number of 10 is the same direction with 19 while 10+19=29=10th prime.
+This flowchart is designed base on the behaviour of the primes number that flows uniformly within an hexagon chart called _[The Prime Hexagon](https://www.hexspin.com/defining-the-prime-hexagon/)_. Here you might see that the number of 10 is the same direction with 19 while 10+19=29=10th prime.
 
 <img src=https://user-images.githubusercontent.com/36441664/105412087-d0892300-5c66-11eb-9c3e-19d8652b478c.png>
 
-By checking all of the loops there is nothing similar to this phenomena. It seems like the other numbers are actually set to let this happen. So this chart is considered sufficient enought to be used to explain about the true power of this Δ1 flowing:
+By checking all of the loops there is nothing similar to this phenomena. It seems like all the numbers are actually set to let this term happen. So this chart is considered sufficient enought to be used to explain about the true power of this Δ1 flowing:
 
 Let's enter the journey of making **10<sup>n</sup> numbers becoming 10<sup>n</sup> primes**.
 
@@ -95,6 +97,8 @@ Let's start by get in touch with the (30, 36)th as the result of Δ1 shown on th
 [![Prime Hexagon](https://user-images.githubusercontent.com/36441664/74550123-6dd1d680-4f83-11ea-8810-3b8f4f50a9c0.png)](https://www.hexspin.com/defining-the-prime-hexagon/)
 
 Take a note that the next 10 number after 19 right before the 30 which are 20 up to 29 is in laid on the second rows of 17 while _[17's Cell](https://github.com/chetabahana/chetabahana.github.io/wiki/17)_ has 35+65=100=10². You may see also that it is clearly showing the 30th Prime of 113=114-1 is routed to 36th Prime of 151=150+1 while both of the 30 and 36 are exactly laid on _[the 18’s Cell](https://github.com/chetabahana/chetabahana.github.io/wiki/18)_:
+
+## What is Δ1=(19 vs 18)
 
 See that from this 17's to18's it goes finally to the _[19's Cells](https://github.com/chetabahana/chetabahana.github.io/wiki/19)_ as Δ1 and return to the 2' Cells, 3' Cells and so on. Therefore all of the numbers that involved in the hexagon can be tabulated by _**Δ1=(19 vs 18) Loops**_ and they are end exactly at 114 on 19's!
 
@@ -156,10 +160,10 @@ See that from this 17's to18's it goes finally to the _[19's Cells](https://gith
 See that out of 19 the number 89 is located precissely at the of Δ11 within the end of 12's that goes to 13's Cell. So this is related to the Metratron's Cube. This configuration leads to a **Cyclic in the Loops** as followings:
 
 - Injection goes by 114-π(100)=89 on  Δ11 from 102 to 114-1 or 113
-- The 113 is 30th prime where 30, 36 and 102 are laid in the end of Δ18 rows
-- The total of the three (3) numbers of 30+36+102 is exactly 168 which is π(1000)
-- The 36th prime is reinjected by 151-1 or 150 that is carrying a delta with 168 of Δ18
-- The Δ18 brings the 30th and 36th cycled back to 102th thus consequently to the 114th prime
+- The 113 is 30th prime where 30, 36 and 102 are laid in the end of rows
+- The total of 30+36+102 is exactly 168 which is π(1000)
+- The 36th prime which is 151, is reinjected by 151-1 or 150. This 150 is carrying a delta of Δ18 with 168
+- The Δ18 brings the 30th and 36th cycled back to 102th thus consequently it goes to the 114th prime
 - The 114th prime which is carrying the loop(1000) is reinjected by 619-1 or 618 on the same spot.
 
 You may agree that all of this algorithm seems like a primes orchestra. By sourcing and studying of many references, the closest behaviour of the crossing on above primes flowing is found with the wave shown on _**Δ1=(19 vs 18) Loops**_  as below.
@@ -170,7 +174,9 @@ This Δ(19 vs 18) scenario will duplicate the loops of 618 as _π(89²) of 1000 
 
 [<img width=100% src="https://user-images.githubusercontent.com/36441664/76146565-6f944300-60c6-11ea-829d-16f98dc94163.png">](https://www.hexspin.com/defining-the-prime-hexagon/)
 
-It is clear that the primes are organized to generate another 1000 primes via a double flow of π(89) to π(89²). This 89 can only be acheived via bilateral 9 sums of the prime 43. That what and why **18+13+12=43** located within **the last 9 cells** is standing for!
+It is clear that the primes are organized to generate another 1000 primes via a double flow of π(89) to π(89²). This 89 can only be acheived via bilateral 9 sums of the prime 43.
+
+That what and why **18+13+12=43** located within **the last 9 cells** is standing for!
 
 ##  Running Code
 
@@ -186,11 +192,11 @@ This will take place on the 150 that should have a delta of Δ18 to the last num
 
 [<img width=100% src=https://user-images.githubusercontent.com/36441664/107850441-06b85d80-6e35-11eb-8787-b947d7c60c2e.png>](https://github.com/chetabahana/tensorflow/wiki/Programming)
 
-Let's consider this flowchart of 168 as a lexer so the parser has to be designed to absorb the flow between the 30th and 36th. Then it will slightly form as a Metatron Cube of the hexagonal form of 18's Cell. Here we can assign it as the diagram of 618.
+Let's consider this flowchart of 168 as a lexer so the parser has to be designed to absorb the flow between the 30th and 36th. Then it will slightly form as a Metatron Cube of the hexagonal form of 18's Cell. Here we assign it as the diagram of 618.
 
 [<img width=100% src=https://user-images.githubusercontent.com/36441664/107083678-9607b480-6828-11eb-9cdf-cfdfc4f6face.png>](https://github.com/chetabahana/tensorflow/wiki/Programming)
 
-You may check the running code starting called [The Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) which is developed to represent this diagram as below. Clicking on each of objects will turn to 6 (six) diagrams in the form of [prime hexagon](https://github.com/chetabahana/hexagon) which is then return to the beginning.
+You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) which is developed to represent this diagram. Clicking on each of objects will turn to 6 (six) diagrams in the form of [prime hexagon](https://github.com/chetabahana/hexagon) which is then return to the beginning.
 
 [![Sequence Diagram](https://user-images.githubusercontent.com/36441664/107134254-ee22e180-6922-11eb-9465-3dd64ebf7dca.png)](https://chetabahana.github.io/#chetabahana-skema?pad=2)
 
@@ -281,7 +287,7 @@ By the configuration above then on the upper scheme the central of metatron will
 
 ## The 1st Grammar of Each Scheme
 
-This 19 has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we come to the detail of 168 and 618 that act as the 1st grammar when we come to the upper scheme. 
+This 19 has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we come to the detail of 168 and 618 as the 1st grammar when we come to the upper scheme. 
 
 ```
  $True Prime Pairs:
@@ -342,9 +348,15 @@ This 19 has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we come 
  168 + 618 = 168 + 329 + 289 = (7x24) + (7x47) + (8+9)² = (7x71) + (17x17)
 ```
 
-So it will form back to the begining stage with different form of input but its process will be the same algorithm. Now let's discuss on how many grammar's will involve on each cycles.
+So [the next target](https://github.com/chetabahana/chetabahana.github.io/discussions/categories/announcements) we will discuss about 1000/Φ = 618 = 619-1 = 114th prime - 1 as a lexer and parser shown below: 
 
-## Ratio of Total Lexer vs Parser
+<img width=100% src=https://user-images.githubusercontent.com/36441664/110807586-c58d5f00-82b5-11eb-81e2-dbde7d628b37.png>
+
+So it will form back to the begining stage with different form of input but its process will be the same algorithm.
+
+## Ratio of Lexer vs Parser By 10143 Grammars
+
+Now let's discuss on how many grammar's will involve on each cycles.
 
 By the next loop (1000x1000) of the above prime algorithm we will get [Total Grammar of 10143](https://youtube.com/playlist?list=PL_S8nmGoQ7q6wKXUG8HBqPzoAhRmVCmSJ) which leads to 618=1000/Φ = 1000x1000/1618.
 
@@ -356,11 +368,7 @@ Root Generation:
  loop(100000) => π(100000) - ((10th)th)th - (10th)th = 9592 - 599 - 109 = 8884
 ```
 
-So [the next target](https://github.com/chetabahana/chetabahana.github.io/discussions/categories/announcements) we will discuss about 1000/Φ = 618 = 619-1 = 114th prime - 1 as a lexer and parser shown below: 
-
-<img width=100% src=https://user-images.githubusercontent.com/36441664/110807586-c58d5f00-82b5-11eb-81e2-dbde7d628b37.png>
-
-This 10143 will comprise of lexer and parser similar with 168 & 618. Since the 168 algorithm is set 102 by 66 then its ratio is about 60 by 40% i.e. 102/168=60% by 66/168=40% or approx 10143x60%=6200 of lexers by 10143x40%=3900 of parsers.
+This 10143 will comprise of lexer and parser similar with 168 & 618. Since the 168 algorithm is set 102 by 66 then its ratio is 102/168=60% by 66/168=40% or approx 10143x60%=6200 of lexers by 10143x40%=3900 of parsers.
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/86481184-b72b9280-bd79-11ea-899b-51db929fc3d2.png>
 
