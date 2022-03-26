@@ -192,13 +192,13 @@ This release has mapped the primes to π(1000)=168 as the main lexer. So the nex
 
 Within this development we will discuss about the interconnection between 168 and 618. There is a strong signal that this step will have the correlation with Φ=1,618 of _[(Golden Ratio)](https://www.google.com/search?q=Golden+Ratio)_ that leads to a kind of **gap and turbulences** in [the primes geometri](https://github.com/chetabahana).
 
-[<img width=100% src="https://user-images.githubusercontent.com/36441664/76146565-6f944300-60c6-11ea-829d-16f98dc94163.png">](https://www.hexspin.com/defining-the-prime-hexagon/)
+## 4th Step: Q(114, 89)
 
 It is clear that the primes are organized to generate another 1000 primes via a double flow of π(89) to π(89²). This 89 can only be acheived via bilateral 9 sums of the prime 43.
 
 That what and why **18+13+12=43** located within **the last 9 cells** is standing for!
 
-## 4th Step: Q(114, 89)
+[<img width=100% src="https://user-images.githubusercontent.com/36441664/76146565-6f944300-60c6-11ea-829d-16f98dc94163.png">](https://www.hexspin.com/defining-the-prime-hexagon/)
 
 From the above explanation about 43 and 89 then the prime flow in the developed flowchart above should take a connection to form between them two. This is the reason why the sequence of its shapes are arranged as below:
 
