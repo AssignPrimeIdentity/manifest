@@ -190,7 +190,13 @@ This release has mapped the primes to π(1000)=168 as the main lexer. So the nex
 
 <img src=https://user-images.githubusercontent.com/36441664/84902333-e6ce6f80-b0d6-11ea-8289-aac5e1961cd6.gif>
 
-Within this development we will discuss about the interconnection between 168 and 618. There is a strong signal that this step will have the correlation with Φ=1,618 of _[(Golden Ratio)](https://www.google.com/search?q=Golden+Ratio)_ that leads to a kind of **gap and turbulences** in [the primes geometri](https://github.com/chetabahana).
+Within this development we will discuss about the interconnection between 168 and 618. One of the major case is that we will start parser with the lagging steps. The basic algorithm is Synthesis of leading and lagging strands of DNA.
+
+<img src=https://user-images.githubusercontent.com/36441664/97624272-73137a80-1a59-11eb-8784-8f131e488847.jpg>
+
+<blockquote>The leading strand is synthesized continuously in the direction of replication fork movement. The lagging strand is synthesized in small pieces (Okazaki fragments) backward from the overall direction of replication. The Okazaki fragments are then joined by the action of DNA ligase.</blockquote>
+
+Beaides it, there is also strong signal that this parser will have the correlation with Φ=1,618 of _[(Golden Ratio)](https://www.google.com/search?q=Golden+Ratio)_ that leads to a kind of **gap and turbulences** in [the primes geometri](https://github.com/chetabahana).
 
 ## 4th Step: Q(114, 89)
 
