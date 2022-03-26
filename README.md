@@ -21,7 +21,11 @@ Such of method is used to generate a basic grammar that can be used for any kind
 
 # Tabulate Prime by The Power of 168
 
-Primes is formed by the Δ1 flowing within three (3) sets of twin prime pairs called _[The True Prime Pairs](https://github.com/chetabahana/chetabahana.github.io/wiki#operasi)_. 
+Primes is formed by three (3) sets of twin prime pairs called _[The True Prime Pairs](https://github.com/chetabahana/chetabahana.github.io/wiki#operasi)_. 
+
+<img src=https://user-images.githubusercontent.com/36441664/90720864-ab703d00-e2e1-11ea-99c5-70405c78b6e0.jpg>
+
+These primes are naturally distributed in three (3) forms of 12's multiplication: 5+7=12, 11+13=24 and 17+19=36 where 12+24=36.
 
 ```
  $True Prime Pairs:
@@ -43,9 +47,7 @@ Primes is formed by the Δ1 flowing within three (3) sets of twin prime pairs ca
  -----+-----+---------
  ```
 
-These primes are naturally distributed in three (3) forms of 12's multiplication: 5+7=12, 11+13=24 and 17+19=36 where 12+24=36.
-
-Let's enter the journey of making **10<sup>n</sup> numbers becoming 10<sup>n</sup> primes**.
+Now we are going to see what is the purpose. Let's enter the journey of making **10<sup>n</sup> numbers becoming 10<sup>n</sup> primes** by the Δ1 flowing within the prime pairs.
 
 ## 1st Step: Q(10, 30)
 
