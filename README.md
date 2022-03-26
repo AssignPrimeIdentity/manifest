@@ -21,7 +21,7 @@ Such of method is used to generate a basic grammar that can be used for any kind
 
 # Tabulate Prime by The Power of 168
 
-Primes is formed by the Δ1 flowing within three (3) sets of twin prime pairs called _[The True Prime Pairs](https://github.com/chetabahana/chetabahana.github.io/wiki#operasi)_. These primes are naturally distributed in three (3) forms of 12's multiplication: 5+7=12, 11+13=24 and 17+19=36 where 12+24=36
+Primes is formed by the Δ1 flowing within three (3) sets of twin prime pairs called _[The True Prime Pairs](https://github.com/chetabahana/chetabahana.github.io/wiki#operasi)_. 
 
 ```
  $True Prime Pairs:
@@ -43,13 +43,17 @@ Primes is formed by the Δ1 flowing within three (3) sets of twin prime pairs ca
  -----+-----+---------
  ```
 
+These primes are naturally distributed in three (3) forms of 12's multiplication: 5+7=12, 11+13=24 and 17+19=36 where 12+24=36.
+
+Let's enter the journey of making **10<sup>n</sup> numbers becoming 10<sup>n</sup> primes**.
+
+## 1st Step: Q(10, 30)
+
 Let's put this prime pairs (5, 7, 11, 13, 17,19) in reverse (19, 17, 13, 11, 7, 5) then assign them as a default condition. Consider the (12/2)th = 6th prime = 13 is formed as an hexagon cube called the [Metatron's Cube](https://www.google.com/search?q=metatron%27s+cubes&tbm=isch). 
 
 [<img src=https://user-images.githubusercontent.com/36441664/74094157-4e642500-4b0f-11ea-89b4-eb8cd7d90411.png>](https://www.google.com/search?q=metatron&tbm=isch)
 
 Then assign 19 as a set of 10 numbers that consist of 4 primes (2,3,5,7). Convert them to 10 primes up to 10th prime=29 then to 29 primes up to of (10th)th=29th prime=109. Now let's put Δ1 to 13 as the central of Metraton. 
-
-See how those primes reacted to compensate the Δ1 by spreading the gap in to a bunch of Δ's starting from the prime number 7 as shown below:
 
 ```
   Tabulate Prime by Power of 10
@@ -78,6 +82,10 @@ See how those primes reacted to compensate the Δ1 by spreading the gap in to a 
   12+13+(18+18)+13+12  ← 36th-Δ1=151-1=150=100+2x(13+12)  ←  30th = 113 = 114-1
 ```
 
+See how those primes reacted to compensate the Δ1 by spreading the gap in to a bunch of Δ's starting from the prime number 7.
+
+## 2nd Step: Q(30, 36)
+
 In the sense of this Δ1 flowing, there will be really hard to cope its algorithm with a such of formula. The way that we might take is assigning the flowing of the π(10)=4 to π(100)=25 and π(1000)=168 above in to a flowchart diagrams.
 
 <img src=https://user-images.githubusercontent.com/36441664/128732737-81762604-0ae0-4a90-b5a8-30921cf46efb.png>
@@ -92,17 +100,13 @@ This flowchart is designed base on the behaviour of the primes number that flows
 
 By checking all of the loops there is nothing similar to this phenomena. It seems like all the numbers are actually set to let this term happen. So this chart is considered sufficient enought to be used to explain about the true power of this Δ1 flowing:
 
-Let's enter the journey of making **10<sup>n</sup> numbers becoming 10<sup>n</sup> primes**.
-
-## Prime Hexagon
-
 Let's start by get in touch with the (30, 36)th as the result of Δ1 shown on the above tabulation in more detail. Then take a look with the behaviour of prime flows within _The Prime Hexagon_ as shown below. 
 
 [![Prime Hexagon](https://user-images.githubusercontent.com/36441664/74550123-6dd1d680-4f83-11ea-8810-3b8f4f50a9c0.png)](https://www.hexspin.com/defining-the-prime-hexagon/)
 
 Take a note that the next 10 number after 19 right before the 30 which are 20 up to 29 is in laid on the second rows of 17 while _[17's Cell](https://github.com/chetabahana/chetabahana.github.io/wiki/17)_ has 35+65=100=10². You may see also that it is clearly showing the 30th Prime of 113=114-1 is routed to 36th Prime of 151=150+1 while both of the 30 and 36 are exactly laid on _[the 18’s Cell](https://github.com/chetabahana/chetabahana.github.io/wiki/18)_:
 
-## What is Δ1=(19 vs 18)
+## 3rd Step: Q(36, 114)
 
 See that from this 17's to18's it goes finally to the _[19's Cells](https://github.com/chetabahana/chetabahana.github.io/wiki/19)_ as Δ1 and return to the 2' Cells, 3' Cells and so on. Therefore all of the numbers that involved in the hexagon can be tabulated by _**Δ1=(19 vs 18) Loops**_ and they are end exactly at 114 on 19's!
 
@@ -170,6 +174,8 @@ See that out of 19 the number 89 is located precissely at the of Δ11 within the
 - The Δ18 brings the 30th and 36th cycled back to 102th thus consequently it goes to the 114th prime
 - The 114th prime which is carrying the loop(1000) is reinjected by 619-1 or 618 on the same spot.
 
+# Next Target: Tabulate Prime by 618
+
 You may agree that all of this algorithm seems like a primes orchestra. By sourcing and studying of many references, the closest behaviour of the crossing on above primes flowing is found with the wave shown on _**Δ1=(19 vs 18) Loops**_  as below.
 
 [![Δ(19 vs 18)](https://user-images.githubusercontent.com/36441664/107478328-de69fe00-6bab-11eb-8d5f-7517c94b7299.png)](https://github.com/chetabahana/trace/wiki)
@@ -182,7 +188,7 @@ It is clear that the primes are organized to generate another 1000 primes via a 
 
 That what and why **18+13+12=43** located within **the last 9 cells** is standing for!
 
-##  Running Code
+## 4th Step: Q(114, 89)
 
 From the above explanation about 43 and 89 then the prime flow in the developed flowchart above should take a connection to form between them two. This is the reason why the sequence of its shapes are arranged as below:
 
@@ -206,15 +212,13 @@ You may check the running code starting with [Sequence Diagram](https://chetabah
 
 This is formed as a partial of _168 (mapping) and 618 (feeding)_ that stand as  [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of The M+F to C1+C2. In order to get code able to run online then the 168 is provided in [json](https://chetabahana.github.io/feed.json) while 618 in [xml](https://chetabahana.github.io/feeds.xml).
 
-# Next Target: Tabulate Prime by 618
-
 This release has mapped the primes to π(1000)=168 as the main lexer. So the next target is about 618 as the main parser which hold the key of <code>init</code> as the road map to π(1000x1000). So here it goes to **1 Million Primes**.
 
 <img src=https://user-images.githubusercontent.com/36441664/84902333-e6ce6f80-b0d6-11ea-8289-aac5e1961cd6.gif>
 
 Within this development we will discuss about the interconnection between 168 and 618. There is a strong signal that this step will have the correlation with Φ=1,618 of _[(Golden Ratio)](https://www.google.com/search?q=Golden+Ratio)_ that leads to a kind of **gap and turbulences** in [the primes geometri](https://github.com/chetabahana).
 
-## Gap and Turbulences
+## 5th Step: Q(89, 29)
 
 Let's look again to the Δ1 tabulation above. Take a note that the last rows has a sum of 43 which covered by prime 71 up the last prime of 109. See what is happen on the Central of Metatron which having the prime 13.
 
@@ -289,7 +293,7 @@ The bilateral sum 9 will then double this 43 to 86 and act as the lexer while th
 
 By the configuration above then on the upper scheme the central of metatron will turn to seven (7) circles. So combine it with the other 12 circles they will forms as the 19 out of _True Prime Pairs_.
 
-## The 1st Grammar of Each Scheme
+## 6th Step: Q(29, 19)
 
 This 19 has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we come to the detail of 168 and 618 as the 1st grammar when we come to the upper scheme. 
 
@@ -358,7 +362,7 @@ So [the next target](https://github.com/chetabahana/chetabahana.github.io/discus
 
 So it will form back to the begining stage with different form of input but its process will be the same algorithm.
 
-## Ratio of Lexer vs Parser By 10143 Grammars
+## 7th Step: Q(19, 10)
 
 Now let's discuss on how many grammar's will involve on each cycles.
 
