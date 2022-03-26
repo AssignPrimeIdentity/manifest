@@ -13,7 +13,7 @@ This sample was developed by converting [eQuantum](https://github.com/eq19) to [
 
 [![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://eq19.github.io/images/banner.jpg)](https://www.eq19.com/)
 
-Each cycles will have a total of seven (7) steps primes algorithm of base 10 that consist of [three (3) leading steps](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168) by lexer: (10, 30), (30, 36), (36, 114) and [four (4) lagging steps](https://github.com/eq19/quantum#next-target-tabulate-prime-by-618) by parser: (114, 89), (89, 29), (29, 19), (19, 10):
+Each cycles will have a total of seven (7) steps primes algorithm of base 10 that consist of [three (3) leading steps](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168): Q(10, 30), Q(30, 36), Q(36, 114) and [four (4) lagging steps](https://github.com/eq19/quantum#next-target-tabulate-prime-by-618): Q(114, 89), Q(89, 29), Q(29, 19), Q(19, 10):
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/70385860-e5074f00-19c3-11ea-92f3-ec6f33bf9774.png>
 
@@ -188,17 +188,19 @@ So the further process would always continously become the same algorithm.
 
 # Next Target: Tabulate Prime by 618
 
-This release has mapped the primes to π(1000)=168 as the main lexer. So the next target is about 618 as the main parser which hold the key of <code>init</code> as the road map to π(1000x1000). So here it goes to **1 Million Primes**.
+Within this development we will discuss about the interconnection between 168 and 618. Our pre-release has mapped the primes to π(1000)=168 as the main lexer. So the next target is about 618 as the main parser 
 
 <img src=https://user-images.githubusercontent.com/36441664/84902333-e6ce6f80-b0d6-11ea-8289-aac5e1961cd6.gif>
 
-Within this development we will discuss about the interconnection between 168 and 618. One of the major case is that we will start parser with the lagging steps. The basic algorithm is Synthesis of leading and lagging strands of DNA.
+One of the major case is that we will start with the lagging steps. The basic algorithm is Synthesis of leading and lagging strands of DNA.
 
 <img src=https://user-images.githubusercontent.com/36441664/97624272-73137a80-1a59-11eb-8784-8f131e488847.jpg>
 
 <blockquote>The leading strand is synthesized continuously in the direction of replication fork movement. The lagging strand is synthesized in small pieces (Okazaki fragments) backward from the overall direction of replication. The Okazaki fragments are then joined by the action of DNA ligase.</blockquote>
 
-Beaides it, there is also strong signal that this parser will have the correlation with Φ=1,618 of _[(Golden Ratio)](https://www.google.com/search?q=Golden+Ratio)_ that leads to a kind of **gap and turbulences** in [the primes geometri](https://github.com/chetabahana).
+Beaides it, there is also strong signal that this parser will have the correlation with Φ=1,618 of _[(Golden Ratio)](https://www.google.com/search?q=Golden+Ratio)_ that leads to a kind of **gap and turbulences** in [the primes geometri](https://github.com/chetabahana) which hold the key of <code>init</code> as the road map to π(1000x1000).
+
+So here it goes **1 Million Primes**.
 
 ## 4th Step: Q(114, 89)
 
