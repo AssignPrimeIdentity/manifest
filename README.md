@@ -174,13 +174,21 @@ See that out of 19 the number 89 is located precissely at the of Δ11 within the
 - The Δ18 brings the 30th and 36th cycled back to 102th thus consequently it goes to the 114th prime
 - The 114th prime which is carrying the loop(1000) is reinjected by 619-1 or 618 on the same spot.
 
-# Next Target: Tabulate Prime by 618
-
 You may agree that all of this algorithm seems like a primes orchestra. By sourcing and studying of many references, the closest behaviour of the crossing on above primes flowing is found with the wave shown on _**Δ1=(19 vs 18) Loops**_  as below.
 
 [![Δ(19 vs 18)](https://user-images.githubusercontent.com/36441664/107478328-de69fe00-6bab-11eb-8d5f-7517c94b7299.png)](https://github.com/chetabahana/trace/wiki)
 
-This Δ(19 vs 18) scenario will duplicate the loops of 618 as _π(89²) of 1000 Primes_. Thus its behaviour will return to _168 Primes of π(1000)_  out of the adjacent scheme. So the further process would always continously become the same algorithm. 
+This Δ(19 vs 18) scenario will duplicate the loops of 618 as _π(89²) of 1000 Primes_. Thus its behaviour will return to _168 Primes of π(1000)_  out of the adjacent scheme.
+
+So the further process would always continously become the same algorithm. 
+
+# Next Target: Tabulate Prime by 618
+
+This release has mapped the primes to π(1000)=168 as the main lexer. So the next target is about 618 as the main parser which hold the key of <code>init</code> as the road map to π(1000x1000). So here it goes to **1 Million Primes**.
+
+<img src=https://user-images.githubusercontent.com/36441664/84902333-e6ce6f80-b0d6-11ea-8289-aac5e1961cd6.gif>
+
+Within this development we will discuss about the interconnection between 168 and 618. There is a strong signal that this step will have the correlation with Φ=1,618 of _[(Golden Ratio)](https://www.google.com/search?q=Golden+Ratio)_ that leads to a kind of **gap and turbulences** in [the primes geometri](https://github.com/chetabahana).
 
 [<img width=100% src="https://user-images.githubusercontent.com/36441664/76146565-6f944300-60c6-11ea-829d-16f98dc94163.png">](https://www.hexspin.com/defining-the-prime-hexagon/)
 
@@ -202,21 +210,11 @@ This will take place on the 150 that should have a delta of Δ18 to the last num
 
 [<img width=100% src=https://user-images.githubusercontent.com/36441664/107850441-06b85d80-6e35-11eb-8787-b947d7c60c2e.png>](https://github.com/chetabahana/tensorflow/wiki/Programming)
 
-Let's consider this flowchart of 168 as a lexer so the parser has to be designed to absorb the flow between the 30th and 36th. Then it will slightly form as a Metatron Cube of the hexagonal form of 18's Cell. Here we assign it as the diagram of 618.
+Let's consider this flowchart of 168 as a lexer so the parser has to be designed to absorb the flow between the 30th and 36th. Then it will slightly form as a Metatron Cube of the hexagonal form of 18's Cell.
 
 [<img width=100% src=https://user-images.githubusercontent.com/36441664/107083678-9607b480-6828-11eb-9cdf-cfdfc4f6face.png>](https://github.com/chetabahana/tensorflow/wiki/Programming)
 
-You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) which is developed to represent this diagram. Clicking on each of objects will turn to 6 (six) diagrams in the form of [prime hexagon](https://github.com/chetabahana/hexagon) which is then return to the beginning.
-
-[![Sequence Diagram](https://user-images.githubusercontent.com/36441664/107134254-ee22e180-6922-11eb-9465-3dd64ebf7dca.png)](https://chetabahana.github.io/#chetabahana-skema?pad=2)
-
-This is formed as a partial of _168 (mapping) and 618 (feeding)_ that stand as  [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of The M+F to C1+C2. In order to get code able to run online then the 168 is provided in [json](https://chetabahana.github.io/feed.json) while 618 in [xml](https://chetabahana.github.io/feeds.xml).
-
-This release has mapped the primes to π(1000)=168 as the main lexer. So the next target is about 618 as the main parser which hold the key of <code>init</code> as the road map to π(1000x1000). So here it goes to **1 Million Primes**.
-
-<img src=https://user-images.githubusercontent.com/36441664/84902333-e6ce6f80-b0d6-11ea-8289-aac5e1961cd6.gif>
-
-Within this development we will discuss about the interconnection between 168 and 618. There is a strong signal that this step will have the correlation with Φ=1,618 of _[(Golden Ratio)](https://www.google.com/search?q=Golden+Ratio)_ that leads to a kind of **gap and turbulences** in [the primes geometri](https://github.com/chetabahana).
+Here we assign it as the diagram of 618.
 
 ## 5th Step: Q(89, 29)
 
@@ -383,6 +381,14 @@ This 10143 will comprise of lexer and parser similar with 168 & 618. Since the 1
 The development of this 10143 will take several unsolved cases of modern science including _[DNA Replication Fork](https://en.wikipedia.org/wiki/DNA_replication#Replication_fork)_, _[Alzheimer's Disease](https://youtube.com/channel/UCOsNkZ66SBJcuTBR2dcWeSA)_, _[The Millenium Prize Problems](https://github.com/chetabahana/tensorflow/wiki/Untouched-Intelligences#scheme)_, etc as basic grammars such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ using _[P=NP](https://github.com/chetabahana/track/wiki)_.
 
 [<img width=100% src=https://user-images.githubusercontent.com/8466209/90597914-32f37880-e21c-11ea-81b3-ffdcd47037b8.png>](https://github.com/chetabahana/chetabahana.github.io/wiki#kelas)
+
+# Running Code
+
+You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) which is developed to represent this diagram. Clicking on each of objects will turn to 6 (six) diagrams in the form of [prime hexagon](https://github.com/chetabahana/hexagon) which is then return to the beginning.
+
+[![Sequence Diagram](https://user-images.githubusercontent.com/36441664/107134254-ee22e180-6922-11eb-9465-3dd64ebf7dca.png)](https://chetabahana.github.io/#chetabahana-skema?pad=2)
+
+This is formed as a partial of _168 (mapping) and 618 (feeding)_ that stand as  [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of The M+F to C1+C2. In order to get code able to run online then the 168 is provided in [json](https://chetabahana.github.io/feed.json) while 618 in [xml](https://chetabahana.github.io/feeds.xml).
 
 The Pre-release 168 is being developed with _[Passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope this 10143 to become 1st Release.
 
