@@ -384,8 +384,6 @@ The development of this 10143 will take several unsolved cases of modern science
 
 # Running Code
 
-This is formed as a partial of _168 (mapping) and 618 (feeding)_ that stand as  [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of The M+F to C1+C2. In order to get code able to run online then the 168 is provided in [json](https://chetabahana.github.io/feed.json) while 618 in [xml](https://chetabahana.github.io/feeds.xml).
-
 You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) which is developed to represent this diagram.
 
 [![Sequence Diagram](https://user-images.githubusercontent.com/36441664/107134254-ee22e180-6922-11eb-9465-3dd64ebf7dca.png)](https://chetabahana.github.io/#chetabahana-skema?pad=2)
@@ -393,6 +391,8 @@ You may check the running code starting with [Sequence Diagram](https://chetabah
 Clicking on each of objects will turn to 6 (six) diagrams in the form of [prime hexagon](https://github.com/chetabahana/hexagon) which is then return to the beginning.
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/86481184-b72b9280-bd79-11ea-899b-51db929fc3d2.png>
+
+This is formed as a partial of _168 (mapping) and 618 (feeding)_ that stand as  [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of The M+F to C1+C2. In order to get code able to run online then the 168 is provided in [json](https://chetabahana.github.io/feed.json) while 618 in [xml](https://chetabahana.github.io/feeds.xml).
 
 The Pre-release 168 is being developed with _[Passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope this 10143 to become 1st Release.
 
