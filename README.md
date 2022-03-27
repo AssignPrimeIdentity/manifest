@@ -398,7 +398,7 @@ The next step is about the algorithm of how the four (4) blocks of (102, 66, 329
   12+13+(18+18)+13+12  ← 36th-Δ1=151-1=150=100+2x(13+12)  ←  30th = 113 = 114-1
 ```
   
-By the next loop (1000x1000) of the above leads to 618=1000/Φ = 1000x1000/1618. Now let's count on how many grammar's will involve on this stage.
+By the next loop of (1000x1000) the above leads to 329+289 = 618 = 1000/Φ = 1000x1000/1618. Now let's count on how many grammar's will involve.
 
 ```
 Root Generation:
