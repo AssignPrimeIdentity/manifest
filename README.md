@@ -374,7 +374,7 @@ So it will form back to the begining stage with different form of input but its 
 
 ## 7th Step: Q(19, 10)
 
-The next step is about the algorithm of how the four (4) blocks of (102, 66, 329, 289) forms to the roots as shown in the 1st step above (See the 1st row marked by **Quantum** below).
+The next step is about the algorithm of how the four (4) blocks of (102, 66, 329, 289) forms to the four (4) roots. See the 1st row marked by **Quantum** below.
 
 ```
   --------------------+----+----+----+----+----+----+----+----+----+-----
@@ -398,7 +398,7 @@ The next step is about the algorithm of how the four (4) blocks of (102, 66, 329
   12+13+(18+18)+13+12  ← 36th-Δ1=151-1=150=100+2x(13+12)  ←  30th = 113 = 114-1
 ```
   
-By the next loop (1000x1000) of the above prime algorithm leads to 618=1000/Φ = 1000x1000/1618. Now let's count on how many grammar's will involve on this stage.
+By the next loop (1000x1000) of the above leads to 618=1000/Φ = 1000x1000/1618. Now let's count on how many grammar's will involve on this stage.
 
 ```
 Root Generation:
@@ -415,7 +415,7 @@ The development of this 6200 by 3900 is considered final. It is the most complex
 
 [<img width=100% src=https://user-images.githubusercontent.com/8466209/90597914-32f37880-e21c-11ea-81b3-ffdcd47037b8.png>](https://github.com/chetabahana/chetabahana.github.io/wiki#kelas)
 
-It will take several unsolved cases of modern science including _[DNA Replication Fork](https://en.wikipedia.org/wiki/DNA_replication#Replication_fork)_, _[Alzheimer's Disease](https://youtube.com/channel/UCOsNkZ66SBJcuTBR2dcWeSA)_, _[The Millenium Prize Problems](https://github.com/chetabahana/tensorflow/wiki/Untouched-Intelligences#scheme)_, etc as basic grammars such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ using _[P=NP](https://github.com/chetabahana/track/wiki)_.
+It will take several unsolved cases of modern science including _[DNA Replication Fork](https://en.wikipedia.org/wiki/DNA_replication#Replication_fork)_, _[Alzheimer's Disease](https://youtube.com/playlist?list=PL_S8nmGoQ7q6wKXUG8HBqPzoAhRmVCmSJ)_, _[The Millenium Prize Problems](https://github.com/chetabahana/tensorflow/wiki/Untouched-Intelligences#scheme)_, etc as basic grammars such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ using _[P=NP](https://github.com/chetabahana/track/wiki)_.
  
  # Running Code
 
