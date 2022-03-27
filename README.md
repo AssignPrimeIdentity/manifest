@@ -374,9 +374,30 @@ So it will form back to the begining stage with different form of input but its 
 
 ## 7th Step: Q(19, 10)
 
-Now let's discuss on how many grammar's will involve on each cycles.
-
-By the next loop (1000x1000) of the above prime algorithm we will get [Total Grammar of 10143](https://youtube.com/playlist?list=PL_S8nmGoQ7q6wKXUG8HBqPzoAhRmVCmSJ) which leads to 618=1000/Φ = 1000x1000/1618.
+The final step is about the algorithm of 19 cells above. It shall form the four (4) roots as shown in the 1st step above (See the 1st row marjed **Quantum** below).
+```
+  --------------------+----+----+----+----+----+----+----+----+----+-----
+   True Prime Pairs Δ |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | Sum 
+  ====================+====+====+====+====+====+====+====+====+====+=====
+   π(10) 19           |  2 |  3 |  5 |  7 |  - |  - |  - |  - |  - | 4th  4 x Root <---- Quantum
+  --------------------+----+----+----+----+----+----+----+----+----+-----
+   π(20) 17           | 11 | 13 | 17 | 19 |  - |  - |  - |  - |  - | 8th  4 x Twin
+  --------------------+----+----+----+----+----+----+----+----+----+-----
+   π(30) 13 → 12     | 23 | 29 |  - |  - |  - |  - |  - |  - |  - |10th
+  ====================+====+====+====+====+====+====+====+====+====+===== 1st Twin
+   π(50) 11           | 31 | 37 | 41 |  - |  - |  - |  - |  - |  - |13th
+  --------------------+----+----+----+----+----+----+----+----+----+----- 2nd Twin
+   π(60)  7 → 19     | 43 | 47 | 53 | 59 |  - |  - |  - |  - |  - |17th
+  --------------------+----+----+----+----+----+----+----+----+----+----- 3rd Twin
+   π(80)  5 → 18     | 61 | 67 | 71 |  - |  - |  - |  - |  - |  - |20th
+  ====================+====+====+====+====+====+====+====+====+====+===== 4th Twin
+   π(100) 0 → 43     | 73 | 79 | 83 | 89 | 97 | 101| 103| 107| 109|29th 
+  ====================+====+====+====+====+====+====+====+====+====+=====
+           Δ                                                         Δ
+  12+13+(18+18)+13+12  ← 36th-Δ1=151-1=150=100+2x(13+12)  ←  30th = 113 = 114-1
+```
+  
+By the next loop (1000x1000) of the above prime algorithm we will get [Total Grammar of 10143](https://youtube.com/playlist?list=PL_S8nmGoQ7q6wKXUG8HBqPzoAhRmVCmSJ) which leads to 618=1000/Φ = 1000x1000/1618. Now let's discuss on how many grammar's will involve on this stage.
 
 ```
 Root Generation:
