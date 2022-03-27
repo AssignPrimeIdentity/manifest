@@ -366,7 +366,7 @@ This 19 has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we come 
  168 + 618 = 168 + 329 + 289 = (7x24) + (7x47) + (8+9)² = (7x71) + (17x17)
 ```
 
-So [the next target](https://github.com/chetabahana/chetabahana.github.io/discussions/categories/announcements) we will discuss about 1000/Φ = 618 = 619-1 = 114th prime - 1 as a lexer and parser shown below: 
+On [the next target](https://github.com/chetabahana/chetabahana.github.io/discussions/categories/announcements) we will discuss about 1000/Φ = 618 = 619-1 = 114th prime - 1 as a lexer and parser shown below: 
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/110807586-c58d5f00-82b5-11eb-81e2-dbde7d628b37.png>
 
@@ -374,7 +374,7 @@ So it will form back to the begining stage with different form of input but its 
 
 ## 7th Step: Q(19, 10)
 
-The next step is about the algorithm of how the four (4) blocks of (102, 66, 329, 289) forms to the four (4) roots. See the 1st row marked by **Quantum** below.
+This step is about the algorithm of how the four (4) blocks of (102, 66, 329, 289) forms to the four (4) roots. See the 1st row marked by **Quantum** below.
 
 ```
   --------------------+----+----+----+----+----+----+----+----+----+-----
@@ -398,7 +398,7 @@ The next step is about the algorithm of how the four (4) blocks of (102, 66, 329
   12+13+(18+18)+13+12  ← 36th-Δ1=151-1=150=100+2x(13+12)  ←  30th = 113 = 114-1
 ```
   
-By the next loop of (1000x1000) the above leads to 329+289 = 618 = 1000/Φ = 1000x1000/1618. Now let's count on how many grammar's will involve.
+By the next loop of (1000x1000) the above term leads to 329+289 = 618 = 1000/Φ = 1000x1000/1618. Now let's count on how many grammar's will involve.
 
 ```
 Root Generation:
