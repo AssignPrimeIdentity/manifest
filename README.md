@@ -121,9 +121,9 @@ See that from this 17's to18's it goes finally to the _[19's Cells](https://gith
   =====+====+====+====+====+====+====+====+====+====+====+====+====+====+====+=====+=====+====+====+
     Δ1 | 19 |  - | 31 | 37 |  - |  - |  - |  - |  - |  - |  - |  - |  - |  - | 103 |  -  |  - |  - |
        +----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
-    Δ2 | 20 | 26|  - | 38 |  - |  - |  - |  - |  - | 74|  - |  - |  - | 98| 104|  -  |  - |  - |
+    Δ2 | 20 | 26 |  - | 38 |  - |  - |  - |  - |  - | 74 |  - |  - |  - | 98 | 104 |  -  |  - |  - |
   -----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+ 
-    Δ3 | 21 | 27|  - | 39 |  - |  - |  - |  - |  - | 75|  - |  - |  - | 99| 105|  -  |  - |  - |
+    Δ3 | 21 | 27 |  - | 39 |  - |  - |  - |  - |  - | 75 |  - |  - |  - | 99 | 105 |  -  |  - |  - |
        +----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
     Δ4 | 22 | 28 |  - | 40 |  - |  - |  - |  - |  - | 76 |  - |  - |  - |100 |  -  |  -  |  - |  - |
   -----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
@@ -145,9 +145,9 @@ See that from this 17's to18's it goes finally to the _[19's Cells](https://gith
   =====+====+====+====+====+====+====+====+====+====+====+====+====+====+====+=====+=====+====+====+
    Δ13 |  - |  - |  - | 49 |  - | 61 | 67 |  - |  - | 85 |  - |  - |  - |  - |  -  | 109 |  - |  - | 
        +----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
-   Δ14 |  - |  - | 32| 50|  - | 62 | 68|  - |  - | 86|  - |  - |  - |  - |  -  | 110|  - |  - | 
+   Δ14 |  - |  - | 32 | 50 |  - | 62 | 68 |  - |  - | 86 |  - |  - |  - |  - |  -  | 110 |  - |  - | 
   -----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
-   Δ15 |  - |  - | 33| 51|  - | 63 | 69|  - |  - | 87|  - |  - |  - |  - |  -  | 111|  - |  - | 
+   Δ15 |  - |  - | 33 | 51 |  - | 63 | 69 |  - |  - | 87 |  - |  - |  - |  - |  -  | 111 |  - |  - | 
        +----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
    Δ16 |  - |  - | 34 |  - |  - | 64 |  - |  - |  - |  - |  - |  - |  - | -  | 106 |  -  |  - |  - | 
   -----+----+----+----+----+----+----+----+----+----+----+----+----+----+----+-----+-----+----+----+
@@ -370,60 +370,68 @@ So [the next target](https://github.com/chetabahana/chetabahana.github.io/discus
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/110807586-c58d5f00-82b5-11eb-81e2-dbde7d628b37.png>
 
-So it will form back to the begining stage with different form of input but its process will be the same algorithm.
+So it will form back to the begining stage with different form of input but its process will be the same algorithm. Means the 19 cells above shall form back to π(10).
 
 ## 7th Step: Q(19, 10)
 
-The final step is about the algorithm of 19 cells above. It shall form the four (4) roots as shown in the 1st step above (See the 1st row marjed **Quantum** below).
+The next step is about the algorithm of how the four (4) blocks of (102, 66, 329, 289) forms to the roots as shown in the 1st step above (See the 1st row marked by **Quantum** below).
+
 ```
   --------------------+----+----+----+----+----+----+----+----+----+-----
    True Prime Pairs Δ |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | Sum 
   ====================+====+====+====+====+====+====+====+====+====+=====
-   π(10) 19           |  2 |  3 |  5 |  7 |  - |  - |  - |  - |  - | 4th  4 x Root <---- Quantum
+   π(10) Quantum ← 19 |  2 |  3 |  5 |  7 |  - |  - |  - |  - |  - | 4th  4 x Root
   --------------------+----+----+----+----+----+----+----+----+----+-----
    π(20) 17           | 11 | 13 | 17 | 19 |  - |  - |  - |  - |  - | 8th  4 x Twin
   --------------------+----+----+----+----+----+----+----+----+----+-----
-   π(30) 13 → 12     | 23 | 29 |  - |  - |  - |  - |  - |  - |  - |10th
+   π(30) 13 → 12      | 23 | 29 |  - |  - |  - |  - |  - |  - |  - |10th
   ====================+====+====+====+====+====+====+====+====+====+===== 1st Twin
    π(50) 11           | 31 | 37 | 41 |  - |  - |  - |  - |  - |  - |13th
   --------------------+----+----+----+----+----+----+----+----+----+----- 2nd Twin
-   π(60)  7 → 19     | 43 | 47 | 53 | 59 |  - |  - |  - |  - |  - |17th
+   π(60)  7 → 19      | 43 | 47 | 53 | 59 |  - |  - |  - |  - |  - |17th
   --------------------+----+----+----+----+----+----+----+----+----+----- 3rd Twin
-   π(80)  5 → 18     | 61 | 67 | 71 |  - |  - |  - |  - |  - |  - |20th
+   π(80)  5 → 18      | 61 | 67 | 71 |  - |  - |  - |  - |  - |  - |20th
   ====================+====+====+====+====+====+====+====+====+====+===== 4th Twin
-   π(100) 0 → 43     | 73 | 79 | 83 | 89 | 97 | 101| 103| 107| 109|29th 
+   π(100) 0 → 43      | 73 | 79 | 83 | 89 | 97 | 101| 103| 107| 109|29th 
   ====================+====+====+====+====+====+====+====+====+====+=====
            Δ                                                         Δ
   12+13+(18+18)+13+12  ← 36th-Δ1=151-1=150=100+2x(13+12)  ←  30th = 113 = 114-1
 ```
   
-By the next loop (1000x1000) of the above prime algorithm we will get [Total Grammar of 10143](https://youtube.com/playlist?list=PL_S8nmGoQ7q6wKXUG8HBqPzoAhRmVCmSJ) which leads to 618=1000/Φ = 1000x1000/1618. Now let's discuss on how many grammar's will involve on this stage.
+By the next loop (1000x1000) of the above prime algorithm leads to 618=1000/Φ = 1000x1000/1618. Now let's discuss on how many grammar's will involve on this stage.
 
 ```
 Root Generation:
- root[1000] = 168 + 1091 + 8884 = 10143
  root[1000] = π(1000) + loop(10 x 1000)  +  loop(100 x 1000) 
  loop(10000) => π(10000) - (10th)th - 10th = 1229 - 109 - 29 = 1091
  loop(100000) => π(100000) - ((10th)th)th - (10th)th = 9592 - 599 - 109 = 8884
+
+ root[1000] = 168 + 1091 + 8884 = 10143
 ```
 
 This 10143 will comprise of lexer and parser similar with 168 & 618. Since the 168 algorithm is set 102 by 66 then its ratio is 102/168=60% by 66/168=40% or approx 10143x60%=6200 of lexers by 10143x40%=3900 of parsers.
 
+The development of this 6200 by 3900 is considered final. It is the most complex thing among the other steps because we have to bring many items from human sciences to verify and proof that this is true.
+
 [<img width=100% src=https://user-images.githubusercontent.com/8466209/90597914-32f37880-e21c-11ea-81b3-ffdcd47037b8.png>](https://github.com/chetabahana/chetabahana.github.io/wiki#kelas)
 
-The development of this 10143 will take several unsolved cases of modern science including _[DNA Replication Fork](https://en.wikipedia.org/wiki/DNA_replication#Replication_fork)_, _[Alzheimer's Disease](https://youtube.com/channel/UCOsNkZ66SBJcuTBR2dcWeSA)_, _[The Millenium Prize Problems](https://github.com/chetabahana/tensorflow/wiki/Untouched-Intelligences#scheme)_, etc as basic grammars such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ using _[P=NP](https://github.com/chetabahana/track/wiki)_.
+Therefore will take several unsolved cases of modern science including _[DNA Replication Fork](https://en.wikipedia.org/wiki/DNA_replication#Replication_fork)_, _[Alzheimer's Disease](https://youtube.com/channel/UCOsNkZ66SBJcuTBR2dcWeSA)_, _[The Millenium Prize Problems](https://github.com/chetabahana/tensorflow/wiki/Untouched-Intelligences#scheme)_, etc as basic grammars such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ using _[P=NP](https://github.com/chetabahana/track/wiki)_.
 
-# Running Code
+Thus it actually holds the meaning of **[eQ19](https://github.com/eq19)**.
+ 
+ # Running Code
 
-You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) which is developed to represent this diagram.
+You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) which is developed to represent this diagram. Clicking on each of objects will turn to 6 (six) diagrams in the form of [prime hexagon](https://github.com/chetabahana/hexagon) which is then return to the beginning.
 
 [![Sequence Diagram](https://user-images.githubusercontent.com/36441664/107134254-ee22e180-6922-11eb-9465-3dd64ebf7dca.png)](https://chetabahana.github.io/#chetabahana-skema?pad=2)
 
-Clicking on each of objects will turn to 6 (six) diagrams in the form of [prime hexagon](https://github.com/chetabahana/hexagon) which is then return to the beginning.
+In order to get code able to run online then the 168 is provided in [json](https://chetabahana.github.io/feed.json) while 618 in [xml](https://chetabahana.github.io/feeds.xml).
+
+<img width=100% src=https://user-images.githubusercontent.com/36441664/69475449-ce77ca00-0dff-11ea-964e-cc959db0740a.png>
+
+This is formed as a partial of _168 (mapping) and 618 (feeding)_ that stand as  [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of The M+F to C1+C2. 
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/86481184-b72b9280-bd79-11ea-899b-51db929fc3d2.png>
-
-This is formed as a partial of _168 (mapping) and 618 (feeding)_ that stand as  [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of The M+F to C1+C2. In order to get code able to run online then the 168 is provided in [json](https://chetabahana.github.io/feed.json) while 618 in [xml](https://chetabahana.github.io/feeds.xml).
 
 The Pre-release 168 is being developed with _[Passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope this 10143 to become 1st Release.
 
