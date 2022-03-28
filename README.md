@@ -6,7 +6,7 @@ Still far from production but at least it has a minimum error. This is the parti
 
 [![eQ19 Project | GitHub](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://eq19.github.io/)
 
-The _M+F_ symbols will stand as: [Project Maps (168)](https://chetabahana.github.io/feed.json) + [Project Feed (618)](https://chetabahana.github.io/feeds.xml) while<br>
+The _M+F_ symbols will stand as: [Project Maps (168)](https://github.com/eq19/maps) + [Project Feed (618)](https://github.com/eq19/feed) while<br>
 _C1+C2_ as implementations, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
 
 This sample was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using the cyclic algorithm of **168 vs 618** that act as [Lexer and Parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers).
