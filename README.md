@@ -325,7 +325,19 @@ This 19 has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we come 
    3  +-----+     } 36 » 6®
       |  6  | 19
  -----+-----+---------
- 
+ ```
+
+Let's take the end number each of the three (3) pairs then il will come to the 66:
+
+<img src=https://user-images.githubusercontent.com/36441664/83051968-e2cfa480-a078-11ea-8ff2-316a809a8fad.jpg>
+
+On [the next target](https://github.com/chetabahana/chetabahana.github.io/discussions/categories/announcements) we will discuss about 1000/Φ = 618 = 619-1 = 114th prime - 1 as a lexer and parser shown below: 
+
+<img width=100% src=https://user-images.githubusercontent.com/36441664/110807586-c58d5f00-82b5-11eb-81e2-dbde7d628b37.png>
+
+Combining the two (2) algorithm then it will give the tabulation as below:
+
+```
  Scheme:
  168 + 329 + 289 = 786
  d(786) = d(7+8+6) = d(21) = d(3)
@@ -365,10 +377,6 @@ This 19 has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we come 
  168 = 102 + 66 = 2x3x((8+9)+(2+9)) = π(Φ(289+329)) = π(Φ((8+9)²+(1+2)&29))
  168 + 618 = 168 + 329 + 289 = (7x24) + (7x47) + (8+9)² = (7x71) + (17x17)
 ```
-
-On [the next target](https://github.com/chetabahana/chetabahana.github.io/discussions/categories/announcements) we will discuss about 1000/Φ = 618 = 619-1 = 114th prime - 1 as a lexer and parser shown below: 
-
-<img width=100% src=https://user-images.githubusercontent.com/36441664/110807586-c58d5f00-82b5-11eb-81e2-dbde7d628b37.png>
 
 So it will form back to the begining stage with different form of input but its process will be the same algorithm. Means the 19 cells above shall form back to π(10).
 
