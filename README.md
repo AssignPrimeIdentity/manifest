@@ -230,6 +230,10 @@ Here we assign it as the diagram of 618.
 
 ## 5th Step: Q(89, 29)
 
+The bilateral sum 9 will then double this 43 to 86 and act as the lexer while the prime 71 and 109 will act as the parser. This will compensate the other primes by the other of circles of the metatron which consist of 6 internal and 6 external.
+
+<img width=100% src=https://user-images.githubusercontent.com/8466209/90985852-ca542500-e5a8-11ea-9027-9bfdcbe37966.jpg>
+
 Let's look again to the Δ1 tabulation above. Take a note that the last rows has a sum of 43 which covered by prime 71 up the last prime of 109. See what is happen on the Central of Metatron which having the prime 13.
 
 ```
@@ -297,9 +301,9 @@ True Prime Vektors ζ(s):
 ----------------------+-----+                                                ---
 ```
 
-The bilateral sum 9 will then double this 43 to 86 and act as the lexer while the prime 71 and 109 will act as the parser. This will compensate the other primes by the other of circles of the metatron which consist of 6 internal and 6 external.
+See that this configuration showing a kind of turbulences which leads to a gap in the central of metatron where the replication is initiated there. The basic algorithm would take thr mechanism of DNA generation from RNA.
 
-<img width=100% src=https://user-images.githubusercontent.com/8466209/90985852-ca542500-e5a8-11ea-9027-9bfdcbe37966.jpg>
+<img width=100% src=https://user-images.githubusercontent.com/36441664/100724943-01cb3c80-33f6-11eb-8564-c5a9ced2b668.png>
 
 By the configuration above then on the upper scheme the central of metatron will turn to seven (7) circles. So combine it with the other 12 circles they will forms as the 19 out of _True Prime Pairs_.
 
