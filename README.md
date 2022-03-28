@@ -9,7 +9,7 @@ Still far from production but at least it has a minimum error. This is the parti
 The _M+F_ symbols will stand as: [Project Maps (M)](https://github.com/eq19/maps) + [Project Feed (F)](https://github.com/eq19/feed) while<br>
 _C1+C2_ as implementations, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
 
-This sample was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using the cyclic algorithm of **168 vs 618** that act as [Lexer and Parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers).
+This sample was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using the cyclic algorithm of **[168](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168) vs [618](https://github.com/eq19/quantum#next-target-tabulate-prime-by-618)** that act as [Lexer and Parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers).
 
 [![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://eq19.github.io/images/banner.jpg)](https://github.com/eq19/maps)
 
