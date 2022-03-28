@@ -11,7 +11,7 @@ _C1+C2_ as implementations, see sample: [Project Base (C1)](https://chetabahana.
 
 This sample was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using the cyclic algorithm of **168 vs 618** that act as [Lexer and Parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers).
 
-[![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://eq19.github.io/images/banner.jpg)](https://www.eq19.com/)
+[![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://eq19.github.io/images/banner.jpg)](https://github.com/eq19/maps)
 
 Each cycles will have a total of seven (7) steps primes algorithm of base 10 that consist of [three (3) leading steps](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168): Q(10, 30), Q(30, 36), Q(36, 114) and [four (4) lagging steps](https://github.com/eq19/quantum#next-target-tabulate-prime-by-618): Q(114, 89), Q(89, 29), Q(29, 19), Q(19, 10):
 
