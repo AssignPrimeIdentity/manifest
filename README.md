@@ -445,7 +445,7 @@ This is formed as a partial of _168 (mapping) and 618 (feeding)_ that stand as  
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/86481184-b72b9280-bd79-11ea-899b-51db929fc3d2.png>
 
-The Pre-release 168 is being developed with _[passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope those _10143_ to become 1st Release.
+_The Pre-release 168_ is being developed with _[passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the _[19 Cells](https://github.com/eq19/quantum#6th-step-q29-19)_ of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope those _10143_ to become 1st Release.
 
 So Be Patient and Stay Tuned!
 
