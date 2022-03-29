@@ -431,7 +431,7 @@ Therefore it will take several unsolved cases of modern science including but no
  
  # Running Code
 
-You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) shown below which is developed to represent [the initial step](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168) on buikding the above _[10143](https://github.com/eq19/quantum#7th-step-q19-10) Grammars_.
+You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) shown below which is developed as [the initial step](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168) on building the above _[10143 Grammars](https://github.com/eq19/quantum#7th-step-q19-10)_.
 
 [![Sequence Diagram](https://user-images.githubusercontent.com/36441664/107134254-ee22e180-6922-11eb-9465-3dd64ebf7dca.png)](https://chetabahana.github.io/#chetabahana-skema?pad=2)
 
