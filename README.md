@@ -433,10 +433,9 @@ Therefore it will take several unsolved cases of modern science including but no
 
 [<img src=https://user-images.githubusercontent.com/36441664/84623744-1b410080-af0a-11ea-978b-e1fd1961985d.jpg>](https://github.com/chetabahana/track/wiki)
 
-The final result of this Q(19,10) would form π(10)=(2,3,5,7) as the [1st row of 19](https://github.com/eq19/quantum#1st-step-q10-30).<br>
-Thus it actually holds the meaning of _[eQ19](https://github.com/eq19)_.
+The final result of this Q(19,10) would form π(10)=(2,3,5,7) as the [1st row of 19](https://github.com/eq19/quantum#1st-step-q10-30). Thus that is the actual meaning of _[eQ19](https://github.com/eq19)_.
 
- # Running Code
+# Running Code
 
 You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) shown below which is developed as [the initial step](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168) on building the above _[10143 Grammars](https://github.com/eq19/quantum#7th-step-q19-10)_.
 
