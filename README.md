@@ -423,6 +423,8 @@ Root Generation:
 
 This 10143 will comprise of lexer and parser similar with 168 & 618. Since the 168 algorithm is set 102 by 66 then its ratio is 102/168=60% by 66/168=40% or approx 10143x60%=6200 of lexers by 10143x40%=3900 of parsers.
 
+<img src=https://user-images.githubusercontent.com/36441664/71659208-5515b480-2d79-11ea-859f-a20dea0cf680.jpg>
+
 The development of this 6200 by 3900 took its base place in this repository and is considered final. It is the most complex thing among the other steps where we have to involve so many items to verify about how far this development is adoptable. 
 
 [<img width=100% src=https://user-images.githubusercontent.com/8466209/90597914-32f37880-e21c-11ea-81b3-ffdcd47037b8.png>](https://github.com/chetabahana/chetabahana.github.io/wiki#kelas)
