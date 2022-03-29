@@ -423,19 +423,21 @@ Root Generation:
 
 This 10143 will comprise of lexer and parser similar with 168 & 618. Since the 168 algorithm is set 102 by 66 then its ratio is 102/168=60% by 66/168=40% or approx 10143x60%=6200 of lexers by 10143x40%=3900 of parsers.
 
-The development of this 6200 by 3900 is considered final. It is the most complex thing among the other steps because we have to bring many items of human sciences to verify it is true. Thus it actually holds the meaning of _[eQ19](https://github.com/eq19)_.
+The development of this 6200 by 3900 which took place in this repository is considered final. It is the most complex thing among the other steps where we have to bring many items of human sciences to verify about how far this development is adoptable. 
 
 [<img width=100% src=https://user-images.githubusercontent.com/8466209/90597914-32f37880-e21c-11ea-81b3-ffdcd47037b8.png>](https://github.com/chetabahana/chetabahana.github.io/wiki#kelas)
 
 Therefore it will take several unsolved cases of modern science including but not at least _[DNA Replication Fork](https://en.wikipedia.org/wiki/DNA_replication#Replication_fork)_, _[Alzheimer's Disease](https://youtube.com/playlist?list=PL_S8nmGoQ7q6wKXUG8HBqPzoAhRmVCmSJ)_, and _[The Millenium Prize Problems](https://github.com/chetabahana/tensorflow/wiki/Untouched-Intelligences#scheme)_. They will form as basic grammars such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ using _[P=NP](https://github.com/chetabahana/track/wiki)_.
- 
+
+Thus it actually holds the meaning of _[eQ19](https://github.com/eq19)_.
+
  # Running Code
 
 You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) shown below which is developed as [the initial step](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168) on building the above _[10143 Grammars](https://github.com/eq19/quantum#7th-step-q19-10)_.
 
 [![Sequence Diagram](https://user-images.githubusercontent.com/36441664/107134254-ee22e180-6922-11eb-9465-3dd64ebf7dca.png)](https://chetabahana.github.io/#chetabahana-skema?pad=2)
 
-Clicking on each of objects will turn to 6 (six) diagrams in the form of [prime hexagon](https://github.com/chetabahana/hexagon) which is then return to the beginning. So in order to get code able to run online then the 168 is provided in [json](https://chetabahana.github.io/feed.json) while 618 in [xml](https://chetabahana.github.io/feeds.xml).
+Clicking on each of objects will turn to 6 (six) diagrams in the cycle form of [prime hexagon](https://github.com/chetabahana/hexagon) which is then return to the beginning. So in order to get code able to run online then the 168 is provided in [json](https://chetabahana.github.io/feed.json) while 618 in [xml](https://chetabahana.github.io/feeds.xml).
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/69475449-ce77ca00-0dff-11ea-964e-cc959db0740a.png>
 
