@@ -431,7 +431,7 @@ Therefore it will take several unsolved cases of modern science including but no
  
  # Running Code
 
-You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) shown below which is developed to represent [the initial step](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168).
+You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) shown below which is developed to represent [the initial step](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168) on buikding the above _[10143](https://github.com/eq19/quantum#7th-step-q19-10) Grammars_.
 
 [![Sequence Diagram](https://user-images.githubusercontent.com/36441664/107134254-ee22e180-6922-11eb-9465-3dd64ebf7dca.png)](https://chetabahana.github.io/#chetabahana-skema?pad=2)
 
@@ -443,7 +443,7 @@ This is formed as a partial of _168 (mapping) and 618 (feeding)_ that stand as  
 
 <img width=100% src=https://user-images.githubusercontent.com/36441664/86481184-b72b9280-bd79-11ea-899b-51db929fc3d2.png>
 
-The Pre-release 168 is being developed with _[passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope this 10143 to become 1st Release.
+The Pre-release 168 is being developed with _[passion](https://github.com/chetabahana/chetabahana.github.io/discussions)_ since it was started 7 (seven) years ago. Based on the 19 Cells of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope those _10143_ to become 1st Release.
 
 So Be Patient and Stay Tuned!
 
