@@ -1,43 +1,7 @@
-# Jekyll Configuration
-
 # General Settings
 # https://jekyllrb.com/docs/configuration/
-
-encoding: utf-8
-livereload: true
-timezone: Asia/Jakarta
-
-# Build Settings
 # https://jekyllrb.com/docs/configuration/options/
-
-include:
-  - .htaccess
-  - feed.json
-  - feed.xml
-
-exclude:
-  - .babelrc
-  - Makefile
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - package.json
-  - yarn.lock
-  - package-lock.json
-  - webpack.config.js
-  - node_modules
-  - Dockerfile
-  - docker_compose.yml
-
-whitelist:
-  - jekyll-feed
-  - jekyll-coffeescript
-  - jekyll-redirect-from
-  
-plugins:
-  - jekyll-feed
-  - jekyll-coffeescript
-  - jekyll-redirect-from
+# https://learn.cloudcannon.com/jekyll-cheat-sheet/
 
 input_types:
 - text
@@ -54,13 +18,66 @@ form_engines:
 - formspree
 - formbucket
 
-# Default Setting
-# https://jekyllrb.com/docs/configuration/front-matter-defaults/
+# Repository Settings
+# https://blog.webjeda.com/jekyll-redirect/
+# https://github.com/dotnet/docs/issues/20459#issuecomment-725295168
+# https://github.com/ethanresnick/json-api-1/blob/gh-pages/_config.yml
+# https://github.com/daattali/beautiful-jekyll/blob/master/_config.yml
 
-collections:
-  feeds:
-    output: true
-    permalink: /:path
+include:
+  - app.js
+  - feed.xml
+  - feed.json
+  - .htaccess
+  - node_modules
+  - package.json
+
+exclude:
+  - Gemfile
+  - .babelrc
+  - Makefile
+  - yarn.lock
+  - Dockerfile
+  - Gemfile.lock
+  - vendor/ruby/
+  - vendor/gems/
+  - vendor/cache/
+  - vendor/bundle/
+  - package-lock.json
+  - webpack.config.js
+  - docker_compose.yml
+
+
+encoding: utf-8
+livereload: true
+limit_posts: 1000
+timezone: Asia/Jakarta
+collections_dir: assets
+excerpt_separator: <!--end_excerpt-->
+
+# Plugins Setting
+# https://pages.github.com/versions/
+# https://github.com/jekyll/jekyll-feed
+# https://en.wikipedia.org/wiki/CoffeeScript
+# https://github.com/jekyll/jekyll-redirect-from
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-coffeescript
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-coffeescript
+  - jekyll-redirect-from
+  
+# Default Setting
+# https://stackoverflow.com/a/49428493
+# https://jekyllrb.com/docs/collections/
+# https://chetabahana.github.io/app/flowchart.json
+# https://jekyllrb.com/docs/configuration/front-matter-defaults
 
 defaults:
   -
@@ -68,16 +85,48 @@ defaults:
       path: ""
       type: "feeds"
     values:
-      layout: "feeds/section"
+      layout: "feeds"
+  -
+    scope:
+      path: ""
+      type: "leads"
+    values:
+      layout: "redirect"
 
-# Site Setting
-# https://jekyllrb.com/docs/configuration/options/
+# Permalinks
+# https://jekyllrb.com/docs/permalinks/
+# feeds: https://chetabahana.github.io/main/tree.json
+# leads: https://chetabahana.github.io/leads/section.json
+# posts: https://chetabahana.github.io/object/2018/132/05/00/00/00/dummy.json
 
-baseurl: ""
-base: _feeds/section
-url: https://chetabahana.github.io
-slogan_link: https://www.chetabahana.com/
-json_link: https://chetabahana.github.io/feed.json
+collections:
+  leads:
+    output: true
+  feeds:
+    output: true
+    permalink: /:categories/:title:output_ext
+  posts:
+    permalink: /:categories/:year/:y_day/:month/:hour/:minute/:second/:title:output_ext
+
+# Feed Setting
+# https://github.com/jekyll/jekyll-feed/issues/2
+# https://www.w3schools.com/xml/xsl_elementref.asp
+# https://github.com/jekyll/jekyll-feed/issues/207#issuecomment-787490785
+
+feed:
+  tags: true
+  posts_limit: 1000
+  excerpt_only: true
+  collections:
+    leads:
+      path: /leads.xml # https://chetabahana.github.io/leads.xml
+    feeds:
+      categories:
+        - main # https://chetabahana.github.io/feed/feeds/main.xml
+        - user # https://chetabahana.github.io/feed/feeds/user.xml
+        - diagram # https://chetabahana.github.io/feed/feeds/diagram.xml
+        - section # https://chetabahana.github.io/feed/feeds/section.xml
+      path: /feeds.xml # https://chetabahana.github.io/feeds.xml
 
 # Kramdown Options
 # https://kramdown.gettalong.org/options.html
@@ -93,17 +142,56 @@ kramdown:
  
 # Custom Headers
 # https://jekyllrb.com/docs/configuration/webrick/
+# https://en.wikipedia.org/wiki/Content_Security_Policy
 
-# webrick:
-#   headers:
-#     My-Header: My-Value
-#     My-Other-Header: My-Other-Value
+webrick:
+  headers:
+    Content-Security-Policy: default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';
+#   My-Other-Header: My-Other-Value
+
+# Tags Setting
+# http://codinfox.github.io/blog/tags/
+# https://longqian.me/2017/02/09/github-jekyll-tag/
+# https://github.com/chetabahana/chetabahana.github.io/tags
+
+case_labels:
+- Buka Toko
+- Stok Barang
+- Merchant Center
+- Peluang Terbaik
+- Portfolio
+- Network
+
+flow_labels:
+- Optimasi
+- Cloud-Task-API
+- Cloud-Site-API
+- Google-Ads-API
+- Google-Trend-API
+- eShop SEO
+
+# Site Setting
+# https://jekyllrb.com/docs/variables/
+# https://stackoverflow.com/a/17260660/4058484
+# https://stackoverflow.com/a/30828197/4058484
+
+baseurl: ""
+basedir: _feeds
+username: chetabahana
+organization: marketleader
+project_link: https://www.chetabahana.com/
+repository: chetabahana/chetabahana.github.io
+json_link: https://chetabahana.github.io/feed.json
 
 # Site Metadata
+# https://stackoverflow.com/a/55094996/4058484
 # https://help.github.com/articles/repository-metadata-on-github-pages/
+# https://www.google.com/search?q=tortoisegit+keep+asking+password+site%3Astackoverflow.com
+# https://stackoverflow.com/questions/3490505/is-there-a-notepad-with-github-plugin/41884020
+# https://stackoverflow.com/questions/14000173/tortoisegit-save-user-authentication-credentials
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 
-title: Project Maps
-repository: chetabahana/chetabahana.github.io
+title: Project Feed
 name: Toko Chetabahana | Projek e-Shop di Indonesia
 slogan: Chetabahana Project - A Way To Win The Market
 description: We are providing an Integrated Open Source Project about The World of e-Commerce.
