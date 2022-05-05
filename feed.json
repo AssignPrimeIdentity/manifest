@@ -1,0 +1,13 @@
+---
+id: 169
+layout: feeds
+---
+{% comment %}
+*
+*  This layout loops through a collection called `feeds` and collect site data 
+*  and page for inclusion to the project mapping.
+*
+*  You may see the running code here:
+*  https://chetabahana.github.io/feed.json
+*
+{% endcomment %}
