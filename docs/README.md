@@ -1,43 +1,125 @@
-# Introduction
-
-This is the partial of [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) from our [Quantum Project](https://github.com/eq19) based on the algorithm of:
-
-**DNA Recombination: [M+F](https://github.com/chetabahana/chetabahana.github.io/blob/Chetabahana/_layouts/feed.rb) to [C1+C2](https://github.com/chetabahana/chetabahana.github.io/blob/workflows/_includes/data/roots.rb):**
-
-[![eQ19 Project | GitHub](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://eq19.github.io/)
-
-The _M+F_ symbols will stand as: [Project Maps (M)](https://github.com/eq19/maps) + [Project Feed (F)](https://github.com/eq19/feed) while<br>
-_C1+C2_ as implementations, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
-
-This sample was developed by converting [eQuantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using the cyclic algorithm of **[168](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168) vs [618](https://github.com/eq19/quantum#next-target-tabulate-prime-by-618)** that act as [Lexer and Parser](https://stackoverflow.com/questions/2842809/lexers-vs-parsers).
-
-[<img width=100% src=https://user-images.githubusercontent.com/36441664/70385860-e5074f00-19c3-11ea-92f3-ec6f33bf9774.png>](https://stackoverflow.com/questions/2842809/lexers-vs-parsers)
-
-Each cycles will have a total of seven (7) steps primes algorithm of base 10 that consist of [three (3) leading steps](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168) of 168: Q(10, 30), Q(30, 36), Q(36, 114) and [four (4) lagging steps](https://github.com/eq19/quantum#next-target-tabulate-prime-by-618) of 618: Q(114, 89), Q(89, 29), Q(29, 19), Q(19, 10). The final result of this Q(19,10) would form π(10)=(2,3,5,7) as the [1st row of 19](https://github.com/eq19/quantum#1st-step-q10-30).
-
-[![Quantum Project - The Concept of Primes Algorithm by DNA Recombination](https://eq19.github.io/images/banner.jpg)](https://github.com/eq19/maps)
-
-Such of method is used to generate a _[basic grammar](https://github.com/chetabahana)_ which algorithm is adaptable for any kind of implementations or applications. Thus that is the actual meaning of _[eQ19](https://github.com/eq19)_.
+<p align="center"> 
+<a href="https://chetabahana.com/">
+<img src="https://chetabahana.files.wordpress.com/2018/04/logoweb.png" alt="Chetabahana.com | Situs Belanja Jual-Beli Barang & Promo Aneka Produk Fashion, Busana Muslim, Bayi & Anak-anak, Kecantikan, Tas, Sepatu, Peralatan Rumah Tangga, Elektronik, Makanan & Minuman Kemasan, dll. Soon The E-Shop Market Leader Will Be Owned Here!"></a><br />
+<a href="https://github.com/MarketLeader">  
+WE ARE GOING TO WIN THE MARKET!
+</a><br /><br />
+</p>  
 
 
-# Running Code
+|[![Chetabahana Project](https://avatars1.githubusercontent.com/u/36441664?v=10&s=20)](https://github.com/chetabahana) |This [repo](#repository "Project Repository") is courtesy of [Chetabahana Project](https://github.com/MarketLeader "We are providing an Integrated Open Source Project about The World of e-Commerce."). Find all of them on [The Project Map](https://marketleader.github.io/#bagan-projek "Project Mapping").|[![Chetabahana Project](https://avatars2.githubusercontent.com/u/36441943?v=10&s=20)](https://github.com/MarketLeader) |
+|:----|----|----:|
 
-Still far from production but at least it has a minimum error. You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) shown below which is developed as [the initial step](https://github.com/eq19/quantum#tabulate-prime-by-the-power-of-168) on building the _[10143 Grammars](https://github.com/eq19/quantum#7th-step-q19-10)_.
+# Tutorial Github & Jeckyll
 
-[![Sequence Diagram](https://user-images.githubusercontent.com/36441664/107134254-ee22e180-6922-11eb-9465-3dd64ebf7dca.png)](https://chetabahana.github.io/#chetabahana-skema?pad=2)
+Di sesi ini akan diuraikan tentang setup situs di GitHub.  
+Anda bisa ikuti panduan untuk clone situs [Chetabahana](https://chetabahana.github.io/) di akun.  
+Disarankan agar ikuti [Cara Simple](#cara-simple) terlebih dahulu.
 
-Clicking on each of objects will turn to 6 (six) diagrams in the cycle form of [prime hexagon](https://github.com/chetabahana/hexagon) which is then return to the beginning. So in order to get code able to run online then the 168 is provided in [json](https://chetabahana.github.io/feed.json) while 618 in [xml](https://chetabahana.github.io/feeds.xml).
+## Cara Simple
+- Langsung [_Fork_](https://help.github.com/articles/fork-a-repo/#fork-an-example-repository) aja [_repo ini_](https://github.com/chetabahana/chetabahana.github.io/fork) juga [_lainnya_](https://github.com/chetabahana?tab=repositories) ke akun.
+- Beri nama `<akun>/<akun>.github.io` terus lakukan [_Settings_](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages).  
+- Tunggu 10 menit. Lalu bros `https://<akun>.github.io`. 
+- Jika belum muncul cek [_Fix GitHub Page Error 404_](https://stackoverflow.com/questions/11577147/how-to-fix-page-404-on-github-page/50034409#50034409).
 
-<img width=100% src=https://user-images.githubusercontent.com/36441664/69475449-ce77ca00-0dff-11ea-964e-cc959db0740a.png>
+## Cara Standar
+- Buka akun Github:<br> 
+https://github.com/join
 
-This is formed as a partial of _168 (mapping) and 618 (feeding)_ that stand as  [the whole scheme](https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of The M+F to C1+C2. Although the code is already running but however it is not yet user friendly as it could run only in _[GitHub API Platform](https://docs.github.com/en/developers)_.
+- Buat organization baru:<br>
+https://github.com/organizations/new
 
-<img width=100% src=https://user-images.githubusercontent.com/36441664/86481184-b72b9280-bd79-11ea-899b-51db929fc3d2.png>
+- Pasang Github di Windows:<br>
+https://windows.github.com/
 
-_The Pre-release 168_ is being developed for _[eCommerce](https://github.com/chetabahana/chetabahana.github.io/discussions/70)_ within 7 (seven) years. Based on the _[19 Cells](https://github.com/eq19/quantum#6th-step-q29-19)_ of 168 vs 618 tabulation then for the 618 it might need another 12 (twelve) years to develope those _10143_ to become 1st Release.
+- Pilih template, atau pakai spt kami, ambil FREE disini:<br>
+http://www.templatemo.com/preview/templatemo_395_urbanic
 
-So Be Patient and Stay Tuned!
+- Ber nama repositorynya: "YOUR-ORGANIZATION.github.io":<br>
+https://help.github.com/articles/getting-started-with-github-for-windows/
 
-:copyright: [The Quantum Project](https://github.com/eq19)  
-[![profile for eQ19 on Stack Exchange, a network of free, community-driven Q&amp;A sites](https://stackexchange.com/users/flair/5054985.png)](https://stackoverflow.com/users/4058484/eq19?tab=profile)   
+- Unduh installer & Devkit for Ruby and setup Jeckyill<br>
+http://jekyll-windows.juthilo.com/1-ruby-and-devkit/    
+
+- Atur site URLs, ikuti petunjuknya:<br>
+http://jekyllrb.com/docs/structure/
+
+- Commit ke Github<br>
+http://martinbuberl.com/blog/setup-jekyll-on-windows-and-host-it-on-github-pages/    
+`
+    git add --all \    
+    git commit -m "Initial commit" \   
+    git push "origin" master:master
+`
+- Buka di browsernya:<br>
+`https://YOUR-ORGANIZATION.github.io`
+
+You are done, Congrats..    
+
+## Setup Domain
+
+Anda bisa setup custom domain di GitHub:  
+- https://help.github.com/articles/user-organization-and-project-pages/  
+- https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
+- https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages
+
+Here are the URLs as samples that pointing to our [forked projects](https://github.com/search?utf8=%E2%9C%93&q=%40chetabahana+fork%3Aonly+user%3Amarketleader+fork%3Aonly&type=Repositories&ref=advsearch&s=updated): 
+
+## Selengkapnya
+### Konsep
+- Site of Jeckyll Author, Tom Preston-Werner, GitHub's co-founder.: http://tom.preston-werner.com
+- Concept: http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html
+### GitHub Pages
+- Setup: https://gist.github.com/chrisjacob/833223  
+- YAML: http://yaml.org/spec/1.2/spec.html#id2775170
+- CoffeeScript: https://coffeescript.org/#functions
+- Plugins: https://help.github.com/articles/configuring-jekyll-plugins/
+### Using Jekyll / Liquid
+- Validator: https://codebeautify.org/
+- Dokumentasi: https://github.com/mojombo/tpw  
+- Jekyll https://mademistakes.com/articles/using-jekyll-2016/
+- Liquid: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+### Cheatsheet: 
+- Jekyll: https://devhints.io/jekyll
+- Shopify: http://cheat.markdunkley.com/
+- Emoji: https://www.webpagefx.com/tools/emoji-cheat-sheet/ :smiley:
+- Reference: https://news.humancoders.com/t/developpement/items/11149-jekyll-cheat-sheet
+### GitHub API
+- REST API v3: https://developer.github.com/v3/
+- GraphQL API v4: https://developer.github.com/v4/explorer/
+
+## Pustaka
+Disarankan untuk disimak sebelum melangkah lebih jauh:  
+Dokumentasi Project: https://github.com/chetabahana/chetabahana.github.io/wiki
+<p align="center"> 
+<a href="https://chetabahana.com/#after_header1_3"><img src="https://user-images.githubusercontent.com/36441664/38942532-44c87736-4359-11e8-9ad4-56f7d2b68ced.png" alt="Alokasi Pustaka Online Chetabahana"></a><br>
+Gambar-2: Alokasi Pustaka Online <a href= "https://chetabahana.com">Chetabahana</a>
+</p>
+
+- [Cara Buka Toko Online WinMarket dan Optimasi Internal](https://chetabahana.blogspot.com/)
+- [Cara Optimasi Eksternal Toko dengan Shop SEO](https://chetabahana.wordpress.com/)
+- [Channel Youtube Chetabahana](https://www.youtube.com/channel/UCZlPku9beXzdROCknYLuRNg?view_as=subscriber)
+- [e-Books Chetabahana](https://www.scribd.com/user/401259110/Chetabahana)
+
+## License
+Project ini dipublikasikan dengan lisensi berikut:  
+[Apache License 2.0](https://github.com/MarketLeader/Toko-Chetabahana/blob/master/LICENSE)
+
+## Penutup
+Berikut ini beberapa catatan sebagai penutup:  
+- Projek ini diprioriostaskan bagi peminat [e-Commerce di Indonesia](https://www.youtube.com/watch?v=dd__L8Jh2c4&t=25s) 🇮🇩
+- Status masih pengembangan dan pengetesan implementasi
+- Syarat untuk bergabung silahkan [Daftar ID WinMarket](https://chetabahana.com/info/tentang-89.html)
+- Tim WinMarket welcome untuk bergabung.
+
+Terimakasih atas kunjungannya.  
+Met menyimak.. :pray:  
+
+SALAM Sukses!  
+:copyright: [**Chetabahana Project**](https://github.com/MarketLeader)  
+[![profile for Chetabahana on Stack Exchange, a network of free, community-driven Q&amp;A sites](https://stackexchange.com/users/flair/5054985.png)](https://stackoverflow.com/users/4058484/chetabahana?tab=profile)   
+
+
+[:arrow_backward:]((https://github.com/MarketLeader)) [Prev](https://github.com/MarketLeader)|[Next](https://marketleader.github.io/) [:arrow_forward:](https://marketleader.github.io/)|
+|:----|----:|
 
