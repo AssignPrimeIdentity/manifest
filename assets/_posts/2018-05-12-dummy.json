@@ -1,6 +1,6 @@
 ---
 title: dummy
-layout: default
+layout: base
 category: object
 ---
 {% comment %}
