@@ -13,6 +13,6 @@ menus: ['abstrak', 'skema', 'portfolio', 'eksekusi', 'publikasi', 'network', 'di
 *  https://chetabahana.github.io/feeds.xml
 *  https://docs.treepl.co/liquid/liquid-filters
 *
-{% endcomment %}{%- include data.rb -%}
-{%- if my_feed.category != 'section' %}{%- include feeds.rb -%}
+{% endcomment %}{%- include data.liquid -%}
+{%- if my_feed.category != 'section' %}{%- include feeds.liquid -%}
 {%- else -%}{% include {{ my_feed.path | remove_first: "_" | replace: my_feed.ext, ".html" }} %}{%- endif -%}
