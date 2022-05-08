@@ -18,6 +18,17 @@ form_engines:
 - formspree
 - formbucket
 
+title: ₠Quantum
+base_tag: basic-grammar
+
+debug:
+  dist: false
+  compress: true
+  shortcodes: true
+
+readme_index:
+  with_frontmatter: true
+
 # Repository Settings
 # https://blog.webjeda.com/jekyll-redirect/
 # https://github.com/dotnet/docs/issues/20459#issuecomment-725295168
@@ -33,7 +44,6 @@ include:
   - package.json
 
 exclude:
-  - Gemfile
   - .babelrc
   - Makefile
   - yarn.lock
@@ -46,7 +56,16 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - docker_compose.yml
-
+  - Makefile
+  - update.sh
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - jekyll-rtd-theme.gemspec
 
 encoding: utf-8
 livereload: true
@@ -63,14 +82,22 @@ excerpt_separator: <!--end_excerpt-->
 # https://github.com/jekyll/jekyll-redirect-from
 
 plugins:
+  - jemoji
   - jekyll-feed
+  - jekyll-gist
+  - jekyll-avatar
   - jekyll-sitemap
+  - jekyll-mentions
   - jekyll-coffeescript
   - jekyll-redirect-from
 
 whitelist:
+  - jemoji
   - jekyll-feed
+  - jekyll-gist
+  - jekyll-avatar
   - jekyll-sitemap
+  - jekyll-mentions
   - jekyll-coffeescript
   - jekyll-redirect-from
   
@@ -176,7 +203,7 @@ flow_labels:
 # https://stackoverflow.com/a/17260660/4058484
 # https://stackoverflow.com/a/30828197/4058484
 
-baseurl: ""
+# baseurl: ""
 basedir: _feeds
 username: chetabahana
 organization: marketleader
