@@ -207,7 +207,6 @@ basedir: _feeds
 username: chetabahana
 organization: marketleader
 project_link: https://www.chetabahana.com/
-json_link: https://eq19.github.io/feed.json
 repository: chetabahana/chetabahana.github.io
 
 # Site Metadata
