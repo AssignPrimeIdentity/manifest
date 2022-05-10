@@ -1,7 +1,3 @@
----
-sort: 2
----
-
 # This is a long menu
 
 ```
