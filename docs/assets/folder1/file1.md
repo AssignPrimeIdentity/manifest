@@ -1,3 +1,5 @@
+# Tutorial Github & Jeckyll
+
 <p align="center"> 
 <a href="https://chetabahana.com/">
 <img src="https://chetabahana.files.wordpress.com/2018/04/logoweb.png" alt="Chetabahana.com | Situs Belanja Jual-Beli Barang & Promo Aneka Produk Fashion, Busana Muslim, Bayi & Anak-anak, Kecantikan, Tas, Sepatu, Peralatan Rumah Tangga, Elektronik, Makanan & Minuman Kemasan, dll. Soon The E-Shop Market Leader Will Be Owned Here!"></a><br />
@@ -9,8 +11,6 @@ WE ARE GOING TO WIN THE MARKET!
 
 |[![Chetabahana Project](https://avatars1.githubusercontent.com/u/36441664?v=10&s=20)](https://github.com/chetabahana) |This [repo](#repository "Project Repository") is courtesy of [₠Quantum Project](https://github.com/eq19 "We are providing an Integrated Open Source Project about The World of e-Commerce.").<br>Find all of them on [The Project Map](https://marketleader.github.io/#bagan-projek "Project Mapping").|[![Chetabahana Project](https://avatars2.githubusercontent.com/u/36441943?v=10&s=20)](https://github.com/MarketLeader) |
 |:----|----|----:|
-
-# Tutorial Github & Jeckyll
 
 Di sesi ini akan diuraikan tentang setup situs di GitHub.  
 Anda bisa ikuti panduan untuk clone situs [Chetabahana](https://chetabahana.github.io/) di akun.  
