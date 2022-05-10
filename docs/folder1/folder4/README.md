@@ -1,3 +1,4 @@
 # [Project Core (C2)](/../../../)
+ 
+[![Project Core (C2)](https://user-images.githubusercontent.com/36441664/167688754-66d640b9-22dd-43be-b70f-96dca5cb65f0.png)](https://www.chetabahana.com/)
 
-source: `{{ page.path }}`
