@@ -73,7 +73,7 @@ livereload: true
 limit_posts: 1000
 timezone: Asia/Jakarta
 collections_dir: assets
-remote_theme: eQ19/scheme
+remote_theme: eQ19/theme
 excerpt_separator: <!--end_excerpt-->
 
 # Plugins Setting
