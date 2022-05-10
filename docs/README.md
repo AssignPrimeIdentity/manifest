@@ -10,10 +10,10 @@ Recombination involves the breaking and rejoining of two chromosomes (M and F) t
  _(Source: [Wikipedia](https://en.wikipedia.org/wiki/DNA#Genetic_recombination))_.
 ```
 
-[![eQ19 Project](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](/../../../scheme)
+[![eQ19 Project](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](/../../../theme)
 
 ```tip
-This **Sheme** runs as _[remote theme](/../../../scheme)_ where the **Symbols** are:
+This **Sheme** runs as _[remote theme](/../../../theme)_ where the **Symbols** are:
 * The _**M+F**_ symbol will stand as: [Project Maps (M)](/../../../maps) + [Project Feed (F)](/../../../feed) while
 * _**C1+C2**_ as implementations, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
 
@@ -295,7 +295,7 @@ This scheme can only be acheived via **bilateral 9 sums** of prime 43 to 89 by *
 
 See that in the tabulation of prime hexagon the _[6th row](#3rd-step-q736-114)_ that assigned as overall direction has the biggest numbers involved among the other rows which is 9 (nine). This will simply act as the bilateral 9 sums of 43 and 89. 
 
-[![overall direction](https://user-images.githubusercontent.com/36441664/67816683-560e3980-fadd-11e9-8a30-36901cbceaad.png)](/../../../scheme)
+[![overall direction](https://user-images.githubusercontent.com/36441664/67816683-560e3980-fadd-11e9-8a30-36901cbceaad.png)](/../../../theme)
 
 Therefore the prime flow in the developed flowchart above should take a connection to form between them two. This is the reason why the sequence is arranged as below:
 
@@ -445,7 +445,7 @@ This 19 has a configuration of π(10) i.e. 4 primes of 2, 3, 5, 7. Here we come 
 
 The codes is built mainly with the algorithm of 66 out of the sum of the numbers **[30 and 36](#3rd-step-q1337-114)**. The main difference between them two is that 36 framed by twin primes.
 
-[![Twin Pairs](https://user-images.githubusercontent.com/36441664/73700083-28f2a800-4718-11ea-97b3-2e9a738dc09e.png)](/../../../scheme)
+[![Twin Pairs](https://user-images.githubusercontent.com/36441664/73700083-28f2a800-4718-11ea-97b3-2e9a738dc09e.png)](/../../../theme)
 
 Let's take the end number each of the three (3) layers: (7,13,19) in an adjacent [polygonal numbers](https://en.wikipedia.org/wiki/Polygonal_number) then by the same different of 15 they will end to the number of 66:
 
@@ -703,7 +703,7 @@ Out of the formation, you are welcome to use whatever the items in this project.
 
 Within next development we will discuss about the interconnection between 168 and 618. Here we will discuss mote detail about the sequence in the [DNA Recombination](#introduction).
 
-[![Remote Theme](https://user-images.githubusercontent.com/36441664/87265280-9b985880-c4ec-11ea-8af1-403fe5648fc5.gif)](/../../../scheme)
+[![Remote Theme](https://user-images.githubusercontent.com/36441664/87265280-9b985880-c4ec-11ea-8af1-403fe5648fc5.gif)](/../../../theme)
 
 The pre-release is being developed for _[eBranding](https://github.com/chetabahana)_ within 7 (seven) years. It is still lack the parser 618 of the said _[10143 grammars](#7th-step-q218-10)_ to become usable for every other cases. 
 
