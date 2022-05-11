@@ -1,3 +1,3 @@
-# Algorithm
+# Program
 
 source: `{{ page.path }}`
