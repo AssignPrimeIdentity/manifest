@@ -57,19 +57,21 @@ Why not 22 or 24 as preliminary discovered?
 The number of human chromosomes was published in 1923 by Theophilus Painter. By inspection through the microscope, he counted 24 pairs, which would mean 48 chromosomes. His error was copied by others and it was not until 1956 that the true number, 46, was determined by Indonesia-born cytogeneticist Joe Hin Tjio. _(Source: [Wikipedia](https://en.wikipedia.org/wiki/Chromosome))_
 ```
 
-See that the number of 23 is a prime that consist of the numbers of **two (2) and three (3)** where both are the only primes under their sum of **five (5)** which is also a prime.
-
 The number (2, 3) is in fact the 1st and the 2nd prime. So the number of 23 is built with two (2) or **double primes**. Now let's take a look in to the Double-stranded DNA.
 
 ```note
 Double-stranded DNA consists of two polynucleotide chains whose nitrogenous bases are connected by **hydrogen bonds**. Within this arrangement, each strand mirrors the other as a result of the anti-parallel orientation of the sugar-phosphate backbones, as well as the complementary nature of the A-T and C-G base pairing (Source: [Nature](https://www.nature.com/scitable/content/double-stranded-dna-6834149/)).
 ```
 
+See that the number of 23 is a prime that consist of the numbers of **two (2) and three (3)** where both are the only primes under their sum of **five (5)** which is also a prime.
+
 ![Unit DNA](https://user-images.githubusercontent.com/36441664/101109773-3c0d2780-360a-11eb-9f21-57e2707c7d1e.jpg)
 
 Have you ever notice that the said hydrogen bonds are built with both of the number two (2) and three (3). They are even exist in a single unit of _[DNA](https://en.wikipedia.org/wiki/DNA)_.
 
 [![Single DNA](https://user-images.githubusercontent.com/36441664/131957473-5a815492-a5f6-49be-9762-9a8921d95dc2.png)](https://translate.google.com/translate?js=n&sl=id&tl=en&u=https://github.com/chetabahana/tensorflow/wiki/Untouched-Intelligences#frame)
+
+Despite, it is even not stop there. Have you ever come in your mind that if the number of chromosome is not 23, say it is 42 like a monkey or 48 like a gorilla , then human will not able to use their brain as it should. 
 
 ```tip
 Hydrogen bonds are formed between hydrogen attached to an electronegative atom and an electronegative atom of a different molecules. _(Source: [Quora](https://www.quora.com/Why-are-there-two-hydrogen-bonds-between-adenine-and-thymine-but-three-hydrogen-bonds-between-cytosine-and-guanine/answer/Rucious-Heang))_.
