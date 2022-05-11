@@ -46,7 +46,7 @@ This algorithm is applied to regenerate a _[Basic Grammar](#basic-grammar)_ betw
 
 ## [Tabulate Prime by The Power of 168](/../../../lexer)
 
-Human is the only species on earth or might be on the universe who can use a brain to do thinking and learning. Let's discuss about the number _[23 pairs of chromosome](https://en.wikipedia.org/wiki/Chromosome)_.
+Human is the only species on earth or might be on the universe who can use a brain to do thinking and learning. Let's discuss about the number of _[23 pairs chromosome](https://en.wikipedia.org/wiki/Chromosome)_.
 
 [![23 pairs of Human Chromosomes)](https://user-images.githubusercontent.com/36441664/96919622-3930fa00-14d6-11eb-86d9-ef60643ed7e5.png)](https://en.wikipedia.org/wiki/Chromosome)
 
@@ -71,7 +71,7 @@ Have you ever notice that the said hydrogen bonds are built with both of the num
 
 [![Single DNA](https://user-images.githubusercontent.com/36441664/131957473-5a815492-a5f6-49be-9762-9a8921d95dc2.png)](https://translate.google.com/translate?js=n&sl=id&tl=en&u=https://github.com/chetabahana/tensorflow/wiki/Untouched-Intelligences#frame)
 
-Despite, it is even not stop there. Have you ever come in your mind that if the number of chromosome is not 23, say it is 42 like a monkey or 48 like a gorilla , then human will not able to use their brain as it should. 
+Despite, it is even not stop there. Have you ever come in your mind that if the number of chromosome is not 23 pairs with a total of 46, say it is 42 like a monkey or 48 like a gorilla , then human will not able to use their brain as it should. 
 
 ```tip
 Hydrogen bonds are formed between hydrogen attached to an electronegative atom and an electronegative atom of a different molecules. _(Source: [Quora](https://www.quora.com/Why-are-there-two-hydrogen-bonds-between-adenine-and-thymine-but-three-hydrogen-bonds-between-cytosine-and-guanine/answer/Rucious-Heang))_.
