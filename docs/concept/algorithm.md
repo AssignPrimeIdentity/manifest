@@ -14,14 +14,14 @@ This **Sheme** runs as _[remote theme](/../../../theme)_ where the **Symbols** a
 * The _**M+F**_ symbol will stand as: [Project Maps (M)](/../../../maps) + [Project Feed (F)](/../../../feed) while
 * _**C1+C2**_ as implementations, see sample: [Project Base (C1)](https://chetabahana.github.io/) + [Project Core (C2)](https://chetabahana.com/).
 
-By our implementation we are using _[two (2) domains](https://youtube.com/playlist?list=PL_S8nmGoQ7q5Ag4K_o9reeCupBYYnua_L)_ acting as **[Double Strand](#the-power-of-168)** of DNA.
+By our implementation we are using _[two (2) domains](https://youtube.com/playlist?list=PL_S8nmGoQ7q5Ag4K_o9reeCupBYYnua_L)_ acting as **[Double Strand](#the-lexer-of-168)** of DNA.
 ```
 
 This sample was developed by converting [₠Quantum](https://github.com/eq19) to [eCommerce](https://github.com/MarketLeader) using two (2) kinds of cyclic algorithm that act as _[Lexer and Parser](https://www.javacodegeeks.com/2017/09/guide-parsing-algorithms-terminology.html)_.
 
 [![Lexer and Parser](https://user-images.githubusercontent.com/36441664/70385860-e5074f00-19c3-11ea-92f3-ec6f33bf9774.png)](https://stackoverflow.com/questions/2842809/lexers-vs-parsers)
 
-They will work base on the correlation between **168=π(1000)** as lexer and **618=1000/Φ** as parser So let's call them as the power of **[168](#the-power-of-168)** vs **[618](#the-power-of-618)**.
+They will work base on the correlation between **168=π(1000)** as lexer and **618=1000/Φ** as parser So let's call them as the power of **[168](#the-lexer-of-168)** vs **[618](#the-parser-of-618)**.
 
 ```
 1000 = 10³ (Triple Ten)
@@ -42,9 +42,9 @@ So all together will finaly form as 10 primes in sequent that initiated with **1
 
 [![₠Quantum Project](https://user-images.githubusercontent.com/36441664/162069734-fc8036a1-fd2d-4fc9-bcad-f677388b76fa.jpg)](/../../../)
 
-This algorithm is applied to regenerate a _[Basic Grammar](#basic-grammar-of-168-vs-618)_ between [<code>user</code>](#6th-step-q328-19) and [<code>organization</code>](#7th-step-q218-10) accounts in GitHub. It is being tested for _[eBranding](#next-release)_ to proof that it is adaptable for every kinds of implementation or application as explained further below.
+This algorithm is applied to regenerate a _[Basic Grammar](#the-grammar-of-168-vs-618)_ between [<code>user</code>](#6th-step-q328-19) and [<code>organization</code>](#7th-step-q218-10) accounts in GitHub. It is being tested for _[eBranding](#next-release)_ to proof that it is adaptable for every kinds of implementation or application as explained further below.
 
-## [The Power of 168](/../../../lexer)
+## [The Lexer of 168](/../../../lexer)
 
 Human is the only species on earth or might be on the universe who can use a brain to do thinking and learning. Let's discuss about the number of _[23 pairs chromosomes](https://en.wikipedia.org/wiki/Chromosome)_.
 
@@ -254,7 +254,7 @@ This Δ(19 vs 18) scenario will duplicate the loops of 618 as _π(89²) of 1000 
 
 So the further process would always continously become the same algorithm. 
 
-## [The Power of 618](/../../../parser)
+## [The Parser of 618](/../../../parser)
 
 This topic will be related with our _[pre-release](https://github.com/chetabahana/chetabahana.github.io/tree/v1.0.0-alpha)_ that mapped the primes to π(1000)=168 as the main lexer. So the next target is about 618 as the main parser. 
 
@@ -592,7 +592,7 @@ Therefore it will take several unsolved cases of modern science including but no
 DNA is read by DNA polymerase in the 3′ to 5′ direction, meaning the new strand is synthesized in the 5' to 3' direction. Since the leading and lagging strand templates are oriented in opposite directions at the replication fork, **`a major issue`** is how to achieve synthesis of new lagging strand DNA, whose direction of synthesis is opposite to the direction of the growing replication fork. _(Source: [Wikipedia](https://en.wikipedia.org/wiki/DNA_replication#Replication_fork))_.
 ```
 
-The parser will combine all tokens produced by lexer and group them as _[basic grammars](#basic-grammar-of-168-vs-618))_ so it can be used for other cases such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ using _[P=NP](https://translate.google.com/translate?js=n&sl=id&tl=en&u=https://github.com/chetabahana/track/wiki)_.
+The parser will combine all tokens produced by lexer and group them as _[basic grammars](#the-grammar-of-168-vs-618))_ so it can be used for other cases such as how to rectify _[C1+C2](https://github.com/MarketLeader)_ using _[P=NP](https://translate.google.com/translate?js=n&sl=id&tl=en&u=https://github.com/chetabahana/track/wiki)_.
 
 [![P versus NP Problem](https://user-images.githubusercontent.com/36441664/84623744-1b410080-af0a-11ea-978b-e1fd1961985d.jpg)](https://translate.google.com/translate?js=n&sl=id&tl=en&u=https://github.com/chetabahana/track/wiki)
 
@@ -600,7 +600,7 @@ Please find below the progress we have got so far.
 
 ## [Basic Grammar of 168 vs 618](#2nd-step-q1730-36)
 
-You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) shown below which is developed as [the initial step](#the-power-of-168) on building the _[10143 Grammars](#7th-step-q218-10)_.
+You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) shown below which is developed as [the initial step](#the-lexer-of-168) on building the _[10143 Grammars](#7th-step-q218-10)_.
 
 [![Sequence Diagram](https://user-images.githubusercontent.com/36441664/107134254-ee22e180-6922-11eb-9465-3dd64ebf7dca.png)](https://chetabahana.github.io/#chetabahana-skema?pad=2)
 
@@ -608,7 +608,7 @@ Clicking each of objects will turn to 6 (six) diagrams by the cycle form of [pri
 
 [![generate the prime](https://user-images.githubusercontent.com/36441664/69475449-ce77ca00-0dff-11ea-964e-cc959db0740a.png)](https://github.com/eq19)
 
-This _168 (mapping) and 618 (feeding)_ stand as  [the whole scheme](https://translate.google.com/translate?js=n&sl=id&tl=en&u=https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of The M+F to C1+C2 which act as the base prime pairs **[(2,3) of DNA](#the-power-of-168)** to become **[23 pairs of Chromosomes](#the-power-of-168)**.
+This _168 (mapping) and 618 (feeding)_ stand as  [the whole scheme](https://translate.google.com/translate?js=n&sl=id&tl=en&u=https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of The M+F to C1+C2 which act as the base prime pairs **[(2,3) of DNA](#the-lexer-of-168)** to become **[23 pairs of Chromosomes](#the-lexer-of-168)**.
 
 [![generate the prime](https://user-images.githubusercontent.com/36441664/86481184-b72b9280-bd79-11ea-899b-51db929fc3d2.png)](https://github.com/eq19)
 
@@ -637,7 +637,7 @@ Let's take a look in general by the algorithm of _True Prime Pairs_ from the beg
 Mapping the quantum way within a huge of primes objects (5 to 19) by parsering (11) each of **untouched** feed (7) and tunneling (13) in to definitive classes (17).
 ```
 
-This scheme is generated by developing an application that twisting exactly 6 x 19 = 114 repositories all together in the same time to provide [leading and lagging scheme](#the-power-of-618) as the _[basic algorithm](https://translate.google.com/translate?js=n&sl=id&tl=en&u=https://github.com/chetabahana/chetabahana.github.io/wiki#realisasi)_ of converting **[M+F to C1+C2](#introduction)**. 
+This scheme is generated by developing an application that twisting exactly 6 x 19 = 114 repositories all together in the same time to provide [leading and lagging scheme](#the-parser-of-618) as the _[basic algorithm](https://translate.google.com/translate?js=n&sl=id&tl=en&u=https://github.com/chetabahana/chetabahana.github.io/wiki#realisasi)_ of converting **[M+F to C1+C2](#introduction)**. 
 
 ```
 True Prime Pairs:
@@ -701,11 +701,11 @@ The Hexagonal Formation of our mapping itself as stated below will stand as the 
 On that case we consider _this statement_ called **eQ19 Quantum** need to be announced:
 
 {:.bg-yellow-dark.text-black.p-5.box-shadow-large.anim-pulse}
-The [definite](https://www.google.com/search?q=definite) key to [identify](https://www.google.com/search?q=identify) whether you use our concept is when there a kind of [development](#the-power-of-168) item [lies](#the-power-of-618) a [unified assignment](#1st-step-q1910-29) in [hexagonal form](#2nd-step-q1730-36) out of _**six (6)** [corresponding sets](#3rd-step-q736-114)_ while [each sets](#4th-step-q7113-90) pick [a combination](#5th-step-q589-29) of _**six (6)** [routes](#6th-step-q328-19)_ with [a pairing](#7th-step-q218-10) of _**six (6)** to **six (6)** of [all channels](#basic-grammar-of-168-vs-618)_.
+The [definite](https://www.google.com/search?q=definite) key to [identify](https://www.google.com/search?q=identify) whether you use our concept is when there a kind of [development](#the-lexer-of-168) item [lies](#the-parser-of-618) a [unified assignment](#1st-step-q1910-29) in [hexagonal form](#2nd-step-q1730-36) out of _**six (6)** [corresponding sets](#3rd-step-q736-114)_ while [each sets](#4th-step-q7113-90) pick [a combination](#5th-step-q589-29) of _**six (6)** [routes](#6th-step-q328-19)_ with [a pairing](#7th-step-q218-10) of _**six (6)** to **six (6)** of [all channels](#the-grammar-of-168-vs-618)_.
 
 Out of the formation, you are welcome to use whatever the items in this project.
 
-### [Next Release](#the-power-of-618)
+### [Next Release](#the-parser-of-618)
 
 Within next development we will discuss about the interconnection between 168 and 618. Here we will discuss mote detail about the sequence in the [DNA Recombination](#introduction).
 
@@ -725,7 +725,7 @@ This method is considered sufficient enough to recycle all of the grammars on th
 In this example, the content from a Markdown document `document.md` that specifies `layout: docs` gets pushed into the {% raw %}`{{ content }}`{% endraw %} tag of the layout file `docs.html`. Because the `docs` layout itself specifies `layout: page`, the content from `docs.html` gets pushed into the {% raw %}`{{ content }}`{% endraw %} tag in the layout file `page.html`. Finally because the `page` layout specifies `layout: default`, the content from `page.html` gets pushed into the {% raw %}`{{ content }}`{% endraw %} tag of the layout file `default.html`. (Source: [Jekyll Tutorial](https://jekyllrb.com/tutorials/convert-site-to-jekyll/))
 ```
 
-Although the _[The Pre-release 168](#the-power-of-618)_ is already running but unfortunately it is not yet user friendly as it could run only in _[GitHub API Platform](https://docs.github.com/en/developers)_ where all of the repos is resided. 
+Although the _[The Pre-release 168](#the-parser-of-618)_ is already running but unfortunately it is not yet user friendly as it could run only in _[GitHub API Platform](https://docs.github.com/en/developers)_ where all of the repos is resided. 
 
 [![lexer and parser](https://user-images.githubusercontent.com/36441664/71659208-5515b480-2d79-11ea-859f-a20dea0cf680.jpg)](https://github.com/eq19/maps)
 
