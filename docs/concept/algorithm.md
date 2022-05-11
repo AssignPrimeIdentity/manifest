@@ -22,7 +22,7 @@ This sample was developed by converting [₠Quantum](https://github.com/eq19) to
 
 [![Lexer and Parser](https://user-images.githubusercontent.com/36441664/70385860-e5074f00-19c3-11ea-92f3-ec6f33bf9774.png)](https://stackoverflow.com/questions/2842809/lexers-vs-parsers)
 
-They will work base on the correlation between **168=π(1000)** as lexer and **618=1000/Φ** as parser So let's call them as the power of **[168](#the-lexer-of-168)** vs **[618](#the-parser-of-618)**.
+They will work base on the correlation between **[168=π(1000)](#the-lexer-of-168)** as lexer and **[618=1000/Φ](#the-parser-of-618)** as parser So let's call them as **[the grammar of 168 vs 618](the-grammar-of-168-vs-618)**.
 
 ```
 1000 = 10³ (Triple Ten)
