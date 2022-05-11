@@ -72,7 +72,7 @@ Have you ever notice that the said hydrogen bonds are built with both of the num
 
 [![Single DNA](https://user-images.githubusercontent.com/36441664/131957473-5a815492-a5f6-49be-9762-9a8921d95dc2.png)](https://translate.google.com/translate?js=n&sl=id&tl=en&u=https://github.com/chetabahana/tensorflow/wiki/Untouched-Intelligences#frame)
 
-Despite, it is even not stop there. Have you ever come in your mind that if the number of chromosomes is not 23 pairs with a total of 46, say it is 42 like a monkey or 48 like a gorilla , then human will not able to use their brain as it should. 
+Despite, it is even not stop there. Have you ever come in your mind that if the number of chromosomes is not 23 pairs, say it is 21 like a monkey or 24 like a gorilla , then human will not able to use their brain as it should. 
 
 ```tip
 Hydrogen bonds are formed between hydrogen attached to an electronegative atom and an electronegative atom of a different molecules. _(Source: [Quora](https://www.quora.com/Why-are-there-two-hydrogen-bonds-between-adenine-and-thymine-but-three-hydrogen-bonds-between-cytosine-and-guanine/answer/Rucious-Heang))_.
