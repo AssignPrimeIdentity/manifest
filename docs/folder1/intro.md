@@ -56,7 +56,7 @@ The big question is why 23<br>
 Why not 22 or 24 as preliminary discovered?
 
 ```note
-The number of human chromosomes was published in 1923 by Theophilus Painter. By inspection through the microscope, he counted 24 pairs, which would mean 48 chromosomes. His error was copied by others and it was not until 1956 that the true number, 46, was determined by Indonesia-born cytogeneticist Joe Hin Tjio. _(Source: [Wikipedia](https://en.wikipedia.org/wiki/Chromosome))_
+The number of human chromosomes was published in 1923 by Theophilus Painter. By inspection through the microscope, he counted 24 pairs, which would mean 48 chromosomes. His error was copied by others and it was not until 1956 that the true number, 46, was determined by Indonesia-born cytogeneticist Joe Hin Tjio. _(Source: [Wikipedia](https://en.wikipedia.org/wiki/Chromosome#History_of_discovery))_
 ```
 
 The number (2, 3) is in fact the 1st and the 2nd prime. So the number of 23 is built with two (2) or **double primes**. Now let's take a look in to the Double-stranded DNA.
