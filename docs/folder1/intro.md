@@ -46,13 +46,20 @@ This algorithm is applied to regenerate a _[Basic Grammar](#basic-grammar)_ betw
 
 ## [Tabulate Prime by The Power of 168](/../../../lexer)
 
-Here we absorb the system of _[23 pairs of human chromosome](https://en.wikipedia.org/wiki/Chromosome)_.
-
-See that the number of 23 is a prime that consist of the numbers of **two (2) and three (3)** where both are the only primes under their sum of **five (5)** which is also a prime.
+Human is the only species on earth or might be on the universe who can use a brain to do thinking and learning. Let's discuss about the number of _[23 pairs of human chromosome](https://en.wikipedia.org/wiki/Chromosome)_.
 
 [![23 pairs of Human Chromosomes)](https://user-images.githubusercontent.com/36441664/96919622-3930fa00-14d6-11eb-86d9-ef60643ed7e5.png)](https://en.wikipedia.org/wiki/Chromosome)
 
-Now let's take a look in to the Double-stranded DNA.
+The big question is why 23<br>
+Why not 22 or 24 as preliminary discovered?
+
+```note
+The number of human chromosomes was published in 1923 by Theophilus Painter. By inspection through the microscope, he counted 24 pairs, which would mean 48 chromosomes. His error was copied by others and it was not until 1956 that the true number, 46, was determined by Indonesia-born cytogeneticist Joe Hin Tjio. _(Source: [Wikipedia](https://en.wikipedia.org/wiki/Chromosome))_
+```
+
+See that the number of 23 is a prime that consist of the numbers of **two (2) and three (3)** where both are the only primes under their sum of **five (5)** which is also a prime.
+
+The number (2, 3) is in fact the 1st and the 2nd prime. So the number of 23 is built with two (2) or **double primes**. Now let's take a look in to the Double-stranded DNA.
 
 ```note
 Double-stranded DNA consists of two polynucleotide chains whose nitrogenous bases are connected by **hydrogen bonds**. Within this arrangement, each strand mirrors the other as a result of the anti-parallel orientation of the sugar-phosphate backbones, as well as the complementary nature of the A-T and C-G base pairing (Source: [Nature](https://www.nature.com/scitable/content/double-stranded-dna-6834149/)).
