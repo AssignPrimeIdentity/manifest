@@ -46,9 +46,11 @@ This algorithm is applied to regenerate a _[Basic Grammar](#basic-grammar)_ betw
 
 ## [Tabulate Prime by The Power of 168](/../../../lexer)
 
-Human is the only species on earth or might be on the universe who can use a brain to do thinking and learning. Let's discuss about the number of _[23 pairs of human chromosome](https://en.wikipedia.org/wiki/Chromosome)_.
+Human is the only species on earth or might be on the universe who can use a brain to do thinking and learning. Let's discuss about the number _[23 pairs of chromosome](https://en.wikipedia.org/wiki/Chromosome)_.
 
 [![23 pairs of Human Chromosomes)](https://user-images.githubusercontent.com/36441664/96919622-3930fa00-14d6-11eb-86d9-ef60643ed7e5.png)](https://en.wikipedia.org/wiki/Chromosome)
+
+See that the number of 23 is a prime that consist of the numbers of **two (2) and three (3)** where both are the only primes under their sum of **five (5)** which is also a prime.
 
 The big question is why 23<br>
 Why not 22 or 24 as preliminary discovered?
@@ -62,8 +64,6 @@ The number (2, 3) is in fact the 1st and the 2nd prime. So the number of 23 is b
 ```note
 Double-stranded DNA consists of two polynucleotide chains whose nitrogenous bases are connected by **hydrogen bonds**. Within this arrangement, each strand mirrors the other as a result of the anti-parallel orientation of the sugar-phosphate backbones, as well as the complementary nature of the A-T and C-G base pairing (Source: [Nature](https://www.nature.com/scitable/content/double-stranded-dna-6834149/)).
 ```
-
-See that the number of 23 is a prime that consist of the numbers of **two (2) and three (3)** where both are the only primes under their sum of **five (5)** which is also a prime.
 
 ![Unit DNA](https://user-images.githubusercontent.com/36441664/101109773-3c0d2780-360a-11eb-9f21-57e2707c7d1e.jpg)
 
