@@ -3,7 +3,8 @@
 This's the partial [mapping scheme](https://translate.google.com/translate?js=n&sl=id&tl=en&u=https://github.com/chetabahana/chetabahana.github.io/wiki/Skema#Implementasi) of our [₠Quantum Project](https://github.com/eq19) that's taking a scheme shown on the sidebar (see dekstop view) called **[DNA Recombination](https://en.wikipedia.org/wiki/DNA#Genetic_recombination): [M+F](https://github.com/eq19/quantum/blob/workflows/_layouts/feed.rb) to [C1+C2](https://github.com/eq19/quantum/blob/workflows/_includes/data/roots.rb)**.
 
 ```note
-Recombination involves the breaking and rejoining of two chromosomes (M and F) to produce two rearranged chromosomes (C1 and C2). Recombination allows chromosomes to exchange genetic information and produces new combinations of genes, which increases the efficiency of natural selection and can be important in the rapid evolution of new proteins. Genetic recombination can also be involved in DNA repair, particularly in the cell's response to double-strand breaks. _(Source: [Wikipedia](https://en.wikipedia.org/wiki/DNA#Genetic_recombination))_.
+* Recombination involves the breaking and rejoining of two chromosomes (M and F) to produce two rearranged chromosomes (C1 and C2).
+* Recombination allows chromosomes to exchange genetic information and produces new combinations of genes, which increases the efficiency of natural selection and can be important in the rapid evolution of new proteins. Genetic recombination can also be involved in DNA repair, particularly in the cell's response to double-strand breaks. _(Source: [Wikipedia](https://en.wikipedia.org/wiki/DNA#Genetic_recombination))_.
 ```
 
 [![eQ19 Project](https://user-images.githubusercontent.com/36441664/88602920-fd84c080-d09d-11ea-970d-dd63c12221fc.png)](https://www.eq19.com/quantum/concept/)
