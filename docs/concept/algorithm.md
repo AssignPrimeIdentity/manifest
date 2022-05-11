@@ -598,7 +598,7 @@ The parser will combine all tokens produced by lexer and group them as _[basic g
 
 Please find below the progress we have got so far.
 
-## [Basic Grammar of 168 vs 618](#2nd-step-q1730-36)
+## [The Grammar of 168 vs 618](#2nd-step-q1730-36)
 
 You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) shown below which is developed as [the initial step](#the-lexer-of-168) on building the _[10143 Grammars](#7th-step-q218-10)_.
 
