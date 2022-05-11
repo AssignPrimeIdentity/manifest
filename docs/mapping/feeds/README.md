@@ -1,3 +1,3 @@
-# I'm folder1
+# I'm feeds
 
 source: `{{ page.path }}`
