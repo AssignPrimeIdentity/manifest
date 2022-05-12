@@ -29,6 +29,6 @@
 
 
 ```
-{% raw %}{% include feeds.liquid all=true %}{% endraw %}
+{% raw %}{% include list.liquid all=true %}{% endraw %}
 
 ```
