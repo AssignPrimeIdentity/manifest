@@ -16,5 +16,4 @@
 
 [![ATCG DNA](https://user-images.githubusercontent.com/36441664/166161369-aec4d34a-5572-49af-aa61-f36a6f695299.png)](/../../../theme)
 
-
 [![ATCG DNA](https://user-images.githubusercontent.com/36441664/123424569-377e7f80-d5eb-11eb-9c85-1f5d72f14eed.png)](/../../../theme)
