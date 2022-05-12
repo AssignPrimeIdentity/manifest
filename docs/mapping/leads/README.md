@@ -1,4 +1,4 @@
-# The Parser of 618
+# The Parser of 618 (C1+C2)
 
 
 ```
