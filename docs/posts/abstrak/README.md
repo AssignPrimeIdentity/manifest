@@ -1,3 +1,3 @@
-#  Maps anf Feed (M+F)](/../../../)
+#  [Maps anf Feed (M+F)](/../../../)
 
 source: `{{ page.path }}`
