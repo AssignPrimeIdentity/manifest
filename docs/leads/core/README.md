@@ -1,4 +1,4 @@
-# The Lexer of 168 (M+F)
+# 4. The Lexer of 168 (M+F)
 
 ```
   Tabulate Prime by Power of 10

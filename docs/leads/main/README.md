@@ -1,4 +1,4 @@
-# The Grammar of 168 vs 618
+# 6. The Grammar of 168 vs 618
 ```
  Scheme:
  168 + 329 + 289 = 786
