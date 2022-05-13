@@ -4,6 +4,8 @@ sort: 3
 
 # Program
 
+![Parsing](https://user-images.githubusercontent.com/36441664/71648180-c599e280-2d33-11ea-94e0-9a8552c72bd7.png)
+
 ```
 +-----+-----+-----+-----+-----+-----+-----+-----+
 |{102}|   1 |   - |   - |   - |   - |   - |  36 | 139
@@ -28,8 +30,6 @@ Permutations:
 66 + (31,8,50,31,8) = 78 + (50+66) » 786
 168+618=786, 786+157=943, 786+786+157=1729
 ```
-
-![Parsing](https://user-images.githubusercontent.com/36441664/71648180-c599e280-2d33-11ea-94e0-9a8552c72bd7.png)
 
 [![ATCG DNA](https://camo.githubusercontent.com/dc89cc4d5c11a81766b261b369d59f544c5712683528936499ac89749adfb5a6/68747470733a2f2f7777772e6a656b796c6c2e636f6d2e636e2f696d672f6a656b796c6c6c61796f7574636f6e636570742e706e67)](/../../../theme)
 
