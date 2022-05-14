@@ -1,4 +1,4 @@
-# 6.[Grammar of 168 vs 618](#2nd-step-q1730-36)
+# 6.Grammar of 168 vs 618
 
 You may check the running code starting with [Sequence Diagram](https://chetabahana.github.io/#chetabahana-skema?pad=2) shown below which is developed as [the initial step](#the-lexer-of-168) on building the _[10143 Grammars](#7th-step-q218-10)_.
 
