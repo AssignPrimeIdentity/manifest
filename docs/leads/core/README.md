@@ -1,4 +1,4 @@
-# 4.[The Lexer of 168](/../../../lexer)
+# 4.The Lexer of M+F
 
 Human is the only species on earth or might be on the universe who can use a brain to do thinking and learning. Let's discuss about the number of _[23 pairs chromosomes](https://en.wikipedia.org/wiki/Chromosome)_.
 
