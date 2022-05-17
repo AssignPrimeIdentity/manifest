@@ -1,5 +1,4 @@
-{%- assign page_dir = page.path | split: '/' | pop | join: '/' -%}
-{%- include common/rest/workdir.liquid workdir=page_dir -%}
+{%- include common/rest/workdir.liquid workdir=page.dir -%}
 
 {% comment %} prev and next {% endcomment %}
 {%- assign index = 0 -%}
