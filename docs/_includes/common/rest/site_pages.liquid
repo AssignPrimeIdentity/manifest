@@ -8,7 +8,7 @@
 	{%- endfor -%}
 {%- endfor -%}
 
-{%- assign site_pages = my_collection
+{%- assign site_pages = site.html_pages
     | sort: "path"
     | sort: "sort"
     | where_exp: "item", "item.url != '/404.html'"
