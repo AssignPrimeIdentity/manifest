@@ -8,6 +8,11 @@ WE ARE GOING TO WIN THE MARKET!
 </a><br /><br />
 </p>  
 
+```
+{% raw %}{% include list.liquid all=true %}{% endraw %}
+
+{% include list.liquid all=true %}
+```
 
 |[![Chetabahana Project](https://avatars1.githubusercontent.com/u/36441664?v=10&s=20)](https://github.com/chetabahana) |This [repo](#repository "Project Repository") is courtesy of [₠Quantum Project](https://github.com/eq19 "We are providing an Integrated Open Source Project about The World of e-Commerce.").<br>Find all of them on [The Project Map](https://marketleader.github.io/#bagan-projek "Project Mapping").|[![Chetabahana Project](https://avatars2.githubusercontent.com/u/36441943?v=10&s=20)](https://github.com/MarketLeader) |
 |:----|----|----:|
