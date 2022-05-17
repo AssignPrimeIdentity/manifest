@@ -3,7 +3,7 @@
 {% comment %} prev and next {% endcomment %}
 {%- assign index = 0 -%}
 {%- for item in workdir_files %}
-    {%- if item.url == page.url %}
+    {%- if item.path contains 'README.md' -%}
         {%- assign index = forloop.index -%}
     {%- endif %}
 {%- endfor -%}
