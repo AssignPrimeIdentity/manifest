@@ -1,7 +1,7 @@
 {%- include common/rest/site_pages.liquid -%}
 {%- assign page_dir = page.path | split: '/' | pop | join: '/' | append: '/' -%}
-{{ page.collection }}=>{{ workdir }}
-{%- if page.collection == null and workdir != '/' -%}
+{{ page.collection }}=>{{ include.workdir }}
+{%- if page.collection == null and include.workdir != '/' -%}
 	{%- assign page_dir = page_dir | prepend: '/' -%}
 {%- endif -%}
 
