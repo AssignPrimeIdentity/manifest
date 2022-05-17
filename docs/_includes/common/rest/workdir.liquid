@@ -14,13 +14,17 @@
 
 {%- capture items -%}
     {%- for item in site_dirs -%}
-        {%- assign current_m1 = item.dir | append: "temp" | replace_first: "/", "" | split: "/" | size | minus: 1 -%}
+	{%- assign item_dir = item.path | split: '/' | pop | join: '/' | append: '/' -%}
+		{%- if item.dir -%}
+			{%- assign item_dir = item_dir | prepend: '/' -%}
+		{%- endif -%}
+        {%- assign current_m1 = item_dir | append: "temp" | replace_first: "/", "" | split: "/" | size | minus: 1 -%}
         {%- if workdir_level == current_m1 -%}
             {%- assign temp = workdir | append: "@@" -%}
-            {%- assign dir = item.dir | replace: workdir, temp | split: "@@" | first -%}
+            {%- assign dir = item_dir | replace: workdir, temp | split: "@@" | first -%}
             {% comment %} In the current subdirectory {% endcomment %}
             {%- if workdir == dir -%}
-                {{ item.dir }}|
+                {{ item_dir }}|
             {%- endif -%}
         {%- endif -%}
     {%- endfor -%}
