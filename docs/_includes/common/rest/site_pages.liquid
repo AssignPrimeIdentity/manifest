@@ -16,7 +16,7 @@
 
 {%- for item in site_pages -%}
 	{%- if item.path contains 'README.md' -%}	
-		{%- assign site_dirs = site_dirs | push: item -%}{{ item.path }}<br>
+		{%- assign site_dirs = site_dirs | push: item -%}
 	{%- else -%}
 		{%- assign site_files = site_files | push: item -%}
 	{%- endif -%}
