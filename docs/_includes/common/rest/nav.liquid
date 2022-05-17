@@ -5,7 +5,7 @@
 {% comment %} prev and next {% endcomment %}
 {%- assign index = 0 -%}
 {%- for item in workdir_files %}
-    {%- item.path contains 'README.md' %}
+    {%- if item.path contains 'README.md' %}
         {%- assign index = forloop.index -%}
     {%- endif %}
 {%- endfor -%}
