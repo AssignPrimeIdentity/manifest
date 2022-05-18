@@ -3,6 +3,5 @@
 {%- elsif item.dir -%}
 	{%- assign item_dir = item.dir -%}
 {%- else -%}	
-	{%- raw %}{% assign item_dir = item.path | split: "/" | pop | join: "/" | append: "/" %}{% endraw -%}
 	{%- assign item_dir = item.path | split: "/" | pop | join: "/" | append: "/" -%}
 {%- endif -%}
