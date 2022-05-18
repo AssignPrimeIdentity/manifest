@@ -8,7 +8,11 @@
 	{%- endfor -%}
 {%- endfor -%}
 
-{%- assign site_pages = site.html_pages
+{%- assign my_collection = my_collection 
+	| concat: site.html_pages
+	| join: ", " -%}
+
+{%- assign site_pages = my_collection
     | sort: "path"
     | sort: "sort"
     | where_exp: "item", "item.url != '/404.html'"
