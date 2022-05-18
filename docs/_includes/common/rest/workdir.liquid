@@ -2,7 +2,7 @@
 {%- assign workdir_level = workdir | append: "temp" | replace_first: "/", "" | split: "/" | size -%}
 
 {%- assign workdir_files = '' | split: ',' -%}
-{%- for item in site_files -%}
+{%- for item in site_files -%}{{ item.path }}
 	{%- include common/rest/item_dir.liquid -%}
 	{%- if item_dir == workdir -%}
 		{%- assign workdir_files = workdir_files | push: item -%}
