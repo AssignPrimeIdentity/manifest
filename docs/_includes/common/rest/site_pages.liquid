@@ -6,11 +6,11 @@
 	{%- assign my_collection = my_collection | push: item -%}
 {%- endfor -%}
 
-{%- assign site_pages = my_collection
-    | sort: "path"
-    | sort: "sort"
-    | where_exp: "item", "item.url != '/404.html'"
-    | where_exp: "item", "item.url != '/search.html'" -%}
+{%- for collection in site.collections -%}
+	{%- for item in site[collection.label] -%}	
+		{%- assign my_collection = my_collection | push: item -%}
+	{%- endfor -%}
+{%- endfor -%}
 
 {%- for item in site_pages -%}
 	{%- if item.path contains 'README.md' -%}	
