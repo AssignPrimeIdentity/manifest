@@ -12,12 +12,6 @@ Di sesi ini akan diuraikan tentang setup situs di GitHub.
 Anda bisa ikuti panduan untuk clone situs [Chetabahana](https://chetabahana.github.io/) di akun.  
 Disarankan agar ikuti [Cara Simple](#cara-simple) terlebih dahulu.
 
-```
-{% raw %}{% include list.liquid all=true %}{% endraw %}
-
-{% include list.liquid all=true %}
-```
-
 ## Cara Simple
 - Langsung [_Fork_](https://help.github.com/articles/fork-a-repo/#fork-an-example-repository) aja [_repo ini_](https://github.com/chetabahana/chetabahana.github.io/fork) juga [_lainnya_](https://github.com/chetabahana?tab=repositories) ke akun.
 - Beri nama `<akun>/<akun>.github.io` terus lakukan [_Settings_](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages).  
@@ -68,6 +62,13 @@ Anda bisa setup custom domain di GitHub:
 Here are the URLs as samples that pointing to our [forked projects](https://github.com/search?utf8=%E2%9C%93&q=%40chetabahana+fork%3Aonly+user%3Amarketleader+fork%3Aonly&type=Repositories&ref=advsearch&s=updated): 
 
 ## Selengkapnya
+Disarankan untuk disimak sebelum melangkah lebih jauh:  
+```
+{% raw %}{% include list.liquid all=true %}{% endraw %}
+
+{% include list.liquid all=true %}
+```
+
 ### Konsep
 - Site of Jeckyll Author, Tom Preston-Werner, GitHub's co-founder.: http://tom.preston-werner.com
 - Concept: http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html
@@ -91,7 +92,6 @@ Here are the URLs as samples that pointing to our [forked projects](https://gith
 - GraphQL API v4: https://developer.github.com/v4/explorer/
 
 ## Pustaka
-Disarankan untuk disimak sebelum melangkah lebih jauh:  
 Dokumentasi Project: https://github.com/chetabahana/chetabahana.github.io/wiki
 <p align="center"> 
 <a href="https://chetabahana.com/#after_header1_3"><img src="https://user-images.githubusercontent.com/36441664/38942532-44c87736-4359-11e8-9ad4-56f7d2b68ced.png" alt="Alokasi Pustaka Online Chetabahana"></a><br>
