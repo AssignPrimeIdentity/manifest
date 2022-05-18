@@ -14,7 +14,7 @@
 	{%- endfor -%}
 {%- endfor -%}
 
-{%- for item in site_pages -%}
+{%- for item in my_collection -%}
 	{%- if item.path contains 'README.md' -%}	
 		{%- assign site_dirs = site_dirs | push: item -%}
 	{%- else -%}
