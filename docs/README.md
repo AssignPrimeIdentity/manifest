@@ -8,18 +8,15 @@ WE ARE GOING TO WIN THE MARKET!
 </a><br /><br />
 </p>  
 
+Di sesi ini akan diuraikan tentang setup situs di GitHub.  
+Anda bisa ikuti panduan untuk clone situs [Chetabahana](https://chetabahana.github.io/) di akun.  
+Disarankan agar ikuti [Cara Simple](#cara-simple) terlebih dahulu.
+
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
 
 {% include list.liquid all=true %}
 ```
-
-|[![Chetabahana Project](https://avatars1.githubusercontent.com/u/36441664?v=10&s=20)](https://github.com/chetabahana) |This [repo](#repository "Project Repository") is courtesy of [₠Quantum Project](https://github.com/eq19 "We are providing an Integrated Open Source Project about The World of e-Commerce.").<br>Find all of them on [The Project Map](https://marketleader.github.io/#bagan-projek "Project Mapping").|[![Chetabahana Project](https://avatars2.githubusercontent.com/u/36441943?v=10&s=20)](https://github.com/MarketLeader) |
-|:----|----|----:|
-
-Di sesi ini akan diuraikan tentang setup situs di GitHub.  
-Anda bisa ikuti panduan untuk clone situs [Chetabahana](https://chetabahana.github.io/) di akun.  
-Disarankan agar ikuti [Cara Simple](#cara-simple) terlebih dahulu.
 
 ## Cara Simple
 - Langsung [_Fork_](https://help.github.com/articles/fork-a-repo/#fork-an-example-repository) aja [_repo ini_](https://github.com/chetabahana/chetabahana.github.io/fork) juga [_lainnya_](https://github.com/chetabahana?tab=repositories) ke akun.
@@ -120,7 +117,11 @@ Berikut ini beberapa catatan sebagai penutup:  
 Terimakasih atas kunjungannya.  
 Met menyimak.. :pray:  
 
-SALAM Sukses!  
+SALAM Sukses!
+
+|[![Chetabahana Project](https://avatars1.githubusercontent.com/u/36441664?v=10&s=20)](https://github.com/chetabahana) |This [repo](#repository "Project Repository") is courtesy of [₠Quantum Project](https://github.com/eq19 "We are providing an Integrated Open Source Project about The World of e-Commerce.").<br>Find all of them on [The Project Map](https://marketleader.github.io/#bagan-projek "Project Mapping").|[![Chetabahana Project](https://avatars2.githubusercontent.com/u/36441943?v=10&s=20)](https://github.com/MarketLeader) |
+|:----|----|----:|
+
 :copyright: [**Chetabahana Project**](https://github.com/MarketLeader)  
 [![profile for Chetabahana on Stack Exchange, a network of free, community-driven Q&amp;A sites](https://stackexchange.com/users/flair/5054985.png)](https://stackoverflow.com/users/4058484/chetabahana?tab=profile)   
 
