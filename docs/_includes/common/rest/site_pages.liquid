@@ -10,7 +10,7 @@
 
 {%- for collection in site.collections -%}
 	{%- for item in site[collection.label] -%}	
-		{%- assign my_collection = my_collection | push: item -%}
+		{%- assign site_pages = site_pages | push: item -%}
 	{%- endfor -%}
 {%- endfor -%}
 
