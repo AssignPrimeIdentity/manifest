@@ -10,11 +10,11 @@
 
 {%- for collection in site.collections -%}
 	{%- for item in site[collection.label] -%}	
-		{%- assign my_collection = my_collection | push: item -%}
+		{%- assign site_pages = site_pages | push: item -%}
 	{%- endfor -%}
 {%- endfor -%}
 
-{%- for item in my_collection -%}
+{%- for item in site_pages -%}
 	{%- if item.path contains 'README.md' -%}	
 		{%- assign site_dirs = site_dirs | push: item -%}
 	{%- else -%}
