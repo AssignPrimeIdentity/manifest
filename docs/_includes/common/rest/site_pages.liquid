@@ -8,9 +8,9 @@
 	{%- endfor -%}
 {%- endfor -%}
 
-{%- assign my_collection = my_collection 
-	| concat: site.html_pages
-	| join: ", " -%}
+{%- for item in site.html_pages -%}
+	{%- assign my_collection = my_collection | push: item -%}
+{%- endfor -%}
 
 {%- assign site_pages = my_collection
     | sort: "path"
