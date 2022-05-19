@@ -8,10 +8,6 @@ WE ARE GOING TO WIN THE MARKET!
 </a><br /><br />
 </p>  
 
-
-|[![Chetabahana Project](https://avatars1.githubusercontent.com/u/36441664?v=10&s=20)](https://github.com/chetabahana) |This [repo](#repository "Project Repository") is courtesy of [₠Quantum Project](https://github.com/eq19 "We are providing an Integrated Open Source Project about The World of e-Commerce.").<br>Find all of them on [The Project Map](https://marketleader.github.io/#bagan-projek "Project Mapping").|[![Chetabahana Project](https://avatars2.githubusercontent.com/u/36441943?v=10&s=20)](https://github.com/MarketLeader) |
-|:----|----|----:|
-
 Di sesi ini akan diuraikan tentang setup situs di GitHub.  
 Anda bisa ikuti panduan untuk clone situs [Chetabahana](https://chetabahana.github.io/) di akun.  
 Disarankan agar ikuti [Cara Simple](#cara-simple) terlebih dahulu.
@@ -66,6 +62,13 @@ Anda bisa setup custom domain di GitHub:
 Here are the URLs as samples that pointing to our [forked projects](https://github.com/search?utf8=%E2%9C%93&q=%40chetabahana+fork%3Aonly+user%3Amarketleader+fork%3Aonly&type=Repositories&ref=advsearch&s=updated): 
 
 ## Selengkapnya
+Disarankan untuk disimak sebelum melangkah lebih jauh:  
+```
+{% raw %}{% include list.liquid all=true %}{% endraw %}
+
+{% include list.liquid all=true %}
+```
+
 ### Konsep
 - Site of Jeckyll Author, Tom Preston-Werner, GitHub's co-founder.: http://tom.preston-werner.com
 - Concept: http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html
@@ -89,7 +92,6 @@ Here are the URLs as samples that pointing to our [forked projects](https://gith
 - GraphQL API v4: https://developer.github.com/v4/explorer/
 
 ## Pustaka
-Disarankan untuk disimak sebelum melangkah lebih jauh:  
 Dokumentasi Project: https://github.com/chetabahana/chetabahana.github.io/wiki
 <p align="center"> 
 <a href="https://chetabahana.com/#after_header1_3"><img src="https://user-images.githubusercontent.com/36441664/38942532-44c87736-4359-11e8-9ad4-56f7d2b68ced.png" alt="Alokasi Pustaka Online Chetabahana"></a><br>
@@ -115,7 +117,11 @@ Berikut ini beberapa catatan sebagai penutup:  
 Terimakasih atas kunjungannya.  
 Met menyimak.. :pray:  
 
-SALAM Sukses!  
+SALAM Sukses!
+
+|[![Chetabahana Project](https://avatars1.githubusercontent.com/u/36441664?v=10&s=20)](https://github.com/chetabahana) |This [repo](#repository "Project Repository") is courtesy of [₠Quantum Project](https://github.com/eq19 "We are providing an Integrated Open Source Project about The World of e-Commerce.").<br>Find all of them on [The Project Map](https://marketleader.github.io/#bagan-projek "Project Mapping").|[![Chetabahana Project](https://avatars2.githubusercontent.com/u/36441943?v=10&s=20)](https://github.com/MarketLeader) |
+|:----|----|----:|
+
 :copyright: [**Chetabahana Project**](https://github.com/MarketLeader)  
 [![profile for Chetabahana on Stack Exchange, a network of free, community-driven Q&amp;A sites](https://stackexchange.com/users/flair/5054985.png)](https://stackoverflow.com/users/4058484/chetabahana?tab=profile)   
 
