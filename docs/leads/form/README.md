@@ -1,4 +1,7 @@
-# 5.The Parser of C1+C2
+---
+sort: 5
+---
+# The Parser of C1+C2
 
 This topic will be related with our _[pre-release](https://github.com/chetabahana/chetabahana.github.io/tree/v1.0.0-alpha)_ that mapped the primes to π(1000)=168 as the main lexer. So the next target is about 618 as the main parser. 
 

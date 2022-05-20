@@ -1,4 +1,7 @@
-# 7.Grammar of eQ19 (10143)
+---
+sort: 7
+---
+# Grammar of eQ19 (10143)
 
 Within next development we will discuss about the interconnection between 168 and 618. Here we will discuss mote detail about the sequence in the [DNA Recombination](#introduction).
 
