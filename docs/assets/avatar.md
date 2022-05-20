@@ -1,5 +1,5 @@
 ---
-sort: 7
+sort: 26
 ---
 
 # Avatar Test
