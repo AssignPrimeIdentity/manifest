@@ -2,7 +2,7 @@
 sort: 3
 ---
 
-# Program
+# Mapping
 
 ![Parsing](https://user-images.githubusercontent.com/36441664/71648180-c599e280-2d33-11ea-94e0-9a8552c72bd7.png)
 
