@@ -1,5 +1,6 @@
 ---
 title: Intro
+layout: default
 ---
 # Introduction
  
