@@ -1,6 +1,6 @@
 ---
-title: Intro
-layout: default
+title: about
+layout: about
 ---
 # Introduction
  
