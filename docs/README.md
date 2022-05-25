@@ -1,7 +1,3 @@
----
-title: about
-layout: about
----
 # Introduction
  
 <p align="center"> 
