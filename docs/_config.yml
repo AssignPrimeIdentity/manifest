@@ -1,7 +1,16 @@
 # General Settings
+# https://learn.cloudcannon.com/jekyll-cheat-sheet/
+
+title: ₠Quantum
+encoding: utf-8
+livereload: true
+limit_posts: 1000
+timezone: Asia/Jakarta
+collections_dir: assets
+remote_theme: eQ19/parser
+
 # https://jekyllrb.com/docs/configuration/
 # https://jekyllrb.com/docs/configuration/options/
-# https://learn.cloudcannon.com/jekyll-cheat-sheet/
 
 input_types:
 - text
@@ -17,9 +26,6 @@ form_engines:
 - cloudcannon
 - formspree
 - formbucket
-
-title: ₠Quantum
-base_tag: basic-grammar
 
 debug:
   dist: false
@@ -66,14 +72,6 @@ exclude:
   - webpack.config.js
   - jekyll-rtd-theme.gemspec
 
-
-encoding: utf-8
-livereload: true
-limit_posts: 1000
-timezone: Asia/Jakarta
-collections_dir: assets
-remote_theme: eQ19/parser
-excerpt_separator: <!--end_excerpt-->
 
 # Plugins Setting
 # https://pages.github.com/versions/
@@ -162,12 +160,13 @@ feed:
 
 highlighter: rouge
 markdown: kramdown
-
 kramdown:
   html_to_native: true
   syntax_highlighter: pygments
   math_engine_opts configuration: mathjax
  
+excerpt_separator: <!--end_excerpt-->
+
 # Custom Headers
 # https://jekyllrb.com/docs/configuration/webrick/
 # https://en.wikipedia.org/wiki/Content_Security_Policy
@@ -221,7 +220,6 @@ repository: chetabahana/chetabahana.github.io
 # https://stackoverflow.com/questions/14000173/tortoisegit-save-user-authentication-credentials
 # https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 
-title: Project Feed
 name: ₠Quantum Project | A Unique Mapping System
 slogan: ₠Quantum Project | System Mapping and Definition
 description: We are providing an Integrated Open Source Project about The World of e-Commerce.
