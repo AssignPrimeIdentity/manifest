@@ -3,7 +3,10 @@
    "title": "publikasi",
    "cards":[
         {
-           "html":"<div class='github-card' data-github='eQ19' data-width='250' data-height='400' data-theme='medium'></div>"
+           "html":"<div class='github-card' data-github='eQ19' data-width='250' data-height='400'></div>"
+        },
+        {
+           "html":"<div class='github-card' data-github='FeedMapping' data-width='250' data-height='400'></div>"
         },
         {
            "html":"<div class='github-card' data-github='Chetabahana' data-width='250' data-height='400' data-theme='medium'></div>"
