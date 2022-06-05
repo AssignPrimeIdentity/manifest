@@ -5,7 +5,6 @@ title: ₠Quantum
 # About
  
 ```
-
 π(1000) Schema
 Injected via 168 = π(1000)
 loop(1000) => π(1000) - 10th = 168 - 29 = 25 + 114 = 139 
