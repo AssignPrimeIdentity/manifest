@@ -1,7 +1,3 @@
----
-layout: about
-title: ₠Quantum
----
 # About
  
 ```
