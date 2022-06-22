@@ -5,13 +5,13 @@
 
 input_types:
 - text
-- textarea
 - email
 - date
-- checkbox
 - radio
 - number
 - submit
+- checkbox
+- textarea
 
 form_engines:
 - cloudcannon
