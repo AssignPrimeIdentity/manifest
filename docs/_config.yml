@@ -210,12 +210,12 @@ project_link: https://www.chetabahana.com/
 repository: chetabahana/chetabahana.github.io
 
 # Site Metadata
+# https://docs.github.com/en/pages
 # https://stackoverflow.com/a/55094996/4058484
 # https://help.github.com/articles/repository-metadata-on-github-pages/
 # https://www.google.com/search?q=tortoisegit+keep+asking+password+site%3Astackoverflow.com
 # https://stackoverflow.com/questions/3490505/is-there-a-notepad-with-github-plugin/41884020
 # https://stackoverflow.com/questions/14000173/tortoisegit-save-user-authentication-credentials
-# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
 
 title: ₠Quantum
 name: ₠Quantum Project | A Unique Mapping System
