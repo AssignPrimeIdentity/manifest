@@ -14,9 +14,9 @@ input_types:
 - textarea
 
 form_engines:
-- cloudcannon
 - formspree
 - formbucket
+- cloudcannon
 
 debug:
   dist: false
