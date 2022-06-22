@@ -5,8 +5,8 @@
 
 input_types:
 - text
-- email
 - date
+- email
 - radio
 - number
 - submit
