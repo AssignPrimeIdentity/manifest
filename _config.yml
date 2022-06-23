@@ -5,13 +5,13 @@
 
 input_types:
 - text
-- textarea
-- email
 - date
+- email
 - checkbox
 - radio
 - number
 - submit
+- textarea
 
 form_engines:
 - cloudcannon
@@ -82,8 +82,8 @@ excerpt_separator: <!--end_excerpt-->
 
 plugins:
   - jemoji
-  - jekyll-feed
   - jekyll-gist
+  - jekyll-feed
   - jekyll-avatar
   - jekyll-sitemap
   - jekyll-mentions
@@ -92,8 +92,8 @@ plugins:
 
 whitelist:
   - jemoji
-  - jekyll-feed
   - jekyll-gist
+  - jekyll-feed
   - jekyll-avatar
   - jekyll-sitemap
   - jekyll-mentions
