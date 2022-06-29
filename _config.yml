@@ -7,11 +7,11 @@ input_types:
 - text
 - date
 - email
-- checkbox
 - radio
 - number
 - submit
 - textarea
+- checkbox
 
 form_engines:
 - cloudcannon
