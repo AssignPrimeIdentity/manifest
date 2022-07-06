@@ -8,8 +8,8 @@ input_types:
 - date
 - email
 - radio
-- number
 - submit
+- number
 - textarea
 - checkbox
 
