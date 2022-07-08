@@ -142,7 +142,6 @@ Reference:
 https://chetabahana.github.io/images/skema/loop36.png
 https://chetabahana.github.io/images/skema/loop50.png
 
-
 ```
 
 ```
