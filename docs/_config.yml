@@ -64,9 +64,9 @@ exclude:
 encoding: utf-8
 livereload: true
 limit_posts: 1000
-collections_dir: maps
 timezone: Asia/Jakarta
-remote_theme: eQ19/parser
+collections_dir: assets
+remote_theme: eQ19/grammar
 excerpt_separator: <!--end_excerpt-->
 
 # Plugins Setting
