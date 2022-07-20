@@ -28,8 +28,8 @@ Start Menu/
 My Documents/
 Local Settings/
 Application Data/
-assets/_feeds/head/get/
-assets/System Volume Information/
+docs/maps/_feeds/head/get/
+docs/maps/System Volume Information/
 
 # Dependency
 build/
