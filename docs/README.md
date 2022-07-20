@@ -1,5 +1,4 @@
 # Grammar
- 
 ```
 π(1000) Schema
 Injected via 168 = π(1000)
