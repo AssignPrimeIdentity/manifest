@@ -29,6 +29,8 @@ debug:
 readme_index:
   with_frontmatter: true
 
+collections_dir: docs/assets
+
 # Repository Settings
 # https://blog.webjeda.com/jekyll-redirect/
 # https://github.com/dotnet/docs/issues/20459#issuecomment-725295168
@@ -70,9 +72,9 @@ encoding: utf-8
 livereload: true
 limit_posts: 1000
 timezone: Asia/Jakarta
-collections_dir: docs/assets
-remote_theme: eQ19/parser@v3.0.8
-excerpt_separator: <!--end_excerpt-->
+
+remote_theme: eQ19/parser
+# remote_theme: eQ19/parser@v3.0.8
 
 # Plugins Setting
 # https://pages.github.com/versions/
@@ -154,6 +156,8 @@ feed:
         - diagram # https://chetabahana.github.io/feed/feeds/diagram.xml
         - section # https://chetabahana.github.io/feed/feeds/section.xml
       path: /feeds.xml # https://chetabahana.github.io/feeds.xml
+
+excerpt_separator: <!--end_excerpt-->
 
 # Kramdown Options
 # https://kramdown.gettalong.org/options.html
