@@ -16,13 +16,9 @@ layout: tasks/compress
 *  https://chetabahana.github.io/
 *
 {% endcomment %}
-{%- assign sections = site.feeds | sort: 'weight' | where_exp:"item", "item.category == 'section'" -%}
 <!DOCTYPE html>
-<html lang="id">
+<html lang="{{ lang }}" dir="{{ direction }}">
     <head>
-{% for section in sections %}
-{{ section.output }}
-{% endfor %}
+        {% include templates/content.liquid %}
     </body>
 </html>
-
