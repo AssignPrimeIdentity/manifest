@@ -8,8 +8,6 @@ layout: tasks/compress
 <!DOCTYPE html>
 <html lang="{{ lang }}" dir="{{ direction }}">
     <head>
-{% for section in sections %}
-{{ section.output }}
-{% endfor %}
+        {% include templates/content.liquid %}
     </body>
 </html>
