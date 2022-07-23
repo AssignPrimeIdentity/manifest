@@ -6,7 +6,7 @@
         {
             "style": {
                 "theme": "simple",
-                "font-size": 15
+                "font-size": 14
             },
             "guide": {
                 "xml": "/feeds.xml",
