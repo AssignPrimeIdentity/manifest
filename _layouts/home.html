@@ -1,9 +1,10 @@
 ---
 layout: tasks/compress
 ---
-{%- assign sections = site.feeds 
-	| sort: 'weight' 
-	| where_exp:"item", "item.category == 'section'" -%}
+
+{%- include extra/rest/defaults.liquid -%}
+{%- include leads/rest/defaults.liquid -%}
+
 <!DOCTYPE html>
 <html lang="id">
     <head>
