@@ -73,6 +73,7 @@ encoding: utf-8
 livereload: true
 limit_posts: 1000
 timezone: Asia/Jakarta
+
 remote_theme: eQ19/parser
 # remote_theme: eQ19/parser@v3.1.0
 
