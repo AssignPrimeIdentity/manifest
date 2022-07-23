@@ -23,7 +23,7 @@ base_tag: basic-grammar
 
 debug:
   dist: false
-  compress: true
+  compress: false
   shortcodes: true
 
 readme_index:
