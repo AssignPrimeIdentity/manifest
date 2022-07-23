@@ -67,7 +67,6 @@ limit_posts: 1000
 timezone: Asia/Jakarta
 collections_dir: assets
 remote_theme: eQ19/parser
-excerpt_separator: <!--end_excerpt-->
 
 # Plugins Setting
 # https://pages.github.com/versions/
@@ -162,6 +161,8 @@ kramdown:
   syntax_highlighter: pygments
   math_engine_opts configuration: mathjax
  
+excerpt_separator: <!--end_excerpt-->
+
 # Custom Headers
 # https://shopify.github.io/liquid/
 # https://jekyllrb.com/docs/configuration/webrick/
