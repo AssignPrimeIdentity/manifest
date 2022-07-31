@@ -65,6 +65,8 @@ encoding: utf-8
 livereload: true
 limit_posts: 1000
 timezone: Asia/Jakarta
+
+data_dir: assets/_data
 collections_dir: assets
 remote_theme: eQ19/parser
 

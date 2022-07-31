@@ -29,6 +29,7 @@ debug:
 readme_index:
   with_frontmatter: true
 
+data_dir: docs/assets/_data
 collections_dir: docs/assets
 excerpt_separator: <!--end_excerpt-->
 
