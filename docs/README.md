@@ -1,6 +1,6 @@
 # Grammar
 ```
-π(1000) Schema
+Schema 168
 Injected via 168 = π(1000)
 loop(1000) => π(1000) - 10th = 168 - 29 = 25 + 114 = 139 
 ```
