@@ -141,15 +141,17 @@ feed:
   posts_limit: 1000
   excerpt_only: true
   collections:
-    leads:
-      path: /leads.xml # https://chetabahana.github.io/leads.xml
     feeds:
+      path: /feeds.xml # https://eq19.github.io/grammar/feeds.xml
       categories:
-        - main # https://chetabahana.github.io/feed/feeds/main.xml
-        - user # https://chetabahana.github.io/feed/feeds/user.xml
-        - diagram # https://chetabahana.github.io/feed/feeds/diagram.xml
-        - section # https://chetabahana.github.io/feed/feeds/section.xml
-      path: /feeds.xml # https://chetabahana.github.io/feeds.xml
+        - main # https://eq19.github.io/grammar/feed/feeds/main.xml
+        - user # https://eq19.github.io/grammar/feed/feeds/user.xml
+        - diagram # https://eq19.github.io/grammar/feed/feeds/diagram.xml
+        - section # https://eq19.github.io/grammar/feed/feeds/section.xml
+    leads:
+      path: /leads.xml # https://eq19.github.io/grammar/leads.xml
+    posts:
+      path: /posts.xml # https://eq19.github.io/grammar/posts.xml
 
 # Kramdown Options
 # https://kramdown.gettalong.org/options.html
