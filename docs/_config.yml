@@ -142,6 +142,7 @@ feed:
   path: /feed.xml # https://eq19.github.io/grammar/feed.xml
   tags:
     only:
+      - myId
       - value
       - weight
     path: /tags.xml # https://eq19.github.io/grammar/tags.xml
