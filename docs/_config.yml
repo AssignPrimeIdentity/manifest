@@ -139,7 +139,7 @@ collections:
 feed:
   posts_limit: 1000
   excerpt_only: true
-  path: /feed.xml # https://eq19.github.io/grammar/feed.xml
+  path: /feed.atom # https://eq19.github.io/grammar/feed.xml
   tags:
     only:
       - myId
