@@ -140,7 +140,6 @@ feed:
   tags: true
   posts_limit: 1000
   excerpt_only: true
-  path: /feed.atom # https://eq19.github.io/grammar/feed.xml
   collections:
     feeds:
       categories:
