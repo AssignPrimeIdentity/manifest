@@ -137,15 +137,10 @@ collections:
 # https://github.com/jekyll/jekyll-feed/issues/207#issuecomment-787490785
 
 feed:
+  tags: true
   posts_limit: 1000
   excerpt_only: true
   path: /feed.atom # https://eq19.github.io/grammar/feed.xml
-  tags:
-    only:
-      - myId
-      - value
-      - weight
-    path: /tags.xml # https://eq19.github.io/grammar/tags.xml
   collections:
     feeds:
       categories:
