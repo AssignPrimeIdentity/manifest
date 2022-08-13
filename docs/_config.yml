@@ -143,14 +143,15 @@ feed:
     only:
       - value
       - weight
+    path: /tags.xml # https://eq19.github.io/grammar/tags.xml
   collections:
     feeds:
-      path: /feeds.xml # https://eq19.github.io/grammar/feeds.xml
       categories:
         - main # https://eq19.github.io/grammar/feed/feeds/main.xml
         - user # https://eq19.github.io/grammar/feed/feeds/user.xml
         - diagram # https://eq19.github.io/grammar/feed/feeds/diagram.xml
         - section # https://eq19.github.io/grammar/feed/feeds/section.xml
+      path: /feeds.xml # https://eq19.github.io/grammar/feeds.xml
     leads:
       path: /leads.xml # https://eq19.github.io/grammar/leads.xml
     posts:
