@@ -43,10 +43,12 @@ http://jekyllrb.com/docs/structure/
 - Commit ke Github<br>
 http://martinbuberl.com/blog/setup-jekyll-on-windows-and-host-it-on-github-pages/    
 `
-    git add --all \    
-    git commit -m "Initial commit" \   
-    git push "origin" master:master
-`
+```
+	git add --all \    
+	git commit -m "Initial commit" \   
+	git push "origin" master:master
+````
+
 - Buka di browsernya:<br>
 `https://YOUR-ORGANIZATION.github.io`
 
@@ -65,7 +67,6 @@ Here are the URLs as samples that pointing to our [forked projects](https://gith
 Disarankan untuk disimak sebelum melangkah lebih jauh:  
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}
-
 {% include list.liquid all=true %}
 ```
 
