@@ -71,26 +71,26 @@ Disarankan untuk disimak sebelum melangkah lebih jauh:
 ```
 
 ### Konsep
-- Concept: http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html
-- Site of Jeckyll: http://tom.preston-werner.com
+- [Concept](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html)
+- [Site of Jeckyll](http://tom.preston-werner.com)
 ### GitHub Pages
-- Setup: https://gist.github.com/chrisjacob/833223  
-- YAML: http://yaml.org/spec/1.2/spec.html#id2775170
-- CoffeeScript: https://coffeescript.org/#functions
-- Plugins: https://help.github.com/articles/configuring-jekyll-plugins/
+- [Setup](https://gist.github.com/chrisjacob/833223)
+- [YAML](http://yaml.org/spec/1.2/spec.html#id2775170)
+- [CoffeeScript](https://coffeescript.org/#functions)
+- [Plugins](https://help.github.com/articles/configuring-jekyll-plugins/)
 ### Using Jekyll / Liquid
-- Validator: https://codebeautify.org/
-- Dokumentasi: https://github.com/mojombo/tpw  
-- Jekyll https://mademistakes.com/articles/using-jekyll-2016/
-- Liquid: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
-### Cheatsheet: 
-- Jekyll: https://devhints.io/jekyll
-- Shopify: http://cheat.markdunkley.com/
-- Emoji: https://www.webpagefx.com/tools/emoji-cheat-sheet/ :smiley:
-- Reference: https://news.humancoders.com/t/developpement/items/11149-jekyll-cheat-sheet
+- [Validator](https://codebeautify.org/)
+- [Dokumentasi](https://github.com/mojombo/tpw)
+- [Jekyll https://mademistakes.com/articles/using-jekyll-2016/)
+- [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
+### Cheatsheet](
+- [Jekyll](https://devhints.io/jekyll)
+- [Shopify](http://cheat.markdunkley.com/)
+- [Emoji](https://www.webpagefx.com/tools/emoji-cheat-sheet/) :smiley:
+- [Reference](https://news.humancoders.com/t/developpement/items/11149-jekyll-cheat-sheet)
 ### GitHub API
-- REST API v3: https://developer.github.com/v3/
-- GraphQL API v4: https://developer.github.com/v4/explorer/
+- [REST API v3](https://developer.github.com/v3/)
+- [GraphQL API v4](https://developer.github.com/v4/explorer/)
 
 ## Pustaka
 Dokumentasi Project: https://github.com/chetabahana/chetabahana.github.io/wiki
