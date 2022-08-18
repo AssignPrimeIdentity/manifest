@@ -71,8 +71,8 @@ Disarankan untuk disimak sebelum melangkah lebih jauh:
 ```
 
 ### Konsep
-- Site of Jeckyll Author, Tom Preston-Werner, GitHub's co-founder.: http://tom.preston-werner.com
 - Concept: http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html
+- Site of Jeckyll: http://tom.preston-werner.com
 ### GitHub Pages
 - Setup: https://gist.github.com/chrisjacob/833223  
 - YAML: http://yaml.org/spec/1.2/spec.html#id2775170
