@@ -93,7 +93,7 @@ Disarankan untuk disimak sebelum melangkah lebih jauh:
 - [GraphQL API v4](https://developer.github.com/v4/explorer/)
 
 ## Pustaka
-Dokumentasi Project: https://github.com/chetabahana/chetabahana.github.io/wiki
+[Dokumentasi Project](https://github.com/chetabahana/chetabahana.github.io/wiki)
 <p align="center"> 
 <a href="https://chetabahana.com/#after_header1_3"><img src="https://user-images.githubusercontent.com/36441664/38942532-44c87736-4359-11e8-9ad4-56f7d2b68ced.png" alt="Alokasi Pustaka Online Chetabahana"></a><br>
 Gambar-2: Alokasi Pustaka Online <a href= "https://chetabahana.com">Chetabahana</a>
