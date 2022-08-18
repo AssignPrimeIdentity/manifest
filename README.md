@@ -124,7 +124,7 @@ SALAM Sukses!
 |:----|----|----:|
 
 :copyright: [**Chetabahana Project**](https://github.com/MarketLeader)  
-[![profile for Chetabahana on Stack Exchange, a network of free, community-driven Q&amp;A sites](https://stackexchange.com/users/flair/5054985.png)](https://stackoverflow.com/users/4058484/chetabahana?tab=profile)   
+[![profile for Chetabahana on Stack Exchange, a network of free, community-driven Q&amp;A sites](https://stackexchange.com/users/flair/5054985.png)](https://stackoverflow.com/users/4058484/eq19?tab=profile)   
 
 
 [:arrow_backward:]((https://github.com/MarketLeader)) [Prev](https://github.com/MarketLeader)|[Next](https://marketleader.github.io/) [:arrow_forward:](https://marketleader.github.io/)|
