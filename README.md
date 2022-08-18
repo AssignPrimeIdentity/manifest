@@ -55,7 +55,6 @@ http://martinbuberl.com/blog/setup-jekyll-on-windows-and-host-it-on-github-pages
 You are done, Congrats..    
 
 ## Setup Domain
-
 Anda bisa setup custom domain di GitHub:  
 - https://help.github.com/articles/user-organization-and-project-pages/  
 - https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
