@@ -102,7 +102,7 @@ Gambar-2: Alokasi Pustaka Online <a href= "https://chetabahana.com">Chetabahana<
 - [Cara Buka Toko Online WinMarket dan Optimasi Internal](https://chetabahana.blogspot.com/)
 - [Cara Optimasi Eksternal Toko dengan Shop SEO](https://chetabahana.wordpress.com/)
 - [Channel Youtube](https://www.youtube.com/channel/UCZlPku9beXzdROCknYLuRNg?view_as=subscriber)
-- [e-Books Chetabahana](https://www.scribd.com/user/401259110/Chetabahana)
+- [e-Books](https://www.scribd.com/user/401259110/Chetabahana)
 
 ## License
 Project ini dipublikasikan dengan lisensi berikut:  
