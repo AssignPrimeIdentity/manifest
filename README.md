@@ -112,8 +112,6 @@ Project ini dipublikasikan dengan lisensi berikut:
 Berikut beberapa catatan sebagai penutup:  
 - Projek ini diprioriostaskan bagi peminat [e-Commerce di Indonesia](https://www.youtube.com/watch?v=dd__L8Jh2c4&t=25s) 🇮🇩
 - Status masih pengembangan dan pengetesan implementasi
-- Syarat untuk bergabung silahkan [Daftar ID WinMarket](https://chetabahana.com/info/tentang-89.html)
-- Tim WinMarket welcome untuk bergabung.
 
 Terimakasih atas kunjungannya.  
 Met menyimak.. :pray:  
