@@ -25,8 +25,8 @@ https://github.com/join
 - Buat organization baru:<br>
 https://github.com/organizations/new
 
-- Pasang Github di Windows:<br>
-https://windows.github.com/
+- Pasang Github Dekstop:<br>
+https://desktop.github.com/
 
 - Pilih template, atau pakai spt kami, ambil FREE disini:<br>
 http://www.templatemo.com/preview/templatemo_395_urbanic
