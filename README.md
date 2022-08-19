@@ -7,7 +7,7 @@ WE ARE GOING TO WIN THE MARKET!
 </a><br /><br />
 </p>  
 
-Di sesi ini akan diuraikan tentang setup situs di GitHub.  
+Di sesi ini diuraikan tentang setup situs di GitHub.  
 Anda bisa ikuti panduan untuk clone situs [Chetabahana](https://chetabahana.github.io/) di akun.  
 Disarankan agar ikuti [Cara Simple](#cara-simple) terlebih dahulu.
 
