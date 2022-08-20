@@ -34,8 +34,8 @@ include:
   - feed.xml
   - feed.json
   - .htaccess
-  - package.json
   - node_modules
+  - package.json
 
 exclude:
   - .babelrc
