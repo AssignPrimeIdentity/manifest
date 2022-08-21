@@ -39,9 +39,12 @@ include:
 
 exclude:
   - .babelrc
+  - Gemfile
   - Makefile
   - yarn.lock
   - Dockerfile
+  - update.sh
+  - Gemfile.lock
   - Gemfile.lock
   - vendor/ruby/
   - vendor/gems/
@@ -50,10 +53,6 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - docker_compose.yml
-  - Makefile
-  - update.sh
-  - Gemfile
-  - Gemfile.lock
   - requirements.txt
   - node_modules
   - package.json
