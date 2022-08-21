@@ -7,7 +7,6 @@ Main Code: []()
 
 ###  Checklist
 <!-- Please keep this section. It will make maintainer's life easier. -->
-
 1. [ ] Privileged views and APIs are guarded by proper permission checks.
 1. [ ] All visible strings are translated with proper context.
 1. [ ] All data-formatting is locale-aware (dates, numbers, and so on).
