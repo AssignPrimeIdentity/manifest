@@ -216,6 +216,11 @@ h4:before, h4:after {
     color:#ffffff;
 }
 
+.nav {
+  position: relative;
+  overflow-y: scroll;
+}
+
 .nav > li > a {
     padding: 10px 20px;
 }
