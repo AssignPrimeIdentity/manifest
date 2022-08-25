@@ -73,8 +73,8 @@ https://chetabahana.github.io/images/skema/loop19.png
 https://chetabahana.github.io/images/skema/flowchart.png
 
 ```
-```
 
+```
   Sub  |   i |     β | f   
 =======+=====+=======+====     ===   ===   ===   ===   ===   === <-- π(1000-50)
  1:1:0 |  19 |    10 | 71       1     1     |     |     |     |
