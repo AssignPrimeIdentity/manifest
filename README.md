@@ -27,7 +27,7 @@ https://github.com/organizations/new
 - Pasang Github Dekstop:<br>
 https://desktop.github.com/
 
-- Pilih template, atau pakai spt kami, ambil FREE disini:<br>
+- Ambil FREE [disini](https://github.com/orgs/FeedTheme/repositories), atau pakai spt kami:<br>
 http://www.templatemo.com/preview/templatemo_395_urbanic
 
 - Ber nama repositorynya: "YOUR-ORGANIZATION.github.io":<br>
