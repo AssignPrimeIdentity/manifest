@@ -51,7 +51,7 @@ http://martinbuberl.com/blog/setup-jekyll-on-windows-and-host-it-on-github-pages
 - Buka di browsernya:<br>
 `https://YOUR-ORGANIZATION.github.io`
 
-You are done, Congrats..    
+You are done. Congrats..    
 
 ## Setup Domain
 Anda bisa setup custom domain di GitHub:  
