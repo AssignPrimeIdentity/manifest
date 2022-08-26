@@ -103,7 +103,7 @@ Gambar-2: Alokasi Pustaka <a href= "https://chetabahana.com">Chetabahana</a>
 - [e-Books](https://www.scribd.com/user/401259110/Chetabahana)
 
 ## License
-Project ini dipublikasikan dengan lisensi [Apache License 2.0](https://github.com/MarketLeader/Toko-Chetabahana/blob/master/LICENSE)
+Projek ini dipublikasikan dengan lisensi [Apache License 2.0](https://github.com/MarketLeader/Toko-Chetabahana/blob/master/LICENSE)
 
 ## Penutup
 Berikut beberapa catatan sebagai penutup:  
