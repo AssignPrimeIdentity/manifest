@@ -59,7 +59,7 @@ Anda bisa setup custom domain di GitHub:
 - https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
 - https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages
 
-Here are the URLs as samples that pointing to our [forked projects](https://github.com/search?utf8=%E2%9C%93&q=%40chetabahana+fork%3Aonly+user%3Amarketleader+fork%3Aonly&type=Repositories&ref=advsearch&s=updated): 
+Here are the sample URLs as samples that pointing to our [forked projects](https://github.com/search?utf8=%E2%9C%93&q=%40chetabahana+fork%3Aonly+user%3Amarketleader+fork%3Aonly&type=Repositories&ref=advsearch&s=updated): 
 
 ## Selengkapnya
 Disarankan untuk disimak sebelum melangkah lebih jauh:  
