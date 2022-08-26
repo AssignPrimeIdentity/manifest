@@ -74,8 +74,8 @@ Disarankan untuk disimak sebelum melangkah lebih jauh:
 ### GitHub Pages
 - [Setup](https://gist.github.com/chrisjacob/833223)
 - [YAML](http://yaml.org/spec/1.2/spec.html#id2775170)
-- [CoffeeScript](https://coffeescript.org/#functions)
 - [Plugins](https://help.github.com/articles/configuring-jekyll-plugins/)
+- [CoffeeScript](https://coffeescript.org/#functions)
 ### Using Jekyll / Liquid
 - [Validator](https://codebeautify.org/)
 - [Dokumentasi](https://github.com/mojombo/tpw)
