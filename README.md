@@ -106,7 +106,7 @@ Gambar-2: Pustaka <a href= "https://chetabahana.com">Chetabahana</a>
 Projek ini dipublikasikan dengan lisensi [Apache License 2.0](https://github.com/MarketLeader/Toko-Chetabahana/blob/master/LICENSE)
 
 ## Penutup
-Berikut beberapa catatan sebagai penutup:  
+Berikut catatan sebagai penutup:  
 - Projek ini diprioriostaskan bagi peminat [e-Commerce di Indonesia](https://www.youtube.com/watch?v=dd__L8Jh2c4&t=25s) 🇮🇩
 - Status masih pengembangan dan pengujian implementasi
 
