@@ -9,7 +9,7 @@ WE ARE GOING TO WIN THE MARKET!
 
 Di sesi ini akan diuraikan tentang setup situs di GitHub.  
 Anda bisa ikuti panduan clone situs [eQ19](https://eq19.github.io/) di akun.  
-Disarankan agar ikuti [Cara Simple](#cara-simple) terlebih dahulu.
+Disarankan ikuti [Cara Simple](#cara-simple) terlebih dahulu.
 
 ## Cara Simple
 - Langsung [_Fork_](https://help.github.com/articles/fork-a-repo/#fork-an-example-repository) aja [_repo ini_](https://github.com/chetabahana/chetabahana.github.io/fork) juga [_lainnya_](https://github.com/chetabahana?tab=repositories) ke akun.
