@@ -115,13 +115,6 @@ defaults:
     values:
       layout: "redirect"
 
-  -
-    scope:
-      path: ""
-      redirect_from: "/index_*.xml"
-    values:
-      layout: "redirect"
-
 # Permalinks
 # https://jekyllrb.com/docs/permalinks/
 # feeds: https://chetabahana.github.io/main/tree.json
