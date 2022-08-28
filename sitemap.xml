@@ -1,2 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<browserconfig><msapplication><tile><square70x70logo src="/images/icon/ms-icon-70x70.png"/><square150x150logo src="/images/icon/ms-icon-150x150.png"/><square310x310logo src="/images/icon/ms-icon-310x310.png"/><TileColor>#ffffff</TileColor></tile></msapplication></browserconfig>
+{%- include leads/rest/site_pages.liquid -%}
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://www.eq19.com/stylesheet/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {%- for page in site_pages -%}
+        <url>
+            <loc>{{ page.url | absolute_url | xml_escape }}</loc>
+            <priority>{{ page.content | size | divided_by: 2048.0 | times: 10 | ceil | divided_by: 10.0 | at_least: 0.1 | at_most: 1.0 }}</priority>
+            <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        </url>
+    {%- endfor %}
+</urlset>
