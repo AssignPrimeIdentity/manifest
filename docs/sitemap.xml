@@ -1,8 +1,18 @@
 ---
-redirect_from: /index_2.xml
+redirect_from:
+  - /index_1.xml
+  - /index_2.xml
+  - /index_3.xml
+  - /index_4.xml
+  - /index_5.xml
+  - /index_6.xml
+  - /index_7.xml
+  - /index_8.xml
+  - /index_9.xml
+  - /index_10.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="https://gitcdn.xyz/repo/pedroborges/xml-sitemap-stylesheet/master/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="/stylesheet/sitemap.xsl"?>
 <urlset
     xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
