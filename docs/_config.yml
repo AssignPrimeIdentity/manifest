@@ -117,7 +117,8 @@ defaults:
 
   -
     scope:
-      path: "index_*.xml"
+      path: ""
+      redirect_from: "/index_*.xml"
     values:
       layout: "redirect"
 
