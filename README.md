@@ -7,7 +7,7 @@ WE ARE GOING TO WIN THE MARKET!
 </a><br /><br />
 </p>  
 
-Di sesi ini diuraikan tentang setup situs di GitHub.  
+Di sesi ini diuraikan tentang setup [situs di GitHub](https://pages.github.com/).  
 Anda bisa ikuti panduan clone situs [eQ19](https://eq19.github.io/) di akun.  
 Disarankan ikuti [Cara Simple](#cara-simple) terlebih dahulu.
 
