@@ -111,7 +111,7 @@ defaults:
   -
     scope:
       path: ""
-      url: "/index_*"
+      type: "leads"
     values:
       layout: "redirect"
 
