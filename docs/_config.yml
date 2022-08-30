@@ -66,8 +66,8 @@ limit_posts: 1000
 timezone: Asia/Jakarta
 
 data_dir: assets/_data
+collections_dir: assets
 remote_theme: eQ19/parser
-collections_dir: assets/mapping
 
 # Plugins Setting
 # https://pages.github.com/versions/
