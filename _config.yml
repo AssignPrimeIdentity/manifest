@@ -132,7 +132,6 @@ defaults:
 collections:
   leads:
     output: true
-    permalink: /index_/:title:
   feeds:
     output: true
     permalink: /:categories/:title:output_ext
