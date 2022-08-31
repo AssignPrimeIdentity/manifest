@@ -131,7 +131,7 @@ defaults:
 
 collections:
   leads:
-    permalink: /index_:title:.xml
+    permalink: /index_/:title:
   feeds:
     output: true
     permalink: /:categories/:title:output_ext
