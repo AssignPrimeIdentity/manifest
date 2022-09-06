@@ -32,12 +32,12 @@ docs/maps/_feeds/head/get/
 docs/maps/System Volume Information/
 
 # Dependency
-main/
 build/
 node_modules/
 jspm_packages/
 nvvp_workspace/
 getting-started/
+grammar/docs/assets/
 
 # Logs
 logs
