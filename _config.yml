@@ -85,7 +85,7 @@ remote_theme: eQ19/parser
 
 plugins:
   - jemoji
-  - jekyll-gist
+#   - jekyll-gist
   - jekyll-feed
   - jekyll-avatar
   - jekyll-sitemap
@@ -95,7 +95,7 @@ plugins:
 
 whitelist:
   - jemoji
-  - jekyll-gist
+#   - jekyll-gist
   - jekyll-feed
   - jekyll-avatar
   - jekyll-sitemap
