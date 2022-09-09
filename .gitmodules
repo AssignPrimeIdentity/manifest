@@ -1,9 +1,3 @@
 [submodule "docs/assets/_feeds/head/default"]
 	path = docs/assets/_feeds/head/default
 	url = https://github.com/marketleader/default
-[submodule "docs/assets/_leads/main/lexer"]
-	path = docs/assets/_leads/main/lexer
-	url = https://github.com/eq19/lexer
-[submodule "docs/assets/_leads/main/syntax"]
-	path = docs/assets/_leads/main/syntax
-	url = https://github.com/eq19/syntax
