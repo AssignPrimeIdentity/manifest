@@ -1,0 +1,3 @@
+[submodule "docs/assets/_feeds/head/core"]
+	path = docs/assets/_feeds/head/core
+	url = https://github.com/feedmapping/base
