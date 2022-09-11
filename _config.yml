@@ -10,8 +10,8 @@ input_types:
 - radio
 - submit
 - number
-- checkbox
 - textarea
+- checkbox
 
 form_engines:
 - formspree
@@ -74,7 +74,6 @@ encoding: utf-8
 livereload: true
 limit_posts: 1000
 timezone: Asia/Jakarta
-
 remote_theme: eQ19/parser
 # remote_theme: eQ19/parser@v3.1.0
 
@@ -139,7 +138,8 @@ collections:
   posts:
     permalink: /:categories/:year/:y_day/:month/:hour/:minute/:second/:title:output_ext
 
-# Feed Setting
+# Feed and Submodul Setting
+# https://stackoverflow.com/a/55885186/4058484
 # https://github.com/jekyll/jekyll-feed/issues/2
 # https://www.w3schools.com/xml/xsl_elementref.asp
 # https://github.com/jekyll/jekyll-feed/issues/207#issuecomment-787490785
@@ -227,4 +227,4 @@ description: We are providing an Integrated Open Source Project about The World 
 keywords: chetabahana, projek, toko online, market leader, e-shop, eshop, scripts, open source, github page
 impressum: Chetabahana.com | Situs Belanja Jual-Beli Barang dan Promo Aneka Produk Fashion, Busana Muslim, Bayi & Anak-anak, Kecantikan, Tas, Sepatu, Peralatan Rumah Tangga, Elektronik, Makanan & Minuman Kemasan, dll.
 disclaimer: The definite key to identify whether you use our concept is when there a kind of development item lies a unified assignment in hexagonal form by six (6) corresponding sets while each sets pick a combination of six (6) routes with a pairing of six (6) to six (6) of all channels.
-license: Apache License, Version 2.0
+license: Apache Version 2.0

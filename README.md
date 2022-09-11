@@ -7,14 +7,14 @@ WE ARE GOING TO WIN THE MARKET!
 </a><br /><br />
 </p>  
 
-Di sesi ini akan diuraikan tentang setup situs di GitHub.  
-Anda bisa ikuti panduan clone situs [eQ18](https://eq19.github.io/) di akun.  
-Disarankan agar ikuti [Cara Simple](#cara-simple) terlebih dahulu.
+Di sesi ini diuraikan tentang setup [situs di GitHub](https://pages.github.com/).  
+Anda bisa ikuti panduan clone situs [eQ19](https://eq19.github.io/) di akun.  
+Disarankan ikuti [Cara Simple](#cara-simple) terlebih dahulu.
 
 ## Cara Simple
 - Langsung [_Fork_](https://help.github.com/articles/fork-a-repo/#fork-an-example-repository) aja [_repo ini_](https://github.com/chetabahana/chetabahana.github.io/fork) juga [_lainnya_](https://github.com/chetabahana?tab=repositories) ke akun.
-- Beri nama `<akun>/<akun>.github.io` terus lakukan [_Settings_](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages).  
-- Tunggu 10 menit. Lalu visit `https://<akun>.github.io`. 
+- Beri nama `<akun>/<akun>.github.io` kemudian lakukan [_Settings_](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages).  
+- Tunggu **10 menit**. Lalu visit `https://<akun>.github.io`. 
 - Jika belum muncul cek [_Fix GitHub Page Error 404_](https://stackoverflow.com/questions/11577147/how-to-fix-page-404-on-github-page/50034409#50034409).
 
 ## Cara Standar
@@ -74,8 +74,8 @@ Disarankan untuk disimak sebelum melangkah lebih jauh:
 ### GitHub Pages
 - [Setup](https://gist.github.com/chrisjacob/833223)
 - [YAML](http://yaml.org/spec/1.2/spec.html#id2775170)
-- [CoffeeScript](https://coffeescript.org/#functions)
 - [Plugins](https://help.github.com/articles/configuring-jekyll-plugins/)
+- [CoffeeScript](https://coffeescript.org/#functions)
 ### Using Jekyll / Liquid
 - [Validator](https://codebeautify.org/)
 - [Dokumentasi](https://github.com/mojombo/tpw)
@@ -93,7 +93,7 @@ Disarankan untuk disimak sebelum melangkah lebih jauh:
 ## Pustaka
 [Dokumentasi Project](https://github.com/chetabahana/chetabahana.github.io/wiki)
 <p align="center"> 
-<a href="https://chetabahana.com/#after_header1_3"><img src="https://user-images.githubusercontent.com/36441664/38942532-44c87736-4359-11e8-9ad4-56f7d2b68ced.png" alt="Alokasi Pustaka Online"></a><br>
+<a href="https://chetabahana.github.io/sitemap.xml"><img src="https://user-images.githubusercontent.com/36441664/38942532-44c87736-4359-11e8-9ad4-56f7d2b68ced.png" alt="Alokasi Pustaka Online"></a><br>
 Gambar-2: Pustaka <a href= "https://chetabahana.com">Chetabahana</a>
 </p>
 
@@ -106,7 +106,7 @@ Gambar-2: Pustaka <a href= "https://chetabahana.com">Chetabahana</a>
 Projek ini dipublikasikan dengan lisensi [Apache License 2.0](https://github.com/MarketLeader/Toko-Chetabahana/blob/master/LICENSE)
 
 ## Penutup
-Berikut beberapa catatan sebagai penutup:  
+Berikut catatan sebagai penutup:  
 - Projek ini diprioriostaskan bagi peminat [e-Commerce di Indonesia](https://www.youtube.com/watch?v=dd__L8Jh2c4&t=25s) 🇮🇩
 - Status masih pengembangan dan pengujian implementasi
 
