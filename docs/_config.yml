@@ -152,6 +152,9 @@ feed:
     posts:
       path: /posts.xml # https://eq19.github.io/grammar/posts.xml
 
+sass:
+    sass_dir: assets/_feeds/head/default/docs/css/_sass
+
 # Kramdown Options
 # https://kramdown.gettalong.org/options.html
 # https://jekyllrb.com/docs/configuration/markdown/
