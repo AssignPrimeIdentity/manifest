@@ -1,125 +1,56 @@
-# Introduction
-<p align="center"> 
-<a href="https://chetabahana.com/">
-<img src="https://chetabahana.files.wordpress.com/2018/04/logoweb.png" alt="Chetabahana.com | Soon The E-Shop Market Leader Will Be Owned Here!"></a><br />
-<a href="https://github.com/MarketLeader">  
-WE ARE GOING TO WIN THE MARKET!
-</a><br /><br />
-</p>  
+# GitHub Pages
 
-Di sesi ini diuraikan tentang setup [situs di GitHub](https://pages.github.com/).  
-Anda bisa ikuti panduan clone situs [eQ19](https://eq19.github.io/) di akun.  
-Disarankan ikuti [Cara Simple](#cara-simple) terlebih dahulu.
+[![Build Status](https://travis-ci.org/guard/guard.svg)](https://travis-ci.org/guard/guard) [![Code Climate](https://codeclimate.com/github/guard/guard/badges/gpa.svg)](https://codeclimate.com/github/guard/guard) [![Test Coverage](https://codeclimate.com/github/guard/guard/badges/coverage.svg)](https://codeclimate.com/github/guard/guard) [![Inline docs](http://inch-ci.org/github/guard/guard.svg)](http://inch-ci.org/github/guard/guard)
 
-## Cara Simple
-- Langsung [_Fork_](https://help.github.com/articles/fork-a-repo/#fork-an-example-repository) aja [_repo ini_](https://github.com/chetabahana/chetabahana.github.io/fork) juga [_lainnya_](https://github.com/chetabahana?tab=repositories) ke akun.
-- Beri nama `<akun>/<akun>.github.io` kemudian lakukan [_Settings_](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages).  
-- Tunggu **10 menit**. Lalu visit `https://<akun>.github.io`. 
-- Jika belum muncul cek [_Fix GitHub Page Error 404_](https://stackoverflow.com/questions/11577147/how-to-fix-page-404-on-github-page/50034409#50034409).
+## Up and Running
+How we start to get our site up and running on Github.
 
-## Cara Standar
-- Buka akun Github:<br> 
-https://github.com/join
+* Open Github account [here](https://github.com/join)
+* Create a new organization [here](https://github.com/organizations/new)
+* Install Github Dekstop, get it [here](https://desktop.github.com/)
 
-- Buat organization baru:<br>
-https://github.com/organizations/new
+Select a template. You may [fork this repo](https://github.com/eq19/eq19.github.io/fork), or get it FREE here:
+* [Responsive WordPress Theme](https://www.templatemonster.com/free-templates/globaly-responsive-consulting-wordpress-theme-52382.html)
+* [HTML5 website template](https://www.templatemo.com/preview/templatemo_395_urbanic)
 
-- Pasang Github Dekstop:<br>
-https://desktop.github.com/
-
-- Ambil FREE [disini](https://github.com/orgs/FeedTheme/repositories), atau pakai spt kami:<br>
-http://www.templatemo.com/preview/templatemo_395_urbanic
-
-- Ber nama repositorynya: "YOUR-ORGANIZATION.github.io":<br>
-https://help.github.com/articles/getting-started-with-github-for-windows/
-
-- Unduh installer & Devkit for Ruby and setup Jeckyill<br>
-http://jekyll-windows.juthilo.com/1-ruby-and-devkit/    
-
-- Atur site URLs, ikuti petunjuknya:<br>
-http://jekyllrb.com/docs/structure/
-
-- Commit ke Github<br>
-http://martinbuberl.com/blog/setup-jekyll-on-windows-and-host-it-on-github-pages/    
-`
+Create repository for the template: "YOUR-ORGANIZATION.github.io":
+* [Download](http://jekyll-windows.juthilo.com/1-ruby-and-devkit/) the installer & Devkit for Ruby and setup Jeckyll
+* Tweak how you want the site URLs to look follow guidance [here](http://jekyllrb.com/docs/structure/)
+* [Commit](http://martinbuberl.com/blog/setup-jekyll-on-windows-and-host-it-on-github-pages/ ) the template to Github
 ```
-	git add --all \    
-	git commit -m "Initial commit" \   
-	git push "origin" master:master
-````
-
-- Buka di browsernya:<br>
-`https://YOUR-ORGANIZATION.github.io`
-
-You are done. Congrats..    
-
-## Setup Domain
-Anda bisa setup custom domain di GitHub:  
-- https://help.github.com/articles/user-organization-and-project-pages/  
-- https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
-- https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages
-
-Here are the sample URLs as samples that pointing to our [forked projects](https://github.com/search?utf8=%E2%9C%93&q=%40chetabahana+fork%3Aonly+user%3Amarketleader+fork%3Aonly&type=Repositories&ref=advsearch&s=updated): 
-
-## Selengkapnya
-Disarankan untuk disimak sebelum melangkah lebih jauh:  
-```
-{% raw %}{% include list.liquid all=true %}{% endraw %}
-{% include list.liquid all=true %}
+    git add --all
+    git commit -m "Initial commit"    
+    git push "origin" master:master
 ```
 
-### Konsep
-- [Concept](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html)
-- [Site of Jeckyll](http://tom.preston-werner.com)
-### GitHub Pages
-- [Setup](https://gist.github.com/chrisjacob/833223)
-- [YAML](http://yaml.org/spec/1.2/spec.html#id2775170)
-- [Plugins](https://help.github.com/articles/configuring-jekyll-plugins/)
-- [CoffeeScript](https://coffeescript.org/#functions)
-### Using Jekyll / Liquid
-- [Validator](https://codebeautify.org/)
-- [Dokumentasi](https://github.com/mojombo/tpw)
-- [Jekyll https://mademistakes.com/articles/using-jekyll-2016/)
-- [Liquid](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
-### Cheatsheet](
-- [Jekyll](https://devhints.io/jekyll)
-- [Shopify](http://cheat.markdunkley.com/)
-- [Emoji](https://www.webpagefx.com/tools/emoji-cheat-sheet/) :smiley:
-- [Reference](https://news.humancoders.com/t/developpement/items/11149-jekyll-cheat-sheet)
-### GitHub API
-- [REST API v3](https://developer.github.com/v3/)
-- [GraphQL API v4](https://developer.github.com/v4/explorer/)
+Point your browser to:    
+[https://YOUR-ORGANIZATION.github.io](https://help.github.com/articles/getting-started-with-github-for-windows/)
 
-## Pustaka
-[Dokumentasi Project](https://github.com/chetabahana/chetabahana.github.io/wiki)
-<p align="center"> 
-<a href="https://chetabahana.github.io/sitemap.xml"><img src="https://user-images.githubusercontent.com/36441664/38942532-44c87736-4359-11e8-9ad4-56f7d2b68ced.png" alt="Alokasi Pustaka Online"></a><br>
-Gambar-2: Pustaka <a href= "https://chetabahana.com">Chetabahana</a>
-</p>
+You are done..
 
-- [Cara Buka Toko Online dan Optimasi Internal](https://chetabahana.blogspot.com/)
-- [Cara Optimasi Eksternal Toko dengan Shop SEO](https://chetabahana.wordpress.com/)
-- [Channel Youtube](https://www.youtube.com/channel/UCZlPku9beXzdROCknYLuRNg?view_as=subscriber)
-- [e-Books](https://www.scribd.com/user/401259110/Chetabahana)
+## Custom Domain
+Set up your custom domain follow this documentation:  
+* [About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)
+* [Configuring a custom domain](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)
 
-## License
-Projek ini dipublikasikan dengan lisensi [Apache License 2.0](https://github.com/MarketLeader/Toko-Chetabahana/blob/master/LICENSE)
+You can use the same domain for your project pages, turn Jekyll off if necessary:   
+* [Custom domain for GitHub project pages](https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages)
+* [Setting up a GitHub Pages site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll#troubleshooting) 
 
-## Penutup
-Berikut catatan sebagai penutup:  
-- Projek ini diprioriostaskan bagi peminat [e-Commerce di Indonesia](https://www.youtube.com/watch?v=dd__L8Jh2c4&t=25s) 🇮🇩
-- Status masih pengembangan dan pengujian implementasi
+Here are the URLs to point to our site:    
+* http://eq19.github.io/   
+* http://www.eq19.com/    
+* http://eq19.com/
 
-Terimakasih atas kunjungannya.  
-Met menyimak.. :pray:  
+Here are the URLs as samples that pointing to our [forked projects](https://github.com/search?utf8=%E2%9C%93&q=%40eq19+fork%3Aonly+user%3Aeq19+fork%3Aonly&type=Repositories&ref=advsearch&s=updated): 
+* http://eq19.com/maps
+* http://eq19.com/feed
 
-SALAM Sukses!
-
-|[![Chetabahana Project](https://avatars1.githubusercontent.com/u/36441664?v=10&s=20)](https://github.com/chetabahana) |This [repo](#repository "Project Repository") is courtesy of [₠Quantum Project](https://github.com/eq19 "We are providing an Integrated Open Source Project about The World of e-Commerce.").<br>Find all of them on [The Project Map](https://marketleader.github.io/#bagan-projek "Project Mapping").|[![Chetabahana Project](https://avatars2.githubusercontent.com/u/36441943?v=10&s=20)](https://github.com/MarketLeader) |
-|:----|----|----:|
-
-:copyright: [**Chetabahana Project**](https://github.com/MarketLeader)  
-[![profile for Chetabahana on Stack Exchange, a network of free, community-driven Q&amp;A sites](https://stackexchange.com/users/flair/5054985.png)](https://stackoverflow.com/users/4058484/eq19?tab=profile)   
-
-[:arrow_backward:]((https://github.com/MarketLeader)) [Prev](https://github.com/MarketLeader)|[Next](https://marketleader.github.io/) [:arrow_forward:](https://marketleader.github.io/)|
+See more details about Github & Jeckyll here:  
+* [Concept](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html)  
+* [Setup GitHub Pages branchs](https://gist.github.com/chrisjacob/833223)  
+* [Github Repository of Jeckyll](https://github.com/mojombo/tpw) 
+* [Site of Jeckyll Author, Tom Preston-Werner, GitHub's co-founder](http://tom.preston-werner.com)
+***
+|[:arrow_backward:](https://github.com/eq19) [Prev](https://github.com/eq19)|[Next](http://eq19.github.io/) [:arrow_forward:](http://eq19.github.io/)|
 |:----|----:|
