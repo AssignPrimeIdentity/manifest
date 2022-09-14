@@ -1,3 +1,6 @@
+---
+redirect_from: /sitemap/index_1.xml
+---
 # Theme
 
 ![CI](https://github.com/rundocs/jekyll-rtd-theme/workflows/CI/badge.svg?branch=develop)
