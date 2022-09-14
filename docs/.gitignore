@@ -13,9 +13,13 @@
 !fonts/*
 !images/*
 !assets/*
+!.github/*
+!.google/*
 
 # ...even if in subdirectories
 !*/
 
 # to be ignored in subdirectories
 docs/
+Dekstop/
+AppData/
