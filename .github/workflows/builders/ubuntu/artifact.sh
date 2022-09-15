@@ -34,13 +34,13 @@ pwd
 ls -al /
 
 echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
+pwd
 mv assets docs/assets
-pwd
-ls -al .
+ls -al
 
-echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
+echo -e "\n$hr\nDOCS REPOSITORY\n$hr"
 pwd
-ls -al docs .
+ls -al docs
 
 [[ ! -x "$(command -v docker)" ]] && exit 0
 echo -e "\n$hr\nDOCKER VERSION\n$hr"
