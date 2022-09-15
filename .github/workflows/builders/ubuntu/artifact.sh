@@ -36,6 +36,7 @@ ls -al /
 echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
 pwd
 ls -al .
+mv ./assets ./docs/assets
 
 [[ ! -x "$(command -v docker)" ]] && exit 0
 echo -e "\n$hr\nDOCKER VERSION\n$hr"
