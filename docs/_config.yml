@@ -117,10 +117,10 @@ defaults:
 
 sass:
     sass_dir        : css/_sass
-data_dir            : /assets/_data
-layouts_dir         : /assets/_layouts
-includes_dir        : /assets/_includes
-collections_dir     : /assets/collections
+data_dir            : assets/_data
+layouts_dir         : assets/_layouts
+includes_dir        : assets/_includes
+collections_dir     : assets/collections
 
 # Permalinks
 # https://jekyllrb.com/docs/permalinks/
