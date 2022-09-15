@@ -36,7 +36,7 @@ jobs:
           bash .github/workflows/builders/ubuntu/artifact.sh
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
-        env:
+        with:
           source: ${{ secrets.REPO_SOURCE }}
           destination: ./_site
       - name: Upload artifact
