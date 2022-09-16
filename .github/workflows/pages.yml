@@ -45,7 +45,7 @@ jobs:
   # Deployment job
   deploy:
     environment:
-      name: REPO_ID
+      name: $REPO_ID
       url: ${{ steps.deployment.outputs.page_url }}
       env:
         REPO_ID: ${{ secrets.REPO_ID }}
