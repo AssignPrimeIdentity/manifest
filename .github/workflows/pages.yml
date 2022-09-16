@@ -45,10 +45,8 @@ jobs:
   # Deployment job
   deploy:
     environment:
-      name: $REPO_ID
+      name: github-pages-36
       url: ${{ steps.deployment.outputs.page_url }}
-      env:
-        REPO_ID: ${{ secrets.REPO_ID }}
     runs-on: ubuntu-latest
     needs: build
     steps:
