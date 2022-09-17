@@ -1,13 +1,5 @@
-source 'https://rubygems.org'
+source "https://rubygems.org" # source "https://gems.ruby-china.com"
 
-gem 'jekyll', '~> 4.2'
+gemspec
 
-group :jekyll_plugins do
-  gem 'jemoji'
-  gem 'jekyll-gist'
-  gem 'jekyll-feed'
-  gem 'jekyll-avatar'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-mentions'
-  gem 'jekyll-redirect-from'
-end
+gem "github-pages", group: :jekyll_plugins
