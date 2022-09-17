@@ -44,9 +44,11 @@ jobs:
       - name: Build with Jekyll
         uses: helaili/jekyll-action@2.4.0    # uses: actions/jekyll-build-pages@v1
         with:
-          build_only: true    # destination: ./_site
+          build_only: true
           jekyll_src: ${{ secrets.REPO_SOURCE }}    # source: ${{ secrets.REPO_SOURCE }}
-          token: ${{ secrets.GITHUB_TOKEN }}    # token: ${{ secrets.YOUR_CUSTOM_TOKEN }}
+          jekyll_env: github-pages-36
+          build_dir: ./_site    # destination: ./_site
+          # token: ${{ secrets.GITHUB_TOKEN }}    token: ${{ secrets.YOUR_CUSTOM_TOKEN }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
