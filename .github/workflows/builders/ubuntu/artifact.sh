@@ -34,7 +34,6 @@ pwd
 ls -al /
 
 echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
-git config --global --add safe.directory '*'
 pwd
 mv assets docs/assets
 ls -al

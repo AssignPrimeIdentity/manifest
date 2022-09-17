@@ -48,7 +48,6 @@ jobs:
           jekyll_src: ${{ secrets.REPO_SOURCE }}    # source: ${{ secrets.REPO_SOURCE }}
           jekyll_env: github-pages-36
           build_dir: ./_site    # destination: ./_site
-          # token: ${{ secrets.GITHUB_TOKEN }}    token: ${{ secrets.YOUR_CUSTOM_TOKEN }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
