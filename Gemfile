@@ -17,7 +17,7 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'i18n', '~> 1.0'
   gem 'sass-rails', '~> 3.1.7'
-  gem 'coffee-rails', '~> 3.1.12'
+  gem 'coffee-rails (~> 3.1.12)'
   gem 'jekyll-timeago', '~> 0.13.1'
   gem 'therubyracer', :platforms => :ruby
 end
