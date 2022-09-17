@@ -3,7 +3,7 @@ name: Build and deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - eQ19 # or master before October 2020
+      - eQ19
 
 jobs:
   github-pages:
