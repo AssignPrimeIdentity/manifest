@@ -41,4 +41,3 @@ jobs:
         uses: helaili/jekyll-action@2.0.5    # Choose any one of the Jekyll Actions
         with:                                # Some relative inputs of your action
           jekyll_env: github-pages-36
-          jekyll_src: ${{ secrets.REPO_SOURCE }}
