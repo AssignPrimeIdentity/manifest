@@ -60,6 +60,6 @@ echo -e "\n$hr\nCURRENTLY RUNNING\n$hr"
 docker ps
 
 echo -e "\n$hr\nINSTALL DEPENDENCIES\n$hr"
+sudo gem install johnson
 sudo apt-get install nodejs
 sudo apt-get install libv8-dev
-sudo gem install johnson -v 1.2.0 
