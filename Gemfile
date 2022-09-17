@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'jekyll', '~> 4.2'
 
 group :jekyll_plugins do
-  gem 'i18n'
   gem 'rouge'
   gem 'execjs'
   gem 'jemoji'
@@ -20,5 +19,6 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'sass-rails', '~> 3.1.7'
   gem 'jekyll-timeago', '~> 0.13.1'
+  gem 'i18n', '>= 0.6.0', '< 1.0.0'
   gem 'therubyracer', :platforms => :ruby
 end
