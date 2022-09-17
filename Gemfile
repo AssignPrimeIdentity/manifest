@@ -7,7 +7,6 @@ group :jekyll_plugins do
   gem 'rouge'
   gem 'execjs'
   gem 'jemoji'
-  gem 'johnson'
   gem 'uglifier'
   gem 'actionpack'
   gem 'jekyll-gist'

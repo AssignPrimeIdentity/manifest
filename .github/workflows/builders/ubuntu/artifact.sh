@@ -2,6 +2,7 @@
 
 sudo apt-get install nodejs
 sudo apt-get install libv8-dev
+sudo apt-get gem install johnson
 
 echo -e "WHOAMI\n$hr"
 whoami
