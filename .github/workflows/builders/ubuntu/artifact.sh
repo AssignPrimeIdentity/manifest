@@ -35,6 +35,7 @@ ls -al /
 
 echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
 pwd
+sudo apt-get install nodejs
 mv assets docs/assets
 ls -al
 
