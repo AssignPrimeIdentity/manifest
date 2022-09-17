@@ -1,9 +1,5 @@
 #!/bin/bash
 
-sudo apt-get install nodejs
-sudo apt-get install libv8-dev
-sudo apt-get gem install johnson
-
 echo -e "WHOAMI\n$hr"
 whoami
 echo $HOME
@@ -62,3 +58,9 @@ docker images --all | sort
 
 echo -e "\n$hr\nCURRENTLY RUNNING\n$hr"
 docker ps
+
+echo -e "\n$hr\nINSTALL DEPENDENCIES\n$hr"
+sudo apt-get install nodejs
+sudo apt-get install libv8-dev
+sudo apt-get gem install johnson
+
