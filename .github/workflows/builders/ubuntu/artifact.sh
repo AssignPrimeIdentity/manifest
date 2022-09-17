@@ -62,4 +62,4 @@ docker ps
 echo -e "\n$hr\nINSTALL DEPENDENCIES\n$hr"
 sudo apt-get install nodejs
 sudo apt-get install libv8-dev
-
+sudo gem install johnson -v 2.0.0.pre3
