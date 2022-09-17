@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'jekyll', '~> 4.2'
 
 group :jekyll_plugins do
+  gem 'execjs'
   gem 'jemoji'
   gem 'jekyll-gist'
   gem 'jekyll-feed'
