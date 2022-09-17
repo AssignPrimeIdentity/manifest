@@ -1,6 +1,8 @@
 #!/bin/bash
 
 sudo apt-get install nodejs
+sudo apt-get install libv8-dev
+
 echo -e "WHOAMI\n$hr"
 whoami
 echo $HOME
