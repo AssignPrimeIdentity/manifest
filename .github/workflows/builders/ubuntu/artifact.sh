@@ -62,3 +62,4 @@ docker ps
 echo -e "\n$hr\nINSTALL DEPENDENCIES\n$hr"
 sudo apt-get install nodejs
 sudo apt-get install libv8-dev
+git config --global --add safe.directory /github/workspace
