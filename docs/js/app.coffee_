@@ -6,3 +6,6 @@
 # CoffeeScript = require 'coffee-script'
 
 # console.log(CoffeeScript)
+
+require "execjs"
+ExecJS.eval "'red yellow blue'.split(' ')"
