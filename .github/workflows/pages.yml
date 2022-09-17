@@ -20,6 +20,7 @@ jobs:
             ${{ runner.os }}-gems-
       - uses: helaili/jekyll-action@2.4.0    # Choose any one of the Jekyll Actions
         with:
+          target_path: ./_site
           jekyll_env: github-pages-36
           jekyll_src: ${{ secrets.REPO_SOURCE }}
           token: ${{ secrets.YOUR_CUSTOM_TOKEN }}
