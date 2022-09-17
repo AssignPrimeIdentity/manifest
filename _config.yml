@@ -78,8 +78,8 @@ plugins:
   - jekyll-avatar
   - jekyll-sitemap
   - jekyll-mentions
-  - jekyll-coffeescript
   - jekyll-redirect-from
+# - jekyll-coffeescript
 
 whitelist:
   - jemoji
@@ -88,8 +88,8 @@ whitelist:
   - jekyll-avatar
   - jekyll-sitemap
   - jekyll-mentions
-  - jekyll-coffeescript
   - jekyll-redirect-from
+# - jekyll-coffeescript
   
 # Default Setting
 # https://stackoverflow.com/a/49428493
