@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: |
+          bash .github/workflows/builders/ubuntu/artifact.sh
       - uses: actions/cache@v2
         with:
           path: vendor/bundle
@@ -20,4 +22,3 @@ jobs:
         with:                                # Some relative inputs of your action
           jekyll_env: ${{ secrets.REPO_ID }}
           jekyll_src: ${{ secrets.REPO_SOURCE }}
-          token: ${{ secrets.YOUR_CUSTOM_TOKEN }}
