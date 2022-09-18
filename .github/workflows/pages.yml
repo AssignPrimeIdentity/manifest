@@ -46,17 +46,19 @@ jobs:
         with:
           jekyll_src: ./
           build_only: true
+          destination: ./_site
           jekyll_env: deployment
+          source: ${{ secrets.REPO_SOURCE }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
   # Deployment job
   deploy:
+    needs: build
+    runs-on: ubuntu-latest
     environment:
       name: github-pages-36
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
