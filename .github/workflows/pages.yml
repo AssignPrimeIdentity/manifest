@@ -44,6 +44,7 @@ jobs:
       - name: Build with Jekyll
         uses: helaili/jekyll-action@2.4.0
         with:
+          jekyll_src: ./
           build_only: true
           jekyll_env: deployment
       - name: Upload artifact
