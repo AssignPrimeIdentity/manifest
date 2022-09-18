@@ -3,6 +3,7 @@
 echo -e "WHOAMI\n$hr"
 whoami
 echo $HOME
+pwd
 id
 
 echo -e "$hr\nENVIRONTMENT\n$hr"
@@ -16,9 +17,11 @@ gcloud info
 python --version
 
 echo -e "\n$hr\nHOME PROFILES\n$hr"
+echo $HOME
 ls -al $HOME
 
 echo -e "$hr\nROOT PROFILES\n$hr"
+echo /root
 [[ "$(whoami)" == "root" ]] && ls -alL /root || sudo bash -c 'ls -alL /root'
 
 echo -e "$hr\nSSH FILES\n$hr"
@@ -33,20 +36,18 @@ echo -e "\n$hr\nFILE SYSTEM\n$hr"
 df -h
 
 echo -e "\n$hr\nALL REPOSITORY\n$hr"
-pwd
 ls -al /
 
 echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
 pwd
-#mv assets docs/assets
+mv assets docs/assets
+chown -R $(whoami) $HOME
 ls -al
 
 echo -e "\n$hr\nSOURCE REPOSITORY\n$hr"
-pwd
 ls -al docs
 
 echo -e "\n$hr\nASSETS REPOSITORY\n$hr"
-pwd
 tree docs/assets
 
 [[ ! -x "$(command -v docker)" ]] && exit 0
