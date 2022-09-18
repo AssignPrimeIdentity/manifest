@@ -110,6 +110,13 @@ defaults:
       type: "leads"
     values:
       layout: "redirect"
+  - 
+    scope:
+      path: ""
+      type: categories
+    values:
+      layout: category_page
+      permalink: categories/:category/
 
 # Default Configuration
 # remote_theme: eQ19/parser
@@ -120,6 +127,7 @@ defaults:
 sass:
     sass_dir        : docs/css/_sass
 data_dir            : docs/assets/_data
+plugins_dir         : docs/assets/_plugins
 layouts_dir         : docs/assets/_layouts
 includes_dir        : docs/assets/_includes
 collections_dir     : docs/assets/collections
