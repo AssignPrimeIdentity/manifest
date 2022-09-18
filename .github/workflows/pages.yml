@@ -42,9 +42,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - name: Build with Jekyll
-        uses: helaili/jekyll-action@2.4.0    # uses: actions/jekyll-build-pages@v1
+        uses: FeedMapping/jekyll-action
         with:
           jekyll_src: ${{ secrets.REPO_SOURCE }}    # source: ${{ secrets.REPO_SOURCE }}
           token: ${{ secrets.GITHUB_TOKEN }}    # token: ${{ secrets.YOUR_CUSTOM_TOKEN }}
           jekyll_env: github-pages-36
-          target_path: ./_site    # destination: ./_site

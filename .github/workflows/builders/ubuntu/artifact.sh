@@ -5,6 +5,9 @@ whoami
 echo $HOME
 id
 
+echo -e "$hr\nENVIRONTMENT\n$hr"
+printenv
+
 echo -e "$hr\nPROJECT CONFIG\n$hr"
 gcloud config list --all
 
