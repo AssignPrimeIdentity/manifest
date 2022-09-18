@@ -80,6 +80,7 @@ plugins:
   - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-coffeescript
+  - jekyll-datapage-generator
 
 whitelist:
   - jemoji
@@ -90,7 +91,8 @@ whitelist:
   - jekyll-mentions
   - jekyll-redirect-from
   - jekyll-coffeescript
-  
+  - jekyll-datapage-generator
+
 # Default Setting
 # https://stackoverflow.com/a/49428493
 # https://jekyllrb.com/docs/collections/

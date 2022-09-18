@@ -12,4 +12,5 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "github-pages", "~> 227"
   spec.add_runtime_dependency "execjs", "~> 2.8.1"
+  spec.add_dependency "jekyll-datapage-generator"
 end
