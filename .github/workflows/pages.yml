@@ -42,7 +42,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
       - name: Build with Jekyll
-        uses: FeedMapping/jekyll-action
+        uses: helaili/jekyll-action@2.4.0    # uses: actions/jekyll-build-pages@v1
         with:
           jekyll_src: ${{ secrets.REPO_SOURCE }}    # source: ${{ secrets.REPO_SOURCE }}
           token: ${{ secrets.GITHUB_TOKEN }}    # token: ${{ secrets.YOUR_CUSTOM_TOKEN }}
