@@ -173,6 +173,22 @@ feed:
     posts:
       path: /posts.xml # https://eq19.github.io/grammar/posts.xml
 
+# Jekyll Data Pages Generator
+# https://github.com/avillafiorita/jekyll-datapage_gen
+
+page_gen-dirs: true
+page_gen:
+- data: form
+  template: recipe
+  dir: form
+  index_files: true
+  name: grammar
+  title: parser
+  extension: xml
+  filter_condition: "record['parser'] ~~ '36'"
+  page_data_prefix: form
+  debug: true
+  
 # Kramdown Options
 # https://kramdown.gettalong.org/options.html
 # https://jekyllrb.com/docs/configuration/markdown/
