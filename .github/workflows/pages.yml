@@ -5,8 +5,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches:
-      - 'eQ19'
-      - 'Chetabahana'
+      - 'gh-pages'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -25,6 +24,9 @@ concurrency:
 jobs:
   # Build job
   build:
+    environment:
+      name: github-pages-36
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -46,5 +48,5 @@ jobs:
         with:
           jekyll_src: ./    # source: ${{ secrets.REPO_SOURCE }}
           token: ${{ secrets.GITHUB_TOKEN }}    # token: ${{ secrets.YOUR_CUSTOM_TOKEN }}
-          jekyll_env: github-pages-36
           target_branch: 'gh-pages'
+          jekyll_env: deployment

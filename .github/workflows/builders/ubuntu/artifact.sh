@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo -e "WHOAMI\n$hr"
+su git-user
 whoami
 echo $HOME
 pwd
