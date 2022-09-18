@@ -44,6 +44,6 @@ jobs:
       - name: Build with Jekyll
         uses: helaili/jekyll-action@2.4.0    # uses: actions/jekyll-build-pages@v1
         with:
-          jekyll_src: ${{ secrets.REPO_SOURCE }}    # source: ${{ secrets.REPO_SOURCE }}
+          jekyll_src: ./    # source: ${{ secrets.REPO_SOURCE }}
           token: ${{ secrets.GITHUB_TOKEN }}    # token: ${{ secrets.YOUR_CUSTOM_TOKEN }}
           jekyll_env: github-pages-36
