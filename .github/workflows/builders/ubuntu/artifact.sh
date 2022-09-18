@@ -41,7 +41,7 @@ ls -al /
 echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
 pwd
 mv assets docs/assets
-chown -R $(whoami) $HOME
+sudo chown -R $(whoami) $HOME
 ls -al
 
 echo -e "\n$hr\nSOURCE REPOSITORY\n$hr"
@@ -66,3 +66,4 @@ docker ps
 echo -e "\n$hr\nINSTALL DEPENDENCIES\n$hr"
 sudo apt-get install nodejs
 sudo apt-get install libv8-dev
+/usr/bin/git config --global --add safe.directory '*'
