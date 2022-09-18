@@ -46,9 +46,9 @@ jobs:
       - name: Build with Jekyll
         uses: helaili/jekyll-action@2.4.0
         with:
-          jekyll_src: ./
+          jekyll_src: /
           build_only: true
-          target_path: ./_site
+          build_dir: _site
           jekyll_env: deployment
 
   # Deployment job
