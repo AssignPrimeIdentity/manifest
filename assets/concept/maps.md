@@ -23,8 +23,7 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 
 ## Site Metadata
 
-{% assign sites = site | sort -%}
-{% for item in sites -%}
+{% for item in site | sort -%}
 	{%- if site[item].first -%}
 		{%- if site[item].first.first -%}
 			{%- include tabs.liquid %}- {{ item }}: hash
@@ -38,8 +37,8 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 
 ## Github Metadata
 
-{% assign github = site.github | sort -%}
-{%- for item in github -%}
+{% assign github = site.github -%}
+{%- for item in github | sort -%}
 	{%- if github[item].first -%}
 		{%- if github[item].first.first -%}
 			{%- include tabs.liquid %}- {{ item }}: hash
@@ -53,8 +52,8 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 
 ## Source Metadata
 
-{% assign source = github.source | sort -%}
-{%- for item in source -%}
+{% assign source = github.source -%}
+{%- for item in source | sort -%}
 	{%- if source[item].first -%}
 		{%- if source[item].first.first -%}
 			{%- include tabs.liquid %}- {{ item }}: hash
