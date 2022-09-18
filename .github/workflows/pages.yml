@@ -59,8 +59,8 @@ jobs:
       name: github-pages-36
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-     - name: Upload artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-     - name: Deploy to GitHub Pages
-        id: deployment
+      - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
+        id: deployment
