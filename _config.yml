@@ -63,6 +63,7 @@ exclude:
 encoding: utf-8
 livereload: true
 limit_posts: 1000
+incremental: true
 timezone: Asia/Jakarta
 
 # Plugins Setting
