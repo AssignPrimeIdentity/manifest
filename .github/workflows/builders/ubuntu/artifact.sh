@@ -2,6 +2,7 @@
 
 echo -e "WHOAMI\n$hr"
 su git-user
+sudo chown -R $(id -u):$(id -g) $PWD
 whoami
 echo $HOME
 pwd
@@ -42,7 +43,6 @@ ls -al /
 echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
 pwd
 mv assets docs/assets
-sudo chown -R $(whoami) $HOME
 ls -al
 
 echo -e "\n$hr\nSOURCE REPOSITORY\n$hr"
@@ -65,6 +65,7 @@ echo -e "\n$hr\nCURRENTLY RUNNING\n$hr"
 docker ps
 
 echo -e "\n$hr\nINSTALL DEPENDENCIES\n$hr"
-sudo git config --global --add safe.directory /github/workspace
+find /full/path -name '.git' -type d -exec bash -c 'git config --global --add safe.directory ${0%/.git}' {} \;
+sudo git config --global --add safe.directory *
 sudo apt-get install libv8-dev
 sudo apt-get install nodejs
