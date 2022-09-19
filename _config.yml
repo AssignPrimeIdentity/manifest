@@ -108,7 +108,7 @@ tag_page_layout: nil
 page_gen:
 - data: form
   dir: form
-  debug: true
+  debug: false
   template: recipe
   index_files: true
   name: grammar
