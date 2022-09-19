@@ -98,15 +98,14 @@ whitelist:
 
 page_gen:
 - data: form
+  dir: form
   debug: true
   template: recipe
-  dir: form
   index_files: true
   name: grammar
   title: parser
   extension: xml
   page_data_prefix: form
-  filter_condition: "record['author'] ~~ 'George Orwell'"
 page_gen-dirs: true
   
 # Default Setting
