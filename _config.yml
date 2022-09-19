@@ -128,15 +128,15 @@ defaults:
   -
     scope:
       path: ""
-      type: "feeds"
+      type: feeds
     values:
-      layout: "feeds"
+      layout: feeds
   -
     scope:
       path: ""
-      type: "leads"
+      type: leads
     values:
-      layout: "redirect"
+      layout: redirect
   - 
     scope:
       path: ""
