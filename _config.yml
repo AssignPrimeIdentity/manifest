@@ -111,11 +111,11 @@ page_gen:
 - data: core
   dir: core
   name: key
-  debug: false
+  debug: true
   title: parser
   extension: xml
   template: recipe
-  index_files: false
+  index_files: true
   page_data_prefix: form
 
 # Default Setting
