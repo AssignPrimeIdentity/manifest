@@ -73,26 +73,44 @@ timezone: Asia/Jakarta
 # https://en.wikipedia.org/wiki/CoffeeScript
 # https://github.com/jekyll/jekyll-redirect-from
 
-# plugins:
-#   - jemoji
-#   - jekyll-gist
-#   - jekyll-feed
-#   - jekyll-avatar
-#   - jekyll-sitemap
-#   - jekyll-mentions
-#   - jekyll-coffeescript
-#   - jekyll-redirect-from
+plugins:
+  - jemoji
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-avatar
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-coffeescript
+  - jekyll-redirect-from
+  - jekyll-datapage-generator
+  
+whitelist:
+  - jemoji
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-avatar
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-coffeescript
+  - jekyll-redirect-from
+  - jekyll-datapage-generator
 
-# whitelist:
-#   - jemoji
-#   - jekyll-gist
-#   - jekyll-feed
-#   - jekyll-avatar
-#   - jekyll-sitemap
-#   - jekyll-mentions
-#   - jekyll-coffeescript
-#   - jekyll-redirect-from
+# Jekyll Data Pages Generator
+# https://github.com/avillafiorita/jekyll-datapage_gen
 
+page_gen:
+- data: form
+  template: recipe
+  dir: form
+  index_files: true
+  name: grammar
+  title: parser
+  extension: xml
+  filter_condition: "record['parser'] ~~ '36'"
+  page_data_prefix: form
+  debug: true
+page_gen-dirs: true
+  
 # Default Setting
 # https://stackoverflow.com/a/49428493
 # https://jekyllrb.com/docs/collections/
@@ -173,22 +191,6 @@ feed:
     posts:
       path: /posts.xml # https://eq19.github.io/grammar/posts.xml
 
-# Jekyll Data Pages Generator
-# https://github.com/avillafiorita/jekyll-datapage_gen
-
-page_gen-dirs: false
-page_gen:
-- data: form
-  template: recipe
-  dir: form
-  index_files: true
-  name: grammar
-  title: parser
-  extension: xml
-  filter_condition: "record['parser'] ~~ '36'"
-  page_data_prefix: form
-  debug: true
-  
 # Kramdown Options
 # https://kramdown.gettalong.org/options.html
 # https://jekyllrb.com/docs/configuration/markdown/
