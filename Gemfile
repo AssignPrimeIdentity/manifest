@@ -21,6 +21,12 @@ gem "minima", "~> 2.5"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "jemoji", "~> 0.12.0"
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-gist", "~> 1.5.0"
+  gem "jekyll-avatar", "~> 0.7.0"
+  gem "jekyll-sitemap", "~> 1.4.0"
   gem "jekyll-timeago", "~> 0.13.1"
+  gem "jekyll-mentions", "~> 1.6.0"
+  gem "jekyll-redirect-from", "~> 0.16.0"
 end
