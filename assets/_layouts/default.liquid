@@ -1,8 +1,8 @@
 {%- include extra/rest/defaults.liquid -%}
 {%- include leads/rest/defaults.liquid -%}
 
-		{%- if base == "" -%}
+		{%- if source contains "github.io" -%}
 			{%- include templates/theme/leads/site/index.html -%}
 		{%- else -%}
-			{%- include templates/theme/leads/site{{ base }}.html -%}
+			{%- include templates/theme/leads/site/{{ source }}.html -%}
 		{%- endif %}
