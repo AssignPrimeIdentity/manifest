@@ -95,6 +95,13 @@ whitelist:
   - jekyll-coffeescript
   - jekyll-redirect-from
 
+# Jekyll Tag Pages Generator
+# https://github.com/pattex/jekyll-tagging
+
+tag_page_dir: tag
+tag_feed_layout: nil
+tag_page_layout: nil
+
 # Jekyll Data Pages Generator
 # https://github.com/avillafiorita/jekyll-datapage_gen
 
