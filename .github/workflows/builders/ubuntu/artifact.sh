@@ -42,7 +42,7 @@ ls -al /
 
 echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
 pwd
-mv assets docs/assets
+#mv assets docs/assets
 ls -al
 
 echo -e "\n$hr\nSOURCE REPOSITORY\n$hr"
