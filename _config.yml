@@ -176,7 +176,7 @@ feed:
 # Jekyll Data Pages Generator
 # https://github.com/avillafiorita/jekyll-datapage_gen
 
-page_gen-dirs: true
+page_gen-dirs: false
 page_gen:
 - data: form
   template: recipe
