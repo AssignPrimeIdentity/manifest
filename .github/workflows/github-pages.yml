@@ -1,4 +1,4 @@
-name: Build and Deploy a Jekyll Site to GitHub Pages
+name: Build and Deploy
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
         with:
           ruby-version: 2.7
 
-      - name: 🔨 install dependencies & build site
+      - name: 🔨 build site
         uses: limjh16/jekyll-action-ts@v2
         with:
           jekyll_src: './'
