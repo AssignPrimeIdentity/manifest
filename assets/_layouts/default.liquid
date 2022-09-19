@@ -1,12 +1,8 @@
 {%- include extra/rest/defaults.liquid -%}
 {%- include leads/rest/defaults.liquid -%}
 
-	{%- if branch == "main" -%}
 		{%- if base == "" -%}
 			{%- include templates/theme/leads/site/index.html -%}
 		{%- else -%}
 			{%- include templates/theme/leads/site{{ base }}.html -%}
 		{%- endif %}
-	{%- else -%}
-		{%- include templates/theme/nodes/index.html -%}
-	{%- endif %}
