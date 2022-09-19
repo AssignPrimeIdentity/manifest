@@ -30,5 +30,4 @@ group :jekyll_plugins do
   gem "jekyll-mentions", "~> 1.6.0"
   gem "jekyll-coffeescript", "~> 1.1.1"
   gem "jekyll-redirect-from", "~> 0.16.0"
-  gem "jekyll-datapage-generator", "~> 1.4.0"
 end

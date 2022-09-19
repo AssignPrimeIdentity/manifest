@@ -82,7 +82,6 @@ plugins:
   - jekyll-mentions
   - jekyll-coffeescript
   - jekyll-redirect-from
-  - jekyll-datapage-generator
   
 whitelist:
   - jemoji
@@ -93,7 +92,6 @@ whitelist:
   - jekyll-mentions
   - jekyll-coffeescript
   - jekyll-redirect-from
-  - jekyll-datapage-generator
 
 # Jekyll Data Pages Generator
 # https://github.com/avillafiorita/jekyll-datapage_gen
