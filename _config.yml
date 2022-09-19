@@ -104,7 +104,7 @@ page_gen:
   name: grammar
   title: parser
   extension: xml
-  filter_condition: "record['parser'] ~~ '36'"
+  filter_condition: "record['parser'] ~ '36'"
   page_data_prefix: form
   debug: true
 page_gen-dirs: true
