@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-gist", "~> 1.5.0"
   gem "jekyll-avatar", "~> 0.7.0"
+  gem "jekyll-tagging", "~> 1.1.0"
   gem "jekyll-sitemap", "~> 1.4.0"
   gem "jekyll-timeago", "~> 0.13.1"
   gem "jekyll-mentions", "~> 1.6.0"

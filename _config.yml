@@ -79,6 +79,7 @@ plugins:
   - jekyll-feed
   - jekyll-avatar
   - jekyll-sitemap
+  - jekyll-tagging
   - jekyll-mentions
   - jekyll-coffeescript
   - jekyll-redirect-from
@@ -89,6 +90,7 @@ whitelist:
   - jekyll-feed
   - jekyll-avatar
   - jekyll-sitemap
+  - jekyll-tagging
   - jekyll-mentions
   - jekyll-coffeescript
   - jekyll-redirect-from
@@ -106,7 +108,7 @@ page_gen:
   title: parser
   extension: xml
   page_data_prefix: form
-page_gen-dirs: true
+page_gen-dirs: false
   
 # Default Setting
 # https://stackoverflow.com/a/49428493
