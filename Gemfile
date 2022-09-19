@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap", "~> 1.4.0"
   gem "jekyll-timeago", "~> 0.13.1"
   gem "jekyll-mentions", "~> 1.6.0"
+  gem "jekyll-coffeescript", "~> 1.1.1"
   gem "jekyll-redirect-from", "~> 0.16.0"
-  gem "jekyll-datapage-generator"
+  gem "jekyll-datapage-generator", "~> "1.4.0"
 end
