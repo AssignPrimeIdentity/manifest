@@ -109,12 +109,13 @@ page_gen:
 - data: form
   dir: form
   debug: false
-  template: recipe
-  index_files: true
   name: grammar
   title: parser
   extension: xml
+  template: recipe
+  index_files: false
   page_data_prefix: form
+  filter_condition: "record['lexer'] ~~ 'VIII'"
 page_gen-dirs: false
   
 # Default Setting
