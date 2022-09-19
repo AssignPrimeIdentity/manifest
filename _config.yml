@@ -105,6 +105,8 @@ tag_page_layout: nil
 # Jekyll Data Pages Generator
 # https://github.com/avillafiorita/jekyll-datapage_gen
 
+page_gen-dirs: false
+  
 page_gen:
 - data: form
   dir: form
@@ -115,9 +117,8 @@ page_gen:
   template: recipe
   index_files: false
   page_data_prefix: form
-  filter_condition: "record['lexer'] ~~ 'VIII'"
-page_gen-dirs: false
-  
+  filter_condition: "record['parser'] ~~ 36"
+
 # Default Setting
 # https://stackoverflow.com/a/49428493
 # https://jekyllrb.com/docs/collections/
