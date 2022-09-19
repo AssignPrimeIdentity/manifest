@@ -49,7 +49,7 @@ echo -e "\n$hr\nSOURCE REPOSITORY\n$hr"
 ls -al docs
 
 echo -e "\n$hr\nASSETS REPOSITORY\n$hr"
-tree docs/assets
+tree assets
 
 [[ ! -x "$(command -v docker)" ]] && exit 0
 echo -e "\n$hr\nDOCKER VERSION\n$hr"
