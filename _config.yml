@@ -110,8 +110,8 @@ page_gen-dirs: true
 page_gen:
 - data: core
   dir: core
+  name: key
   debug: false
-  name: grammar
   title: parser
   extension: xml
   template: recipe
