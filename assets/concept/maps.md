@@ -27,7 +27,6 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 ## Site Metadata
 
 ```
-{%- raw -%}
 {% for item in site | sort -%}
 	{%- if site[item].first -%}
 		{%- if site[item].first.first -%}
@@ -39,7 +38,6 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 		{%- include tabs.liquid %}- {{ item }}: {{ site[item] }}
 	{%- endif -%}
 {%- endfor %}
-{%- endraw -%}
 ```
 
 - pages: hash
@@ -128,7 +126,6 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 ## Github Metadata
 
 ```
-{%- raw -%}
 {% assign github = site.github -%}
 {%- for item in github | sort -%}
 	{%- if github[item].first -%}
@@ -141,7 +138,6 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 		{%- include tabs.liquid %}- {{ item }}: {{ github[item] }}
 	{%- endif -%}
 {%- endfor %}
-{%- endraw -%}
 ```
 
 - api_url: https://api.github.com
@@ -188,7 +184,6 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 
 ## Source Metadata
 ```
-{%- raw -%}
 {% assign source = github.source -%}
 {%- for item in source | sort -%}
 	{%- if source[item].first -%}
@@ -201,7 +196,6 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 		{%- include tabs.liquid %}- {{ item }}: {{ source[item] }}
 	{%- endif -%}
 {%- endfor %}
-{%- endraw -%}
 ```
 
 - branchmaster: 
