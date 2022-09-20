@@ -72,6 +72,24 @@ timezone: Asia/Jakarta
 # https://jekyllrb.com/docs/plugins/
 # https://docs.github.com/en/pages/quickstart
 
+plugins:
+  - jemoji
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-avatar
+  - jekyll-sitemap
+  - jekyll/tagging
+  - jekyll-paginate
+  - jekyll-mentions
+  - jekyll-coffeescript
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-default-layout
+# - jekyll-github-metadata
+  - jekyll-titles-from-headings
+  - jekyll-optional-front-matter
+
 # Jekyll Tag Pages Generator
 # https://github.com/pattex/jekyll-tagging
 
