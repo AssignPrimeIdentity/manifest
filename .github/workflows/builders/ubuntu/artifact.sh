@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "WHOAMI\n$hr"
+echo -e "\nWHOAMI\n$hr"
 su git-user
 sudo chown -R $(id -u):$(id -g) $PWD
 whoami
