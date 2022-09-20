@@ -46,7 +46,6 @@ jobs:
           bash .github/workflows/builders/ubuntu/artifact.sh
         env:
           JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
-          SSL_CERT_FILE: ${{ secrets.SSL_CERT_FILE }}
            
       - name: 🔨 build site
         uses: limjh16/jekyll-action-ts@v2
