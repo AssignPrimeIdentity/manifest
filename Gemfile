@@ -10,7 +10,7 @@ source "https://rubygems.org"
 
 gemspec
 ruby "2.7.6"
-gem "jekyll", "~> 4.2.2"
+gem "jekyll", "~> 4.2.1"
 
 # If you want to use GitHub Pages, comment the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
