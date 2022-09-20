@@ -21,50 +21,6 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 ## Jekyll - How to build a [REST API](https://gist.github.com/MichaelCurrin/f8d908596276bdbb2044f04c352cb7c7)
 {% gist f8d908596276bdbb2044f04c352cb7c7 %}
 
-## Site Metadata
-
-{% for item in site | sort -%}
-	{%- if site[item].first -%}
-		{%- if site[item].first.first -%}
-			{%- include tabs.liquid %}- {{ item }}: hash
-		{%- else -%}
-			{%- include tabs.liquid %}- {{ item }}: array
-		{%- endif -%}
-	{%- else -%}
-		{%- include tabs.liquid %}- {{ item }}: {{ site[item] }}
-	{%- endif -%}
-{%- endfor %}
-
-## Github Metadata
-
-{% assign github = site.github -%}
-{%- for item in github | sort -%}
-	{%- if github[item].first -%}
-		{%- if github[item].first.first -%}
-			{%- include tabs.liquid %}- {{ item }}: hash
-		{%- else -%}
-			{%- include tabs.liquid %}- {{ item }}: array
-		{%- endif -%}
-	{%- else -%}
-		{%- include tabs.liquid %}- {{ item }}: {{ github[item] }}
-	{%- endif -%}
-{%- endfor %}
-
-## Source Metadata
-
-{% assign source = github.source -%}
-{%- for item in source | sort -%}
-	{%- if source[item].first -%}
-		{%- if source[item].first.first -%}
-			{%- include tabs.liquid %}- {{ item }}: hash
-		{%- else -%}
-			{%- include tabs.liquid %}- {{ item }}: array
-		{%- endif -%}
-	{%- else -%}
-		{%- include tabs.liquid %}- {{ item }}: {{ source[item] }}
-	{%- endif -%}
-{%- endfor %}
-
 ## Jekyll Liquid Cheatsheet
 {% gist a466eed62cee30ad45e2 %}
 
