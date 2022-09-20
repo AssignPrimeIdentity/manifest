@@ -2,6 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "grammar"
+  spec.version       = "0.1.7"
   spec.license       = "MIT"
 
   spec.authors       = ["eQ19"]
