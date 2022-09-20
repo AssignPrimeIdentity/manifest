@@ -39,7 +39,7 @@ jobs:
         env:
           JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
           SSL_CERT_FILE: ${{ secrets.SSL_CERT_FILE }}
-       - name: Set vendor/bundle
+      - name: Set vendor/bundle
         uses: actions/cache@v2
         with:
           path: vendor/bundle
