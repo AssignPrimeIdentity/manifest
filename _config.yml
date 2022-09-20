@@ -82,8 +82,8 @@ plugins:
   - jekyll-paginate
   - jekyll-mentions
   - jekyll-coffeescript
-  - jekyll-redirect-from
   - jekyll-readme-index
+  - jekyll-redirect-from
   - jekyll-relative-links
   - jekyll-default-layout
   - jekyll-github-metadata
