@@ -1,5 +1,5 @@
 DEBUG=JEKYLL_GITHUB_TOKEN=blank PAGES_API_URL=http://0.0.0.0
-ALIAS=jekyll-rtd-theme
+ALIAS=grammar
 
 help:
 	@echo "HomePage: https://github.com/rundocs/${ALIAS}\n"
@@ -25,8 +25,6 @@ checkout:
 
 install:
 	@git config --global --add safe.directory '*'
-	@apt-get install libv8-dev
-	@apt-get install nodejs
 	@gem install jekyll bundler
 	@npm install
 	@bundle install
