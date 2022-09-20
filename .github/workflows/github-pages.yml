@@ -1,4 +1,5 @@
-name: Build and Deploy
+# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+name: Build and deploy Jekyll site to GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -21,44 +22,32 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  # Build job
   github-pages:
     runs-on: ubuntu-latest
     environment:
       name: github-pages-36
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: 📂 setup
-        uses: actions/checkout@v2
-
-        # include the lines below if you are using jekyll-last-modified-at
-        # or if you would otherwise need to fetch the full commit history
-        # however this may be very slow for large repositories!
-        # with:
-        # fetch-depth: '0'
-      - name: 💎 setup ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.7
-
-        # GitHub Metadata No GitHub API authentication
-      - name: 📂 initiate
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Initializing
         run: |
           bash .github/workflows/builders/ubuntu/artifact.sh
-        env:
-          JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
-          SSL_CERT_FILE: ${{ secrets.SSL_CERT_FILE }}
-           
-      - name: 🔨 build site
-        uses: limjh16/jekyll-action-ts@v2
+      - name: Set vendor/bundle
+        uses: actions/cache@v2
         with:
-          jekyll_src: './'
-          enable_cache: true
-
-      - name: 🚀 deploy
-        uses: peaceiris/actions-gh-pages@v3
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      # Use GitHub Deploy Action to build and deploy to Github
+      - uses: jeffreytse/jekyll-deploy-action@v0.4.0
         with:
-          publish_dir: ./_site
-          github_token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
-          # if the repo you are deploying to is <username>.github.io, uncomment the line below.
-          # if you are including the line below, make sure your source files are NOT in the "main" branch:
-          # publish_branch: main
+          provider: 'github'
+          jekyll_src: './'           # Default is root directory
+          jekyll_cfg: '_config.yml'  # Default is _config.yml
+          pre_build_commands: ''     # Installing additional dependencies
+          token: ${{ secrets.JEKYLL_GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
