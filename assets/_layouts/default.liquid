@@ -1,8 +1,8 @@
 {%- include extra/rest/defaults.liquid -%}
 {%- include leads/rest/defaults.liquid -%}
 
-		{%- if baseurl == "" -%}
+		{%- if site.github.baseurl == "" -%}
 			{%- include templates/theme/leads/site/index.html -%}
 		{%- else -%}
-			{%- include templates/theme/leads/site{{ baseurl }}.html -%}
+			{%- include templates/theme/leads/site{{ site.github.baseurl }}.html -%}
 		{%- endif %}
