@@ -42,6 +42,7 @@ jobs:
         with:
           jekyll_src: './'
           enable_cache: true
+          custom_opts: 
 
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
