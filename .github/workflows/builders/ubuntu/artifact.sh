@@ -20,6 +20,18 @@ echo -e "\n$hr\nSYSTEM INFO\n$hr"
 gcloud info
 python --version
 
+echo -e "\n$hr\nDOCKER VERSION\n$hr"
+docker version
+
+echo -e "\n$hr\nDOCKER INFO\n$hr"
+docker info
+
+echo -e "$hr\nIMAGE BUILDERS\n$hr"
+docker images --all | sort
+
+echo -e "\n$hr\nCURRENTLY RUNNING\n$hr"
+docker ps
+
 echo -e "\n$hr\nHOME PROFILES\n$hr"
 echo $HOME
 ls -al $HOME
@@ -50,18 +62,6 @@ ls -al
 echo -e "\n$hr\nSOURCE REPOSITORY\n$hr"
 ls -al docs
 
+[[ ! -x "$(command -v tree)" ]] && exit 0
 echo -e "\n$hr\nASSETS REPOSITORY\n$hr"
-[[ "$(whoami)" == "runner" ]] tree assets
-
-[[ ! -x "$(command -v docker)" ]] && exit 0
-echo -e "\n$hr\nDOCKER VERSION\n$hr"
-docker version
-
-echo -e "\n$hr\nDOCKER INFO\n$hr"
-docker info
-
-echo -e "$hr\nIMAGE BUILDERS\n$hr"
-docker images --all | sort
-
-echo -e "\n$hr\nCURRENTLY RUNNING\n$hr"
-docker ps
+tree assets
