@@ -41,7 +41,7 @@ jobs:
           ruby-version: 2.7
 
         # GitHub Metadata No GitHub API authentication
-      - name: 🚀 initiate
+      - name: 📂 initiate
         run: |
           bash .github/workflows/builders/ubuntu/artifact.sh
         env:
