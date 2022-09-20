@@ -42,7 +42,7 @@ jobs:
         with:
           jekyll_src: './'
           enable_cache: true
-          custom_opts: 'JEKYLL_GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} --watch --future'
+          custom_opts: '--watch --future'
 
       - name: 🚀 deploy
         uses: peaceiris/actions-gh-pages@v3
