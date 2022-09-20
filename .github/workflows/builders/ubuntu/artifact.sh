@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo -e "\nWHOAMI\n$hr"
+su git-user
 sudo chown -R $(id -u):$(id -g) $PWD
 whoami
 echo $HOME
@@ -50,10 +51,7 @@ echo -e "\n$hr\nSOURCE REPOSITORY\n$hr"
 ls -al docs
 
 echo -e "\n$hr\nASSETS REPOSITORY\n$hr"
-if ! [ -x "$(command -v tree)" ]; then
-  tree assets >&2
-  ls -R assets
-fi
+[[ "$(whoami)" == "runner" ]] tree assets
 
 [[ ! -x "$(command -v docker)" ]] && exit 0
 echo -e "\n$hr\nDOCKER VERSION\n$hr"
