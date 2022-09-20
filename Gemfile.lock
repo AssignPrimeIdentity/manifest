@@ -144,7 +144,7 @@ PLATFORMS
 
 DEPENDENCIES
   grammar!
-  jekyll (~> 4.2.2)
+  jekyll (~> 4.2.1)
   jekyll-avatar (~> 0.7.0)
   jekyll-coffeescript (~> 1.1.1)
   jekyll-default-layout (~> 0.1.4)
