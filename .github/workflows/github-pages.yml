@@ -36,7 +36,10 @@ jobs:
       - name: Initializing
         run: |
           bash .github/workflows/builders/ubuntu/artifact.sh
-      - name: Set vendor/bundle
+        env:
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
+          SSL_CERT_FILE: ${{ secrets.SSL_CERT_FILE }}
+       - name: Set vendor/bundle
         uses: actions/cache@v2
         with:
           path: vendor/bundle
