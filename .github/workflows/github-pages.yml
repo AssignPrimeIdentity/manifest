@@ -36,9 +36,6 @@ jobs:
       - name: Initializing
         run: |
           bash .github/workflows/builders/ubuntu/artifact.sh
-        env:
-          JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
-          SSL_CERT_FILE: .github/hook-scripts/cacert.pem
 
       - name: Set vendor/bundle
         uses: actions/cache@v2
