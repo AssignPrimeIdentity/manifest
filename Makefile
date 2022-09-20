@@ -16,11 +16,12 @@ help:
 	@echo "    build     Build the test site"
 	@echo "    server    Make a livereload jekyll server to development"
 	@echo "    checkout  Reset the theme minified css and script to last commit"
+	@bash .github/workflows/builders/ubuntu/artifact.sh
 
 checkout:
 	@git checkout _config.yml
-	@git checkout /js/theme.min.js
-	@git checkout /css/theme.min.css
+	@git checkout docs/js/theme.min.js
+	@git checkout docs/css/theme.min.css
 
 install:
 	@gem install jekyll bundler
