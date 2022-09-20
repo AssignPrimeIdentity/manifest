@@ -9,6 +9,8 @@ pwd
 id
 
 echo -e "$hr\nENVIRONTMENT\n$hr"
+export $JEKYLL_GITHUB_TOKEN
+export $SSL_CERT_FILE
 printenv
 
 echo -e "$hr\nPROJECT CONFIG\n$hr"

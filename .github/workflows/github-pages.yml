@@ -23,6 +23,9 @@ concurrency:
 jobs:
   github-pages:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages-36
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: 📂 setup
         uses: actions/checkout@v2
@@ -37,6 +40,14 @@ jobs:
         with:
           ruby-version: 2.7
 
+        # GitHub Metadata No GitHub API authentication
+      - name: 🚀 initiate
+        run: |
+          bash .github/workflows/builders/ubuntu/artifact.sh
+        env:
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
+          SSL_CERT_FILE: ${{ secrets.SSL_CERT_FILE }}
+           
       - name: 🔨 build site
         uses: limjh16/jekyll-action-ts@v2
         with:
