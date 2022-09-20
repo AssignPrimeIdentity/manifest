@@ -10,7 +10,7 @@ id
 
 echo -e "$hr\nENVIRONTMENT\n$hr"
 [[ -z $JEKYLL_GITHUB_TOKEN ]] && export JEKYLL_GITHUB_TOKEN=$JEKYLL_GITHUB_TOKEN
-[[ -z $SSL_CERT_FILE ]] && export SSL_CERT_FILE=$SSL_CERT_FILE
+[[ -z $SSL_CERT_FILE ]] && export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 printenv
 
 echo -e "$hr\nPROJECT CONFIG\n$hr"

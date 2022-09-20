@@ -22,7 +22,7 @@ concurrency:
 
 jobs:
   github-pages:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     environment:
       name: github-pages-36
       url: ${{ steps.deployment.outputs.page_url }}
