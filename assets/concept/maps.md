@@ -26,6 +26,7 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 
 ## Site Metadata
 
+```
 {%- raw -%}
 {% for item in site | sort -%}
 	{%- if site[item].first -%}
@@ -39,10 +40,7 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 	{%- endif -%}
 {%- endfor %}
 {%- endraw -%}
-
 ```
-## Site Metadata
-
 
 - pages: hash
 - html_pages: hash
@@ -125,10 +123,11 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 - url: https://github.com
 - tag_data: 
 - github: hash
-```
+
 
 ## Github Metadata
 
+```
 {%- raw -%}
 {% assign github = site.github -%}
 {%- for item in github | sort -%}
@@ -143,10 +142,7 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 	{%- endif -%}
 {%- endfor %}
 {%- endraw -%}
-
 ```
-## Github Metadata
-
 
 - api_url: https://api.github.com
 - archived: 
@@ -189,10 +185,9 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 - wiki_url: 
 - zip_url: https://github.com/eq19/eq19.github.io/zipball/master
 
-```
 
 ## Source Metadata
-
+```
 {%- raw -%}
 {% assign source = github.source -%}
 {%- for item in source | sort -%}
@@ -207,14 +202,11 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 	{%- endif -%}
 {%- endfor %}
 {%- endraw -%}
-
 ```
-## Source Metadata
-
 
 - branchmaster: 
 - path/: 
-```
+
 
 ## Recommendations AI
 
