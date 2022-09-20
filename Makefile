@@ -24,6 +24,9 @@ checkout:
 	@git checkout docs/css/theme.min.css
 
 install:
+	@git config --global --add safe.directory *
+	@apt-get install libv8-dev
+	@apt-get install nodejs
 	@gem install jekyll bundler
 	@npm install
 	@bundle install
@@ -49,7 +52,7 @@ theme: dist
 	@gem install *.gem && rm -f *.gem
 
 build: dist
-	@${DEBUG} bundle exec jekyll build --safe --profile
+	@${DEBUG} bundle exec jekyll build --profile
 
 server: dist
-	@${DEBUG} bundle exec jekyll server --safe --livereload
+	@${DEBUG} bundle exec jekyll server --livereload
