@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "jekyll-relative-links", "~> 0.6.1"
   spec.add_development_dependency "jekyll-default-layout", "~> 0.1.4"
   spec.add_development_dependency "jekyll-redirect-from", "~> 0.16.0"
-# spec.add_development_dependency "jekyll-github-metadata", "~> 2.15.0"
+  spec.add_development_dependency "jekyll-github-metadata", "~> 2.15.0"
   spec.add_development_dependency "jekyll-titles-from-headings", "~> 0.5.3"
   spec.add_development_dependency "jekyll-optional-front-matter", "~> 0.3.2"
 end
