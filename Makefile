@@ -24,7 +24,7 @@ checkout:
 	@git checkout docs/css/theme.min.css
 
 install:
-	@git config --global --add safe.directory *
+	@git config --global --add safe.directory '*'
 	@apt-get install libv8-dev
 	@apt-get install nodejs
 	@gem install jekyll bundler
