@@ -54,5 +54,5 @@ jobs:
           provider: 'github'
           jekyll_src: './'           # Default is root directory
           jekyll_cfg: '_config.yml'  # Default is _config.yml
-          pre_build_commands: ''     # Installing additional dependencies
+          pre_build_commands: 'ls -al'     # Installing additional dependencies
           token: ${{ secrets.JEKYLL_GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
