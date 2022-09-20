@@ -6,7 +6,6 @@ Gem::Specification.new do |spec|
 
   spec.authors       = ["eQ19"]
   spec.email         = ["admin@eq19.com"]
-  spec.version       = "JekyllReadmeIndex::VERSION"
   spec.homepage      = "https://github.com/eq19/grammar"
   spec.summary       = "A unique mapping system based on prime objects"
 
