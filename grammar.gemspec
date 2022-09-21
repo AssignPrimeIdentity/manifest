@@ -15,6 +15,7 @@ Gem::Specification.new do |spec|
 # spec.add_runtime_dependency "github-pages", "~> 227"
   spec.add_runtime_dependency "jekyll", ">= 3.0", "< 5.0"
 
+  spec.add_development_dependency "netrc", "~> 0.11.0"
   spec.add_development_dependency "jemoji", "~> 0.12.0"
   spec.add_development_dependency "jekyll-feed", "~> 0.15.1"
   spec.add_development_dependency "jekyll-gist", "~> 1.5.0"
