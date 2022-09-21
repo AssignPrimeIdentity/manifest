@@ -125,7 +125,7 @@ Google Rich Results [documents is here](https://developers.google.com/search/ref
 
 ```
 {%- comment -%}
-{% assign github = site_github -%}
+{% assign github = site.github -%}
 {%- for item in github | sort -%}
 	{%- if github[item].first -%}
 		{%- if github[item].first.first -%}
