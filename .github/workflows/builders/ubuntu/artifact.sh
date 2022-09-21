@@ -63,12 +63,3 @@ echo -e "\n$hr\nUPDATE REQUIRED PACKAGES\n$hr"
 # update and install all required packages (no sudo required as root)
 # https://gist.github.com/isaacs/579814#file-only-git-all-the-way-sh
 apt-get update -yq && apt-get upgrade -yq && \
-apt-get install -yq curl git nano
-
-# install from nodesource using apt-get
-# https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server
-curl -sL https://deb.nodesource.com/setup | sudo bash - && \
-apt-get install -yq nodejs build-essential
-
-# fix npm - not the latest version installed by apt-get
-npm install -g npm
