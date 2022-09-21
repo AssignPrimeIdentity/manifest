@@ -20,15 +20,9 @@ help:
 
 checkout:
 	@git checkout _config.yml
-	@git checkout docs/js/theme.min.js
-	@git checkout docs/css/theme.min.css
 
 install:
-	@git config --global --add safe.directory '*'
-	@install libv8-dev
-	@install nodejs
 	@gem install jekyll bundler
-	@npm install
 	@bundle install
 
 format:
