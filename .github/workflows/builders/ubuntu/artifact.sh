@@ -8,7 +8,7 @@ id
 
 # environtment ubuntu
 echo -e "$hr\nENVIRONTMENT\n$hr"
-export PAGES_REPO_NWO=$(echo $RUNNER_WORKSPACE | cut -d '/' -f 5-)
+export PAGES_REPO_NWO=$GITHUB_REPOSITORY
 printenv | sort
 
 echo -e "$hr\nPROJECT CONFIG\n$hr"

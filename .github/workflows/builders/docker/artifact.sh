@@ -8,9 +8,9 @@ uname -r
 
 # environtment archlinux:base-devel
 echo -e "$hr\nENVIRONTMENT\n$hr"
+export PAGES_REPO_NWO=$GITHUB_REPOSITORY
 export JEKYLL_GITHUB_TOKEN=$JEKYLL_GITHUB_TOKEN
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
-export PAGES_REPO_NWO=$(echo $RUNNER_WORKSPACE | cut -d '/' -f 5-)
 printenv | sort
 
 # installed packages
