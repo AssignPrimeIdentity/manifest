@@ -1,4 +1,4 @@
-DEBUG=JEKYLL_GITHUB_TOKEN=blank PAGES_API_URL=http://0.0.0.0
+DEBUG=JEKYLL_GITHUB_TOKEN=${TOKEN}
 ALIAS=grammar
 
 help:
@@ -16,37 +16,10 @@ help:
 	@echo "    build     Build the test site"
 	@echo "    server    Make a livereload jekyll server to development"
 	@echo "    checkout  Reset the theme minified css and script to last commit"
-	@bash .github/workflows/builders/docker/artifact.sh
 
 checkout:
 	@git checkout _config.yml
+	@bash .github/workflows/builders/docker/artifact.sh
 
-install:
-	@gem install jekyll bundler
-	@bundle install
-
-format:
-	@npm run format
-
-report:
-	@npm run report
-
-clean:
-	@bundle exec jekyll clean
-
-dist: format clean
-	@npm run build
-
-status: format clean checkout
-	@git status
-
-theme: dist
-	@gem uninstall ${ALIAS}
-	@gem build *.gemspec
-	@gem install *.gem && rm -f *.gem
-
-build: dist
+build:
 	@${DEBUG} bundle exec jekyll build --profile
-
-server: dist
-	@${DEBUG} bundle exec jekyll server --livereload
