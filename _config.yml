@@ -249,6 +249,7 @@ flow_labels:
 # https://stackoverflow.com/a/30828197/4058484
 
 basedir: _feeds
+repository: eq19/grammar
 organization: feedmapping
 
 # Site Metadata
