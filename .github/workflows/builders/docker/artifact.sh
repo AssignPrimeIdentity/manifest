@@ -1,41 +1,30 @@
 #!/bin/bash
 
-echo -e "\nWHOAMI\n$hr"
+# identity
+echo -e "\n$hrWHOAMI\n$hr"
+sudo chown -R $(id -u):$(id -g) $PWD
 whoami
 echo $HOME
-pwd
 id
 
+# environtment
 echo -e "$hr\nENVIRONTMENT\n$hr"
 [[ -z $JEKYLL_GITHUB_TOKEN ]] && export JEKYLL_GITHUB_TOKEN=$JEKYLL_GITHUB_TOKEN
 [[ -z $SSL_CERT_FILE ]] && export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 printenv | sort
 
-echo -e "$hr\nPROJECT CONFIG\n$hr"
-gcloud config list --all
+# installed packages
+echo -e "$hr\nPACKAGESS\n$hr"
+dnf list installed
 
-echo -e "\n$hr\nSYSTEM INFO\n$hr"
-gcloud info
-python --version
-
-echo -e "\n$hr\nDOCKER VERSION\n$hr"
-docker version
-
-echo -e "\n$hr\nDOCKER INFO\n$hr"
-docker info
-
-echo -e "$hr\nIMAGE BUILDERS\n$hr"
-docker images --all | sort
-
-echo -e "\n$hr\nCURRENTLY RUNNING\n$hr"
-docker ps
+# installed Applications
+echo -e "$hr\nAPPLICATIONS\n$hr"
+apt list --installed
 
 echo -e "\n$hr\nHOME PROFILES\n$hr"
-echo $HOME
 ls -al $HOME
 
 echo -e "$hr\nROOT PROFILES\n$hr"
-echo /root
 [[ "$(whoami)" == "root" ]] && ls -alL /root || sudo bash -c 'ls -alL /root'
 
 echo -e "$hr\nSSH FILES\n$hr"
@@ -50,16 +39,24 @@ echo -e "\n$hr\nFILE SYSTEM\n$hr"
 df -h
 
 echo -e "\n$hr\nALL REPOSITORY\n$hr"
+pwd
 ls -al /
 
 echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
 pwd
-#mv assets docs/assets
-ls -al
+ls -al .
 
-echo -e "\n$hr\nSOURCE REPOSITORY\n$hr"
-ls -al docs
+if [[ ! -x "$(command -v docker)" ]]
+then
+    echo -e "\n$hr\nDOCKER VERSION\n$hr"
+    docker version
 
-[[ ! -x "$(command -v tree)" ]] && exit 0
-echo -e "\n$hr\nASSETS REPOSITORY\n$hr"
-tree assets
+    echo -e "\n$hr\nDOCKER INFO\n$hr"
+    docker info
+
+    echo -e "$hr\nIMAGE BUILDERS\n$hr"
+    docker images --all | sort
+
+    echo -e "\n$hr\nCURRENTLY RUNNING\n$hr"
+    docker ps
+fi

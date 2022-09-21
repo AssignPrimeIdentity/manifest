@@ -16,7 +16,7 @@ help:
 	@echo "    build     Build the test site"
 	@echo "    server    Make a livereload jekyll server to development"
 	@echo "    checkout  Reset the theme minified css and script to last commit"
-	@bash .github/workflows/builders/ubuntu/artifact.sh
+	@bash .github/workflows/builders/docker/artifact.sh
 
 checkout:
 	@git checkout _config.yml
@@ -25,6 +25,8 @@ checkout:
 
 install:
 	@git config --global --add safe.directory '*'
+	@install libv8-dev
+	@install nodejs
 	@gem install jekyll bundler
 	@npm install
 	@bundle install
