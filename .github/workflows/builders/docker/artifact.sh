@@ -15,11 +15,11 @@ printenv | sort
 
 # installed packages
 echo -e "$hr\nPACKAGESS\n$hr"
-dnf list installed
+pacman -Q
 
-# installed Applications
-echo -e "$hr\nAPPLICATIONS\n$hr"
-apt list --installed
+# installed bash
+echo -e "$hr\nBASH DETAIL\n$hr"
+pacman -Qii bash
 
 echo -e "\n$hr\nHOME PROFILES\n$hr"
 ls -al $HOME
