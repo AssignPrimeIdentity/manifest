@@ -1,13 +1,8 @@
 #!/bin/bash
 
-# identity
-echo -e "\n$hrWHOAMI\n$hr"
-sudo chown -R $(id -u):$(id -g) $PWD
-whoami
-echo $HOME
-id
+# os version
+echo -e "\n$hrOS VERSION\n$hr"
 cat /etc/os-release
-lsb_release -a
 hostnamectl
 uname -r
 
@@ -24,6 +19,13 @@ pacman -Q
 # installed bash
 echo -e "$hr\nBASH DETAIL\n$hr"
 pacman -Qii bash
+
+# identity
+echo -e "\n$hrWHOAMI\n$hr"
+sudo chown -R $(id -u):$(id -g) $PWD
+whoami
+pwd
+id
 
 echo -e "\n$hr\nHOME PROFILES\n$hr"
 ls -al $HOME
