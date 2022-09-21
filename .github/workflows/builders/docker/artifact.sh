@@ -51,18 +51,3 @@ ls -al /
 echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
 pwd
 ls -al .
-
-if [[ ! -x "$(command -v docker)" ]]
-then
-    echo -e "\n$hr\nDOCKER VERSION\n$hr"
-    docker version
-
-    echo -e "\n$hr\nDOCKER INFO\n$hr"
-    docker info
-
-    echo -e "$hr\nIMAGE BUILDERS\n$hr"
-    docker images --all | sort
-
-    echo -e "\n$hr\nCURRENTLY RUNNING\n$hr"
-    docker ps
-fi
