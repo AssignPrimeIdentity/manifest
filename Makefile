@@ -1,5 +1,5 @@
-DEBUG=JEKYLL_GITHUB_TOKEN=${TOKEN}
 ALIAS=grammar
+DEBUG=JEKYLL_GITHUB_TOKEN=${TOKEN}
 
 help:
 	@echo "HomePage: https://github.com/rundocs/${ALIAS}\n"
@@ -22,4 +22,4 @@ checkout:
 	@bash .github/workflows/builders/docker/artifact.sh
 
 build:
-	@${DEBUG} bundle exec jekyll build --profile
+	@${DEBUG} bundle exec jekyll build ${JEKYLL_BASEURL} -c ${JEKYLL_CFG} -d ${WORKING_DIR}/build
