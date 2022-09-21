@@ -19,7 +19,7 @@ help:
 
 checkout:
 	@git checkout _config.yml
-	@bash .github/workflows/builders/docker/artifact.sh
 
 build:
-	@${DEBUG} bundle exec jekyll build ${JEKYLL_BASEURL} -c ${JEKYLL_CFG} -d ${WORKING_DIR}/build
+	@bash .github/workflows/builders/docker/artifact.sh
+
