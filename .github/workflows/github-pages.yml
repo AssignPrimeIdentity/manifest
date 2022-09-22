@@ -14,8 +14,8 @@ on:
 permissions:
   pages: write
   contents: read
+  packages: read
   id-token: write
-  packages: write
 
 # Allow one concurrent deployment
 concurrency:
@@ -49,9 +49,3 @@ jobs:
           jekyll_cfg: '_config.yml'
           token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
           pre_build_commands: 'make && make build'
-
-      - name: 💎 Push image
-        uses: macbre/push-to-ghcr@master
-        with:
-          image_name: ${{ github.repository }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
