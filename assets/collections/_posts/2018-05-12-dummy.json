@@ -1,7 +1,6 @@
 ---
 title: dummy
 layout: base
-category: object
 ---
 {% comment %}
 *
