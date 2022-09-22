@@ -49,12 +49,9 @@ jobs:
           token: ${{ secrets.JEKYLL_GITHUB_TOKEN }} # Personal Access Token
           pre_build_commands: 'make && make build' # Installing additional dependencies
 
+      # https://github.com/marketplace/actions/push-to-ghcr
       - name: 💎 Push image
-        uses: mr-smithers-excellent/docker-build-push@v5
+        uses: macbre/push-to-ghcr@master
         with:
-          tags: latest
-          image: grammar
-          registry: ghcr.io
-          directory: vendor/bundle
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
+          image_name: ${{ github.repository }}
+          github_token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
