@@ -31,10 +31,10 @@ jobs:
     steps:
       - name: 📂 Checkout
         uses: actions/checkout@v3
-        with:
-          ref: gh-pages
+      - name: 💎 Setup Pages
+        uses: actions/configure-pages@v2
 
-      - name: 💎 Get gem cache
+      - name: 📂 Get gem cache
         uses: actions/cache@v2
         with:
           path: vendor/bundle
@@ -43,6 +43,9 @@ jobs:
             ${{ runner.os }}-gems-
 
       # Build and deploy to Github
+      - name: 🔨 Initializing
+        run: |
+          bash .github/workflows/builders/ubuntu/artifact.sh
       - name: 🚀 Build and deploy
         uses: jeffreytse/jekyll-deploy-action@v0.4.0
         with:
