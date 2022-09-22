@@ -44,14 +44,13 @@ jobs:
         uses: jeffreytse/jekyll-deploy-action@v0.4.0
         with:
           provider: 'github'
-          jekyll_src: './'           # Default is root
-          jekyll_cfg: '_config.yml'  # Default is _config.yml
-          token: ${{ secrets.JEKYLL_GITHUB_TOKEN }} # Personal Access Token
-          pre_build_commands: 'make && make build' # Installing additional dependencies
+          jekyll_src: './'
+          jekyll_cfg: '_config.yml'
+          token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
+          pre_build_commands: 'make && make build'
 
-      # https://github.com/marketplace/actions/push-to-ghcr
       - name: 💎 Push image
         uses: macbre/push-to-ghcr@master
         with:
           image_name: ${{ github.repository }}
-          github_token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -4,8 +4,6 @@
 # But not these files...
 !.gitignore
 !_config.yml
-!LICENSE.txt
-!README.md
 
 # Nor these directories...
 !js/*
