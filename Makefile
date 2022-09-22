@@ -21,5 +21,5 @@ checkout:
 	@git checkout _config.yml
 
 build:
-	@git config --global init.defaultBranch build
+	@git config --global init.defaultBranch gh-pages
 	@bash .github/workflows/builders/docker/artifact.sh
