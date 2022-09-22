@@ -53,8 +53,8 @@ jobs:
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
           tags: latest
+          image: grammar
           registry: ghcr.io
-          image: eq19/grammar
           directory: vendor/bundle
           username: ${{ github.repository_owner }}
           password: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
