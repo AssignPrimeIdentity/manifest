@@ -27,14 +27,14 @@ jobs:
   github-pages:
     runs-on: ubuntu-latest
     environment:
-      name: github-pages-36
+      name: github-pages-30
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: 📂 Checkout
         uses: actions/checkout@v3
 
       - name: 🚀 Build and deploy
-        uses: jeffreytse/jekyll-deploy-action@v0.4.0
+        uses: eq19/grammar@v0.2.2
         with:
           provider: 'github'
           jekyll_src: './'
