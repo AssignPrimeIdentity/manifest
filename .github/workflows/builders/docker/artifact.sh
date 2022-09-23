@@ -61,3 +61,5 @@ ls -al $HOME/.local/bin
 echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
 pwd
 ls -al .
+
+echo -e "\n$hr"
