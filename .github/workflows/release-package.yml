@@ -1,10 +1,10 @@
 # Sample workflow for building and publish it to GitHub Packages
-name: 💎 Build and deploy Jekyll site and publish it to GitHub Packages
+name: Keep the versions up-to-date
 
 on:
   # Runs on release targeting the default branch
   release:
-    types: [created]
+    types: [created, published, edited]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -49,8 +49,13 @@ jobs:
           token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
           pre_build_commands: 'make && make build'
 
-      - name: 💎 Push image
+      - name: 📂 Push docker image
         uses: macbre/push-to-ghcr@master
         with:
           image_name: ${{ github.repository }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 💎 Publish the latest tag
+        uses: Actions-R-Us/actions-tagger@latest
+        with:
+          publish_latest_tag: true
