@@ -4,7 +4,7 @@ name: Keep the versions up-to-date
 on:
   # Runs on release targeting the default branch
   release:
-    types: [created, published, edited]
+    types: [published]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
