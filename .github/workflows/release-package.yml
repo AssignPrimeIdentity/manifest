@@ -4,7 +4,7 @@ name: Keep the versions up-to-date
 on:
   # Runs on release targeting the default branch
   release:
-    types: [created]
+    types: [created, published, created]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -58,4 +58,6 @@ jobs:
       - name: 💎 Publish the latest tag
         uses: Actions-R-Us/actions-tagger@latest
         with:
+        with:
+          ref: ${{ github.ref }}
           publish_latest_tag: true
