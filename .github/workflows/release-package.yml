@@ -53,6 +53,7 @@ jobs:
         with:
           image_name: ${{ github.repository }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          docker_io_token: ${{ secrets.DOCKER_IO_ACCESS_TOKEN }}
 
       - name: 💎 Publish the latest tag
         uses: Actions-R-Us/actions-tagger@latest
