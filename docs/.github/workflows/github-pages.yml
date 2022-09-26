@@ -44,5 +44,5 @@ jobs:
           provider: 'github'
           jekyll_src: './'
           jekyll_cfg: '_config.yml'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
           pre_build_commands: 'make && make build'
