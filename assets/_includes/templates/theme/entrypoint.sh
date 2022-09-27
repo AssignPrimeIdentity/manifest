@@ -27,10 +27,10 @@ fi
 # Set default bundle path and cache
 BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 
-echo "\nStarting the Jekyll Deploy Action"
+echo -e "\nStarting the Jekyll Deploy Action"
 
 if [[ -z "${TOKEN}" ]]; then
-  echo "Please set the TOKEN environment variable."
+  echo -e "Please set the TOKEN environment variable."
   exit 1
 fi
 
@@ -41,8 +41,8 @@ if [[ "${PROVIDER}" == "github" ]]; then
   : ${BRANCH:=gh-pages}
 
   # Check if repository is available
-  if ! echo "${REPOSITORY}" | grep -Eq ".+/.+"; then
-    echo "The repository ${REPOSITORY} doesn't match the pattern <author>/<repos>"
+  if ! echo -e "${REPOSITORY}" | grep -Eq ".+/.+"; then
+    echo -e "The repository ${REPOSITORY} doesn't match the pattern <author>/<repos>"
     exit 1
   fi
 
@@ -51,22 +51,22 @@ if [[ "${PROVIDER}" == "github" ]]; then
 fi
 
 # Initialize environment
-echo "\nInitialize environment"
+echo -e "\nInitialize environment"
 ${SCRIPT_DIR}/script/init_environment.sh
 
 cd ${JEKYLL_SRC}
 
 # Restore modification time (mtime) of git files
-echo "\nRestore modification time of all git files"
+echo -e "\nRestore modification time of all git files"
 ${SCRIPT_DIR}/script/restore_mtime.sh
 
 # Check and execute pre_build_commands commands
 if [[ ${PRE_BUILD_COMMANDS} ]]; then
-  echo "\nExecuting pre-build commands"
+  echo -e "\nExecuting pre-build commands"
   eval "${PRE_BUILD_COMMANDS}"
 fi
 
-echo "\nInitial comptible bundler"
+echo -e "\nInitial comptible bundler"
 ${SCRIPT_DIR}/script/cleanup_bundler.sh
 gem install bundler -v "${BUNDLER_VER}"
 
@@ -74,7 +74,7 @@ CLEANUP_BUNDLER_CACHE_DONE=false
 
 # Clean up bundler cache
 cleanup_bundler_cache() {
-  echo "\nCleaning up incompatible bundler cache"
+  echo -e "\nCleaning up incompatible bundler cache"
   rm -rf ${BUNDLE_PATH}
   mkdir -p ${BUNDLE_PATH}
   CLEANUP_BUNDLER_CACHE_DONE=true
@@ -89,7 +89,7 @@ os_name=${os_name:6:-1}
 
 if [[ "$os_name" != "$(cat $OS_NAME_FILE 2>/dev/null)" ]]; then
   cleanup_bundler_cache
-  echo $os_name > $OS_NAME_FILE
+  echo -e $os_name > $OS_NAME_FILE
 fi
 
 echo "\nStarting bundle install"
