@@ -60,7 +60,7 @@ ls -al $HOME/.local/bin
 # workspace
 echo -e "\n$hr\nCURRENT REPOSITORY\n$hr"
 if [[ "${GITHUB_ACTOR}" != "eq19" ]]; then
-  mv ./assets ./docs/
+  mv ./assets ./docs/docs/
   export JEKYLL_SRC=./docs
   export JEKYLL_CFG=./docs/_config.yml
   sed -i -e 's/eq19/chetabahana/g' ${JEKYLL_CFG}
@@ -70,7 +70,8 @@ ls -al .
 
 # asset files
 echo -e "\n$hr\nASSET FILES\n$hr"
-ls -al $JEKYLL_SRC/assets
+echo $JEKYLL_SRC/docs/assets
+ls -al $JEKYLL_SRC/docs/assets
 
 # config file
 echo -e "\n$hr\nCONFIG FILE\n$hr"
