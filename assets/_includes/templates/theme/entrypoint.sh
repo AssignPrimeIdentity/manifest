@@ -18,10 +18,9 @@ JEKYLL_BASEURL=${INPUT_JEKYLL_BASEURL:=}
 PRE_BUILD_COMMANDS=${INPUT_PRE_BUILD_COMMANDS:=}
 
 if [[ "${GITHUB_ACTOR}" != "eq19" ]]; then
+  mkdir ./docs/docs
   export JEKYLL_SRC=./docs
-  mkdir $JEKYLL_SRC/docs
   mv ./assets $JEKYLL_SRC/docs/
-  export JEKYLL_CFG=$JEKYLL_SRC/_config.yml
   sed -i -e 's/eq19/chetabahana/g' ${JEKYLL_CFG}
 fi
 
