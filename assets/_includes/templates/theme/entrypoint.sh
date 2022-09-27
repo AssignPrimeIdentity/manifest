@@ -17,10 +17,18 @@ JEKYLL_CFG=${INPUT_JEKYLL_CFG:=./_config.yml}
 JEKYLL_BASEURL=${INPUT_JEKYLL_BASEURL:=}
 PRE_BUILD_COMMANDS=${INPUT_PRE_BUILD_COMMANDS:=}
 
+if [[ "${GITHUB_ACTOR}" != "eq19" ]]; then
+  export JEKYLL_SRC=./docs
+  mkdir $JEKYLL_SRC/docs
+  mv ./assets $JEKYLL_SRC/docs/
+  export JEKYLL_CFG=$JEKYLL_SRC/_config.yml
+  sed -i -e 's/eq19/chetabahana/g' ${JEKYLL_CFG}
+fi
+
 # Set default bundle path and cache
 BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 
-echo "Starting the Jekyll Deploy Action"
+echo "\nStarting the Jekyll Deploy Action"
 
 if [[ -z "${TOKEN}" ]]; then
   echo "Please set the TOKEN environment variable."
@@ -44,22 +52,22 @@ if [[ "${PROVIDER}" == "github" ]]; then
 fi
 
 # Initialize environment
-echo "Initialize environment"
+echo "\nInitialize environment"
 ${SCRIPT_DIR}/script/init_environment.sh
 
 cd ${JEKYLL_SRC}
 
 # Restore modification time (mtime) of git files
-echo "Restore modification time of all git files"
+echo "\nRestore modification time of all git files"
 ${SCRIPT_DIR}/script/restore_mtime.sh
 
 # Check and execute pre_build_commands commands
 if [[ ${PRE_BUILD_COMMANDS} ]]; then
-  echo "Executing pre-build commands"
+  echo "\nExecuting pre-build commands"
   eval "${PRE_BUILD_COMMANDS}"
 fi
 
-echo "Initial comptible bundler"
+echo "\nInitial comptible bundler"
 ${SCRIPT_DIR}/script/cleanup_bundler.sh
 gem install bundler -v "${BUNDLER_VER}"
 
@@ -67,7 +75,7 @@ CLEANUP_BUNDLER_CACHE_DONE=false
 
 # Clean up bundler cache
 cleanup_bundler_cache() {
-  echo "Cleaning up incompatible bundler cache"
+  echo "\nCleaning up incompatible bundler cache"
   rm -rf ${BUNDLE_PATH}
   mkdir -p ${BUNDLE_PATH}
   CLEANUP_BUNDLER_CACHE_DONE=true
@@ -85,7 +93,7 @@ if [[ "$os_name" != "$(cat $OS_NAME_FILE 2>/dev/null)" ]]; then
   echo $os_name > $OS_NAME_FILE
 fi
 
-echo "Starting bundle install"
+echo "\nStarting bundle install"
 bundle config cach_all true
 bundle config path $BUNDLE_PATH
 bundle install
@@ -96,7 +104,7 @@ if [[ -n "${JEKYLL_BASEURL-}" ]]; then
 fi
 
 build_jekyll() {
-  echo "Starting jekyll build"
+  echo "\nStarting jekyll build"
   JEKYLL_ENV=production bundle exec jekyll build \
     ${JEKYLL_BASEURL} \
     -c ${JEKYLL_CFG} \
@@ -105,7 +113,7 @@ build_jekyll() {
 
 build_jekyll || {
   $CLEANUP_BUNDLER_CACHE_DONE && exit -1
-  echo "Rebuild all gems and try to build again"
+  echo "\nRebuild all gems and try to build again"
   cleanup_bundler_cache
   bundle install
   build_jekyll
