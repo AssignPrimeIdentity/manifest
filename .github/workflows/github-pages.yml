@@ -42,7 +42,7 @@ jobs:
             ${{ runner.os }}-gems-
 
       - name: 🚀 Build and deploy
-        uses: FeedMapping/theme
+        uses: FeedMapping/theme@v0.4.0
         with:
           provider: 'github'
           jekyll_src: './'
