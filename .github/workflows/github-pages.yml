@@ -26,9 +26,6 @@ jobs:
   # Build job
   github-pages:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages-36
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: 📂 Checkout
         uses: actions/checkout@v3
