@@ -69,6 +69,6 @@ ls -al ${PWD}/docs/assets
 
 # config file
 echo -e "\n$hr\nCONFIG FILE\n$hr"
-echo ${PWD}/${JEKYLL_CFG}
-cat ${PWD}/${JEKYLL_CFG}
+echo ${PWD}/_config.yml
+cat ${PWD}/_config.yml
 echo -e "\n$hr\n"
