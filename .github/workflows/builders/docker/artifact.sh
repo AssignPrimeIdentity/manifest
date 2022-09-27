@@ -64,11 +64,11 @@ ls -al .
 
 # asset files
 echo -e "\n$hr\nASSET FILES\n$hr"
-echo ${JEKYLL_SRC}/docs/assets
-ls -al ${JEKYLL_SRC}/docs/assets
+echo ${PWD}/docs/assets
+ls -al ${PWD}/docs/assets
 
 # config file
 echo -e "\n$hr\nCONFIG FILE\n$hr"
-echo ${JEKYLL_SRC}/${JEKYLL_CFG}
-cat ${JEKYLL_SRC}/${JEKYLL_CFG}
+echo ${PWD}/${JEKYLL_CFG}
+cat ${PWD}/${JEKYLL_CFG}
 echo -e "\n$hr\n"
