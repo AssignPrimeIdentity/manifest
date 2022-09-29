@@ -32,7 +32,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "jekyll-timeago", "~> 0.13.1"
   spec.add_development_dependency "jekyll-mentions", "~> 1.6.0"
   spec.add_development_dependency "jekyll-paginate", "~> 1.1.0"
-  spec.add_development_dependency "jekyll-paginate", "~> 1.1.0"
   spec.add_development_dependency "kramdown-parser-gfm", "~> 1.1.0"
   spec.add_development_dependency "jekyll-remote-theme", "~> 0.4.3"
   spec.add_development_dependency "jekyll-readme-index", "~> 0.3.0"
