@@ -10,4 +10,5 @@ COPY script /script
 COPY providers /providers
 COPY Gemfile Makefile theme.* /
 
+RUN chmod +x /theme.sh
 ENTRYPOINT ["/theme.sh"]
