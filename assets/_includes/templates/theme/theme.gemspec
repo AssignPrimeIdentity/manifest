@@ -40,7 +40,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "jekyll-redirect-from", "~> 0.16.0"
   spec.add_development_dependency "jekyll-relative-links", "~> 0.6.1"
   spec.add_development_dependency "jekyll-default-layout", "~> 0.1.4"
-  spec.add_development_dependency "jekyll_custom_permalink", "~> 0.0"
   spec.add_development_dependency "jekyll-github-metadata", "~> 2.15.0"
 # spec.add_development_dependency "jekyll-commonmark-ghpages", "~> 1.4.0"
   spec.add_development_dependency "github-pages-health-check", "~> 1.17.9"
