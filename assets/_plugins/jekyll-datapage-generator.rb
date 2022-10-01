@@ -141,7 +141,7 @@ module Jekyll
       if data
         data.each do |data_spec|
           index_files_for_this_data = false
-          name_expr        = "'index_' + record['key']"
+          name_expr        = "'index_' + [100, 168, 618, record['pos'].chomp(';1;1;1').to_i].sum.to_s"
           title_expr       = data_spec['title_expr']
           title            = data_spec['title']
           dir              = 'sitemap'
@@ -173,7 +173,7 @@ module Jekyll
             # - filter requires the name of a boolean field
             # - filter_condition evals a ruby expression which can use =record= as argument
             records = records.select { |record| record["root"] }
-            records = records.select { |record| eval("record['node'] == '1;30^;40^'") }
+            records = records.select { |record| eval("record['pos'].end_with?(';1;1;1')") }
 
             # we now have the list of all records for which we want to generate individual pages
             # iterate and call the constructor
