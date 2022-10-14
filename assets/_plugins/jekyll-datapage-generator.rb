@@ -2,6 +2,7 @@
 # Generate pages from individual records in yml files
 # (c) 2014-2020 Adolfo Villafiorita
 # Distributed under the conditions of the MIT License
+# https://github.com/avillafiorita/jekyll-datapage_gen
 
 module Jekyll
 
@@ -34,7 +35,7 @@ module Jekyll
     # - `title_expr` is an expression for generating the page title
     # - `template` is the name of the template for generating the page
     # - `extension` is the extension for the generated file
-    def initialize(site, base, index_files, dir, page_data_prefix, data, name, name_expr, title, title_expr, template, extension, debug)
+    def initialize(site, base, page_num, index, index_files, dir, page_data_prefix, data, name, name_expr, title, title_expr, template, extension, debug)
       @site = site
       @base = base
 
@@ -122,6 +123,7 @@ module Jekyll
   end
 
   class JekyllDatapageGenerator < Generator
+    require 'prime'
     safe true
 
     # the function =generate= loops over the =_config.yml/syntax_gen=
@@ -137,19 +139,24 @@ module Jekyll
 
       # data contains the specification of all the datasets for which we want
       # to generate individual pages (look at the README file for its documentation)
-      data = site.config['syntax_gen']
+      # https://github.com/ruby/prime
+      data = site.data['base']
       if data
+        page_num = 168
         data.each do |data_spec|
-          index_files_for_this_data = false
-          name_expr        = "'index_' + [100, 168, 618, record['pos'].chomp(';1;1;1').to_i].sum.to_s"
-          title_expr       = data_spec['title_expr']
+          name_expr        = "page_data_prefix + page_num.to_s"
+          prime_level      = data_spec['prime_level']
+          filter           = data_spec['filter']
           title            = data_spec['title']
+          title_expr       = "record['pos']"
+          index_files_for_this_data = false
           dir              = 'sitemap'
           template         = 'recipe'
           page_data_prefix = 'index_'
-          extension        = 'xml'
-          name             = 'key'
+          type             = 'roots'
           debug            = false
+          extension        = 'xml'
+          name             = 'pos'
           
           if not site.layouts.key? template
             puts "error (datapage-gen). could not find template #{template}. Skipping dataset #{name}."
@@ -158,7 +165,7 @@ module Jekyll
             # individual pages
             records = nil
 
-            data_spec['data'].split('.').each do |level|
+            type.split('.').each do |level|
               if records.nil?
                 records = site.data[level]
               else
@@ -171,14 +178,22 @@ module Jekyll
 
             # apply filtering conditions:
             # - filter requires the name of a boolean field
-            # - filter_condition evals a ruby expression which can use =record= as argument
-            records = records.select { |record| record["root"] }
-            records = records.select { |record| eval("record['pos'].end_with?(';1;1;1')") }
+            # - filter_condition evals an expression use =record=
+            # https://www.rubyguides.com/2019/04/ruby-select-method/
+            filter.split(',').each do |level|
+              records = records.select.with_index(1) { |record, index| eval(level) }
+            end
+            if (prime_level)
+              Array.new(prime_level.to_i, "index.prime?").each do |level|
+                records = records.select.with_index(1) { |record, index| eval(level) }
+              end
+            end
 
             # we now have the list of all records for which we want to generate individual pages
             # iterate and call the constructor
-            records.each do |record|
-              site.pages << DataPage.new(site, site.source, index_files_for_this_data, dir, page_data_prefix, record, name, name_expr, title, title_expr, template, extension, debug)
+            records.each.with_index(1) do |record, index|
+              page_num += 1
+              site.pages << DataPage.new(site, site.source, page_num, index, index_files_for_this_data, dir, page_data_prefix, record, name, name_expr, title, title_expr, template, extension, debug)
             end
           end
         end
