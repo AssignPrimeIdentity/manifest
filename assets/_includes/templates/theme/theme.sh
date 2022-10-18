@@ -106,7 +106,7 @@ fi
 
 build_jekyll() {
   echo -e "\nStarting jekyll build"
-  JEKYLL_ENV=production bundle exec jekyll build --trace \
+  JEKYLL_ENV=production bundle exec jekyll build --trace --watch \
     ${JEKYLL_BASEURL} \
     -c ${JEKYLL_CFG} \
     -d ${WORKING_DIR}/build

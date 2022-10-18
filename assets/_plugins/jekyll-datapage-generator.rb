@@ -123,6 +123,7 @@ module Jekyll
   end
 
   class JekyllDatapageGenerator < Generator
+    require 'graphql'
     require 'prime'
     safe true
 
@@ -142,7 +143,7 @@ module Jekyll
       # https://github.com/ruby/prime
       data = site.data['roots']
       if data
-        page_num = 168
+        page_num = 0
         data.each do |row|
           break if page_num > 1000
           name_expr        = "'index_' + page_num.to_s + '_' + prefix.to_s + '_' + title.to_s + '_' + index.to_s"
