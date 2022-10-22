@@ -68,7 +68,7 @@ if [[ ${PRE_BUILD_COMMANDS} ]]; then
   eval "${PRE_BUILD_COMMANDS}"
 fi
 
-echo -e "$hr\nCLEANUP BUNDLER\n$hr"
+# echo -e "$hr\nCLEANUP BUNDLER\n$hr"
 # ${SCRIPT_DIR}/script/cleanup_bundler.sh
 # gem install bundler -v "${BUNDLER_VER}"
 
@@ -76,7 +76,7 @@ CLEANUP_BUNDLER_CACHE_DONE=false
 
 # Clean up bundler cache
 cleanup_bundler_cache() {
-  echo -e "\nCleaning up incompatible bundler cache\n"
+  # echo -e "\nCleaning up incompatible bundler cache\n"
   rm -rf ${BUNDLE_PATH}
   mkdir -p ${BUNDLE_PATH}
   CLEANUP_BUNDLER_CACHE_DONE=true
@@ -107,7 +107,7 @@ fi
 build_jekyll() {
   echo -e "\nJEKYLL INSTALLATION\n"
   pwd 
-  JEKYLL_ENV=production bundle exec jekyll build --trace --profile \
+  JEKYLL_GITHUB_TOKEN=${TOKEN} bundle exec jekyll build --trace --profile \
     ${JEKYLL_BASEURL} \
     -c ${JEKYLL_CFG} \
     -d ${WORKING_DIR}/build

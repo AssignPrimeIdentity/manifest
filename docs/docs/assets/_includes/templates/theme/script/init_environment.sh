@@ -7,13 +7,13 @@ pacman -Syu --noconfirm
 pacman -S --noconfirm git
 
 # Installing ruby libraries
-pacman -S --noconfirm ruby2.7 ruby-bundler
+# pacman -S --noconfirm ruby-bundler
 
 # Setting default ruby version
-cp /usr/bin/ruby-2.7 /usr/bin/ruby
+# cp /usr/bin/ruby-2.7 /usr/bin/ruby
 
 # debug
-ruby -v && bundle version
+# ruby -v && bundle version
 
 # This is a temporary workaround
 # See https://github.com/actions/checkout/issues/766
