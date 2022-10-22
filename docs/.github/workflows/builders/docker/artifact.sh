@@ -77,6 +77,6 @@ cat ${WORKING_DIR}/${JEKYLL_SRC}/${JEKYLL_CFG}
 echo -e "\n$hr\nPINNED  REPOSITORIES\n$hr"
 AUTH="Authorization: bearer $JEKYLL_GITHUB_TOKEN"
 curl -L -X POST "https://api.github.com/graphql" -H "$AUTH" \
---data-raw '{"query":"{\n  user(login: \""${GITHUB_REPOSITORY_OWNER}"\") {\n pinnedItems(first: 6, types: REPOSITORY) {\n nodes {\n ... on Repository {\n name\n }\n }\n }\n }\n}"'
+--data-raw '{"query":"{\n  user(login: \"'${GITHUB_REPOSITORY_OWNER}'\") {\n pinnedItems(first: 6, types: REPOSITORY) {\n nodes {\n ... on Repository {\n name\n }\n }\n }\n }\n}"'
 
 echo -e "\n"
