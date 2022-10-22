@@ -61,13 +61,6 @@ cd ${JEKYLL_SRC}
 echo -e "\nRestore modification time of all git files\n"
 ${SCRIPT_DIR}/script/restore_mtime.sh
 
-# Check and execute pre_build_commands commands
-if [[ ${PRE_BUILD_COMMANDS} ]]; then
-  echo -e "$hr\nENVIRONTMENT\n$hr"
-  printenv | sort
-  eval "${PRE_BUILD_COMMANDS}"
-fi
-
 # echo -e "$hr\nCLEANUP BUNDLER\n$hr"
 # ${SCRIPT_DIR}/script/cleanup_bundler.sh
 # gem install bundler -v "${BUNDLER_VER}"
@@ -121,10 +114,16 @@ build_jekyll || {
   build_jekyll
 }
 
-cd ${WORKING_DIR}/build
+# Check and execute pre_build_commands commands
+if [[ ${PRE_BUILD_COMMANDS} ]]; then
+  echo -e "$hr\nENVIRONTMENT\n$hr"
+  printenv | sort
+  eval "${PRE_BUILD_COMMANDS}"
+fi
 
 # Check if deploy on the same repository branch
 if [[ "${PROVIDER}" == "github" ]]; then
+  cd ${WORKING_DIR}/build
   source "${SCRIPT_DIR}/providers/github.sh"
 else
   echo -e "${PROVIDER} is an unsupported provider."
