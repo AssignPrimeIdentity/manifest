@@ -35,14 +35,12 @@ jobs:
         id: cache-primes
         uses: FeedMapping/setup@v3
         with:
-          path: prime-numbers
           key: ${{ runner.os }}-primes
 
       - name: 🔨 Get gem cache
         uses: FeedMapping/build@v1
         with:
           bundler-cache: false
-          ruby-version: '3.1.2'
 
       - name: 🚀 Build and deploy
         uses: FeedMapping/deploy@v1
