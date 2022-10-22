@@ -48,7 +48,6 @@ if [[ "${PROVIDER}" == "github" ]]; then
 fi
 
 # Initialize environment
-echo -e "$hr\nINITIALIZING\n$hr"
 export JEKYLL_GITHUB_TOKEN=${TOKEN}
 export PAGES_REPO_NWO=$GITHUB_REPOSITORY
 export GEM_HOME=/github/home/.gem/ruby/${RUBY_VERSION}

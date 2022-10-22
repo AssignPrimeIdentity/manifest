@@ -13,9 +13,7 @@ echo -e "$hr\nINSTALL RUBY\n$hr"
 pacman -S --noconfirm ruby${RUBY_VERSION} ruby-bundler
 
 # Setting default ruby version
-cp /usr/bin/ruby-${RUBY_VERSION} /usr/bin/ruby
-
-# debug
+echo -e "$hr\nDEFAULT VERSION\n$hr"
 ruby -v && bundle version
 
 # This is a temporary workaround
