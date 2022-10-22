@@ -87,10 +87,10 @@ if [[ "$os_name" != "$(cat $OS_NAME_FILE 2>/dev/null)" ]]; then
   echo -e $os_name > $OS_NAME_FILE
 fi
 
-echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
-bundle config cache_all true
-bundle config path $BUNDLE_PATH
-bundle install
+# echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
+# bundle config cache_all true
+# bundle config path $BUNDLE_PATH
+# bundle install
 
 # Pre-handle Jekyll baseurl
 if [[ -n "${JEKYLL_BASEURL-}" ]]; then
