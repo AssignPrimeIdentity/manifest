@@ -52,7 +52,7 @@ echo -e "$hr\nINITIALIZING\n$hr"
 export JEKYLL_GITHUB_TOKEN=${TOKEN}
 export PAGES_REPO_NWO=$GITHUB_REPOSITORY
 export GEM_HOME=/github/home/.gem/ruby/${RUBY_VERSION}
-export PATH=$PATH:$GEM_HOME/bin:$HOME/.local/bin
+export PATH=$PATH:${GEM_HOME}/bin:$HOME/.local/bin
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 ${SCRIPT_DIR}/script/init_environment.sh
 
