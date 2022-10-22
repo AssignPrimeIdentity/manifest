@@ -35,6 +35,7 @@ jobs:
         id: cache-primes
         uses: FeedMapping/setup@v3
         with:
+          path: prime-numbers
           key: ${{ runner.os }}-primes
 
       - name: 🔨 Get gem cache
