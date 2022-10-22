@@ -41,6 +41,7 @@ jobs:
       - name: 🔨 Get gem cache
         uses: FeedMapping/build@v1
         with:
+          ruby-version: '3.0'
           bundler-cache: false
 
       - name: 🚀 Build and deploy
