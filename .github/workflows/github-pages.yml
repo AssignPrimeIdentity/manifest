@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Build and deploy Jekyll site to GitHub Pages
+name: 💎 Build and deploy Jekyll site to GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -30,12 +30,6 @@ jobs:
     steps:
       - name: 📂 Checkout
         uses: actions/checkout@v3
-
-      - name: 💎 Set bundler
-        uses: FeedMapping/build@v1
-        with:
-          ruby-version: '3.0.0'
-          bundler-cache: false
 
       - name: 🔨 Get gem cache
         uses: FeedMapping/setup@v3
