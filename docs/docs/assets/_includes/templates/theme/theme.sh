@@ -120,8 +120,8 @@ if [[ ${PRE_BUILD_COMMANDS} ]]; then
 fi
 
 # Check if deploy on the same repository branch
+cd ${WORKING_DIR}/build
 if [[ "${PROVIDER}" == "github" ]]; then
-  cd ${WORKING_DIR}/build
   source "${SCRIPT_DIR}/providers/github.sh"
 else
   echo -e "${PROVIDER} is an unsupported provider."
