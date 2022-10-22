@@ -31,18 +31,19 @@ jobs:
       - name: 📂 Checkout
         uses: actions/checkout@v3
 
-      - name: 💎 Set prime
-        id: cache-primes
-        uses: FeedMapping/setup@v3
-        with:
-          path: prime-numbers
-          key: ${{ runner.os }}-primes
-
-      - name: 🔨 Get gem cache
+      - name: 💎 Set bundler
         uses: FeedMapping/build@v1
         with:
           ruby-version: '3.0'
           bundler-cache: false
+
+      - name: 🔨 Get gem cache
+        uses: FeedMapping/setup@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
 
       - name: 🚀 Build and deploy
         uses: FeedMapping/deploy@v1
