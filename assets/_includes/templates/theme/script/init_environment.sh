@@ -7,10 +7,10 @@ pacman -Syu --noconfirm
 pacman -S --noconfirm git
 
 # Installing ruby libraries
-pacman -S --noconfirm ruby3.0 ruby-bundler
+pacman -S --noconfirm ruby${RUBY_VERSION} ruby-bundler
 
 # Setting default ruby version
-cp /usr/bin/ruby-3.0 /usr/bin/ruby
+cp /usr/bin/ruby-${RUBY_VERSION} /usr/bin/ruby
 
 # debug
 ruby -v && bundle version

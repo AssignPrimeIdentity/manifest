@@ -34,7 +34,7 @@ jobs:
       - name: 💎 Set bundler
         uses: FeedMapping/build@v1
         with:
-          ruby-version: '3.0'
+          ruby-version: '2.7'
           bundler-cache: false
 
       - name: 🔨 Get gem cache
@@ -48,5 +48,6 @@ jobs:
       - name: 🚀 Build and deploy
         uses: FeedMapping/deploy@v1
         with:
+          ruby-version: '2.7'
           pre_build_commands: 'make build'
           token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
