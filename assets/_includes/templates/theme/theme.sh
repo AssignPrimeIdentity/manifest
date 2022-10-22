@@ -62,14 +62,14 @@ echo -e "\nRestore modification time of all git files\n"
 ${SCRIPT_DIR}/script/restore_mtime.sh
 
 # echo -e "$hr\nCLEANUP BUNDLER\n$hr"
-# ${SCRIPT_DIR}/script/cleanup_bundler.sh
-# gem install bundler -v "${BUNDLER_VER}"
+${SCRIPT_DIR}/script/cleanup_bundler.sh
+gem install bundler -v "${BUNDLER_VER}"
 
 CLEANUP_BUNDLER_CACHE_DONE=false
 
 # Clean up bundler cache
 cleanup_bundler_cache() {
-  # echo -e "\nCleaning up incompatible bundler cache\n"
+  echo -e "\nCleaning up incompatible bundler cache\n"
   rm -rf ${BUNDLE_PATH}
   mkdir -p ${BUNDLE_PATH}
   CLEANUP_BUNDLER_CACHE_DONE=true
@@ -87,10 +87,10 @@ if [[ "$os_name" != "$(cat $OS_NAME_FILE 2>/dev/null)" ]]; then
   echo -e $os_name > $OS_NAME_FILE
 fi
 
-# echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
-# bundle config cache_all true
-# bundle config path $BUNDLE_PATH
-# bundle install
+echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
+bundle config cache_all true
+bundle config path $BUNDLE_PATH
+bundle install
 
 # Pre-handle Jekyll baseurl
 if [[ -n "${JEKYLL_BASEURL-}" ]]; then

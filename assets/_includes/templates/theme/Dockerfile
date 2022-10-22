@@ -13,6 +13,5 @@ COPY providers /providers
 COPY script /script
 COPY Gemfile theme.* /
 
-RUN bundle install
 RUN chmod +x /theme.sh
 ENTRYPOINT ["/theme.sh"]
