@@ -27,8 +27,6 @@ jobs:
   # Build job
   github-pages:
     runs-on: ubuntu-latest
-    env:
-      BUNDLE_GEMFILE: /Gemfile.lock
     steps:
       - name: 📂 Checkout
         uses: actions/checkout@v3
