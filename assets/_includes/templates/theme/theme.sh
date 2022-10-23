@@ -62,6 +62,7 @@ ${SCRIPT_DIR}/script/restore_mtime.sh
 ${SCRIPT_DIR}/script/cleanup_bundler.sh
 
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
+gem install bundler -v "${BUNDLER_VER}"
 CLEANUP_BUNDLER_CACHE_DONE=false
 
 # Clean up bundler cache
