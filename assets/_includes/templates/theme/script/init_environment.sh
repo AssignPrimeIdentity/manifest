@@ -2,13 +2,12 @@
 
 # Update packages database
 echo -e "$hr\nUPDATE PACKAGES\n$hr"
-apt install sudo
-usermod -aG sudo root
-sudo apt update
+apt update
 
 # Setting default ruby version
 echo -e "$hr\nDEFAULT VERSION\n$hr"
 ruby -v && bundle version
+gem install bundler -v "${BUNDLER_VER}"
 node -v && npm -v
 
 # This is a temporary workaround
