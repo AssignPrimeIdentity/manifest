@@ -6,8 +6,8 @@ apt update
 
 # Setting default ruby version
 echo -e "$hr\nDEFAULT VERSION\n$hr"
+ruby -v
 gem install bundler -v "${BUNDLER_VER}"
-ruby -v && bundle version
 node -v && npm -v
 
 # This is a temporary workaround
