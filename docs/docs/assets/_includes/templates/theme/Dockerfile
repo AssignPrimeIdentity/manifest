@@ -6,7 +6,8 @@ ENV BUNDLE_SILENCE_ROOT_WARNING=1
 ENV RUBYOPT=W0
 
 COPY Gemfile Gemfile.lock ./
-RUN bundle install
+COPY theme.* ./
 
+RUN bundle install
 RUN chmod +x /theme.sh
 ENTRYPOINT ["/theme.sh"]
