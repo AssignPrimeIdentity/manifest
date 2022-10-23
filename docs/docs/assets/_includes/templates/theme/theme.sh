@@ -52,7 +52,6 @@ export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 # export GEM_HOME=/github/home/.gem/ruby/${RUBY_VERSION}
 # export PATH=$PATH:${GEM_HOME}/bin:$HOME/.local/bin
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
-${SCRIPT_DIR}/script/init_environment.sh
 
 cd ${JEKYLL_SRC}
 
@@ -60,6 +59,7 @@ cd ${JEKYLL_SRC}
 # echo -e "\nRestore modification time of all git files\n"
 ${SCRIPT_DIR}/script/restore_mtime.sh
 ${SCRIPT_DIR}/script/cleanup_bundler.sh
+${SCRIPT_DIR}/script/init_environment.sh
 
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
 gem install bundler -v "${BUNDLER_VER}"
