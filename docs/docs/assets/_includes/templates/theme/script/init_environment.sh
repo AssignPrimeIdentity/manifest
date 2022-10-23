@@ -64,7 +64,6 @@ ls -al ${WORKING_DIR}
 # jekyll source
 echo -e "\n$hr\nJEKYLL DIRECTORY\n$hr"
 pwd
-echo ${WORKING_DIR}/${JEKYLL_SRC}.
 ls -al ${WORKING_DIR}/${JEKYLL_SRC}
 
 # asset files
