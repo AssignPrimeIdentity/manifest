@@ -6,6 +6,7 @@
 
 # Setting default ruby version
 echo -e "$hr\nDEFAULT VERSION\n$hr"
+gem update --system
 ruby -v && bundle version
 node -v && npm -v
 
