@@ -44,6 +44,10 @@ ls -al $HOME
 # echo $HOME/.local/bin
 
 # git config
+# This is a temporary workaround
+# See https://github.com/actions/checkout/issues/766
+git config --global --add safe.directory "*"
+
 echo -e "\n$hr\nCONFIG FILE\n$hr"
 cat $HOME/.gitconfig
 
@@ -71,10 +75,6 @@ ls -al ${WORKING_DIR}/${JEKYLL_SRC}/docs/assets
 # installed packages
 echo -e "\n$hr\nINSTALLED PACKAGES\n$hr"
 dpkg -l
-
-# This is a temporary workaround
-# See https://github.com/actions/checkout/issues/766
-git config --global --add safe.directory "*"
 
 # Generate a Gemfile.lock
 # $ docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app combos/ruby_node:3_16 bundle install
