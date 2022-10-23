@@ -7,12 +7,9 @@ hostnamectl
 uname -r
 
 # installed packages
-echo -e "$hr\nPACKAGESS\n$hr"
+echo -e "$hr\nPACKAGES\n$hr"
 pacman -Q
-
-# installed bash
-echo -e "$hr\nBASH DETAIL\n$hr"
-pacman -Qii bash
+dpkg -l
 
 # file system
 echo -e "\n$hr\nFILE SYSTEM\n$hr"
