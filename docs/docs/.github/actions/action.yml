@@ -35,9 +35,6 @@ inputs:
   pre_build_commands:
     description: 'The pre-build commands'
     required: false
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
 branding:
   icon: 'command'
   color: 'red'
