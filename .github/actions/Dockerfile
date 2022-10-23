@@ -1,4 +1,4 @@
-FROM  alphine
+FROM alpine
 LABEL version="0.8.0"
 
 ENV NOKOGIRI_USE_SYSTEM_LIBRARIES=1
