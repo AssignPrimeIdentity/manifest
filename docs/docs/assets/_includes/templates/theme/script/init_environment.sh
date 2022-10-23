@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Update packages database
-echo -e "$hr\nUPDATE PACKAGES\n$hr"
-apt update
-gem install bundler -v "${BUNDLER_VER}"
+# echo -e "$hr\nUPDATE PACKAGES\n$hr"
+# apt update
+# gem install bundler -v "${BUNDLER_VER}"
 
 # Setting default ruby version
 echo -e "$hr\nDEFAULT VERSION\n$hr"
