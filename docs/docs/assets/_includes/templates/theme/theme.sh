@@ -45,6 +45,7 @@ if [[ "${PROVIDER}" == "github" ]]; then
 fi
 
 # Initialize environment
+export BUNDLER_VER=${BUNDLER_VER}
 export JEKYLL_GITHUB_TOKEN=${TOKEN}
 export PAGES_REPO_NWO=$GITHUB_REPOSITORY
 export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
