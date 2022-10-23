@@ -6,7 +6,8 @@
 
 # Setting default ruby version
 echo -e "$hr\nDEFAULT VERSION\n$hr"
-gem update --system
+# gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
+# gem update --system
 ruby -v && bundle version
 node -v && npm -v
 

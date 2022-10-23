@@ -55,6 +55,7 @@ ${SCRIPT_DIR}/script/restore_mtime.sh
 
 # BUNDLE INSTALLATION
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
+gem install bundler -v "${BUNDLER_VER}"
 
 # Clean up bundler cache
 CLEANUP_BUNDLER_CACHE_DONE=false
@@ -85,6 +86,7 @@ fi
 
 bundle config cache_all true
 bundle config path ${BUNDLE_PATH}
+gem update --system
 bundle install
 
 # Check and execute pre_build_commands commands
