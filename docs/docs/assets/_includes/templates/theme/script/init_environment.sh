@@ -13,3 +13,6 @@ ruby -v && bundle version
 # This is a temporary workaround
 # See https://github.com/actions/checkout/issues/766
 git config --global --add safe.directory "*"
+
+# Generate a Gemfile.lock
+# $ docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app combos/ruby_node:3_16 bundle install
