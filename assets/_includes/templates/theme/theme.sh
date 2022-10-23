@@ -56,10 +56,10 @@ ${SCRIPT_DIR}/script/init_environment.sh
 cd ${JEKYLL_SRC}
 
 # Restore modification time (mtime) of git files
-echo -e "\nRestore modification time of all git files\n"
+# echo -e "\nRestore modification time of all git files\n"
 ${SCRIPT_DIR}/script/restore_mtime.sh
 
-# echo -e "$hr\nCLEANUP BUNDLER\n$hr"
+echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
 ${SCRIPT_DIR}/script/cleanup_bundler.sh
 gem install bundler -v "${BUNDLER_VER}"
 
@@ -85,7 +85,6 @@ if [[ "$os_name" != "$(cat $OS_NAME_FILE 2>/dev/null)" ]]; then
   echo -e $os_name > $OS_NAME_FILE
 fi
 
-echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
 bundle config cache_all true
 bundle config path $BUNDLE_PATH
 bundle install
@@ -93,6 +92,13 @@ bundle install
 # Pre-handle Jekyll baseurl
 if [[ -n "${JEKYLL_BASEURL-}" ]]; then
   JEKYLL_BASEURL="--baseurl ${JEKYLL_BASEURL}"
+fi
+
+# Check and execute pre_build_commands commands
+if [[ ${PRE_BUILD_COMMANDS} ]]; then
+  echo -e "$hr\nENVIRONTMENT\n$hr"
+  printenv | sort
+  eval "${PRE_BUILD_COMMANDS}"
 fi
 
 build_jekyll() {
@@ -111,13 +117,6 @@ build_jekyll || {
   bundle install
   build_jekyll
 }
-
-# Check and execute pre_build_commands commands
-if [[ ${PRE_BUILD_COMMANDS} ]]; then
-  echo -e "$hr\nENVIRONTMENT\n$hr"
-  printenv | sort
-  eval "${PRE_BUILD_COMMANDS}"
-fi
 
 # Check if deploy on the same repository branch
 cd ${WORKING_DIR}/build
