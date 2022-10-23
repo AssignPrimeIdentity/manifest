@@ -14,7 +14,7 @@
 
 # Setting default ruby version
 echo -e "$hr\nDEFAULT VERSION\n$hr"
-ruby -v && bundle version && node -v
+ruby -v && bundle version
 
 # This is a temporary workaround
 # See https://github.com/actions/checkout/issues/766

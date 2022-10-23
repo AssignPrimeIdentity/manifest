@@ -58,11 +58,11 @@ cd ${JEKYLL_SRC}
 # Restore modification time (mtime) of git files
 # echo -e "\nRestore modification time of all git files\n"
 ${SCRIPT_DIR}/script/restore_mtime.sh
-
-echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
 ${SCRIPT_DIR}/script/cleanup_bundler.sh
 gem install bundler -v "${BUNDLER_VER}"
+echo "Node: "${node -v}
 
+echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
 CLEANUP_BUNDLER_CACHE_DONE=false
 
 # Clean up bundler cache
