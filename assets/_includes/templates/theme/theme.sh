@@ -44,6 +44,11 @@ if [[ "${PROVIDER}" == "github" ]]; then
   fi
 fi
 
+# Pre-handle Jekyll baseurl
+if [[ -n "${JEKYLL_BASEURL-}" ]]; then
+  JEKYLL_BASEURL="--baseurl ${JEKYLL_BASEURL}"
+fi
+
 # Initialize environment
 export BUNDLER_VER=${BUNDLER_VER}
 export JEKYLL_GITHUB_TOKEN=${TOKEN}
@@ -87,11 +92,6 @@ fi
 bundle config cache_all true
 bundle config path $BUNDLE_PATH
 bundle install
-
-# Pre-handle Jekyll baseurl
-if [[ -n "${JEKYLL_BASEURL-}" ]]; then
-  JEKYLL_BASEURL="--baseurl ${JEKYLL_BASEURL}"
-fi
 
 # Check and execute pre_build_commands commands
 if [[ ${PRE_BUILD_COMMANDS} ]]; then
