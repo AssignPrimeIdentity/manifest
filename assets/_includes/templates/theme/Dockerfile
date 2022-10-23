@@ -5,9 +5,8 @@ ENV NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 ENV BUNDLE_SILENCE_ROOT_WARNING=1
 ENV RUBYOPT=W0
 
-COPY . .
-
+COPY Gemfile Gemfile.lock ./
 RUN bundle install
-RUN chmod +x /theme.sh
 
-ENTRYPOINT ["/script/init_environment.sh"]
+RUN chmod +x /theme.sh
+ENTRYPOINT ["/theme.sh"]
