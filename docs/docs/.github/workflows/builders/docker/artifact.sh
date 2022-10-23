@@ -34,7 +34,7 @@ echo "/root/.ssh"
 # home
 echo -e "\n$hr\nHOME PROFILES\n$hr"
 echo $HOME
-ls -alR $HOME
+ls -al $HOME
 # echo $HOME/.local/bin
 
 # git config
