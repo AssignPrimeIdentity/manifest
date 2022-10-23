@@ -60,7 +60,7 @@ cd ${JEKYLL_SRC}
 ${SCRIPT_DIR}/script/restore_mtime.sh
 ${SCRIPT_DIR}/script/cleanup_bundler.sh
 gem install bundler -v "${BUNDLER_VER}"
-echo "Node: "${node -v}
+node -v
 
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
 CLEANUP_BUNDLER_CACHE_DONE=false
