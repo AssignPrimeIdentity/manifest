@@ -1,4 +1,4 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# 💎 Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Build and deploy Jekyll site to GitHub Pages
 
 on:
@@ -30,9 +30,6 @@ jobs:
     steps:
       - name: 📂 Checkout
         uses: actions/checkout@v3
-
-      - name: 💎 Set actions
-        uses: ./.github/actions
 
       - name: 🔨 Get gem cache
         uses: actions/cache@v3
