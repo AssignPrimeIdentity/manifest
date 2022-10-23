@@ -7,5 +7,7 @@ ENV RUBYOPT=W0
 
 COPY . .
 
+RUN bundle install
 RUN chmod +x /theme.sh
-ENTRYPOINT ["/theme.sh"]
+
+ENTRYPOINT ["/script/init_environment.sh"]
