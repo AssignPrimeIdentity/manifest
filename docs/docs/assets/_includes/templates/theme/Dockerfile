@@ -1,4 +1,4 @@
-FROM combo/ruby_node:3_16
+FROM combos/ruby_node:3_16
 LABEL version="0.8.0"
 
 ENV NOKOGIRI_USE_SYSTEM_LIBRARIES=1
