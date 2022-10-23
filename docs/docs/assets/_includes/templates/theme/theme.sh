@@ -62,7 +62,6 @@ ${SCRIPT_DIR}/script/cleanup_bundler.sh
 ${SCRIPT_DIR}/script/init_environment.sh
 
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
-gem install bundler -v "${BUNDLER_VER}"
 CLEANUP_BUNDLER_CACHE_DONE=false
 
 # Clean up bundler cache
