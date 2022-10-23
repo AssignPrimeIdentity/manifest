@@ -39,7 +39,5 @@ branding:
   icon: 'command'
   color: 'red'
 runs:
-  using: composite
-  steps:
-    - run: echo "::remove-matcher owner=bash-action::"
-      shell: bash
+  using: 'docker'
+  image: 'Dockerfile'
