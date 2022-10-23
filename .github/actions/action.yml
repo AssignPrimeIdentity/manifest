@@ -38,4 +38,8 @@ inputs:
 branding:
   icon: 'command'
   color: 'red'
-runs: ls
+runs:
+  using: composite
+  steps:
+    - run: echo "::remove-matcher owner=bash-action::"
+      shell: bash
