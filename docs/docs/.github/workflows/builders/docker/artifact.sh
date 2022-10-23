@@ -17,7 +17,7 @@ echo -e "\n$hr\nFILE SYSTEM\n$hr"
 df -h
 
 # ls /
-echo -e "\n$hr\nALL REPOSITORY\n$hr"
+echo -e "\n$hr\nROOT DIR\n$hr"
 echo "/"
 ls -al /
 
@@ -46,17 +46,10 @@ echo -e "\n$hr\nBUNDLE PATH\n$hr"
 echo ${BUNDLE_PATH}
 ls -al ${BUNDLE_PATH}
 
-# pinned repos
-# https://dev.to/thomasaudo/get-started-with-github-grapql-api--1g8b
-echo -e "\n$hr\nPINNED  REPOSITORIES\n$hr"
-AUTH="Authorization: bearer $JEKYLL_GITHUB_TOKEN"
-curl -L -X POST "https://api.github.com/graphql" -H "$AUTH" \
---data-raw '{"query":"{\n  user(login: \"'${GITHUB_REPOSITORY_OWNER}'\") {\n pinnedItems(first: 6, types: REPOSITORY) {\n nodes {\n ... on Repository {\n name\n }\n }\n }\n }\n}"'
-
 # workspace
 echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
-echo ${WORKING_DIR}.
-ls -al ${WORKING_DIR}. .
+echo ${WORKING_DIR}
+ls -al ${WORKING_DIR}
 
 # jekyll source
 echo -e "\n$hr\nJEKYLL DIRECTORY\n$hr"
@@ -68,10 +61,6 @@ ls -al ${WORKING_DIR}/${JEKYLL_SRC}
 echo -e "\n$hr\nASSET FILES\n$hr"
 # https://stackoverflow.com/a/42137273/4058484
 ls -al ${WORKING_DIR}/${JEKYLL_SRC}/docs/assets
-
-# environtment
-echo -e "\n$hr\nENVIRONTMENT\n$hr"
-printenv | sort
 
 # installed packages
 echo -e "\n$hr\nINSTALLED PACKAGES\n$hr"
@@ -85,4 +74,13 @@ cat ${WORKING_DIR}/${JEKYLL_SRC}/Makefile
 echo -e "\n$hr\nJEKYLL CONFIG FILE\n$hr"
 cat ${WORKING_DIR}/${JEKYLL_SRC}/${JEKYLL_CFG}
 
-echo -e "\n"
+# pinned repos
+# https://dev.to/thomasaudo/get-started-with-github-grapql-api--1g8b
+echo -e "\n$hr\nPINNED  REPOSITORIES\n$hr"
+AUTH="Authorization: bearer $JEKYLL_GITHUB_TOKEN"
+curl -L -X POST "https://api.github.com/graphql" -H "$AUTH" \
+--data-raw '{"query":"{\n  user(login: \"'${GITHUB_REPOSITORY_OWNER}'\") {\n pinnedItems(first: 6, types: REPOSITORY) {\n nodes {\n ... on Repository {\n name\n }\n }\n }\n }\n}"'
+
+# environtment
+echo -e "\n$hr\nENVIRONTMENT\n$hr"
+printenv | sort

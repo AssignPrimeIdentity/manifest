@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Update packages database
-echo -e "$hr\nUPDATE PACKAGES\n$hr"
-apt update
+# echo -e "$hr\nUPDATE PACKAGES\n$hr"
+# apt update
 
 # Setting default ruby version
-echo -e "$hr\nDEFAULT VERSION\n$hr"
+echo -e "$hr\nRUBY_NODE VERSION\n$hr"
 ruby -v
 gem install bundler -v "${BUNDLER_VER}"
 node -v && npm -v
