@@ -34,9 +34,62 @@ export PAGES_REPO_NWO=${GITHUB_REPOSITORY}}
 export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 
+if [[ "${PROVIDER}" == "github" ]]; then
+  : ${BRANCH:=gh-pages}
+  : ${ACTOR:=${GITHUB_ACTOR}}
+  : ${REPOSITORY:=${GITHUB_REPOSITORY}}
+
+  # Check if repository is available
+  if ! echo -e "${REPOSITORY}" | grep -Eq ".+/.+"; then
+    echo -e "The repository ${REPOSITORY} doesn't match the pattern <author>/<repos>"
+    exit 1
+  fi
+fi
+
+# Initialize environment
+${SCRIPT_DIR}/script/init_environment.sh
+git config --global --add safe.directory "*"
+
+# Restore modification time (mtime) of git files
+${SCRIPT_DIR}/script/restore_mtime.sh
+
+# BUNDLE INSTALLATION
+echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
+
+# Clean up bundler cache
+CLEANUP_BUNDLER_CACHE_DONE=false
+${SCRIPT_DIR}/script/cleanup_bundler.sh
+
+cleanup_bundler_cache() {
+  echo -e "\nCleaning up incompatible bundler cache\n"
+  rm -rf ${BUNDLE_PATH}
+  mkdir -p ${BUNDLE_PATH}
+  CLEANUP_BUNDLER_CACHE_DONE=true
+}
+
+# If the vendor/bundle folder is cached in a differnt OS (e.g. Ubuntu),
+# it would cause `jekyll build` failed, we should clean up cache firstly.
+OS_NAME_FILE=${BUNDLE_PATH}/os-name
+os_name=$(cat /etc/os-release | grep '^NAME=')
+os_name=${os_name:6:-1}
+
+if [[ "$os_name" != "$(cat $OS_NAME_FILE 2>/dev/null)" ]]; then
+  cleanup_bundler_cache
+  echo -e $os_name > $OS_NAME_FILE
+fi
+
 # Pre-handle Jekyll baseurl
 if [[ -n "${JEKYLL_BASEURL-}" ]]; then
   JEKYLL_BASEURL="--baseurl ${JEKYLL_BASEURL}"
+fi
+
+bundle config cache_all true
+bundle config path ${BUNDLE_PATH}
+bundle install
+
+# Check and execute pre_build_commands commands
+if [[ ${PRE_BUILD_COMMANDS} ]]; then
+  eval "${PRE_BUILD_COMMANDS}"
 fi
 
 build_jekyll() {
@@ -56,3 +109,14 @@ build_jekyll || {
   bundle install
   build_jekyll
 }
+
+# Check if deploy on the same repository branch
+cd ${WORKING_DIR}/build
+if [[ "${PROVIDER}" == "github" ]]; then
+  source "${SCRIPT_DIR}/providers/github.sh"
+else
+  echo -e "${PROVIDER} is an unsupported provider."
+  exit 1
+fi
+
+exit $?
