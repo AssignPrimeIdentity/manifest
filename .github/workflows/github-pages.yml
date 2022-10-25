@@ -31,14 +31,16 @@ jobs:
       - name: 📂 Checkout
         uses: actions/checkout@v3
 
-      - name: 🔨 Get cache
-        uses: ruby/setup-ruby@v0.4.0
+      - name: 🔨 Get gem cache
+        uses: actions/cache@v3
         with:
-          ruby-version: '3.1.2'
-          bundler-cache: false
-
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+        
       - name: 🚀 Build and deploy
-        uses: FeedMapping/deploy@v3
+        uses: FeedMapping/deploy@v0.4.0
         with:
           bundler_ver: '2.3.7'
           pre_build_commands: 'make build'
