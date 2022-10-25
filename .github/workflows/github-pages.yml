@@ -42,6 +42,5 @@ jobs:
       - name: 🚀 Build and deploy
         uses: FeedMapping/deploy@v0.4.0
         with:
-          bundler_ver: '2.2.19'
           pre_build_commands: 'make build'
           token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
