@@ -40,8 +40,8 @@ jobs:
             ${{ runner.os }}-gems-
         
       - name: 🚀 Build and deploy
-        uses: FeedMapping/deploy@v0.6.0
+        uses: FeedMapping/deploy@v0.4.0
         with:
-          bundler_ver: '2.3.7'
+          bundler_ver: '2.2.19'
           pre_build_commands: 'make build'
           token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
