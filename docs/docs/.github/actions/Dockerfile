@@ -1,4 +1,4 @@
-FROM archlinux:base-devel
+FROM combos/ruby_node:3_16
 
 LABEL version="1.0.2"
 LABEL homepage="https://eq19.github.io/"
