@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 export WORKING_DIR=${PWD}
+chown -R $(whoami) ${WORKING_DIR}
 export hr=$(printf '=%.0s' {1..83})
 
 # Get script directory
@@ -66,6 +67,8 @@ ${SCRIPT_DIR}/script/restore_mtime.sh
 ${SCRIPT_DIR}/script/init_environment.sh
 
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
+bundle config cache_all true
+bundle config path $BUNDLE_PATH
 CLEANUP_BUNDLER_CACHE_DONE=false
 
 # Clean up bundler cache
@@ -76,11 +79,9 @@ cleanup_bundler_cache() {
   
   rm -rf ${BUNDLE_PATH}
   mkdir -p ${BUNDLE_PATH}
-  CLEANUP_BUNDLER_CACHE_DONE=true
 
-  bundle config cache_all true
-  bundle config path $BUNDLE_PATH
   bundle install
+  CLEANUP_BUNDLER_CACHE_DONE=true
 }
 
 # If the vendor/bundle folder is cached in a differnt OS (e.g. Ubuntu),

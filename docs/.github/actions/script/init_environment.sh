@@ -2,7 +2,6 @@
 
 # identity
 echo -e "\n$hr\nWHOAMI\n$hr"
-chown -R $(id -u):$(id -g) $PWD
 whoami
 pwd
 id
@@ -34,21 +33,14 @@ echo "/root"
 # root ssh
 echo -e "\n$hr\nSSH FILES\n$hr"
 echo "/root/.ssh"
+mkdir /root/.ssh
 [[ "$(whoami)" == "root" ]] && ls -alL /root/.ssh || sudo bash -c 'ls -alL /root/.ssh'
 
 # home
-echo -e "\n$hr\nHOME PROFILES\n$hr"
-echo $HOME
-ls -al $HOME
-# echo $HOME/.local/bin
+echo -e "\n$hr\nGIT PROFILES\n$hr"
+chown -R $(whoami) ${WORKING_DIR}/.git/config
+cat ${WORKING_DIR}/.git/config
 
-# git config
-# This is a temporary workaround
-# See https://github.com/actions/checkout/issues/766
-git config --global --add safe.directory "*"
-
-echo -e "\n$hr\nCONFIG FILE\n$hr"
-cat $HOME/.gitconfig
 
 # workspace
 echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
@@ -68,6 +60,11 @@ ls -al ${WORKING_DIR}/${JEKYLL_SRC}/docs/assets
 # installed packages
 echo -e "\n$hr\nINSTALLED PACKAGES\n$hr"
 dpkg -l
+
+# installed packages
+echo -e "\n$hr\nVENDOR BUNDLE\n$hr"
+echo ${BUNDLE_PATH}
+ls -al ${BUNDLE_PATH}
 
 # Generate a Gemfile.lock
 # $ docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app combos/ruby_node:3_16 bundle install
