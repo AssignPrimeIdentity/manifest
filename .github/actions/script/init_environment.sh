@@ -42,7 +42,10 @@ chown -R $(whoami) ${WORKING_DIR}/.git/config
 ls -al ${WORKING_DIR}/.git
 
 echo -e "\n$hr\nGIT CPNFIG\n$hr"
+git config --unset http.https://github.com/.extraheader
+git config --unset-all http.https://github.com/.extraheader
 git config --global --unset http.https://github.com/.extraheader
+git config --system --unset http.https://github.com/.extraheader
 cat ${WORKING_DIR}/.git/config
 
 # workspace
