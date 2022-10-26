@@ -11,9 +11,6 @@ fi
 
 # Tell GitHub Pages not to run Jekyll
 touch .nojekyll
-apt update -y
-apt install -y yum
-yum install psmisc
 
 [ -n "$INPUT_CNAME" ] && echo "$INPUT_CNAME" > CNAME
 
@@ -28,6 +25,7 @@ REMOTE_REPO="https://${ACTOR}:${TOKEN}@github.com/${REPOSITORY}.git" && \
   git add . && \
   git commit -m "jekyll build from Action ${GITHUB_SHA}" && \
   git push --force $REMOTE_REPO master:$BRANCH && \
+# apt update -y && apt install -y yum && yum install psmisc && fuser -k .git ||
   rm -rf .git && \
   cd ..
 
