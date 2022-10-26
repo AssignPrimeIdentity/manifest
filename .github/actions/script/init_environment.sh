@@ -40,7 +40,6 @@ mkdir /root/.ssh
 echo -e "\n$hr\nGIT PROFILES\n$hr"
 chown -R $(whoami) ${WORKING_DIR}/.git/config
 git config --system --unset credential.helper
-
 cat ${WORKING_DIR}/.git/config
 
 # workspace
