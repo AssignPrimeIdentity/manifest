@@ -39,8 +39,9 @@ mkdir /root/.ssh
 # home
 echo -e "\n$hr\nGIT PROFILES\n$hr"
 chown -R $(whoami) ${WORKING_DIR}/.git/config
-cat ${WORKING_DIR}/.git/config
+git config --system --unset credential.helper
 
+cat ${WORKING_DIR}/.git/config
 
 # workspace
 echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
