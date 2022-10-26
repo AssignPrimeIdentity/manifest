@@ -3,14 +3,15 @@
 Gem::Specification.new do |spec|
 
   spec.license       = "MIT"
-  spec.version       = "2.0.10"
-  spec.name          = "jekyll-rtd-theme"
-  spec.authors       = ["saowang"]
-  spec.email         = ["saowang@outlook.com"]
-  spec.homepage      = "https://github.com/rundocs/jekyll-rtd-theme"
-  spec.summary       = "Just another documentation theme compatible with GitHub Pages"
+  spec.version       = "0.3.2"
+  spec.name          = "grammar"
+  spec.authors       = ["eq19"]
+  spec.email         = ["admin@eq19.com"]
+  spec.homepage      = "https://github.com/eq19/grammar"
+  spec.summary       = "This repository act as 'the grammar' with id=36"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_sass|_includes|_layouts|_plugins|LICENSE|README)!i) }
+# https://guides.rubygems.org/specification-reference/#files
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|primes|_data|_sass|_includes|_layouts|LICENSE|README)!i) }
 
   spec.add_runtime_dependency "jekyll", ">= 3.0"
 # spec.add_development_dependency "rake", "~> 10.0"
