@@ -1,11 +1,14 @@
-FROM combos/ruby_node:3_16
-LABEL version="0.8.0"
+FROM archlinux:base-devel
 
-ENV NOKOGIRI_USE_SYSTEM_LIBRARIES=1
-ENV BUNDLE_SILENCE_ROOT_WARNING=1
-ENV RUBYOPT=W0
+LABEL version="0.1.0"
+LABEL repository="https://github.com/jeffreytse/jekyll-deploy-action"
+LABEL homepage="https://github.com/jeffreytse/jekyll-deploy-action"
+LABEL maintainer="Jeffrey Tse <jeffreytse.mail@gmail.com>"
 
-COPY . .
+COPY LICENSE.txt README.md /
 
-RUN chmod +x /theme.sh
-ENTRYPOINT ["/theme.sh"]
+COPY script /script
+COPY providers /providers
+COPY entrypoint.sh /
+
+ENTRYPOINT ["/entrypoint.sh"]
