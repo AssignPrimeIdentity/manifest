@@ -93,9 +93,9 @@ plugins:
 # https://github.com/pattex/jekyll-tagging
 # https://jekyllrb.com/docs/plugins/generators/
 
-tag_page_dir: tagz
-tag_feed_layout: tag_feed
-tag_page_layout: tag_page
+# tag_page_dir: tagz
+# tag_feed_layout: tag_feed
+# tag_page_layout: tag_page
   
 # Default Setting
 # https://stackoverflow.com/a/49428493
@@ -121,7 +121,7 @@ defaults:
       type: categories
     values:
       layout: base
-      permalink: /sitemap/:category.xml
+      # permalink: /sitemap/:category.xml
 
 # Permalinks
 # https://jekyllrb.com/docs/permalinks/
@@ -230,7 +230,7 @@ organization: marketleader
 
 sass:
     sass_dir        : docs/css/_sass
-plugins_dir         : assets/_plugins
+# plugins_dir         : assets/_plugins
 layouts_dir         : assets/_layouts
 includes_dir        : assets/_includes
 data_dir            : assets/primes/numberGenerator/python/prime_lists/_data
