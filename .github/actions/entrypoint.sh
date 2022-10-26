@@ -23,7 +23,7 @@ PRE_BUILD_COMMANDS=${INPUT_PRE_BUILD_COMMANDS:=}
 # https://stackoverflow.com/a/42137273/4058484
 export JEKYLL_CFG=${JEKYLL_CFG}
 if [[ "${OWNER}" != "eq19" ]]; then
-  export JEKYLL_SRC=${JEKYLL_SRC}/docs
+  export JEKYLL_SRC=./docs
   sed -i -e "s/eq19/${OWNER}/g" ${JEKYLL_SRC}/${JEKYLL_CFG}
 fi
 
