@@ -11,13 +11,15 @@ fi
 
 # Tell GitHub Pages not to run Jekyll
 touch .nojekyll
+apt-get install psmisc
 [ -n "$INPUT_CNAME" ] && echo "$INPUT_CNAME" > CNAME
 
-echo "Deploying to ${REPOSITORY} on branch ${BRANCH}"
-echo "Deploying to https://${ACTOR}:${TOKEN}@github.com/${REPOSITORY}.git"
+echo -e "$hr\nDEPLOYMENT\n$hr"
+echo -e "\nDeploying to ${REPOSITORY} on branch ${BRANCH}"
+echo -e "Deploying to https://github.com/${REPOSITORY}.git\n"
 
 REMOTE_REPO="https://${ACTOR}:${TOKEN}@github.com/${REPOSITORY}.git" && \
-  git init && \
+  git init --initial-branch=master && \
   git config user.name "${ACTOR}" && \
   git config user.email "${ACTOR}@users.noreply.github.com" && \
   git add . && \
