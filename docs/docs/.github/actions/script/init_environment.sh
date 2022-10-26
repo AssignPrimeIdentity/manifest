@@ -38,8 +38,9 @@ mkdir /root/.ssh
 
 # home
 echo -e "\n$hr\nGIT PROFILES\n$hr"
-chown -R $(whoami) ${WORKING_DIR}/.git/config
-git config --system --unset credential.helper
+chown -R $(whoami) /config
+git config credential.https://github.com/.helper "! f() { echo username=x-access-token; echo password=$GITHUB_TOKEN; };f"
+ls -al ${WORKING_DIR}/.git
 cat ${WORKING_DIR}/.git/config
 
 # workspace
