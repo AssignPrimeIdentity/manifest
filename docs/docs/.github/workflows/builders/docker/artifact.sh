@@ -33,8 +33,8 @@ ls -al ${WORKING_DIR}
 # jekyll source
 echo -e "\n$hr\nJEKYLL DIRECTORY\n$hr"
 pwd
+ln -s css/_sass _sass
 ln -s lists/_data _data
-ln -s docs/css/_sass _sass
 ln -s assets/_layouts _layouts
 ln -s assets/_plugins _plugins
 ln -s assets/_includes _includes
