@@ -6,7 +6,7 @@ printenv | sort
 
 # makefile
 echo -e "\n$hr\nMAKEFILE\n$hr"
-cat ${WORKING_DIR}/${JEKYLL_SRC}/Makefile
+cat ${WORKING_DIR}/Makefile
 
 # config file
 echo -e "\n$hr\nJEKYLL CONFIG FILE\n$hr"
