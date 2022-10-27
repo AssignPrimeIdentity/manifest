@@ -10,6 +10,7 @@ cat ${WORKING_DIR}/${JEKYLL_SRC}/Makefile
 
 # config file
 echo -e "\n$hr\nJEKYLL CONFIG FILE\n$hr"
+echo ${JEKYLL_CFG}
 cat ${JEKYLL_CFG}
 
 # pinned repos
