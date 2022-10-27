@@ -59,8 +59,6 @@ export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 # export PATH=$PATH:${GEM_HOME}/bin:$HOME/.local/bin
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 
-cd ${JEKYLL_SRC}
-
 # Restore modification time (mtime) of git files
 # echo -e "\nRestore modification time of all git files\n"
 ${SCRIPT_DIR}/script/restore_mtime.sh
@@ -97,6 +95,7 @@ if [[ "$os_name" != "$(cat $OS_NAME_FILE 2>/dev/null)" ]]; then
 fi
 
 # Check and execute pre_build_commands commands
+cd ${JEKYLL_SRC}
 if [[ ${PRE_BUILD_COMMANDS} ]]; then
   eval "${PRE_BUILD_COMMANDS}"
 fi
