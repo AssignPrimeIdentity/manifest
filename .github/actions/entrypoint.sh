@@ -19,6 +19,7 @@ PRE_BUILD_COMMANDS=${INPUT_PRE_BUILD_COMMANDS:=}
 export JEKYLL_SRC=${WORKING_DIR}
 if [[ "${OWNER}" != "eq19" ]]; then
   export JEKYLL_SRC=${WORKING_DIR}/docs
+  ln -s ${WORKING_DIR}/assets ${JEKYLL_SRC}/assets
 fi
 export JEKYLL_CFG=${JEKYLL_SRC}/_config.yml
 sed -i -e "s/eq19/${OWNER}/g" ${JEKYLL_CFG}
@@ -93,7 +94,6 @@ fi
 
 # Check and execute pre_build_commands commands
 cd ${JEKYLL_SRC}
-ln -s ${WORKING_DIR}/assets assets
 ln -s /primes/numberGenerator/python/prime_lists lists
 
 if [[ ${PRE_BUILD_COMMANDS} ]]; then
