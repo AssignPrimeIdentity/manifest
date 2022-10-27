@@ -59,9 +59,9 @@ export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 
 # Restore modification time (mtime) of git files
 # echo -e "\nRestore modification time of all git files\n"
-SCRIPT_DIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-${SCRIPT_DIR}/script/restore_mtime.sh
-${SCRIPT_DIR}/script/init_environment.sh
+# SCRIPT_DIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+source "/script/restore_mtime.sh"
+source "/script/init_environment.sh"
 
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
 bundle config cache_all true
@@ -71,7 +71,7 @@ CLEANUP_BUNDLER_CACHE_DONE=false
 # Clean up bundler cache
 cleanup_bundler_cache() {
   echo -e "\nCleaning up incompatible bundler cache\n"
-  ${SCRIPT_DIR}/script/cleanup_bundler.sh
+  source "/script/cleanup_bundler.sh"
   gem install bundler -v "${BUNDLER_VER}"
   
   rm -rf ${BUNDLE_PATH}
@@ -118,7 +118,7 @@ build_jekyll || {
 # Check if deploy on the same repository branch
 cd ${WORKING_DIR}/build
 if [[ "${PROVIDER}" == "github" ]]; then
-  source "${SCRIPT_DIR}/script/github.sh"
+  source "/script/github.sh"
 else
   echo -e "${PROVIDER} is an unsupported provider."
   exit 1
