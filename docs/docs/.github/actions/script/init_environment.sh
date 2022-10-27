@@ -54,8 +54,8 @@ dpkg -l
 
 # installed packages
 echo -e "\n$hr\nVENDOR BUNDLE\n$hr"
-echo ${WORKING_DIR}/vendor/bundle/ruby
-ls -al ${WORKING_DIR}/vendor/bundle/ruby
+echo ${WORKING_DIR}/vendor/bundle/os-name
+ls -al ${WORKING_DIR}/vendor/bundle/os-name
 
 # Generate a Gemfile.lock
 # $ docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app combos/ruby_node:3_16 bundle install
