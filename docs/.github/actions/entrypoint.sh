@@ -3,7 +3,6 @@ set -e
 export WORKING_DIR=${PWD}
 chown -R $(whoami) ${WORKING_DIR}
 export hr=$(printf '=%.0s' {1..83})
-ln -s /primes/numberGenerator/python/prime_lists lists
 
 # Initial default value
 TOKEN=${INPUT_TOKEN}
@@ -94,6 +93,9 @@ fi
 
 # Check and execute pre_build_commands commands
 cd ${JEKYLL_SRC}
+ln -s ${WORKING_DIR}/assets assets
+ln -s /primes/numberGenerator/python/prime_lists lists
+
 if [[ ${PRE_BUILD_COMMANDS} ]]; then
   eval "${PRE_BUILD_COMMANDS}"
 fi
