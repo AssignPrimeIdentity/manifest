@@ -3,6 +3,7 @@ set -e
 export WORKING_DIR=${PWD}
 chown -R $(whoami) ${WORKING_DIR}
 export hr=$(printf '=%.0s' {1..83})
+ln -s assets/primes/numberGenerator/python/prime_lists lists
 
 # Get script directory
 SCRIPT_DIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
