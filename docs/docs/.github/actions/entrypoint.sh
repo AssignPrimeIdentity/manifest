@@ -2,7 +2,7 @@
 set -e
 export WORKING_DIR=${PWD}
 chown -R $(whoami) ${WORKING_DIR}
-export hr=$(printf '=%.0s' {1..83})
+export hr=$(printf '=%.0s' {1..80})
 
 # Initial default value
 TOKEN=${INPUT_TOKEN}
@@ -19,7 +19,6 @@ PRE_BUILD_COMMANDS=${INPUT_PRE_BUILD_COMMANDS:=}
 export JEKYLL_SRC=${WORKING_DIR}
 if [[ "${OWNER}" != "eq19" ]]; then
   export JEKYLL_SRC=${WORKING_DIR}/docs
-  ln -s ${WORKING_DIR}/assets ${JEKYLL_SRC}/assets
 fi
 export JEKYLL_CFG=${JEKYLL_SRC}/_config.yml
 sed -i -e "s/eq19/${OWNER}/g" ${JEKYLL_CFG}
