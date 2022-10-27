@@ -24,7 +24,7 @@ PRE_BUILD_COMMANDS=${INPUT_PRE_BUILD_COMMANDS:=}
 if [[ "${OWNER}" != "eq19" ]]; then
   export JEKYLL_SRC=${WORKING_DIR}/docs
   export JEKYLL_CFG=${JEKYLL_SRC}/${JEKYLL_CFG}
-  sed -i -e "s/eq19/${OWNER}/g" ${JEKYLL_SRC}/${JEKYLL_CFG}
+  sed -i -e "s/eq19/${OWNER}/g" ${JEKYLL_CFG}
 fi
 
 if [[ -z "${TOKEN}" ]]; then
