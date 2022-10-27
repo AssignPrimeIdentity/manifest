@@ -3,10 +3,6 @@ set -e
 export WORKING_DIR=${PWD}
 chown -R $(whoami) ${WORKING_DIR}
 export hr=$(printf '=%.0s' {1..83})
-ln -s assets/primes/numberGenerator/python/prime_lists lists
-
-# Get script directory
-SCRIPT_DIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
 # Initial default value
 TOKEN=${INPUT_TOKEN}
@@ -59,6 +55,10 @@ export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 # export GEM_HOME=/github/home/.gem/ruby/${RUBY_VERSION}
 # export PATH=$PATH:${GEM_HOME}/bin:$HOME/.local/bin
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
+
+# Get script directory
+SCRIPT_DIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+ln -s ${SCRIPT_DIR}/primes/numberGenerator/python/prime_lists lists
 
 # Restore modification time (mtime) of git files
 # echo -e "\nRestore modification time of all git files\n"
