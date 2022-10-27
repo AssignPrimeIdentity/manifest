@@ -10,7 +10,7 @@ cat ${WORKING_DIR}/${JEKYLL_SRC}/Makefile
 
 # config file
 echo -e "\n$hr\nJEKYLL CONFIG FILE\n$hr"
-cat ${WORKING_DIR}/${JEKYLL_SRC}/${JEKYLL_CFG}
+cat ${JEKYLL_CFG}
 
 # pinned repos
 # https://dev.to/thomasaudo/get-started-with-github-grapql-api--1g8b

@@ -60,8 +60,8 @@ export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 # Restore modification time (mtime) of git files
 # echo -e "\nRestore modification time of all git files\n"
 # SCRIPT_DIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-source "/script/restore_mtime.sh"
-source "/script/init_environment.sh"
+/script/restore_mtime.sh
+/script/init_environment.sh
 
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
 bundle config cache_all true
@@ -71,7 +71,7 @@ CLEANUP_BUNDLER_CACHE_DONE=false
 # Clean up bundler cache
 cleanup_bundler_cache() {
   echo -e "\nCleaning up incompatible bundler cache\n"
-  source "/script/cleanup_bundler.sh"
+  /script/cleanup_bundler.sh
   gem install bundler -v "${BUNDLER_VER}"
   
   rm -rf ${BUNDLE_PATH}
