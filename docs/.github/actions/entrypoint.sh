@@ -14,14 +14,14 @@ OWNER=${GITHUB_REPOSITORY_OWNER}
 PROVIDER=${INPUT_PROVIDER:=github}
 BUNDLER_VER=${INPUT_BUNDLER_VER:=>=0}
 JEKYLL_SRC=${INPUT_JEKYLL_SRC:=./}
-JEKYLL_CFG=${INPUT_JEKYLL_CFG:=./_config.yml}
+JEKYLL_CFG=${INPUT_JEKYLL_CFG:=_config.yml}
 JEKYLL_BASEURL=${INPUT_JEKYLL_BASEURL:=}
 PRE_BUILD_COMMANDS=${INPUT_PRE_BUILD_COMMANDS:=}
 
 # https://stackoverflow.com/a/42137273/4058484
 export JEKYLL_CFG=${JEKYLL_CFG}
 if [[ "${OWNER}" != "eq19" ]]; then
-  export JEKYLL_SRC=./docs
+  export JEKYLL_SRC=${WORKING_DIR}/docs
   sed -i -e "s/eq19/${OWNER}/g" ${JEKYLL_SRC}/${JEKYLL_CFG}
 fi
 
@@ -103,9 +103,7 @@ build_jekyll() {
   echo -e "\nJEKYLL INSTALLATION\n"
   pwd 
   JEKYLL_GITHUB_TOKEN=${TOKEN} bundle exec jekyll build --trace --profile \
-    ${JEKYLL_BASEURL} \
-    -c ${JEKYLL_CFG} \
-    -d ${WORKING_DIR}/build
+    ${JEKYLL_BASEURL} -c ${JEKYLL_CFG} -d ${WORKING_DIR}/build
 }
 
 build_jekyll || {
