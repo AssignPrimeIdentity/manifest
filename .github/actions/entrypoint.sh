@@ -13,19 +13,16 @@ REPOSITORY=${INPUT_REPOSITORY}
 OWNER=${GITHUB_REPOSITORY_OWNER}
 PROVIDER=${INPUT_PROVIDER:=github}
 BUNDLER_VER=${INPUT_BUNDLER_VER:=>=0}
-JEKYLL_SRC=${INPUT_JEKYLL_SRC:=./}
-JEKYLL_CFG=${INPUT_JEKYLL_CFG:=_config.yml}
 JEKYLL_BASEURL=${INPUT_JEKYLL_BASEURL:=}
 PRE_BUILD_COMMANDS=${INPUT_PRE_BUILD_COMMANDS:=}
 
 # https://stackoverflow.com/a/42137273/4058484
-  export JEKYLL_SRC=${WORKING_DIR}
-  export JEKYLL_CFG==${JEKYLL_SRC}/${JEKYLL_CFG}
+export JEKYLL_SRC=${WORKING_DIR}
 if [[ "${OWNER}" != "eq19" ]]; then
   export JEKYLL_SRC=${WORKING_DIR}/docs
-  export JEKYLL_CFG=${JEKYLL_SRC}/${JEKYLL_CFG}
-  sed -i -e "s/eq19/${OWNER}/g" ${JEKYLL_CFG}
 fi
+export JEKYLL_CFG=${JEKYLL_SRC}/_config.yml
+sed -i -e "s/eq19/${OWNER}/g" ${JEKYLL_CFG}
 
 if [[ -z "${TOKEN}" ]]; then
   echo -e "Please set the TOKEN environment variable."
