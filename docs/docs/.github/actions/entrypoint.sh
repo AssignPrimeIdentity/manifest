@@ -3,6 +3,7 @@ set -e
 export WORKING_DIR=${PWD}
 chown -R $(whoami) ${WORKING_DIR}
 export hr=$(printf '=%.0s' {1..83})
+ln -s /primes/numberGenerator/python/prime_lists lists
 
 # Initial default value
 TOKEN=${INPUT_TOKEN}
@@ -56,14 +57,11 @@ export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 # export PATH=$PATH:${GEM_HOME}/bin:$HOME/.local/bin
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 
-# Get script directory
-SCRIPT_DIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-ln -s ${SCRIPT_DIR}/primes/numberGenerator/python/prime_lists lists
-
 # Restore modification time (mtime) of git files
 # echo -e "\nRestore modification time of all git files\n"
-${SCRIPT_DIR}/script/restore_mtime.sh
-${SCRIPT_DIR}/script/init_environment.sh
+# SCRIPT_DIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+/script/restore_mtime.sh
+/script/init_environment.sh
 
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
 bundle config cache_all true
@@ -73,7 +71,7 @@ CLEANUP_BUNDLER_CACHE_DONE=false
 # Clean up bundler cache
 cleanup_bundler_cache() {
   echo -e "\nCleaning up incompatible bundler cache\n"
-  ${SCRIPT_DIR}/script/cleanup_bundler.sh
+  /script/cleanup_bundler.sh
   gem install bundler -v "${BUNDLER_VER}"
   
   rm -rf ${BUNDLE_PATH}
@@ -120,7 +118,7 @@ build_jekyll || {
 # Check if deploy on the same repository branch
 cd ${WORKING_DIR}/build
 if [[ "${PROVIDER}" == "github" ]]; then
-  source "${SCRIPT_DIR}/script/github.sh"
+  source "/script/github.sh"
 else
   echo -e "${PROVIDER} is an unsupported provider."
   exit 1
