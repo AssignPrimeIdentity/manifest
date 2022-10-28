@@ -31,12 +31,12 @@ echo ${WORKING_DIR}
 ls -al ${WORKING_DIR}
 [[ ! -d "css" ]] && ln -s ${JEKYLL_SRC}/docs/css css
 if [[ ! -d "assets" ]]; then
-  if [[ -d "${WORKING_DIR}/assets" ]]; then 
+  if [[ -d "${WORKING_DIR}/assets" ]]; then
     ln -s ${WORKING_DIR}/assets assets
   else
-    if [[ -d "${WORKING_DIR}/docs/assets" ]]; then 
-	  ln -s ${WORKING_DIR}/docs/assets assets
-	fi
+    if [[ -d "${WORKING_DIR}/docs/assets" ]]; then
+      ln -s ${WORKING_DIR}/docs/assets assets
+    fi
   fi
 fi
 
