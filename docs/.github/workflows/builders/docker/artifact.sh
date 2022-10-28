@@ -29,8 +29,16 @@ curl -L -X POST "${GITHUB_GRAPHQL_URL}" -H "$AUTH" \
 echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
 echo ${WORKING_DIR}
 ls -al ${WORKING_DIR}
-[[ ! -d "css" ]] && ln -s ${WORKING_DIR}/docs/css css
-[[ ! -d "assets" ]] && ln -s ${WORKING_DIR}/assets assets
+[[ ! -d "css" ]] && ln -s ${JEKYLL_SRC}/docs/css css
+if [[ ! -d "assets" ]]; then
+  if [[ -d "${WORKING_DIR}/assets" ]]; then 
+    ln -s ${WORKING_DIR}/assets assets
+  else
+    if [[ -d "${WORKING_DIR}/docs/assets" ]]; then 
+	  ln -s ${WORKING_DIR}/docs/assets assets
+	fi
+  fi
+fi
 
 # jekyll source
 echo -e "\n$hr\nJEKYLL DIRECTORY\n$hr"
