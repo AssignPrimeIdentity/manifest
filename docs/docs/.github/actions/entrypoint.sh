@@ -93,7 +93,6 @@ fi
 
 # Check and execute pre_build_commands commands
 cd ${JEKYLL_SRC}
-ln -s /primes/numberGenerator/python/prime_lists lists
 
 if [[ ${PRE_BUILD_COMMANDS} ]]; then
   eval "${PRE_BUILD_COMMANDS}"
