@@ -16,7 +16,7 @@ RUN apt-get update
 RUN apt-get install -y --no-install-recommends apt-utils
 
 RUN python -m pip install --upgrade pip --user --no-warn-script-location
-RUN pip installtensorflow
+RUN pip install tensorflow
 
 RUN apt-get install -y npm && npm install -g yarn
 RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential
