@@ -24,7 +24,7 @@ REMOTE_REPO="https://${ACTOR}:${TOKEN}@github.com/${REPOSITORY}.git" && \
   git config user.email "${ACTOR}@users.noreply.github.com" && \
   git add . && \
   git commit -m "jekyll build from Action ${GITHUB_SHA}" && \
-  git push --force $REMOTE_REPO main:$BRANCH && \
+  git push --force $REMOTE_REPO master:$BRANCH && \
 # apt update -y && apt install -y yum && yum install psmisc && fuser -k .git ||
   rm -rf .git && \
   cd ..
