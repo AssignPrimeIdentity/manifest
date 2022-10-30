@@ -63,6 +63,7 @@ encoding: utf-8
 livereload: true
 limit_posts: 1000
 incremental: true
+remote_theme: eQ19/parser
 
 # Plugins Setting
 # https://pages.github.com/versions/
