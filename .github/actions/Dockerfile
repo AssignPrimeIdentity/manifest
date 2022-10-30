@@ -5,22 +5,26 @@ LABEL homepage="https://eq19.github.io/"
 LABEL maintainer="eq19 <admin@rq19.com>"
 LABEL repository="https://github.com/FeedMapping/deploy"
 
-ENV NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 ENV DEBIAN_FRONTEND noninteractive
-ENV BUNDLE_SILENCE_ROOT_WARNING=1
 ENV DEBCONF_NOWARNINGS="yes"
+
+RUN apt-get update -qq < /dev/null
+RUN apt-get install -qq --no-install-recommends apt-utils < /dev/null
+
+ENV NVIDIA_VISIBLE_DEVICES all
+ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
+
+RUN apt-get install -qq python3 python3-pip < /dev/null
+RUN pip install tensorflow-gpu
+
+ENV NOKOGIRI_USE_SYSTEM_LIBRARIES=1
+ENV BUNDLE_SILENCE_ROOT_WARNING=1
 ENV RAILS_VERSION 5.0.1
 ENV RUBYOPT=W0
 
-RUN apt-get update
-RUN apt-get install -y --no-install-recommends apt-utils
-
-RUN python3 -mvenv myvenv
-RUN myvenv/venv/pip install --upgrade pip
-
-RUN apt-get install -y npm && npm install -g yarn
-RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential
-RUN apt-get install -y git && git config --global init.defaultBranch master
+RUN apt-get install -qq npm && npm install -g yarn < /dev/null
+RUN apt-get install -qq ruby ruby-dev ruby-bundler build-essential < /dev/null
+RUN apt-get install -qq git && git config --global init.defaultBranch master < /dev/null
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN gem install rails --version "$RAILS_VERSION"
