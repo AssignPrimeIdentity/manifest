@@ -10,7 +10,7 @@ ENV BUNDLE_SILENCE_ROOT_WARNING=1
 ENV RAILS_VERSION 5.0.1
 ENV RUBYOPT=W0
 
-RUN apt-get update && apt install -y git
+RUN apt-get update && apt-get install -y git
 RUN git config --global init.defaultBranch master
 
 RUN apt-get install -y npm && npm install -g yarn

@@ -3,15 +3,15 @@
 Gem::Specification.new do |spec|
 
   spec.license       = "MIT"
-  spec.version       = "0.3.2"
-  spec.name          = "grammar"
+  spec.version       = "3.2.7"
+  spec.name          = "parser"
   spec.authors       = ["eq19"]
   spec.email         = ["admin@eq19.com"]
-  spec.homepage      = "https://github.com/eq19/grammar"
-  spec.summary       = "This repository act as 'the grammar' with id=36"
+  spec.homepage      = "https://github.com/eq19/parser"
+  spec.summary       = "This repository act as 'the parser' with id=34"
 
 # https://guides.rubygems.org/specification-reference/#files
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|primes|_data|_sass|_includes|_layouts|LICENSE|README)!i) }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(_data|_includes|_layouts|_plugins|_sass|assets|LICENSE|README)!i) }
 
   spec.add_runtime_dependency "jekyll", ">= 3.0"
 # spec.add_development_dependency "rake", "~> 10.0"
