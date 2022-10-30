@@ -43,7 +43,7 @@ mkdir /root/.ssh
 # home
 echo -e "\n$hr\nHOME DIR\n$hr"
 echo ${HOME}
-ls -al /github && ls -al /github/home && ls -al ${HOME} 
+ls -al /home && ls -al /github && ls -al /github/home
 
 # git/config
 echo -e "\n$hr\nGIT PROFILES\n$hr"
