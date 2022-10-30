@@ -12,7 +12,7 @@ cat /etc/os-release
 uname -r
 
 # Setting default ruby version
-echo -e "$hr\nRUBY_NODE VERSION\n$hr"
+echo -e "$hr\nTENSORFLOW VERSION\n$hr"
 chown -R root /github/home
 pip show tensorflow-gpu && pip -V
 
