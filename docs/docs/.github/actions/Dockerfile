@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest
+FROM tensorflow/tensorflow:latest-devel-gpu
 
 LABEL version="1.0.5"
 LABEL homepage="https://eq19.github.io/"
@@ -11,8 +11,11 @@ ENV RAILS_VERSION 5.0.1
 ENV RUBYOPT=W0
 
 RUN apt-get update && apt install -y git
+RUN git config --global init.defaultBranch master
+
 RUN apt-get install -y npm && npm install -g yarn
 RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential
+
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN gem install rails --version "$RAILS_VERSION"
 
