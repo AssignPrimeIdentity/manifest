@@ -17,7 +17,7 @@ ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
 RUN apt-get install -qq python3.8-venv < /dev/null
 RUN python3 -m venv nvidia < /dev/null
 RUN source nvidia/bin/activate
-RUN python -m pip install --upgrade pip --user < /dev/null
+RUN /usr/local/bin/python -m pip install --upgrade pip --user --no-warn-script-location < /dev/null
 RUN pip install tensorflow-gpu --quiet
 
 ENV NOKOGIRI_USE_SYSTEM_LIBRARIES=1
