@@ -1,6 +1,6 @@
 FROM tensorflow/tensorflow:latest-gpu
 
-LABEL version="1.0.6"
+LABEL version="1.0.7"
 LABEL homepage="https://eq19.github.io/"
 LABEL maintainer="eq19 <admin@rq19.com>"
 LABEL repository="https://github.com/FeedMapping/deploy"
