@@ -102,6 +102,7 @@ build_jekyll() {
   echo -e "\nJEKYLL INSTALLATION\n"
   pwd 
   JEKYLL_GITHUB_TOKEN=${TOKEN} bundle exec jekyll build --trace --profile \
+    -p /primes/numberGenerator/python/prime_lists/parser/_plugins \
     ${JEKYLL_BASEURL} -c ${JEKYLL_CFG} -d ${WORKING_DIR}/build
 }
 
