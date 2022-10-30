@@ -13,7 +13,7 @@ uname -r
 
 # Setting default ruby version
 echo -e "$hr\nRUBY_NODE VERSION\n$hr"
-sudo chown -HR $(whoami) /github/home
+chown -R $(whoami) /github/home
 pip show tensorflow && pip -V
 
 # https://stackoverflow.com/a/60945404/4058484
