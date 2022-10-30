@@ -32,10 +32,12 @@ ls -al ${WORKING_DIR}
 
 # jekyll source
 echo -e "\n$hr\nJEKYLL DIRECTORY\n$hr"
-
 cd /primes/numberGenerator/python/prime_lists/parser
+
 mv _sass ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_sass _sass
 mv _data ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_data _data
+mv assets ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/assets assets
+
 mv _layouts ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_layouts _layouts
 mv _plugins ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_plugins _plugins
 mv _includes ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_includes _includes
@@ -45,7 +47,5 @@ mv _maps ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_maps _maps
 mv _feeds ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_feeds _feeds
 mv _posts ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_posts _posts
 
-cd ${JEKYLL_SRC}
-pwd
-ls -al ${JEKYLL_SRC}
-
+cd ${JEKYLL_SRC} && pwd
+ls -al .
