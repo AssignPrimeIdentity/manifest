@@ -10,9 +10,9 @@ ENV BUNDLE_SILENCE_ROOT_WARNING=1
 ENV RAILS_VERSION 5.0.1
 ENV RUBYOPT=W0
 
-RUN apt-get update && \
-    apt-get install -y nodejs --no-install-recommends && \
-    rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y npm && npm install -g yarn
+RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 COPY . .
 ENTRYPOINT ["/entrypoint.sh"]
