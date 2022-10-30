@@ -15,8 +15,10 @@ ENV NVIDIA_VISIBLE_DEVICES all
 ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
 
 RUN apt-get install -qq python3 python3-pip < /dev/null
-RUN usr/bin/python3 -m pip install --upgrade pip < /dev/null
-RUN pip install tensorflow-gpu < /dev/null
+RUN python3 -m venv nvidia
+RUN source nvidia/bin/activate
+RUN python -m pip install --upgrade pip < /dev/null
+RUN pip install tensorflow-gpu --quiet
 
 ENV NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 ENV BUNDLE_SILENCE_ROOT_WARNING=1
