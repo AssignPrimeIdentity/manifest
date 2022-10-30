@@ -98,11 +98,11 @@ if [[ ${PRE_BUILD_COMMANDS} ]]; then
   eval "${PRE_BUILD_COMMANDS}"
 fi
 
+# https://gist.github.com/DrOctogon/bfb6e392aa5654c63d12
 build_jekyll() {
   echo -e "\nJEKYLL INSTALLATION\n"
-  pwd 
+  pwd
   JEKYLL_GITHUB_TOKEN=${TOKEN} bundle exec jekyll build --trace --profile \
-    -p /primes/numberGenerator/python/prime_lists/parser/_plugins \
     ${JEKYLL_BASEURL} -c ${JEKYLL_CFG} -d ${WORKING_DIR}/build
 }
 
