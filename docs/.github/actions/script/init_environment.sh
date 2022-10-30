@@ -41,6 +41,11 @@ mkdir /root/.ssh
 [[ "$(whoami)" == "root" ]] && ls -alL /root/.ssh || sudo bash -c 'ls -alL /root/.ssh'
 
 # home
+echo -e "\n$hr\nHOME DIR\n$hr"
+echo ${HOME}
+ls -al /github && ls -al /github/home && ls -al ${HOME} 
+
+# git/config
 echo -e "\n$hr\nGIT PROFILES\n$hr"
 chown -R $(whoami) ${WORKING_DIR}/.git/config
 ls -al ${WORKING_DIR}/.git
