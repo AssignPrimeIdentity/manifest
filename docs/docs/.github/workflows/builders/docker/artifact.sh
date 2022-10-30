@@ -41,9 +41,9 @@ mv _plugins ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_plugins _plugins
 mv _includes ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_includes _includes
 
 cd ${JEKYLL_SRC}
-ln -s ${JEKYLL_SRC}/_data/_base/_maps _maps
-ln -s ${JEKYLL_SRC}/_data/_base/_feeds _feeds
-ln -s ${JEKYLL_SRC}/_data/_base/_posts _posts
+ln -s _data/_base/_maps _maps
+ln -s _data/_base/_feeds _feeds
+ln -s _data/_base/_posts _posts
 pwd
 ls -al ${JEKYLL_SRC}
 
