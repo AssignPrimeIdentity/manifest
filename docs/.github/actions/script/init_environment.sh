@@ -14,10 +14,10 @@ uname -r
 # Setting default ruby version
 echo -e "$hr\nRUBY_NODE VERSION\n$hr"
 sudo chown -HR $(whoami) /github/home
-python -V && pip -V && pip show tensorflow
+pip show tensorflow && pip -V
 
 # https://stackoverflow.com/a/60945404/4058484
-ruby -v && bundler version
+ruby -v && bundler version && python -V
 node -v && npm -v
 
 # file system
