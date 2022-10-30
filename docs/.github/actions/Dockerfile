@@ -19,7 +19,7 @@ RUN apt-get install -qq python3.8-venv < /dev/null
 RUN python3.8 -m venv nvidia < /dev/null
 RUN source nvidia/bin/activate
 RUN python -m pip install -U --force-reinstall pip < /dev/null
-RUN pip install tensorflow-gpu --quiet
+RUN pip install tensorflow-gpu --user --quiet
 
 ENV NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 ENV BUNDLE_SILENCE_ROOT_WARNING=1
