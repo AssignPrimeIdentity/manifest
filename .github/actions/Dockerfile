@@ -15,7 +15,6 @@ ENV RUBYOPT=W0
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends apt-utils
 
-RUN apt-get install nvidia-container-runtime
 RUN apt-get install -y npm && npm install -g yarn
 RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential
 RUN apt-get install -y git && git config --global init.defaultBranch master
