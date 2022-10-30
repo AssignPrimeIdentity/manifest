@@ -12,6 +12,7 @@ cat /etc/os-release
 uname -r
 
 # Setting default ruby version
+# https://stackoverflow.com/a/60290031/4058484
 echo -e "$hr\nRUBY_NODE VERSION\n$hr"
 ruby -v && bundler version
 node -v && npm -v
