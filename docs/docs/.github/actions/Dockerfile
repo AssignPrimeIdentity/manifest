@@ -14,6 +14,7 @@ RUN apt-get update && apt install -y git
 RUN apt-get install -y npm && npm install -g yarn
 RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN gem install rails --version "$RAILS_VERSION"
 
 COPY . .
 ENTRYPOINT ["/entrypoint.sh"]
