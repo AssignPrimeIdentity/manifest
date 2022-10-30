@@ -40,10 +40,12 @@ mv _layouts ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_layouts _layouts
 mv _plugins ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_plugins _plugins
 mv _includes ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_includes _includes
 
+cd ${JEKYLL_SRC}/_data/_base
+mv _maps ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_maps _maps
+mv _feeds ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_feeds _feeds
+mv _posts ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_posts _posts
+
 cd ${JEKYLL_SRC}
-ln -s _data/_base/_maps _maps
-ln -s _data/_base/_feeds _feeds
-ln -s _data/_base/_posts _posts
 pwd
 ls -al ${JEKYLL_SRC}
 
