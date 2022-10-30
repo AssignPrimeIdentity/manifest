@@ -1,6 +1,6 @@
-FROM combos/ruby_node:3_16
+FROM tensorflow/tensorflow:latest
 
-LABEL version="1.0.4"
+LABEL version="1.0.5"
 LABEL homepage="https://eq19.github.io/"
 LABEL maintainer="eq19 <admin@rq19.com>"
 LABEL repository="https://github.com/FeedMapping/deploy"
