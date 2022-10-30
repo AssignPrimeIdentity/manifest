@@ -1,6 +1,6 @@
-FROM tensorflow/tensorflow:latest
+FROM tensorflow/tensorflow:latest-gpu
 
-LABEL version="1.0.5"
+LABEL version="1.0.6"
 LABEL homepage="https://eq19.github.io/"
 LABEL maintainer="eq19 <admin@rq19.com>"
 LABEL repository="https://github.com/FeedMapping/deploy"
@@ -16,13 +16,13 @@ RUN apt-get update
 RUN apt-get install -y --no-install-recommends apt-utils
 
 RUN apt-get install -y npm && npm install -g yarn
+RUN apt-get install -y tensorflow --runtime=nvidia
 RUN apt-get install -y ruby ruby-dev ruby-bundler build-essential
-RUN apt-get install -y git && git config --global init.defaultBranch master
-
-RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-RUN gem install rails --version "$RAILS_VERSION"
+RUN apt-get install -y git && git config --global init.defaultBranch main
 
 RUN python -m pip install --upgrade pip --user --no-warn-script-location
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN gem install rails --version "$RAILS_VERSION"
 
 COPY . .
 ENTRYPOINT ["/entrypoint.sh"]
