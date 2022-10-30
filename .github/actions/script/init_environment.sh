@@ -14,7 +14,6 @@ uname -r
 # Setting default ruby version
 echo -e "$hr\nRUBY_NODE VERSION\n$hr"
 chown -R $(whoami) /github/home/.cache/pip
-/usr/bin/python3 -m pip install --upgrade pip
 python -V && pip -V && pip show tensorflow
 
 # https://stackoverflow.com/a/60945404/4058484
