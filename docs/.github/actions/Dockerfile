@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-gpu
+FROM tensorflow/tensorflow:2.5.0-gpu
 
 LABEL version="v1.0.8"
 LABEL homepage="https://eq19.github.io/"
@@ -8,7 +8,8 @@ LABEL repository="https://github.com/FeedMapping/deploy"
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NOWARNINGS="yes"
 
-RUN apt-get update -qq < /dev/null
+# https://askubuntu.com/a/732987/486942
+RUN apt-get update -qq < /dev/null --allow-unauthenticated
 RUN apt-get install -qq --no-install-recommends apt-utils < /dev/null
 
 ENV NVIDIA_VISIBLE_DEVICES all
