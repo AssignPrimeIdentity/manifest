@@ -8,14 +8,14 @@ LABEL repository="https://github.com/FeedMapping/deploy"
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NOWARNINGS="yes"
 
-RUN apt-get -qq update < /dev/null
-RUN apt-get -qq install --no-install-recommends apt-utils < /dev/null
+RUN apt-get update -qq < /dev/null
+RUN apt-get install -qq --no-install-recommends apt-utils < /dev/null
 
 ENV NVIDIA_VISIBLE_DEVICES all
 ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
 ENV PATH="${PATH}:/root/.local/bin"
 
-RUN apt-get -qq install python3.8-venv < /dev/null
+RUN apt-get install -qq python3.8-venv < /dev/null
 RUN python3.8 -m venv nvidia < /dev/null
 RUN chown -R root nvidia && source nvidia/bin/activate
 RUN python -m pip install -U --force-reinstall pip < /dev/null
@@ -26,9 +26,10 @@ ENV BUNDLE_SILENCE_ROOT_WARNING=1
 ENV RAILS_VERSION 5.0.1
 ENV RUBYOPT=W0
 
-RUN apt-get -qq install ruby ruby-dev ruby-bundler build-essential < /dev/null
-RUN apt-get -qq install git < /dev/null && git config --global init.defaultBranch master
-RUN apt-get -qq install npm < /dev/null && npm set progress=false && npm install -qq yarn
+RUN apt-get install -qq npm < /dev/null
+RUN npm set progress=false && npm install -qq yarn < /dev/null
+RUN apt-get install -qq ruby ruby-dev ruby-bundler build-essential < /dev/null
+RUN apt-get install -qq git < /dev/null && git config --global init.defaultBranch master
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* < /dev/null
 RUN gem install rails --version "$RAILS_VERSION" < /dev/null
