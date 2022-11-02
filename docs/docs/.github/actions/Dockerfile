@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.5.0-gpu
+FROM tensorflow/tensorflow:latest-gpu
 
 LABEL version="v1.0.8"
 LABEL homepage="https://eq19.github.io/"
@@ -9,7 +9,7 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NOWARNINGS="yes"
 
 RUN apt-get update -qq < /dev/null
-# RUN apt-get install -qq --no-install-recommends apt-utils < /dev/null
+RUN apt-get install -qq --no-install-recommends apt-utils < /dev/null
 
 ENV NVIDIA_VISIBLE_DEVICES all
 ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
