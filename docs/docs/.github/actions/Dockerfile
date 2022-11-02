@@ -8,7 +8,7 @@ LABEL repository="https://github.com/FeedMapping/deploy"
 ENV DEBIAN_FRONTEND noninteractive
 ENV DEBCONF_NOWARNINGS="yes"
 
-RUN apt-get update -qq < /dev/null
+# RUN apt-get update -qq < /dev/null
 RUN apt-get install -qq --no-install-recommends apt-utils < /dev/null
 
 ENV NVIDIA_VISIBLE_DEVICES all
