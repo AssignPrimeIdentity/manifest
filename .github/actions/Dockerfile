@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-gpu
+FROM tensorflow/tensorflow:2.5.0-gpu
 
 LABEL version="v1.0.8"
 LABEL homepage="https://eq19.github.io/"

@@ -29,9 +29,12 @@ inputs:
   pre_build_commands:
     description: 'The pre-build commands'
     required: false
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
 branding:
   icon: 'command'
   color: 'red'
+# https://docs.docker.com/engine/reference/run/
+# https://www.tensorflow.org/install/docker#examples_using_gpu-enabled_images
+# https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
