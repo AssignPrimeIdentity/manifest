@@ -30,34 +30,6 @@ echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
 echo ${WORKING_DIR}
 ls -al ${WORKING_DIR}
 
-cd ${JEKYLL_SRC}
-git submodule update --init --recursive
-
-echo /primes
-ls -al /primes
-
-echo /primes/numberGenerator
-ls -al /primes/numberGenerator
-
-echo /primes/numberGenerator/python/spacetimeengine/src
-ls -al /primes/numberGenerator/python/spacetimeengine/src
-
-# git clone ${DEFAULT_REPO} src && cd src && mv data _data
-cd /primes/numberGenerator/python/spacetimeengine/src
-mv _data ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_data data
-
-cd ${JEKYLL_SRC}/_data/_base
-mv _maps ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_maps _maps
-mv _feeds ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_feeds _feeds
-mv _posts ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_posts _posts
-
-cd /primes/numberGenerator
-mv assets ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/assets assets
-mv _sass ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_sass _sass
-mv _layouts ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_layouts _layouts
-mv _plugins ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_plugins _plugins
-mv _includes ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_includes _includes
-
 # jekyll source
 echo -e "\n$hr\nJEKYLL DIRECTORY\n$hr"
 cd ${JEKYLL_SRC} && pwd
