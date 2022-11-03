@@ -66,5 +66,9 @@ echo -e "\n$hr\nVENDOR BUNDLE\n$hr"
 echo ${WORKING_DIR}/vendor/bundle/ruby
 ls -al /github/workspace/vendor/bundle/ruby/2.7.0
 
+# environtment
+echo -e "\n$hr\nENVIRONTMENT\n$hr"
+printenv | sort
+
 # Generate a Gemfile.lock
 # $ docker run --rm -v "$PWD":/usr/src/app -w /usr/src/app combos/ruby_node:3_16 bundle install

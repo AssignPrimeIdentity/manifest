@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# environtment
-echo -e "\n$hr\nENVIRONTMENT\n$hr"
-printenv | sort
-
 # makefile
 echo -e "\n$hr\nMAKEFILE\n$hr"
 cat ${WORKING_DIR}/Makefile
