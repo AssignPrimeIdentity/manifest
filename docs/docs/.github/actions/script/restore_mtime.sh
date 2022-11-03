@@ -9,10 +9,9 @@ for f in $(git ls-files); do
   touch -d "$mtime" "$f"
 done
 
-cd ${WORKING_DIR}
+cd /primes
+pwd
 git submodule update --init --recursive
-
-echo /primes
 ls -al /primes
 
 echo /primes/numberGenerator
