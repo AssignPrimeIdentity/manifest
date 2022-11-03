@@ -30,7 +30,17 @@ echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
 echo ${WORKING_DIR}
 ls -al ${WORKING_DIR}
 
-git clone ${DEFAULT_REPO} src && cd src && mv data _data
+echo /primes
+ls -al /primes
+
+echo /primes/numberGenerator
+ls -al /primes/numberGenerator
+
+echo /primes/numberGenerator/python/spacetimeengine/src
+ls -al /primes/numberGenerator/python/spacetimeengine/src
+cd /primes/numberGenerator/python/spacetimeengine/src
+
+# git clone ${DEFAULT_REPO} src && cd src && mv data _data
 mv _data ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_data data
 
 cd ${JEKYLL_SRC}/_data/_base

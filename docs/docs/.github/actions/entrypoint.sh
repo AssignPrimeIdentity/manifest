@@ -54,7 +54,6 @@ export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 # export GEM_HOME=/github/home/.gem/ruby/${RUBY_VERSION}
 # export PATH=$PATH:${GEM_HOME}/bin:$HOME/.local/bin
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
-export DEFAULT_REPO="https://${ACTOR}:${TOKEN}@github.com/chetabahana/default.git"
 
 # Restore modification time (mtime) of git files
 # echo -e "\nRestore modification time of all git files\n"
