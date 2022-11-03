@@ -17,6 +17,7 @@ PRE_BUILD_COMMANDS=${INPUT_PRE_BUILD_COMMANDS:=}
 
 # https://stackoverflow.com/a/42137273/4058484
 export JEKYLL_SRC=${WORKING_DIR}
+export JEKYLL_GITHUB_TOKEN=${TOKEN}
 if [[ "${OWNER}" != "eq19" ]]; then
   export JEKYLL_SRC=${WORKING_DIR}/docs
 fi
@@ -47,8 +48,11 @@ if [[ -n "${JEKYLL_BASEURL-}" ]]; then
 fi
 
 # Initialize environment
+export RUBYOPT=W0
+export RAILS_VERSION 5.0.1
 export BUNDLER_VER=${BUNDLER_VER}
-export JEKYLL_GITHUB_TOKEN=${TOKEN}
+export BUNDLE_SILENCE_ROOT_WARNING=1
+export NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 export PAGES_REPO_NWO=$GITHUB_REPOSITORY
 export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 # export GEM_HOME=/github/home/.gem/ruby/${RUBY_VERSION}
@@ -58,10 +62,13 @@ export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 # Restore modification time (mtime) of git files
 # echo -e "\nRestore modification time of all git files\n"
 # SCRIPT_DIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-/script/restore_mtime.sh
 /script/init_environment.sh
+/script/restore_mtime.sh
 
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
+apt-get install -qq ruby ruby-dev ruby-bundler build-essential
+# gem install rails --version "$RAILS_VERSION" < /dev/null
+
 bundle config cache_all true
 bundle config path $BUNDLE_PATH
 CLEANUP_BUNDLER_CACHE_DONE=false

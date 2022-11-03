@@ -11,7 +11,7 @@ done
 
 # clone a repo, including its submodules
 # https://stackoverflow.com/a/4438292/4058484
-cd ${JEKYLL_SRC}/.github && pwd
+cd ${JEKYLL_SRC}/.github
 git submodule update --init --recursive
 git submodule foreach --recursive git fetch
 git submodule foreach 'git fetch origin; git checkout $(git rev-parse --abbrev-ref HEAD); git reset --hard origin/$(git rev-parse --abbrev-ref HEAD); git submodule update --recursive; git clean -dfx'
