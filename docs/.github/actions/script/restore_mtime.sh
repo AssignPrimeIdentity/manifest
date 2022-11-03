@@ -9,9 +9,13 @@ for f in $(git ls-files); do
   touch -d "$mtime" "$f"
 done
 
+# clone a repo, including its submodules
+# https://stackoverflow.com/a/4438292/4058484
 cd /primes
 pwd
 git submodule update --init --recursive
+git submodule foreach --recursive git fetch
+git submodule foreach 'git fetch origin; git checkout $(git rev-parse --abbrev-ref HEAD); git reset --hard origin/$(git rev-parse --abbrev-ref HEAD); git submodule update --recursive; git clean -dfx'
 ls -al /primes
 
 echo /primes/numberGenerator
