@@ -49,7 +49,7 @@ fi
 
 # Initialize environment
 export RUBYOPT=W0
-export RAILS_VERSION 5.0.1
+export RAILS_VERSION=5.0.1
 export BUNDLER_VER=${BUNDLER_VER}
 export BUNDLE_SILENCE_ROOT_WARNING=1
 export NOKOGIRI_USE_SYSTEM_LIBRARIES=1
