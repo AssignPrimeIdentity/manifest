@@ -16,8 +16,8 @@ ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
 ENV PATH="${PATH}:/root/.local/bin"
 
 RUN apt-get install -qq python3.8-venv < /dev/null
-RUN python3.8 -m venv nvidia < /dev/null
-RUN chown -R root nvidia && source nvidia/bin/activate
+RUN python3.8 -m venv grammar < /dev/null
+RUN chown -R root grammar && source grammar/bin/activate
 RUN python -m pip install -U --force-reinstall pip < /dev/null
 RUN pip install tensorflow-gpu --root-user-action=ignore --quiet
 

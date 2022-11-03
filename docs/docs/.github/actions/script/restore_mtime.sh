@@ -11,21 +11,20 @@ done
 
 # clone a repo, including its submodules
 # https://stackoverflow.com/a/4438292/4058484
-cd /
-pwd
+cd ${JEKYLL_SRC}/.github && pwd
 git submodule update --init --recursive
 git submodule foreach --recursive git fetch
 git submodule foreach 'git fetch origin; git checkout $(git rev-parse --abbrev-ref HEAD); git reset --hard origin/$(git rev-parse --abbrev-ref HEAD); git submodule update --recursive; git clean -dfx'
-ls -al /primes
+ls -al ${JEKYLL_SRC}/.github/actions/primes
 
-echo /primes/numberGenerator
-ls -al /primes/numberGenerator
+echo ${JEKYLL_SRC}/.github/actions/primess/numberGenerator
+ls -al ${JEKYLL_SRC}/.github/actions/primes/numberGenerator
 
-echo /primes/numberGenerator/python/spacetimeengine/src
-ls -al /primes/numberGenerator/python/spacetimeengine/src
+echo ${JEKYLL_SRC}/.github/actions/primes/numberGenerator/python/spacetimeengine/src
+ls -al ${JEKYLL_SRC}/.github/actions/primes/numberGenerator/python/spacetimeengine/src
 
 # git clone ${DEFAULT_REPO} src && cd src && mv data _data
-cd /primes/numberGenerator/python/spacetimeengine/src
+cd ${JEKYLL_SRC}/.github/actions/primes/numberGenerator/python/spacetimeengine/src
 mv _data ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_data data
 
 cd ${JEKYLL_SRC}/_data/_base
@@ -33,7 +32,7 @@ mv _maps ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_maps _maps
 mv _feeds ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_feeds _feeds
 mv _posts ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_posts _posts
 
-cd /primes/numberGenerator
+cd ${JEKYLL_SRC}/.github/actions/primes/numberGenerator
 mv assets ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/assets assets
 mv _sass ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_sass _sass
 mv _layouts ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_layouts _layouts
