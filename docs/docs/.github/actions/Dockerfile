@@ -26,13 +26,13 @@ ENV BUNDLE_SILENCE_ROOT_WARNING=1
 ENV RAILS_VERSION 5.0.1
 ENV RUBYOPT=W0
 
-RUN apt-get install -qq npm < /dev/null
-RUN npm set progress=false && npm install -qq yarn < /dev/null
-RUN apt-get install -qq ruby ruby-dev ruby-bundler build-essential < /dev/null
-RUN apt-get install -qq git < /dev/null && git config --global init.defaultBranch master
+# RUN apt-get install -qq npm < /dev/null
+# RUN npm set progress=false && npm install -qq yarn < /dev/null
+# RUN apt-get install -qq ruby ruby-dev ruby-bundler build-essential < /dev/null
+# RUN apt-get install -qq git < /dev/null && git config --global init.defaultBranch master
 
-RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* < /dev/null
-RUN gem install rails --version "$RAILS_VERSION" < /dev/null
+# RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* < /dev/null
+# RUN gem install rails --version "$RAILS_VERSION" < /dev/null
 
 COPY . .
 ENTRYPOINT ["/entrypoint.sh"]
