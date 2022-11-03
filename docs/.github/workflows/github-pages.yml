@@ -2,7 +2,7 @@
 name: Build and deploy Jekyll site to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # 💎 Runs on pushes targeting the default branch
   push:
     branches:
       - eQ19
@@ -29,9 +29,6 @@ jobs:
         with:
           submodules: recursive
           token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
-
-      - name: 💎 Submodules
-        run: git submodule update --init --recursive
 
       - name: 🔨 Get gem cache
         uses: actions/cache@v3

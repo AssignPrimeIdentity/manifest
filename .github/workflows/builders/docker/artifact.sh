@@ -30,6 +30,9 @@ echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
 echo ${WORKING_DIR}
 ls -al ${WORKING_DIR}
 
+cd ${JEKYLL_SRC}
+git submodule update --init --recursive
+
 echo /primes
 ls -al /primes
 
@@ -38,9 +41,9 @@ ls -al /primes/numberGenerator
 
 echo /primes/numberGenerator/python/spacetimeengine/src
 ls -al /primes/numberGenerator/python/spacetimeengine/src
-cd /primes/numberGenerator/python/spacetimeengine/src
 
 # git clone ${DEFAULT_REPO} src && cd src && mv data _data
+cd /primes/numberGenerator/python/spacetimeengine/src
 mv _data ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_data data
 
 cd ${JEKYLL_SRC}/_data/_base
