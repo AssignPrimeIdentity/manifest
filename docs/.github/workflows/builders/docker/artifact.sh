@@ -30,9 +30,6 @@ echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
 echo ${WORKING_DIR}
 ls -al ${WORKING_DIR}
 
-# jekyll source
-echo -e "\n$hr\nJEKYLL DIRECTORY\n$hr"
-
 git clone ${DEFAULT_REPO} src && cd src && mv data _data
 mv _data ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_data data
 
@@ -48,5 +45,7 @@ mv _layouts ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_layouts _layouts
 mv _plugins ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_plugins _plugins
 mv _includes ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_includes _includes
 
+# jekyll source
+echo -e "\n$hr\nJEKYLL DIRECTORY\n$hr"
 cd ${JEKYLL_SRC} && pwd
 ls -al .
