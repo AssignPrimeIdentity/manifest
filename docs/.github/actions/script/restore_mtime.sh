@@ -11,7 +11,7 @@ done
 
 # clone a repo, including its submodules
 # https://stackoverflow.com/a/4438292/4058484
-cd /primes
+cd /
 pwd
 git submodule update --init --recursive
 git submodule foreach --recursive git fetch
