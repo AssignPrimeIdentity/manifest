@@ -33,7 +33,7 @@ ls -al ${WORKING_DIR}
 # jekyll source
 echo -e "\n$hr\nJEKYLL DIRECTORY\n$hr"
 
-git clone ${DEFAULT_REPO} && cd default && mv data _data
+git clone ${DEFAULT_REPO} src && cd src && mv data _data
 mv _data ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_data data
 
 cd ${JEKYLL_SRC}/_data/_base
