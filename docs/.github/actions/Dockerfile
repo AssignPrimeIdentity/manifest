@@ -1,13 +1,13 @@
 FROM tensorflow/tensorflow:latest-gpu
 
-LABEL version="v1.0.8"
+LABEL version=v1.0.8
 
-ENV DEBCONF_NOWARNINGS="yes"
+ENV DEBCONF_NOWARNINGS=yes
 ENV DEBIAN_FRONTEND noninteractive
-ENV PATH="${PATH}:/usr/bin:/root/.local/bin"
+ENV PATH=${PATH}:/usr/bin:/root/.local/bin
 
 RUN apt-get update -qq < /dev/null
 
 COPY . .
 
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT [/entrypoint.sh]
