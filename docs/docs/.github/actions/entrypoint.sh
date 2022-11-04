@@ -62,8 +62,8 @@ export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
 apt-get install -qq python3.8-venv < /dev/null
-python3.8 -m venv grammar < /dev/null
-chown -R root ${HOME} && source grammar/bin/activate
+chown -R root ${HOME} && python3.8 -m venv grammar < /dev/null
+source grammar/bin/activate && touch nojekyll
 
 apt-get install -qq --no-install-recommends apt-utils < /dev/null
 apt-get install -qq git < /dev/null
@@ -132,7 +132,7 @@ build_jekyll || {
 }
 
 # Check if deploy on the same repository branch
-cd ${WORKING_DIR}/build
+cd ${WORKING_DIR}/build && rm -rf grammar
 if [[ "${PROVIDER}" == "github" ]]; then
   source "/script/github.sh"
 else
