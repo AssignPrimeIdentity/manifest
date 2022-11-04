@@ -62,7 +62,7 @@ export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 
 echo -e "$hr\nPRIOR INSTALLATION\n$hr"
 chown -R root ${HOME} && source /lexer/bin/activate
-pwd && ls -alR && dpkg -l
+ls -al / && dpkg -l
 
 apt-get install -qq --no-install-recommends apt-utils < /dev/null
 apt-get install -qq git < /dev/null

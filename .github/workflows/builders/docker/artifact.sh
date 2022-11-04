@@ -22,11 +22,18 @@ curl -L -X POST "${GITHUB_GRAPHQL_URL}" -H "$AUTH" \
 # https://docs.github.com/en/actions/security-guides/encrypted-secrets
 
 # workspace
+echo -e "\n$hr\nVIRTUAL ENV\n$hr"
+echo ${WORKING_DIR}
+ls -alR /lexer
+
+# workspace
 echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
 echo ${WORKING_DIR}
 ls -al ${WORKING_DIR}
 
-# jekyll source
-echo -e "\n$hr\nJEKYLL DIRECTORY\n$hr"
-cd ${JEKYLL_SRC} && pwd
-ls -al .
+if [[${WORKING_DIR} != ${JEKYLL_SRC}]];then
+  # jekyll source
+  echo -e "\n$hr\nJEKYLL DIRECTORY\n$hr"
+  cd ${JEKYLL_SRC} && pwd
+  ls -al .
+fi
