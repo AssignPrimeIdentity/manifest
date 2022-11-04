@@ -65,7 +65,7 @@ echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
 apt-get install -qq git < /dev/null
 apt-get install -qq python3.8-venv < /dev/null
 python3.8 -m venv grammar < /dev/null
-chown -R root grammar && source grammar/bin/activate
+chown -R root ${HOME} && source grammar/bin/activate
 python -m pip install -U --force-reinstall pip < /dev/null
 pip install tensorflow-gpu --root-user-action=ignore --quiet
 apt-get install -qq ruby ruby-dev ruby-bundler build-essential
