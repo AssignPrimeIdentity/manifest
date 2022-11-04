@@ -55,6 +55,7 @@ export PATH=${PATH}/root/.local/bin
 export BUNDLE_SILENCE_ROOT_WARNING=1
 export NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 export PAGES_REPO_NWO=$GITHUB_REPOSITORY
+export BUNDLE_GEMFILE=/lexer/maps/Gemfile
 export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 # export GEM_HOME=/github/home/.gem/ruby/${RUBY_VERSION}
 # export PATH=$PATH:${GEM_HOME}/bin:$HOME/.local/bin
@@ -91,7 +92,7 @@ cleanup_bundler_cache() {
   
   rm -rf ${BUNDLE_PATH}
   mkdir -p ${BUNDLE_PATH}
-
+  
   bundle install
   CLEANUP_BUNDLER_CACHE_DONE=true
 }
