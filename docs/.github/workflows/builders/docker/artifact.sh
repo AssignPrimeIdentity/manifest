@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Setting default ruby version
+echo -e "$hr\nTENSORFLOW VERSION\n$hr"
+pip show tensorflow-gpu && pip -V
+
+# https://stackoverflow.com/a/60945404/4058484
+ruby -v && bundler version && python -V
+node -v && npm -v
+
 # makefile
 echo -e "\n$hr\nMAKEFILE\n$hr"
 cat ${WORKING_DIR}/Makefile

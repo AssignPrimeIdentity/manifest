@@ -1,17 +1,5 @@
 #!/bin/bash
 
-# Setting default ruby version
-echo -e "$hr\nTENSORFLOW VERSION\n$hr"
-pip show tensorflow-gpu && pip -V
-
-# https://stackoverflow.com/a/60945404/4058484
-ruby -v && bundler version && python -V
-node -v && npm -v
-
-# file system
-echo -e "\n$hr\nFILE SYSTEM\n$hr"
-df -h
-
 # ls /
 echo -e "\n$hr\nROOT DIR\n$hr"
 echo "/"

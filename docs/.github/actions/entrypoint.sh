@@ -72,11 +72,18 @@ echo -e "\n$hr\nOS VERSION\n$hr"
 cat /etc/os-release
 uname -r
 
-# pckages
-echo -e "$hr\nPRIOR INSTALLATION\n$hr"
-chown -R root ${HOME} && source /tf-gpu/bin/activate
-ls -al / && dpkg -l
+# file system
+echo -e "\n$hr\nFILE SYSTEM\n$hr"
+df -h
 
+# pckages
+echo -e "$hr\nROOT DIR\n$hr"
+ls -al /
+
+echo -e "$hr\nPRIOR INSTALLATION\n$hr"
+chown -R root ${HOME} && source /tf-gpu/bin/activate && dpkg -l
+
+echo -e "$hr\nPRIOR INSTALLATION\n$hr"
 apt-get install -qq --no-install-recommends apt-utils < /dev/null
 apt-get install -qq git < /dev/null
 
@@ -88,6 +95,14 @@ npm set progress=false && npm install -qq yarn < /dev/null
 
 python -m pip install -U --force-reinstall pip < /dev/null
 pip install tensorflow-gpu --root-user-action=ignore --quiet < /dev/null
+
+# Setting default ruby version
+echo -e "$hr\nTENSORFLOW VERSION\n$hr"
+pip show tensorflow-gpu && pip -V
+
+# https://stackoverflow.com/a/60945404/4058484
+ruby -v && bundler version && python -V
+node -v && npm -v
 
 # Restore modification time (mtime) of git files
 CLEANUP_BUNDLER_CACHE_DONE=false
