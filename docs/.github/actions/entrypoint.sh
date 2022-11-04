@@ -55,14 +55,14 @@ export PATH=${PATH}/root/.local/bin
 export BUNDLE_SILENCE_ROOT_WARNING=1
 export NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 export PAGES_REPO_NWO=$GITHUB_REPOSITORY
-export BUNDLE_GEMFILE=/lexer/maps/Gemfile
+export BUNDLE_GEMFILE=/tf-gpu/maps/Gemfile
 export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 # export GEM_HOME=/github/home/.gem/ruby/${RUBY_VERSION}
 # export PATH=$PATH:${GEM_HOME}/bin:$HOME/.local/bin
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 
 echo -e "$hr\nPRIOR INSTALLATION\n$hr"
-chown -R root ${HOME} && source /lexer/bin/activate
+chown -R root ${HOME} && source /tf-gpu/bin/activate
 ls -al / && dpkg -l
 
 apt-get install -qq --no-install-recommends apt-utils < /dev/null
