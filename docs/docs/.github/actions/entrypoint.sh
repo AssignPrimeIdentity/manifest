@@ -61,6 +61,18 @@ export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 # export PATH=$PATH:${GEM_HOME}/bin:$HOME/.local/bin
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 
+# identity
+echo -e "\n$hr\nWHOAMI\n$hr"
+whoami
+pwd
+id
+
+# os version
+echo -e "\n$hr\nOS VERSION\n$hr"
+cat /etc/os-release
+uname -r
+
+# pckages
 echo -e "$hr\nPRIOR INSTALLATION\n$hr"
 chown -R root ${HOME} && source /tf-gpu/bin/activate
 ls -al / && dpkg -l

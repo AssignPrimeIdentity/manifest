@@ -1,16 +1,5 @@
 #!/bin/bash
 
-# identity
-echo -e "\n$hr\nWHOAMI\n$hr"
-whoami
-pwd
-id
-
-# os version
-echo -e "\n$hr\nOS VERSION\n$hr"
-cat /etc/os-release
-uname -r
-
 # Setting default ruby version
 echo -e "$hr\nTENSORFLOW VERSION\n$hr"
 pip show tensorflow-gpu && pip -V
