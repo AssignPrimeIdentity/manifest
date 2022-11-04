@@ -57,7 +57,7 @@ git config --system --unset http.https://github.com/.extraheader
 cat ${WORKING_DIR}/.git/config
 
 # installed packages
-echo -e "\n$hr\nINSTALLED PACKAGES\n$hr"
+echo -e "\n$hr\nUPDATED PACKAGES\n$hr"
 dpkg -l
 
 # installed packages
