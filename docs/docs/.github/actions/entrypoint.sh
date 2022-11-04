@@ -61,27 +61,28 @@ export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
-# RUN apt-get install -qq --no-install-recommends apt-utils < /dev/null
-apt-get install -qq git < /dev/null
 apt-get install -qq python3.8-venv < /dev/null
 python3.8 -m venv grammar < /dev/null
 chown -R root ${HOME} && source grammar/bin/activate
+
+apt-get install -qq --no-install-recommends apt-utils < /dev/null
+apt-get install -qq git < /dev/null
+
+apt-get install -qq ruby ruby-dev ruby-bundler build-essential < /dev/null
+gem install rails --version "$RAILS_VERSION" --quiet --silent < /dev/null
+
+apt-get install -qq npm < /dev/null
+npm set progress=false && npm install -qq yarn < /dev/null
+
 python -m pip install -U --force-reinstall pip < /dev/null
-pip install tensorflow-gpu --root-user-action=ignore --quiet
-apt-get install -qq ruby ruby-dev ruby-bundler build-essential
-# gem install rails --version "$RAILS_VERSION" < /dev/null
-# apt-get install -qq npm < /dev/null
-# npm set progress=false && npm install -qq yarn < /dev/null
-# apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* < /dev/null
+pip install tensorflow-gpu --root-user-action=ignore --quiet < /dev/null
 
 # Restore modification time (mtime) of git files
-# SCRIPT_DIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+CLEANUP_BUNDLER_CACHE_DONE=false
+bundle config path $BUNDLE_PATH
+bundle config cache_all true
 /script/init_environment.sh
 /script/restore_mtime.sh
-
-bundle config cache_all true
-bundle config path $BUNDLE_PATH
-CLEANUP_BUNDLER_CACHE_DONE=false
 
 # Clean up bundler cache
 cleanup_bundler_cache() {
@@ -139,4 +140,5 @@ else
   exit 1
 fi
 
+apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* < /dev/null
 exit $?
