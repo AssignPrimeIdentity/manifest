@@ -7,7 +7,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -qq < /dev/null
 RUN apt-get install -qq python3.8-venv < /dev/null
-RUN /usr/bin/python3.8 -m venv grammar < /dev/null
+RUN /usr/bin/python3.8 -m venv lexer < /dev/null
 
 COPY . .
 
