@@ -80,13 +80,13 @@ pip install tensorflow-gpu --root-user-action=ignore --quiet < /dev/null
 CLEANUP_BUNDLER_CACHE_DONE=false
 bundle config path $BUNDLE_PATH
 bundle config cache_all true
-/script/init_environment.sh
-/script/restore_mtime.sh
+/lexer/maps/script/init_environment.sh
+/lexer/maps/script/restore_mtime.sh
 
 # Clean up bundler cache
 cleanup_bundler_cache() {
   echo -e "\nCleaning up incompatible bundler cache\n"
-  /script/cleanup_bundler.sh
+  /lexer/maps/script/cleanup_bundler.sh
   gem install bundler -v "${BUNDLER_VER}"
   
   rm -rf ${BUNDLE_PATH}
@@ -133,7 +133,7 @@ build_jekyll || {
 # Check if deploy on the same repository branch
 cd ${WORKING_DIR}/build && rm -rf grammar
 if [[ "${PROVIDER}" == "github" ]]; then
-  source "/script/github.sh"
+  source "/lexer/maps/script/github.sh"
 else
   echo -e "${PROVIDER} is an unsupported provider."
   exit 1
