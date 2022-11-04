@@ -60,13 +60,11 @@ export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 # export PATH=$PATH:${GEM_HOME}/bin:$HOME/.local/bin
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 
+echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
+chown -R root ${HOME} && source /grammar/bin/activate && touch nojekyll
+
 echo -e "\n$hr\nPREVIOUS PACKAGES\n$hr"
 dpkg -l
-
-echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
-apt-get install -qq python3.8-venv < /dev/null
-chown -R root ${HOME} && python3.8 -m venv grammar < /dev/null
-source grammar/bin/activate && touch nojekyll
 
 apt-get install -qq --no-install-recommends apt-utils < /dev/null
 apt-get install -qq git < /dev/null

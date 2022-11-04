@@ -3,8 +3,11 @@ FROM tensorflow/tensorflow:latest-gpu
 LABEL version=v1.0.8
 
 ENV DEBCONF_NOWARNINGS="yes"
-ENV DEBIAN_FRONTEND noninteractive
+ARG DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get update -qq < /dev/null
+RUN apt-get install -qq python3.8-venv < /dev/null
+RUN /usr/bin/python3.8 -m venv grammar < /dev/null
 
 COPY . .
 
