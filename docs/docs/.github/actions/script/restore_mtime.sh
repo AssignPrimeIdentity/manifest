@@ -11,6 +11,11 @@ done
 
 # clone a repo, including its submodules
 # https://stackoverflow.com/a/4438292/4058484
+cd ${JEKYLL_SRC}
+git submodule update --init --recursive
+git submodule foreach --recursive git fetch
+git submodule foreach 'git fetch origin; git checkout $(git rev-parse --abbrev-ref HEAD); git reset --hard origin/$(git rev-parse --abbrev-ref HEAD); git submodule update --recursive; git clean -dfx'
+
 cd /tf-gpu/maps && rm -rf primes
 mv ${JEKYLL_SRC}/.github/actions/primes primes
 

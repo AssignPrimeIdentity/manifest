@@ -5,13 +5,14 @@ LABEL version=v1.0.8
 ENV DEBCONF_NOWARNINGS="yes"
 ARG DEBIAN_FRONTEND=noninteractive
 
+ENV NVIDIA_VISIBLE_DEVICES all
+ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
+
 RUN apt-get update -qq < /dev/null
 RUN apt-get install -qq python3.8-venv < /dev/null
 RUN /usr/bin/python3.8 -m venv /tf-gpu < /dev/null
 
 ADD . /tf-gpu/maps
+ENV PATH="${PATH}:/tf-gpu/maps"
 
-ENV NVIDIA_VISIBLE_DEVICES all
-ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
-
-ENTRYPOINT ["/tf-gpu/maps/entrypoint.sh"]
+ENTRYPOINT ["entrypoint.sh"]
