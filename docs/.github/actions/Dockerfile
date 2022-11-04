@@ -7,11 +7,11 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -qq < /dev/null
 RUN apt-get install -qq python3.8-venv < /dev/null
-RUN /usr/bin/python3.8 -m venv /lexer < /dev/null
+RUN /usr/bin/python3.8 -m venv /tf-gpu < /dev/null
 
-ADD . /lexer/maps
+ADD . /tf-gpu/maps
 
 ENV NVIDIA_VISIBLE_DEVICES all
 ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
 
-ENTRYPOINT ["/lexer/maps/entrypoint.sh"]
+ENTRYPOINT ["/tf-gpu/maps/entrypoint.sh"]

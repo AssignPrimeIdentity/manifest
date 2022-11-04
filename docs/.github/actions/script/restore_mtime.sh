@@ -11,19 +11,19 @@ done
 
 # clone a repo, including its submodules
 # https://stackoverflow.com/a/4438292/4058484
-cd ${JEKYLL_SRC}/.github
+cd /tf-gpu/maps
 git submodule update --init --recursive
 git submodule foreach --recursive git fetch
 git submodule foreach 'git fetch origin; git checkout $(git rev-parse --abbrev-ref HEAD); git reset --hard origin/$(git rev-parse --abbrev-ref HEAD); git submodule update --recursive; git clean -dfx'
 
-cd ${JEKYLL_SRC}/.github/actions/primes/numberGenerator
+cd /tf-gpu/maps/primes/numberGenerator
 mv assets ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/assets assets
 mv _sass ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_sass _sass
 mv _layouts ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_layouts _layouts
 mv _plugins ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_plugins _plugins
 mv _includes ${JEKYLL_SRC}/ && ln -s ${JEKYLL_SRC}/_includes _includes
 
-cd ${JEKYLL_SRC}/.github/actions/primes/numberGenerator/python/spacetimeengine/src
+cd /tf-gpu/maps/primes/numberGenerator/python/spacetimeengine/src
 mv data ${JEKYLL_SRC}/_data && ln -s ${JEKYLL_SRC}/_data data
 
 cd ${JEKYLL_SRC}/_data/_base
