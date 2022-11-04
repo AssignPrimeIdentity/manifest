@@ -51,24 +51,24 @@ fi
 export RUBYOPT=W0
 export RAILS_VERSION=5.0.1
 export BUNDLER_VER=${BUNDLER_VER}
+export PATH=${PATH}/root/.local/bin
 export BUNDLE_SILENCE_ROOT_WARNING=1
 export NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 export PAGES_REPO_NWO=$GITHUB_REPOSITORY
-export PATH=${PATH}:/usr/bin:/root/.local/bin
 export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 # export GEM_HOME=/github/home/.gem/ruby/${RUBY_VERSION}
 # export PATH=$PATH:${GEM_HOME}/bin:$HOME/.local/bin
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 
+echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
+apt-get install -qq git < /dev/null
+apt-get install -qq ruby ruby-dev ruby-bundler build-essential
+# gem install rails --version "$RAILS_VERSION" < /dev/null
+
 # Restore modification time (mtime) of git files
-# echo -e "\nRestore modification time of all git files\n"
 # SCRIPT_DIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 /script/init_environment.sh
 /script/restore_mtime.sh
-
-echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
-apt-get install -qq ruby ruby-dev ruby-bundler build-essential
-# gem install rails --version "$RAILS_VERSION" < /dev/null
 
 bundle config cache_all true
 bundle config path $BUNDLE_PATH
