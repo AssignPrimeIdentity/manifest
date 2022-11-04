@@ -61,9 +61,18 @@ export BUNDLE_PATH=${WORKING_DIR}/vendor/bundle
 export SSL_CERT_FILE=$(realpath .github/hook-scripts/cacert.pem)
 
 echo -e "$hr\nBUNDLE INSTALLATION\n$hr"
+# RUN apt-get install -qq --no-install-recommends apt-utils < /dev/null
 apt-get install -qq git < /dev/null
+apt-get install -qq python3.8-venv < /dev/null
+python3.8 -m venv grammar < /dev/null
+chown -R root grammar && source grammar/bin/activate
+python -m pip install -U --force-reinstall pip < /dev/null
+pip install tensorflow-gpu --root-user-action=ignore --quiet
 apt-get install -qq ruby ruby-dev ruby-bundler build-essential
 # gem install rails --version "$RAILS_VERSION" < /dev/null
+# apt-get install -qq npm < /dev/null
+# npm set progress=false && npm install -qq yarn < /dev/null
+# apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* < /dev/null
 
 # Restore modification time (mtime) of git files
 # SCRIPT_DIR="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
