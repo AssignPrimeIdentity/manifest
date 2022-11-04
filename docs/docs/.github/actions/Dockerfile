@@ -9,7 +9,7 @@ RUN apt-get update -qq < /dev/null
 RUN apt-get install -qq python3.8-venv < /dev/null
 RUN /usr/bin/python3.8 -m venv /tf-gpu < /dev/null
 
-VOLUME / /tf-gpu/maps/
+ADD . /tf-gpu/maps
 
 ENV NVIDIA_VISIBLE_DEVICES all
 ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
