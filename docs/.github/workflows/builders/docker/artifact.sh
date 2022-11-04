@@ -24,7 +24,7 @@ curl -L -X POST "${GITHUB_GRAPHQL_URL}" -H "$AUTH" \
 # workspace
 echo -e "\n$hr\nVIRTUAL ENV\n$hr"
 echo ${WORKING_DIR}
-ls -alR /lexer
+ls -al /lexer
 
 # workspace
 echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
