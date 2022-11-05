@@ -1,3 +1,6 @@
 [submodule ".github/actions"]
 	path = .github/actions
 	url = https://github.com/FeedMapping/mapping
+[submodule "docs"]
+	path = docs
+	url = https://github.com/FeedMapping/feedmapping.github.io
