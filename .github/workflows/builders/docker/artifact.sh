@@ -6,7 +6,8 @@ echo ${VIRTUAL_ENV}
 ls -al ${VIRTUAL_ENV}
 
 # workspace
-if ["${WORKING_DIR}" -eq "${JEKYLL_SRC}"];then
+if [ "${WORKING_DIR}" == "${JEKYLL_SRC}" ]
+then
   echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
   cd ${WORKING_DIR} && pwd
   ls -al ${WORKING_DIR}
