@@ -6,12 +6,15 @@ echo ${VIRTUAL_ENV}
 ls -al ${VIRTUAL_ENV}
 
 # workspace
-echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
-echo ${WORKING_DIR}
-ls -al ${WORKING_DIR}
+if ["${WORKING_DIR}" -eq "${JEKYLL_SRC}"];then
+  echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
+  cd ${WORKING_DIR} && pwd
+  ls -al ${WORKING_DIR}
+else
+  echo -e "\n$hr\nWORKING DIRECTORY\n$hr"
+  cd ${WORKING_DIR} && pwd
+  ls -al ${WORKING_DIR}
 
-if [["${WORKING_DIR}" != "${JEKYLL_SRC}"]];then
-  # jekyll source
   echo -e "\n$hr\nJEKYLL DIRECTORY\n$hr"
   cd ${JEKYLL_SRC} && pwd
   chown -R $(whoami) .git/config
@@ -19,7 +22,7 @@ if [["${WORKING_DIR}" != "${JEKYLL_SRC}"]];then
   git config --unset-all http.https://github.com/.extraheader
   git config --global --unset http.https://github.com/.extraheader
   git config --system --unset http.https://github.com/.extraheader
-  ls -al .
+  ls -al ${JEKYLL_SRC}.
 fi
 
 # pinned repos
