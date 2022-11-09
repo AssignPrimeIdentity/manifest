@@ -59,7 +59,6 @@ exclude:
   - webpack.config.js
   - jekyll-rtd-theme.gemspec
 
-source: docs
 encoding: utf-8
 livereload: true
 limit_posts: 1000
